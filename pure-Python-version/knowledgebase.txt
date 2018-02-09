@@ -1,0 +1,5 @@
+<year>first year</year>
+    <module> CS-150 </module>
+        <obj> multiplexer </obj>
+            <how> control signals </how>
+            <what> special circuit </what>
