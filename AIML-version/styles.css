@@ -1,0 +1,281 @@
+/**
+ * styles.css
+ *
+ * Global CSS.
+ *
+ * Gabriel Ghiuzan (914067@swansea.ac.uk) 2018
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
+@charset "UTF-8";
+
+/* FOR MAP */
+/* allow map to fill viewport */
+#map-canvas
+{
+   width: 990px;
+   height: 500px;
+   margin: 0 auto;
+   border-radius: 20px;
+
+}
+
+/* FOR MAP */
+/* stylize places' labels */
+.labels
+{
+	/* small, black text */
+	color: #000000;
+	font-family: sans-serif;
+	font-size: small;
+	font-weight: bold;
+
+	/* don't let places' labels wrap onto multiple lines */
+	white-space: nowrap;
+}
+
+/* FOR MAP */
+/* stylize info window */
+#info
+{
+	/* no margin around this element */
+	margin: 0;
+
+	/* should be at least this width */
+	min-width: 200px;
+
+	/* allow scrollbars if needed */
+	overflow: auto;
+}
+
+.container
+{
+	/* center contents */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#top .nav
+{
+	/*navigation pills*/
+	display: inline-block;
+	border: 2px solid black;
+	padding: 10px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 17px;
+	border-radius: 10px;
+}
+
+#middle .form-control
+{
+	/* center form controls */
+	display: inline-block;
+
+	/* override Bootstrap's 100% width for form controls */
+	width: auto;
+}
+
+#bottom
+{
+	/* shrink bottom's font size */
+	font-size: smaller;
+
+	/* surround with whitespace */
+	margin: 20px;
+}
+
+#sidebar
+{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top:260px;
+	left:425px;
+	margin: 20px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 13px;
+	background: #ffffff;
+	text-transform: uppercase;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#sidebar td
+{
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#sidebar img
+{
+    float:left;
+}
+
+table th
+{
+    padding: 8px;
+}
+
+a
+{
+    /*for link references*/
+	color: #0D0D65;
+}
+
+#image
+{
+        /*advanced filter*/
+    -webkit-filter: contrast(2.5)  brightness(0.5) saturate(3);
+}
+
+
+.container #middle
+{
+	background-color: white;
+	width: 1000px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid black;
+	border-radius: 20px;
+}
+
+.small-pages
+{
+	width: auto;
+	height: 250px;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+
+.intros
+{
+    padding-top:25px;
+}
+
+body
+{
+	background: url("../img/bg-10-full.jpg")
+}
+
+#portfolio-cash
+{
+    margin: 20px;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+
+/*** Table Styles CREDITS TO: alassetter AND modified by me, the website's author **/
+
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:20px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+  font-family: 'Roboto', sans-serif;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:10px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:15px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+  font-family: 'Roboto', sans-serif;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
