@@ -18,18 +18,6 @@
 	text-align: center;
 }
 
-
-#top .nav
-{
-	/*navigation pills*/
-	display: inline-block;
-	border: 2px solid black;
-	padding: 10px;
-	font-family: 'Cabin', sans-serif;
-	font-size: 17px;
-	border-radius: 10px;
-}
-
 #bottom
 {
 	/* shrink bottom's font size */
