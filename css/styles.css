@@ -10,45 +10,6 @@
 
 @charset "UTF-8";
 
-/* FOR MAP */
-/* allow map to fill viewport */
-#map-canvas
-{
-   width: 990px;
-   height: 500px;
-   margin: 0 auto;
-   border-radius: 20px;
-
-}
-
-/* FOR MAP */
-/* stylize places' labels */
-.labels
-{
-	/* small, black text */
-	color: #000000;
-	font-family: sans-serif;
-	font-size: small;
-	font-weight: bold;
-
-	/* don't let places' labels wrap onto multiple lines */
-	white-space: nowrap;
-}
-
-/* FOR MAP */
-/* stylize info window */
-#info
-{
-	/* no margin around this element */
-	margin: 0;
-
-	/* should be at least this width */
-	min-width: 200px;
-
-	/* allow scrollbars if needed */
-	overflow: auto;
-}
-
 .container
 {
 	/* center contents */
@@ -160,7 +121,7 @@ a
 
 body
 {
-	background: url("../img/bg-10-full.jpg")
+	background-image: url("../img/bg-10-full.jpg")
 }
 
 #portfolio-cash
@@ -175,7 +136,7 @@ p
 }
 
 
-/*** Table Styles CREDITS TO: alassetter AND modified by me, the website's author **/
+/*** Table Styles CREDITS TO: alassetter AND modified by Gabriel Ghiuzan **/
 
 th {
   color:#D5DDE5;;
