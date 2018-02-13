@@ -57,18 +57,6 @@ a
 }
 
 
-.container #middle
-{
-	background-color: white;
-	width: 1000px;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
-	border: 3px solid black;
-	border-radius: 20px;
-}
-
-
 .intros
 {
     padding-top:25px;
@@ -76,7 +64,9 @@ a
 
 body
 {
-	background-image: url("../img/bg-10-full.jpg")
+	background-image: url("../img/bg-10-full.jpg");
+	background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 p
@@ -85,34 +75,19 @@ p
     font-size: 17px;
 }
 
-/**Chatbox style credits to Landgreen (@lilgreenland) **/
+/**Chatbox style credits to Landgreen (@lilgreenland) and modified by Gabriel Ghiuzan **/
 
 #bodybox {
   margin: auto;
-  max-width: 550px;
+	max-width: 1000px;
   font: 15px arial, sans-serif;
   background-color: white;
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   padding-top: 20px;
   padding-bottom: 25px;
   padding-right: 25px;
   padding-left: 25px;
-  border-radius: 15px;
-}
-
-#chatborder {
-  border-style: solid;
-  background-color: #f6f9f6;
-  border-width: 3px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  padding-right: 20px;
-  padding-left: 15px;
   border-radius: 15px;
 }
 
@@ -122,6 +97,6 @@ p
 
 #chatbox {
   font: 17px arial, sans-serif;
-  height: 22px;
+  height: auto;
   width: 100%;
 }
