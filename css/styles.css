@@ -75,28 +75,57 @@ p
     font-size: 17px;
 }
 
-/**Chatbox style credits to Landgreen (@lilgreenland) and modified by Gabriel Ghiuzan **/
-
-#bodybox {
-  margin: auto;
-	max-width: 1000px;
-  font: 15px arial, sans-serif;
-  background-color: white;
-  border-style: solid;
-  border-width: 2px;
-  padding-top: 20px;
-  padding-bottom: 25px;
-  padding-right: 25px;
-  padding-left: 25px;
-  border-radius: 15px;
+body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
 }
 
-.chatlog {
-   font: 15px arial, sans-serif;
+#responses {
+	margin: auto;
+	max-width: 550px;
+	font: 15px arial, sans-serif;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 15px;
+}
+#debugDiv {
+		width: 90%;
+		min-height: 1.2em;
+		max-height: 55vh;
+		border: 3px inset #666;
+		margin-left: auto;
+		margin-right: auto;
+		white-space: pre;
+		font-family: "Lucida Console", Monaco, monospace;
+		font-size: large;
+		padding: 1em;
+		overflow: auto;
 }
 
-#chatbox {
-  font: 17px arial, sans-serif;
-  height: auto;
-  width: 100%;
+#input {
+		width: 90%;
+		min-width: 535px;
+		margin-bottom: 15px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+
+#convo_id {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		border: 1px solid red;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-shadow: 2px 2px 2px 0 #808080;
+		padding: 5px;
+		border-radius: 5px;
 }

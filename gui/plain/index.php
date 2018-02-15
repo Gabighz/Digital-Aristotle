@@ -8,6 +8,7 @@
  * AUTHOR: Elizabeth Perreau and Dave Morton
  * DATE: MAY 17TH 2014
  * DETAILS: simple example gui
+ * Modified by: Gabriel Ghiuzan (914067@swansea.ac.uk)
  ***************************************/
 $display = "";
 $thisFile = __FILE__;
@@ -42,107 +43,46 @@ endDebugDiv;
     $hideSP = 'display: none;';
 }
 ?>
+
 <!DOCTYPE html>
+
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Program O AIML PHP Chatbot</title>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
-    <meta name="Description" content="A Free Open Source AIML PHP MySQL Chatbot called Program-O. Version2"/>
-    <meta name="keywords" content="Open Source, AIML, PHP, MySQL, Chatbot, Program-O, Version2"/>
-    <style type="text/css">
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
 
-        #responses {
-            width: 90%;
-            min-width: 515px;
-            height: auto;
-            min-height: 150px;
-            max-height: 500px;
-            overflow: auto;
-            border: 3px inset #666;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 1em;
-            padding: 5px;
-            box-sizing: border-box;
-        }
-        #debugDiv {
-            width: 90%;
-            min-height: 1.2em;
-            max-height: 55vh;
-            border: 3px inset #666;
-            margin-left: auto;
-            margin-right: auto;
-            white-space: pre;
-            font-family: "Lucida Console", Monaco, monospace;
-            font-size: large;
-            padding: 1em;
-            overflow: auto;
-        }
+	<head>
 
-        #input {
-            width: 90%;
-            min-width: 535px;
-            margin-bottom: 15px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+		<link href="/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
+		<link href="/css/styles.css" rel="stylesheet"/>
 
-        #shameless_plug {
-            position: absolute;
-            right: 10px;
-            bottom: 10px;
-            border: 1px solid red;
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-shadow: 2px 2px 2px 0 #808080;
-            padding: 5px;
-            border-radius: 5px;
-            <?php echo $hideSP ?>
-        }
+		<script src="/js/scripts.js"></script>
+        <meta charset="UTF-8">
+        <title>Swansea University Chatbot</title>
 
+	</head>
 
-        #convo_id {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            border: 1px solid red;
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-shadow: 2px 2px 2px 0 #808080;
-            padding: 5px;
-            border-radius: 5px;
-        }
+  <body onload="document.getElementById('say').focus()">
 
-    </style>
-</head>
-<body onload="document.getElementById('say').focus()">
-<h3>Program O Example GUI Page - HTML</h3>
-<!-- The DIV below is for debugging purposes, and can be safely removed, if desired. -->
-<div id="convo_id">Conversion ID: <?php echo $convo_id; ?></div>
-<form name="chatform" method="post" action="index.php#end"
-      onsubmit="if(document.getElementById('say').value == '') return false;">
-    <div id="input">
-        <label for="say">Say:</label>
-        <input type="text" name="say" id="say" size="70"/>
-        <input type="submit" name="submit" id="btn_say" value="say"/>
-        <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
-        <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
-        <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
-    </div>
-</form>
-<div id="responses">
-    <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
+  <form name="chatform" method="post" action="index.php#end"
+        onsubmit="if(document.getElementById('say').value == '') return false;">
+      <div id="input">
+          <label for="say">Say:</label>
+          <input type="text" name="say" id="say" size="70"/>
+          <input type="submit" name="submit" id="btn_say" value="say"/>
+          <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
+          <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
+          <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
+      </div>
+  </form>
+  <div id="responses">
+      <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
+  </div>
+  <?php echo $debug_div ?>
+
+<div id="bottom">
+	Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
 </div>
-<?php echo $debug_div ?>
-<div id="shameless_plug">
-    To get your very own chatbot, visit <a href="http://www.program-o.com">program-o.com</a>!
+
 </div>
+
 </body>
 </html>
