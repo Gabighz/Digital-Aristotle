@@ -12,7 +12,7 @@
           use a LEGO Mindstorm NXT</template>
     </category>
     <category>
-        <pattern>WHAT IS AN NXT</pattern>
+        <pattern>WHAT * NXT</pattern>
         <template>The NXT is the brain of the robot.</template>
     </category>
     <category>
@@ -23,11 +23,11 @@
 
     <!-- servo motors -->
     <category>
-        <pattern>WHAT ARE THE SERVO MOTORS</pattern>
+        <pattern>WHAT * SERVO MOTORS</pattern>
         <template>The Servo motors give your robot the ability to move.</template>
     </category>
     <category>
-        <pattern>WHAT ARE THE SERVO MOTOR</pattern>
+        <pattern>WHAT * SERVO MOTOR</pattern>
         <template>The Servo motors give your robot the ability to move.</template>
     </category>
     <category>
@@ -38,7 +38,7 @@
 
     <!-- sensors-->
     <category>
-        <pattern>WHAT ARE ^ SENSORS</pattern>
+        <pattern>WHAT * SENSORS</pattern>
         <template>There is a range of sensors which the robot can use to learn
           about the world around the robot.</template>
     </category>
@@ -54,12 +54,12 @@
           sensors.</template>
     </category>
     <category>
-        <pattern>HOW DO I CONTROL THE ROBOT</pattern>
+        <pattern>HOW * CONTROL ^ ROBOT</pattern>
         <template>The LEGO Mindstorms NXT programming software is an all in one
           tool which allows you to write programs to control the LEGO Mindstorms robot.</template>
     </category>
     <category>
-        <pattern>HOW DO I MAKE THE ROBOT *</pattern>
+        <pattern>HOW * MAKE ^ ROBOT *</pattern>
         <template>template>The LEGO Mindstorms NXT programming software is an all in one
           tool which allows you to write programs to control the LEGO Mindstorms robot.</template>
     </category>
