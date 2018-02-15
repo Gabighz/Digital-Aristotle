@@ -69,7 +69,7 @@
         <pattern>HOW * LOOPS</pattern>
         <template>Within the NXT-G programming language we create loops using the
            button that resembles 2 semi-circle arrows forming a circle.</template>
-    </category
+    </category>
     <category>
         <pattern>WHY * LOOPS</pattern>
         <template>When developing an algorithm to solve a problem we want to
