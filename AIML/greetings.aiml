@@ -4,4 +4,8 @@
         <pattern>HI</pattern>
         <template>Hello, world!</template>
     </category>
+    <category>
+        <pattern>DO YU NO DE WEY?</pattern>
+        <template>only the commanda knows da wey</template>
+    </category>
 </aiml>

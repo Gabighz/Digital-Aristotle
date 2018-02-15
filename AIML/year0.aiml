@@ -1,7 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+
+<!-- Robotics  -->
     <category>
-        <pattern>HI</pattern>
-        <template>Hello, world!</template>
+        <pattern>^ WHAT ^ MODULE ^</pattern>
+        <template>This module is the fundamentals of robotics</template>
     </category>
-</aiml>
+    <category>
+        <pattern>^ PURPOSE * MODULE</pattern>
+        <template>The purpose of this module is to have fun while learning to
+          use a LEGO Mindstorm NXT</template>
+    </category>
+    <category>
+        <pattern>WHAT IS AN NXT</pattern>
+        <template>The NXT is the brain of the robot.</template>
+    </category>
+    <category>
+        <pattern>WHAT * MINDSTORM</pattern>
+        <template>The LEGO Mindstorms NXT robot is a programmable kit which can
+          be used to create many different robots.</template>
+    </category>
+
+    <!-- servo motors -->
+    <category>
+        <pattern>WHAT ARE THE SERVO MOTORS</pattern>
+        <template>The Servo motors give your robot the ability to move.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SERVO MOTOR</pattern>
+        <template>The Servo motors give your robot the ability to move.</template>
+    </category>
+    <category>
+        <pattern>WHAT CAN * SERVO MOTORS</pattern>
+        <template>Servo motors can also provide feedback to the NXT (similar to sensors)
+          of how many rotations they have made.</template>
+    </category>
+
+    <!-- sensors-->
+    <category>
+        <pattern>WHAT ARE ^ SENSORS</pattern>
+        <template>There is a range of sensors which the robot can use to learn
+          about the world around the robot.</template>
+    </category>
+
+    <category>
+        <pattern>* CONNECT TO COMPUTER</pattern>
+        <template>There is a micro-USB port to connect the NXT to a computer.</template>
+    </category>
+    <category>
+        <pattern>WHICH PORTS ARE * </pattern>
+        <template>The ports labeled with A, B and C are used to connect the servo
+          motors and The ports labeled with 1, 2, 3 and 4 are used to connect the
+          sensors.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I CONTROL THE ROBOT</pattern>
+        <template>The LEGO Mindstorms NXT programming software is an all in one
+          tool which allows you to write programs to control the LEGO Mindstorms robot.</template>
+    </category>
+    <category>
+        <pattern>HOW DO I MAKE THE ROBOT *</pattern>
+        <template>template>The LEGO Mindstorms NXT programming software is an all in one
+          tool which allows you to write programs to control the LEGO Mindstorms robot.</template>
+    </category>
+
+    <!-- Loops-->
+    <category>
+        <pattern>HOW * LOOPS</pattern>
+        <template>Within the NXT-G programming language we create loops using the
+           button that resembles 2 semi-circle arrows forming a circle.</template>
+    </category
+    <category>
+        <pattern>WHY * LOOPS</pattern>
+        <template>When developing an algorithm to solve a problem we want to
+          utilise patterns in the problem. Once the loop is create it allows you
+          to put blocks inside it. Each loop also has its own properties
+          You can also puts loops, within loops, within loops ...</template>
+    </category>
+    <category>
+        <pattern>WHY * LOOP</pattern>
+        <template>When developing an algorithm to solve a problem we want to
+          utilise patterns in the problem. Once the loop is create it allows you
+          to put blocks inside it. Each loop also has its own properties.We can
+          also create loops which break based on the sensor data. You can also
+          puts loops, within loops, within loops ...</template>
+    </category>
+    <category>
+        <pattern>WHAT CAN * LOOP</pattern>
+        <template>Once the loop is create it allows you to put blocks inside it.
+          Each loop also has its own properties. We can also create loops which
+          break based on the sensor data. You can also puts loops, within loops,
+           within loops ...</template>
+    </category>
+    <category>
+        <pattern>WHAT * LOOP</pattern>
+        <template>Repeats come in different forms: Infinite (forever), Count-Based,
+           Condition-Based. We can also create loops which break based on the
+           sensor data. You can also puts loops, within loops, within loops ...</template>
+    </category>
+    <category>
+        <pattern>WHAT * LOOPS</pattern>
+        <template>Repeats come in different forms: Infinite (forever), Count-Based,
+           Condition-Based. We can also create loops which break based on the
+           sensor data. You can also puts loops, within loops, within loops ...</template>
+    </category>
+    <category>
+        <pattern>WHAT * REPEAT</pattern>
+        <template>Repeats come in different forms: Infinite (forever), Count-Based,
+           Condition-Based. We can also create loops which break based on the
+           sensor data. You can also puts loops, within loops, within loops ...</template>
+    </category>
+
+    </aiml>
