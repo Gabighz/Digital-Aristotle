@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+
     <category>
         <pattern>HI</pattern>
         <template>Hello, world!</template>
     </category>
+
     <category>
-        <pattern>DO YU NO DE WEY?</pattern>
+        <pattern>^ WEY ^</pattern>
         <template>only the commanda knows da wey</template>
     </category>
+
 </aiml>
