@@ -1,5 +1,5 @@
 # Created by Mubaris NK (https://mubaris.com/2017/10/01/kmeans-clustering-in-python/)
-
+# Modified by Gabriel Ghiuzan (914067)
 
 from copy import deepcopy
 import numpy as np
