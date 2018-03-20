@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="22" family="Times" color="#575757"/>
+	<fontspec id="1" size="14" family="Times" color="#575757"/>
+	<fontspec id="2" size="19" family="Times" color="#575757"/>
+	<fontspec id="3" size="79" family="Times" color="#1159a0"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-1_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-1_2.png"/>
+<image top="288" left="605" width="385" height="337" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-1_3.jpg"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="181" left="57" width="681" height="94" font="3"><b>Fundamental of  </b></text>
+<text top="278" left="57" width="369" height="94" font="3"><b>Robotics</b></text>
+<text top="433" left="57" width="514" height="94" font="3"><b>Introduction</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="4" size="52" family="Times" color="#1159a0"/>
+	<fontspec id="5" size="28" family="Times" color="#000000"/>
+	<fontspec id="6" size="28" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-2_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-2_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="77" left="29" width="329" height="62" font="4"><b>The Module</b></text>
+<text top="192" left="57" width="902" height="34" font="5">This module will be delivered over the 10 teaching weeks as 3-hour </text>
+<text top="228" left="57" width="388" height="34" font="5">lecture / lab-based sessions. </text>
+<text top="300" left="57" width="912" height="34" font="5">Lectures will take place <b>Fulton Lecture Room A </b>every <b>Wednesday </b></text>
+<text top="336" left="57" width="369" height="34" font="5">morning from 10:00 - 13:00.</text>
+<text top="408" left="57" width="187" height="34" font="6"><b>Assessment:</b></text>
+<text top="444" left="57" width="369" height="34" font="5">• Weekly Lab Tasks (10%)</text>
+<text top="480" left="57" width="397" height="34" font="5">• 2 Assignments (20% each)</text>
+<text top="516" left="57" width="205" height="34" font="5">• Exam (50%)</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="7" size="34" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-3_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-3_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="77" left="29" width="470" height="62" font="4"><b>My Expectations</b></text>
+<text top="192" left="57" width="962" height="40" font="7">• Read and accept the Student Code of Conduct for this</text>
+<text top="236" left="97" width="559" height="40" font="7">module (more on this in a moment)</text>
+<text top="339" left="57" width="962" height="40" font="7">• Form a Working Group of 4 Students to complete Lab</text>
+<text top="383" left="97" width="92" height="40" font="7">Tasks</text>
+<text top="477" left="57" width="872" height="40" font="7">• When you do not understand something please ask!</text>
+<text top="582" left="57" width="219" height="40" font="7">• Have FUN!</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-4_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-4_2.png"/>
+<image top="158" left="60" width="957" height="542" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-4_3.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="77" left="29" width="730" height="62" font="4"><b>Student Code of  Conduct</b></text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="64" family="Times" color="#1159a0"/>
+	<fontspec id="9" size="34" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-5_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-5_2.png"/>
+<image top="301" left="601" width="436" height="337" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-5_3.jpg"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="78" left="38" width="776" height="76" font="8"><b>The Mindstorms Robot</b></text>
+<text top="194" left="57" width="969" height="36" font="9"><b>The LEGO Mindstorms NXT robot is a programmable kit which can</b></text>
+<text top="236" left="57" width="570" height="36" font="9"><b>be used to create many different robots.</b></text>
+<text top="310" left="57" width="420" height="30" font="6"><b>The three main parts of the</b></text>
+<text top="346" left="57" width="263" height="30" font="6"><b>Mindstorms robot are:</b></text>
+<text top="386" left="57" width="420" height="34" font="5">• <b>The NXT – </b>You can this of this</text>
+<text top="426" left="97" width="283" height="30" font="5">as the brain of the robot.</text>
+<text top="464" left="57" width="420" height="34" font="5">• <b>Servo Motors – </b>The motors give</text>
+<text top="504" left="97" width="343" height="30" font="5">your robot the ability to move.</text>
+<text top="544" left="57" width="420" height="34" font="5">• <b>Sensors – </b>There is a range of</text>
+<text top="583" left="97" width="380" height="30" font="5">sensors which the robot can use</text>
+<text top="619" left="97" width="380" height="30" font="5">to learn about the world around</text>
+<text top="655" left="97" width="109" height="30" font="5">the robot.</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-6_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-6_2.png"/>
+<image top="209" left="729" width="263" height="391" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-6_3.jpg"/>
+<image top="212" left="743" width="161" height="41" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-6_4.png"/>
+<image top="566" left="743" width="230" height="41" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-6_5.png"/>
+<image top="212" left="902" width="56" height="39" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-6_6.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="77" left="29" width="253" height="62" font="4"><b>The NXT </b></text>
+<text top="187" left="71" width="540" height="36" font="9"><b>Being the “brain” of the robot, the</b></text>
+<text top="229" left="71" width="540" height="36" font="9"><b>NXT comes with several ports to</b></text>
+<text top="273" left="71" width="482" height="36" font="9"><b>connect the other components to.</b></text>
+<text top="342" left="71" width="540" height="34" font="5">• The ports labeled with <b>A, B </b>and <b>C </b>are</text>
+<text top="382" left="112" width="394" height="30" font="5">used to connect the servo motors.</text>
+<text top="422" left="71" width="540" height="34" font="5">• The ports labeled with <b>1, 2, 3 </b>and <b>4 </b>are</text>
+<text top="461" left="112" width="329" height="30" font="5">used to connect the sensors.</text>
+<text top="500" left="71" width="540" height="34" font="5">• There is also a <b>micro-USB port </b>to connect</text>
+<text top="539" left="112" width="267" height="30" font="5">the NXT to a computer.</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-7_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-7_2.png"/>
+<image top="353" left="582" width="446" height="231" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-7_3.jpg"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="77" left="29" width="380" height="62" font="4"><b>Servo Motors</b></text>
+<text top="185" left="55" width="962" height="36" font="9"><b>The servo motors can be attached to a variety of different parts of</b></text>
+<text top="227" left="55" width="962" height="36" font="9"><b>the Mindstorms kit to create wheels (to move the robot), arms (to</b></text>
+<text top="270" left="55" width="251" height="36" font="9"><b>grab objects), etc.</b></text>
+<text top="339" left="55" width="478" height="34" font="5">• Servo motors can also provide</text>
+<text top="378" left="95" width="438" height="30" font="5">feedback to the NXT (similar to</text>
+<text top="414" left="95" width="438" height="30" font="5">sensors) of how many rotations they</text>
+<text top="450" left="95" width="133" height="30" font="5">have made.</text>
+<text top="532" left="55" width="478" height="34" font="5">• We will come back to the various</text>
+<text top="572" left="95" width="283" height="30" font="5">sensors available later …</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-8_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-8_2.png"/>
+<image top="243" left="584" width="438" height="384" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-8_3.jpg"/>
+<image top="290" left="183" width="338" height="291" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-8_4.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="207" left="57" width="500" height="30" font="5">First we must build the robot we are going</text>
+<text top="243" left="57" width="435" height="30" font="5">to be using over the next few lectures.</text>
+<text top="286" left="57" width="69" height="30" font="5">Using:</text>
+<text top="631" left="57" width="291" height="30" font="5">you are going to create -&gt;</text>
+<text top="77" left="29" width="671" height="62" font="4"><b>Lab Task 1 – Exercise 1</b></text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="10" size="25" family="Times" color="#ffffff"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-9_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-9_2.png"/>
+<image top="371" left="350" width="381" height="188" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-9_3.png"/>
+<image top="432" left="440" width="201" height="74" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-9_4.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="168" left="87" width="903" height="66" font="8"><b>If I was a robot, how would you</b></text>
+<text top="246" left="87" width="473" height="66" font="8"><b>instruct me to …</b></text>
+<text top="445" left="464" width="151" height="33" font="10">Walk	Forward</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="11" size="46" family="Times" color="#1159a0"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-10_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-10_2.png"/>
+<image top="297" left="526" width="479" height="337" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-10_3.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="77" left="29" width="784" height="56" font="11"><b>Mindstorms NXT Programming</b></text>
+<text top="197" left="58" width="963" height="36" font="9"><b>The LEGO Mindstorms NXT programming software is an all in one</b></text>
+<text top="239" left="58" width="963" height="36" font="9"><b>tool which allows you to write programs to control the LEGO</b></text>
+<text top="282" left="58" width="263" height="36" font="9"><b>Mindstorms robot.</b></text>
+<text top="330" left="58" width="349" height="30" font="5">On opening the program, you</text>
+<text top="366" left="58" width="350" height="30" font="5">should see a screen similar to</text>
+<text top="402" left="58" width="235" height="30" font="5">the one on this slide.</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-11_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-11_2.png"/>
+<image top="302" left="728" width="253" height="267" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-11_3.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="207" left="57" width="594" height="30" font="5">Using the move block, complete the following tasks:</text>
+<text top="292" left="57" width="261" height="30" font="5">Program your robot to:</text>
+<text top="332" left="57" width="569" height="34" font="5">• Move forward for 3 seconds at a power of 50</text>
+<text top="376" left="57" width="566" height="34" font="5">• Move forward for 3 seconds at a power of 75</text>
+<text top="419" left="57" width="573" height="34" font="5">• Move forward for 3 rotations at a power of 50</text>
+<text top="463" left="57" width="570" height="34" font="5">• Move forward for 3 rotations at a power of 75</text>
+<text top="552" left="57" width="601" height="30" font="5">Measure the distance that your robot moves. Are</text>
+<text top="588" left="57" width="562" height="30" font="5">the results as you expected? Explain your results.</text>
+<text top="77" left="29" width="784" height="62" font="4"><b>Lab Task 1 – Exercise 2 &amp; 3</b></text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="17" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-12_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-12_2.png"/>
+<image top="302" left="728" width="253" height="267" src="/export/freefileconvert/20465_cf3ab53629f918455ec1fef8b21c5c4a8c8706b717410dc641f4fa7d80d05280-12_3.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="768" left="796" width="146" height="27" font="0">Wednesday 5</text>
+<text top="767" left="943" width="14" height="18" font="1">th</text>
+<text top="768" left="963" width="85" height="27" font="0">October</text>
+<text top="22" left="35" width="334" height="23" font="2">CSC079: Fundamentals of Robotics</text>
+<text top="207" left="57" width="459" height="30" font="5">Here we explore how to turn your robot.</text>
+<text top="292" left="57" width="601" height="30" font="5">Using a series of experiments record the number of</text>
+<text top="328" left="57" width="134" height="30" font="5">rotations to:</text>
+<text top="412" left="57" width="263" height="34" font="5">• Turn the robot 360</text>
+<text top="415" left="320" width="10" height="20" font="12">o</text>
+<text top="455" left="57" width="257" height="34" font="5">• Turn the robot 180</text>
+<text top="458" left="314" width="10" height="20" font="12">o</text>
+<text top="459" left="323" width="45" height="30" font="5">, 90</text>
+<text top="458" left="368" width="10" height="20" font="12">o</text>
+<text top="459" left="388" width="62" height="30" font="5">and 1</text>
+<text top="458" left="450" width="10" height="20" font="12">o</text>
+<text top="499" left="57" width="227" height="34" font="5">• Turn the robot n</text>
+<text top="502" left="284" width="10" height="20" font="12">o</text>
+<text top="77" left="29" width="671" height="62" font="4"><b>Lab Task 1 – Exercise 4</b></text>
+</page>
+</pdf2xml>
