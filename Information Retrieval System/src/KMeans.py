@@ -5,7 +5,7 @@
 MAX_ITERATIONS = 100
 
 # Import data and store in dataset
-def construct_dataset (wordList):
+def construct_dataset(wordList):
 
     # Contains each word as a string and the sum of its features
     dataset = []
