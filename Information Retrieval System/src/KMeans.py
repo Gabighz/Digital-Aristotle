@@ -5,16 +5,16 @@
 MAX_ITERATIONS = 100
 
 # Import data and store in dataset
-def construct_dataset(wordList):
+def construct_dataset(word_list):
 
     # Contains each word as a string and the sum of its features
     dataset = []
 
-    for word in wordList:
+    for word in word_list:
         for feature in range(1, len(word)):
-            featureSum += word[feature]
+            feature_sum += word[feature]
 
-        dataset.append([word[0], featureSum])
+        dataset.append([word[0], feature_sum])
 
 # Euclidean Distance calculator in a one-dimensional space
 def euclidean_distance(p, q):

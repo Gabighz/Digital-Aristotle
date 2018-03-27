@@ -13,11 +13,13 @@ from .FeatureSelection import *
 from .KMeans import *
 
 def main():
-    # open a file here and apply a function from XMLParser to it
+    # Open a file here and apply a function from XMLParser to it
 
-    # apply a function from FeatureSelection to the return of the aforementioned function
-    # and return a two-dimensional array which contains each word and its features
+    # Apply a function from FeatureSelection to the return of the aforementioned function.
+    # Return a two-dimensional array which contains each word and its features, named word_list
 
-    # apply K-means clustering to the aforementioned array
+    # Apply K-means clustering to the aforementioned array
+    dataset = construct_dataset(word_list)
+    kmeans_clustering(dataset, CLUSTERS)
 
 main()
