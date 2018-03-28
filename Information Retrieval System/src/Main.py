@@ -19,7 +19,6 @@ def main():
     # Return a two-dimensional array which contains each word and its features, named word_list
 
     # Apply K-means clustering to the aforementioned array
-    dataset = construct_dataset(word_list)
-    kmeans_clustering(dataset, CLUSTERS)
+    kmeans_clustering(word_list, CLUSTERS)
 
 main()

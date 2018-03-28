@@ -2,9 +2,12 @@
 # Perform K-means clustering (2 clusters, Keyword & Not-Keyword) (Gabriel Ghiuzan)     #
 ########################################################################################
 
-MAX_ITERATIONS = 100
+# In the second version, might manually code weighted k-means clustering
 
-# Import data and store in dataset
+import pylab
+from sklearn.cluster import KMeans
+
+# Create a dataset from the list of words
 def construct_dataset(word_list):
 
     # Contains each word as a string and the sum of its features
@@ -16,24 +19,30 @@ def construct_dataset(word_list):
 
         dataset.append([word[0], feature_sum])
 
-# Euclidean Distance calculator in a one-dimensional space
-def euclidean_distance(p, q):
-    return math.abs(q - p)
-
-# Initialize centroids to the first elements in the dataset
-def initialize_centroids(k):
-
-    for i in range(k):
-        centroids[i] = dataset[i]
-
-    return centroids
+    return dataset
 
 # Apply K-means clustering to dataset
-def kmeans_clustering(dataset, k):
+def kmeans_clustering(word_list, k):
 
-    centroids = initialize_centroids(k)
-    clusters = []
+    dataset = construct_dataset(word_list)
 
-    for i in range(MAX_ITERATIONS):
+    # to be changed to something that can reference each sum to its corresponding word
+    # after ensuring that the program is working properly
+    features_sum = [sum for sum in dataset[enumerate(dataset)][1]]
 
-        for observation in dataset:
+    # Number of clusters
+    kmeans = KMeans(n_clusters = k)
+
+    # Compute K-means clustering
+    kmeans = kmeans.fit(features_sum)
+
+    # Predict the closest cluster each observation in features_sum belongs to
+    labels = kmeans.predict(features_sum)
+
+    # Coordinates of cluster centers (centroids)
+    print(kmeans.cluster_centers_)
+
+    # Labels of each point
+    print(kmeans.labels_)
+
+    pylab.show() # to be removed after ensuring that the program is working properly
