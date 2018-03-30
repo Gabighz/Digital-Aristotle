@@ -1,3 +1,8 @@
+############################################################################
+# Takes lectures notes which were pre-converted from pdf or pptx into XML  #
+# and parses the XML attributes of each word or sentence                   #
+############################################################################
+
 from xml.etree import ElementTree
 
 class XMLParser:

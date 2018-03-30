@@ -1,3 +1,8 @@
+#########################################################################################
+# Selects desired features of words from XML data and represents each word as an array. #
+# This array contains the word itself as a string and its features as numerical values. #
+#########################################################################################
+
 
 class FeatureAssignment:
     #This list contains the word array

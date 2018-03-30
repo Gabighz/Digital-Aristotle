@@ -1,6 +1,7 @@
-########################################################################################
-# Perform K-means clustering (2 clusters, Keyword & Not-Keyword) (Gabriel Ghiuzan)     #
-########################################################################################
+########################################################
+# Perform K-means clustering on features of the words #
+# (2 clusters, Keyword & Not-Keyword)                 #
+#######################################################
 
 # In the second version, might manually code weighted k-means clustering
 
