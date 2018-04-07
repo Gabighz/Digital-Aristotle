@@ -14,7 +14,7 @@ from kmeans import kmeans_clustering
 def main():
     # Open a file here and apply a function from XML_parser to it
 
-    path = '../input/foundation-year/CSC079/Slides-Week-2.xml' # to be changed to something more flexible in the future
+    path = '../input/foundation-year/CSC079/*.xml'
     parsed_files = XML_parser()
     parsed_files.parse_file(path)
 
