@@ -43,7 +43,7 @@ def kmeans_clustering(word_list, k):
     # Coordinates of cluster centers (centroids)
     print(kmeans.cluster_centers_)
 
-    # Labels of each point
-    print(kmeans.labels_)
-
     pylab.show() # to be removed after ensuring that the program is working properly
+
+    # Labels of each point
+    return kmeans.labels_

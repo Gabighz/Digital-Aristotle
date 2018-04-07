@@ -29,6 +29,15 @@ def main():
         print(e)
 
     # Apply K-means clustering to the aforementioned array
-    kmeans_clustering(word_list, CLUSTERS)
+    # At the moment, the return is a data collection of the labels of each point
+    labels = kmeans_clustering(word_list, CLUSTERS)
+
+    # Write to file
+    file = open("keywords.txt", "r")
+
+    for label in labels:
+        file.write(label)
+
+    file.close()
 
 main()
