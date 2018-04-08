@@ -2,6 +2,7 @@
 # Selects desired features of words from XML data and represents each word as an array. #
 # This array contains the word itself as a string and its features as numerical values. #
 #########################################################################################
+
 import math
 
 #word number created as a global variable for this version, will be changed
@@ -28,11 +29,11 @@ def add_words_to_list(words_string, attributes, isBold, documentNumber, pageNumb
     pageNumber = pageNumber
     sentenceNumber = sentenceNumber
 
-    top = attributes['top']
-    left = attributes['left']
-    width = attributes['width']
-    height = attributes['height']
-    fontSize = attributes['font']
+    top = int(attributes['top'])
+    left = int(attributes['left'])
+    width = int(attributes['width'])
+    height = int(attributes['height'])
+    fontSize = int(attributes['font'])
 
     words = words_string.split()
     for w in words:
