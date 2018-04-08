@@ -38,11 +38,11 @@ def add_words_to_list(words_string, attributes, isBold, documentNumber, pageNumb
     for w in words:
         global word_number
         word_number = word_number +1
-        word_list.append([w, get_word_data(w), documentNumber,pageNumber,sentenceNumber,word_number,
+        word_list.append([w, documentNumber,pageNumber,sentenceNumber,word_number,
         top,left,width,height,fontSize])
     return word_list
 
 #converts the word into a unique number
-def get_word_data(word):
-    return int.from_bytes(word.encode(), 'little')
-    return word
+#def get_word_data(word):
+#    return int.from_bytes(word.encode(), 'little')
+#    return word
