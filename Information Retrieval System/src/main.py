@@ -6,9 +6,8 @@
 
 CLUSTERS = 2
 
-# to be changed with functions where necessary
-from XML_parser import *
-from feature_selection import *
+from XML_parser import parse_file
+from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 
 def main():
@@ -29,13 +28,14 @@ def main():
 
     # Apply K-means clustering to the aforementioned array
     # At the moment, the return is a data collection of the labels of each point
-    labels = kmeans_clustering(selected_features, CLUSTERS)
+    clustered_data = kmeans_clustering(selected_features, CLUSTERS)
 
     # Write to file
     file = open("keywords.txt", "w")
 
-    for label in labels:
-        file.write(label)
+    for observation in clustered_data:
+
+        file.write(str(observation) + "\n")
 
     file.close()
 

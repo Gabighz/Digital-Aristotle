@@ -6,6 +6,7 @@
 # In the second version, might manually code weighted k-means clustering
 
 import pylab
+import numpy as np
 from sklearn.cluster import KMeans
 
 # Create a dataset from the list of words
@@ -15,7 +16,7 @@ def construct_dataset(word_list):
     dataset = []
 
     for word in word_list:
-        
+
         # Stores the sum of features of each word
         feature_sum = 0
 
@@ -31,11 +32,17 @@ def kmeans_clustering(word_list, k):
 
     dataset = construct_dataset(word_list)
 
+    # Stores only the sum of each word
     # to be changed to something that can reference each sum to its corresponding word
-    # after ensuring that the program is working properly
-    features_sum = [sum for sum in dataset[enumerate(dataset)][1]]
+    features_sum = []
 
-    # Number of clusters
+    for i in range(len(dataset)):
+        features_sum.append(dataset[i][1])
+
+    # Convert array to passable numpy data which can be manipulated by sklearn
+    features_sum = np.array(features_sum).reshape(-1, 1)
+
+    # Initializes KMeans and assigns the number of clusters
     kmeans = KMeans(n_clusters = k)
 
     # Compute K-means clustering
@@ -44,10 +51,23 @@ def kmeans_clustering(word_list, k):
     # Predict the closest cluster each observation in features_sum belongs to
     labels = kmeans.predict(features_sum)
 
+    # Contains each observation and its label
+    results = []
+
+    index = 0 # used for iterating through dataset
+
+    for label in labels:
+
+        if label == 0:
+            label = 'Not-Keyword'
+        else:
+            label = 'Keyword'
+
+        results.append([dataset[index][0], label])
+
+        index += 1
+
     # Coordinates of cluster centers (centroids)
-    print(kmeans.cluster_centers_)
+    print("\nCoordinates of centroids: \n", kmeans.cluster_centers_)
 
-    pylab.show() # to be removed after ensuring that the program is working properly
-
-    # Labels of each point
-    return kmeans.labels_
+    return results
