@@ -21,7 +21,7 @@ def main():
 
 
     # Apply a function from feature_selection to the return of the aforementioned function.
-    # Return a two-dimensional array which contains each word and its features, named word_list
+    # Return a two-dimensional array which contains each word and its features
 
     selected_features = feature_assignment(parsed_files)
 
@@ -30,7 +30,7 @@ def main():
         print(e)
 
     # Apply K-means clustering to the aforementioned array
-    # At the moment, the return is a data collection of the labels of each point
+    # The return is 2D array which contains each word and its label
     clustered_data = kmeans_clustering(selected_features, CLUSTERS)
 
     # Write to file

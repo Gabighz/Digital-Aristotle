@@ -3,9 +3,6 @@
 # (2 clusters, Keyword & Not-Keyword)                 #
 #######################################################
 
-# In the second version, might manually code weighted k-means clustering
-
-import pylab
 import numpy as np
 from sklearn.cluster import KMeans
 
