@@ -17,6 +17,9 @@ def main():
     file_number = 0
     parsed_files = parse_file(path, file_number)
 
+    # Pre-processing to filter out stopwords from parsed_files
+
+
     # Apply a function from feature_selection to the return of the aforementioned function.
     # Return a two-dimensional array which contains each word and its features, named word_list
 
