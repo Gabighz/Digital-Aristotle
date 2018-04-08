@@ -15,22 +15,22 @@ def main():
     # Open a file here and apply a function from XML_parser to it
 
     path = '../input/foundation-year/CSC079/*.xml'
-    parsed_files = XML_parser()
-    parsed_files.parse_file(path)
+    file_number = 0
+    parsed_files = parse_file(path, file_number)
 
     # Apply a function from feature_selection to the return of the aforementioned function.
     # Return a two-dimensional array which contains each word and its features, named word_list
     # !! To be changed to a single 'interface' function, in a pythonic way
 
-    selected_features = feature_selection(parsed_files.get_parsed_words())
+    selected_features = feature_assignment(parsed_file)
 
-    var = selected_features.get_word_list() # what is var? please use meaningful identifier names
-    for e in var: # what is e?
+    #prints off each entry in the selected features array(purely for debugging and demonstration not needed)
+    for e in selected_features:
         print(e)
 
     # Apply K-means clustering to the aforementioned array
     # At the moment, the return is a data collection of the labels of each point
-    labels = kmeans_clustering(word_list, CLUSTERS)
+    labels = kmeans_clustering(selected_features, CLUSTERS)
 
     # Write to file
     file = open("keywords.txt", "r")
