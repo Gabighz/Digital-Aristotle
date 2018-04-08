@@ -15,6 +15,10 @@ def construct_dataset(word_list):
     dataset = []
 
     for word in word_list:
+        
+        # Stores the sum of features of each word
+        feature_sum = 0
+
         for feature in range(1, len(word)):
             feature_sum += word[feature]
 
