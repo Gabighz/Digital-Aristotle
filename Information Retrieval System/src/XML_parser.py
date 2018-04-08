@@ -29,7 +29,6 @@ def parse_sentences( sentences, page_num, parsed_words, file_number):
     #This is where the raw parsed data is stored
     #Format: group of words, text attributes[], isBold, file number, page number, sentence number
     #text attributes format: top,left,width,height,font
-    parsed_words = []
     sentence_num = 0
     for elem in sentences:
         sentence_num = sentence_num+1
