@@ -6,6 +6,8 @@
 
 CLUSTERS = 2
 
+import os
+
 from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
@@ -34,7 +36,11 @@ def main():
     clustered_data = kmeans_clustering(selected_features, CLUSTERS)
 
     # Write to file
-    file = open("keywords.txt", "w")
+    path = "../output/foundation-year/CSC079/SlidesWeek2.txt"
+
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    file = open(path, "w")
 
     for observation in clustered_data:
 
