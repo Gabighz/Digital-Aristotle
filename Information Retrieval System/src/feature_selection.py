@@ -3,7 +3,7 @@
 # This array contains the word itself as a string and its features as numerical values. #
 #########################################################################################
 
-from rake_nltk import Metric, Rake
+import RAKE
 import math
 
 #word number created as a global variable for this version, will be changed
@@ -14,6 +14,7 @@ def feature_selection(raw_data):
     selected_features = []
     selected_features = populate_word_list(raw_data);
 
+    complete_features = assign_rake_ranking(selected_features)
     return complete_features
 
 #assigns the features for each word in the data and adds it to an array
@@ -50,7 +51,19 @@ def add_words_to_list(words_string, attributes, isBold, documentNumber, pageNumb
 # each word's array
 def assign_rake_ranking(selected_features):
 
-    r = 
+    Rake = RAKE.Rake(["a"]) # !! needs stopwords as list of strings
+
+
+    # Contains all the words in the document
+    words_string = ''
+
+    for array in selected_features:
+
+        words_string += array[0] + " "
+
+    rake_ranking = Rake.run(words_string)
+
+    print(rake_ranking)
 
 
 #converts the word into a unique number
