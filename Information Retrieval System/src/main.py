@@ -38,7 +38,7 @@ def main():
     # Write to file
     path = "../output/foundation-year/CSC079/SlidesWeek2.txt"
 
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    os.makedirs(os.path.dirname(path), exist_ok=True) # enables us to create paths from within the program
 
     file = open(path, "w")
 

@@ -65,9 +65,9 @@ def assign_rake_ranking(selected_features):
 
     r.extract_keywords_from_text(words_string)
 
-    # The return type of both functions called below is Dictionary (word -> value)
+    # The return type of both functions called below is Dictionary (key -> value)
     frequency_distribution = r.get_word_frequency_distribution() # word -> frequency (number of times it occurs)
-    word_degrees= r.get_word_degrees() # word -> degree (co-occurance)
+    word_degrees= r.get_word_degrees() # word -> degree (linguistic co-occurance)
 
 
 
@@ -89,7 +89,7 @@ def assign_rake_ranking(selected_features):
             if word_array[0] == word:
                 word_degree = value
 
-        ranking = word_degree / word_frequency # as per the chosen metric
+        ranking = word_degree / word_frequency # in accordance with the chosen metric
 
         word_array.append(ranking)
 
