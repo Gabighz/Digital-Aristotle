@@ -3,18 +3,20 @@
 # This array contains the word itself as a string and its features as numerical values. #
 #########################################################################################
 
-import RAKE
+from rake_nltk import Rake
 import math
 
 #word number created as a global variable for this version, will be changed
 word_number = 0
 
-#this method might be redundant but constructs the word list
-def feature_selection(raw_data):
+# Constructs the word list
+def feature_assignment(raw_data):
     selected_features = []
     selected_features = populate_word_list(raw_data);
+    # Call a method here on selected_features for the other feature
 
     complete_features = assign_rake_ranking(selected_features)
+
     return complete_features
 
 #assigns the features for each word in the data and adds it to an array
@@ -48,22 +50,51 @@ def add_words_to_list(words_string, attributes, isBold, documentNumber, pageNumb
     return word_list
 
 # Assigns RAKE ranking to each word and appends the ranking to the end of
-# each word's array
+# each word's array, using degree(word)/frequency(word) as the metric
 def assign_rake_ranking(selected_features):
 
-    Rake = RAKE.Rake(["a"]) # !! needs stopwords as list of strings
-
+    r = Rake()
 
     # Contains all the words in the document
     words_string = ''
 
-    for array in selected_features:
+    # Extracts only the word itself as a string
+    for word_array in selected_features:
 
-        words_string += array[0] + " "
+        words_string += word_array[0] + " "
 
-    rake_ranking = Rake.run(words_string)
+    r.extract_keywords_from_text(words_string)
 
-    print(rake_ranking)
+    # The return type of both functions called below is Dictionary (word -> value)
+    frequency_distribution = r.get_word_frequency_distribution() # word -> frequency (number of times it occurs)
+    word_degrees= r.get_word_degrees() # word -> degree (co-occurance)
+
+
+
+    # Appends the ranking to each word's array
+    for word_array in selected_features:
+
+        word_frequency = 1
+        word_degree = 1
+
+        # Linear search to match a word to its frequency
+        for word, value in frequency_distribution.items():
+
+            if word_array[0] == word:
+                word_frequency = value
+
+        # Linear search to match a word to its degree
+        for word, value in word_degrees.items():
+
+            if word_array[0] == word:
+                word_degree = value
+
+        ranking = word_degree / word_frequency # as per the chosen metric
+
+        word_array.append(ranking)
+
+    return selected_features
+
 
 
 #converts the word into a unique number
