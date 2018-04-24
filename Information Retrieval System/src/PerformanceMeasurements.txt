@@ -1,3 +1,22 @@
-Before implementing pre-processing
+Before implementing stopwords filtering
 Current assigned features: isBold, RAKE
-F1 score of 0.07
+F1 score of 0.071
+
+After implementing stopwords filtering (NLTK dictionary)
+Current assigned features: isBold, RAKE
+F1 score of 0.066
+Notes: 1. The word 'The' is classified as a keyword due to its
+       high frequency and high degree of co-occurance.
+       We should consider adding 'The' as a stopword.
+       Same issue occurs with other words such as 'a', 'th', 'your', etc.
+
+       2. We should convert all strings to lowercase.
+       For example, 'Motor' and 'motor' are regarded as different words.
+
+       3. We should filter out all non-alphanumeric characters within a word.
+       For example, 'sensors' and 'sensors)' are regarded as different words.
+
+       4. We should filter out all the words in the footers and headers of
+       the documents, as they probably contain only irrelevant information,
+       such as the name of the lecturer, their email address and the date of the
+       lecture, the name of the module etc. (e.g. like in SlidesWeek2).

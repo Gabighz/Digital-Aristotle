@@ -10,7 +10,7 @@ import os
 from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
-from processing import post_processing
+from processing import pre_processing, post_processing
 
 def main():
     # Open a file here and apply a function from XML_parser to it
@@ -20,7 +20,7 @@ def main():
     parsed_files = parse_file(path, file_number)
 
     # Pre-processing to filter out stopwords from parsed_files
-
+    pre_processing(parsed_files)
 
     # Apply a function from feature_selection to the return of the aforementioned function.
     # Return a two-dimensional array which contains each word and its features

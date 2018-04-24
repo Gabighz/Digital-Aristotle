@@ -59,67 +59,7 @@ def post_processing(results):
 # Only for the SlidesWeek2 file at the moment
 def manual_annotation(true_output):
 
-    for i in range(1, 158):
-        true_output.append(0)
-
-    for i in range(158, 163):
-        true_output.append(1)
-
-    for i in range(163, 182):
-        true_output.append(0)
-
-    true_output.append(1)
-
-    for i in range(183, 190):
-        true_output.append(0)
-
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-
-    for i in range(193, 199):
-        true_output.append(0)
-
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-
-    for i in range(203, 212):
-        true_output.append(0)
-
-    true_output.append(1)
-
-    for i in range(213, 226):
-        true_output.append(0)
-
-    true_output.append(1)
-
-    for i in range(227, 232):
-        true_output.append(0)
-
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-
-    for i in range(235, 254):
-        true_output.append(0)
-
-    true_output.append(1)
-    true_output.append(1)
-
-    for i in range(256, 265):
-        true_output.append(0)
-
-    true_output.append(1)
-
-    for i in range(266, 272):
-        true_output.append(0)
-
-    true_output.append(1)
-
-    for i in range(273, 288):
+    for i in range(1, 132):
         true_output.append(0)
 
     true_output.append(1)
@@ -127,89 +67,150 @@ def manual_annotation(true_output):
     true_output.append(0)
     true_output.append(1)
     true_output.append(1)
+    true_output.append(1)
+    true_output.append(1)
 
-    for i in range(293, 304):
+    for i in range(139, 153):
+        true_output.append(0)
+
+    true_output.append(1)
+    true_output.append(1)
+
+    for i in range(155, 160):
+        true_output.append(0)
+
+    true_output.append(1)
+    true_output.append(0)
+    true_output.append(1)
+
+    for i in range(163, 166):
+        true_output.append(0)
+
+    true_output.append(1)
+    true_output.append(0)
+    true_output.append(1)
+
+    for i in range(169, 174):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(305, 319):
-        true_output.append(0)
-
-    true_output.append(1)
-    true_output.append(1)
-
-    for i in range(321, 327):
+    for i in range(175, 187):
         true_output.append(0)
 
     true_output.append(1)
     true_output.append(0)
     true_output.append(0)
     true_output.append(1)
+    true_output.append(0)
+    true_output.append(1)
 
-    for i in range(331, 346):
+    for i in range(193, 206):
+        true_output.append(0)
+
+    true_output.append(1)
+    true_output.append(1)
+
+    for i in range(208, 214):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(347, 367):
+    for i in range(215, 218):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(368, 408):
+    for i in range(219, 232):
+        true_output.append(0)
+
+    true_output.append(1)
+    true_output.append(1)
+    true_output.append(0)
+    true_output.append(1)
+    true_output.append(1)
+
+    for i in range(237, 243):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(409, 430):
+    for i in range(244, 249):
+        true_output.append(0)
+
+    true_output.append(1)
+
+    for i in range(250, 256):
+        true_output.append(0)
+
+    true_output.append(1)
+
+    for i in range(257, 262):
+        true_output.append(0)
+
+    true_output.append(1)
+    true_output.append(0)
+    true_output.append(1)
+
+    for i in range(265, 275):
+        true_output.append(0)
+
+    true_output.append(1)
+
+    for i in range(276, 293):
+        true_output.append(0)
+
+    true_output.append(1)
+
+    for i in range(294, 326):
+        true_output.append(0)
+
+    true_output.append(1)
+
+    for i in range(327, 344):
         true_output.append(0)
 
     true_output.append(1)
     true_output.append(1)
     true_output.append(0)
     true_output.append(0)
+    true_output.append(1)
+    true_output.append(1)
+    true_output.append(1)
 
-    for i in range(434, 439):
-        true_output.append(1)
-
-    for i in range(439, 454):
+    for i in range(351, 362):
         true_output.append(0)
 
-    for i in range(454, 457):
-        true_output.append(1)
+    true_output.append(1)
+    true_output.append(1)
+    true_output.append(1)
 
-    for i in range(457, 495):
+    for i in range(365, 392):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(496, 546):
+    for i in range(393, 429):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(547, 584):
+    for i in range(430, 460):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(585, 599):
+    for i in range(461, 470):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(600, 605):
+    for i in range(471, 477):
         true_output.append(0)
 
     true_output.append(1)
 
-    for i in range(606, 617):
-        true_output.append(0)
-
-    true_output.append(1)
-
-    for i in range(618, 625):
+    for i in range(478, 485):
         true_output.append(0)
 
     return true_output
