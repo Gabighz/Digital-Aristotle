@@ -5,23 +5,39 @@
 from nltk.corpus import stopwords
 from sklearn.metrics import f1_score
 
-#this function removes all stop word entries from the raw data from the xml_parser
-#def pre_processing(raw_data):
-#    word_data_array = raw_data
-#    array_counter = 0
-#    stop_words = stop_words.words("english")
-    #this loop runs through every word in the array of word data
-#    for word_data in word_data_array:
 
-        #the below variable and loop are for running through each stop word for a match
-#        stop_word_counter = 0
-#        while word_data[array_counter] != stop_word
-#            stop_word = stop_words[stop_word_counter]
-#            if word_data[array_counter] == stop_word:
-#                del word_data_array[array_counter]
-#            stop_word_counter +=1
-#        array_counter += 1
-#        return word_data_array
+#this function removes all stop word entries from the raw data from the xml_parser
+def remove_stop_words(sentence):
+    word_array = sentence.split()
+    stop_words = stopwords.words("english")
+    clean_string = ""
+    for word in word_array:
+        for stop_word in stop_words:
+            if word == stop_word:
+                word_array.remove(stop_word)
+    for word in word_array:
+        if clean_string == "":
+            clean_string = clean_string + word
+        else:
+            clean_string = clean_string + " " + word
+
+    return clean_string
+
+def pre_processing(raw_data):
+    sentence_array = raw_data
+    array_counter = 0
+    for sentence in sentence_array:
+        sentence[0] = remove_stop_words(sentence[0])
+        if remove_stop_words(sentence[0]) ==  "":
+            del sentence_array[array_counter]
+        elif remove_stop_words(sentence[0]) == " ":
+            del sentence_array[array_counter]
+        else:
+            array_counter += 1
+
+    return sentence_array
+
+
 
 # Computes the F1-score of our classifier
 # Takes in a 2D array which contains each observation and their label
