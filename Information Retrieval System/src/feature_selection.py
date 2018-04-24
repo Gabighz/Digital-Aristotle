@@ -24,29 +24,20 @@ def populate_word_list(raw_data):
 
     word_list = []
     for e in raw_data:
-        word_list = add_words_to_list(e[0], e[1], e[2], e[3], e[4], e[5], word_list)
+        word_list = add_words_to_list(e[0], e[2], word_list)
         #for each element in raw data.... addword()...
     return word_list
 
 #adds each word in a sentence to the array
-def add_words_to_list(words_string, attributes, isBold, documentNumber, pageNumber, sentenceNumber, word_list):
+def add_words_to_list(words_string, isBold, word_list):
     isBold = isBold
-    documentNumber = documentNumber
-    pageNumber = pageNumber
-    sentenceNumber = sentenceNumber
 
-    top = int(attributes['top'])
-    left = int(attributes['left'])
-    width = int(attributes['width'])
-    height = int(attributes['height'])
-    fontSize = int(attributes['font'])
 
     words = words_string.split()
     for w in words:
         global word_number
         word_number = word_number +1
-        word_list.append([w, documentNumber,pageNumber,sentenceNumber,word_number,
-        top,left,width,height,fontSize])
+        word_list.append([w, isBold])
     return word_list
 
 # Assigns RAKE ranking to each word and appends the ranking to the end of
