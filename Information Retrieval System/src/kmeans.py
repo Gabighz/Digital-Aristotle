@@ -55,11 +55,6 @@ def kmeans_clustering(word_list, k):
 
     for label in labels:
 
-        if label == 0:
-            label = 'Not-Keyword'
-        else:
-            label = 'Keyword'
-
         results.append([dataset[index][0], label])
 
         index += 1

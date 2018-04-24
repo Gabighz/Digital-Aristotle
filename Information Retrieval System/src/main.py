@@ -10,6 +10,7 @@ import os
 from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
+from processing import post_processing
 
 def main():
     # Open a file here and apply a function from XML_parser to it
@@ -33,6 +34,11 @@ def main():
     # Apply K-means clustering to the aforementioned array
     # The return is 2D array which contains each word and its label
     clustered_data = kmeans_clustering(selected_features, CLUSTERS)
+
+    # Post-processing to measure the performance of our classifier
+    performance = post_processing(clustered_data)
+
+    print("F1 score: ", performance)
 
     # Write to file
     path = "../output/foundation-year/CSC079/SlidesWeek2.txt"

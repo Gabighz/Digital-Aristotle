@@ -1,0 +1,3 @@
+Before implementing pre-processing
+Current assigned features: isBold, RAKE
+F1 score of 0.07

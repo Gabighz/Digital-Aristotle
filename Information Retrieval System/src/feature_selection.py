@@ -16,7 +16,6 @@ def feature_assignment(raw_data):
     # Call a method here on selected_features for the other feature
 
     complete_features = assign_rake_ranking(selected_features)
-
     return complete_features
 
 #assigns the features for each word in the data and adds it to an array
