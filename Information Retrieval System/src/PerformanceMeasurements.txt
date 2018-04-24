@@ -1,10 +1,10 @@
 Before implementing stopwords filtering
 Current assigned features: isBold, RAKE
-F1 score of 0.071
+F1 score of 0.071 / 0.139
 
 After implementing stopwords filtering (NLTK dictionary)
 Current assigned features: isBold, RAKE
-F1 score of 0.066
+F1 score of 0.066 / 0.209
 Notes: 1. The word 'The' is classified as a keyword due to its
        high frequency and high degree of co-occurance.
        We should consider adding 'The' as a stopword.

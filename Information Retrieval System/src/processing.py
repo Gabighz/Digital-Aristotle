@@ -54,7 +54,7 @@ def post_processing(results):
     for i in range(len(results)):
         estimated_targets.append(results[i][1])
 
-    return f1_score(true_output, estimated_targets, average='binary')
+    return f1_score(true_output, estimated_targets)
 
 # Only for the SlidesWeek2 file at the moment
 def manual_annotation(true_output):
