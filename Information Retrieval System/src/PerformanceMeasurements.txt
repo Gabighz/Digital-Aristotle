@@ -2,6 +2,7 @@ Before implementing stopwords filtering
 Current assigned features: isBold, RAKE
 F1 score of 0.071 / 0.139
 
+
 After implementing stopwords filtering (NLTK dictionary)
 Current assigned features: isBold, RAKE
 F1 score of 0.066 / 0.209
@@ -20,3 +21,10 @@ Notes: 1. The word 'The' is classified as a keyword due to its
        the documents, as they probably contain only irrelevant information,
        such as the name of the lecturer, their email address and the date of the
        lecture, the name of the module etc. (e.g. like in SlidesWeek2).
+
+
+After improving pre-processing by addressing the first 3 issues listed above
+Current assigned features: isBold, RAKE
+F1 score of
+Notes:    1. The footers and headers represented in the XML data still require
+          removing.

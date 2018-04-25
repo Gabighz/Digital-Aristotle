@@ -4,49 +4,49 @@
 ##################################################
 
 import re
+import nltk
+import numpy as np
 
-from nltk.corpus import stopwords
 from sklearn.metrics import f1_score
 
+def pre_processing(raw_data):
 
-#this function removes all stop word entries from the raw data from the xml_parser
-def remove_stop_words(sentence):
-    word_array = sentence.split()
+    # Iterates through raw XML data and concatenates all words to a string
+    sentence = ' '.join([word for (array_index, word_index), word in np.ndenumerate(raw_data) if word_index == 0])
 
     # Converts all words to lowercase; e.g. so Sensors and sensors are not
     # considered different words
-    word_array = [word.lower() for word in word_array]
-
-    stop_words = stopwords.words("english")
-
-    # Added additional stopwords
-    stop_words.extend(["a", "the", "th", "your"])
-
-    # Filters out stopwords from the array of words and concatenates them to a string
-    filtered_string = ' '.join([word for word in word_array if word not in stop_words])
+    lowercase_string = sentence.lower()
 
     # Cleans each word of non-alphanumeric characters
     # e.g. so 'sensors)' and 'sensors' are not considered different words
-    filtered_string = re.sub("[^a-zA-Z]"," ", filtered_string)
+    filtered_string = re.sub("[^a-zA-Z]"," ", lowercase_string)
 
-    return filtered_string
+    # Further filtering to keep only nouns; thus filtering stopwords as well
+    tokens = nltk.word_tokenize(filtered_string)
+    tags = nltk.pos_tag(tokens)
 
-def pre_processing(raw_data):
-    sentence_array = raw_data
-    array_counter = 0
-    for sentence in sentence_array:
-        sentence[0] = remove_stop_words(sentence[0])
+    filtered_string = ' '.join([word for word,pos in tags if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS')])
+    print(filtered_string)
 
-        if remove_stop_words(sentence[0]) ==  "":
-            del sentence_array[array_counter]
-        elif remove_stop_words(sentence[0]) == " ":
-            del sentence_array[array_counter]
-        else:
-            array_counter += 1
+    # Compiles the filtered words to an array which contains
+    # each word and its XML features
+    filtered_data = []
+    iterable_array = filtered_string.split()
 
-    return sentence_array
+    for i in range(len(iterable_array)):
+        word_data = []
+        for j in range(len(raw_data)):
 
+            if iterable_array[i] in raw_data[j][0].lower():
+                word_data.append(iterable_array[i])
 
+                for features in raw_data[j][1:]:
+                    word_data.append(features)
+
+        filtered_data.append(word_data)
+
+    return filtered_data
 
 # Computes the F1-score of our classifier
 # Takes in a 2D array which contains each observation and their label

@@ -20,18 +20,15 @@ def main():
     parsed_files = parse_file(path, file_number)
 
     # Pre-processing to filter out stopwords from parsed_files
-    parsed_files = pre_processing(parsed_files)
+    filtered_files = pre_processing(parsed_files)
 
-    # Apply a function from feature_selection to the return of the aforementioned function.
     # Return a two-dimensional array which contains each word and its features
-
-    selected_features = feature_assignment(parsed_files)
+    selected_features = feature_assignment(filtered_files)
 
     #prints off each entry in the selected features array(purely for debugging and demonstration not needed)
     for e in selected_features:
         print(e)
 
-    # Apply K-means clustering to the aforementioned array
     # The return is 2D array which contains each word and its label
     clustered_data = kmeans_clustering(selected_features, CLUSTERS)
 
