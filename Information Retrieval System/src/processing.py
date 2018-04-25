@@ -2,6 +2,9 @@
 # Handles pre-processing (stopwords filtering)   #
 # and post-processing (performance testing)      #
 ##################################################
+
+import re
+
 from nltk.corpus import stopwords
 from sklearn.metrics import f1_score
 
@@ -9,25 +12,30 @@ from sklearn.metrics import f1_score
 #this function removes all stop word entries from the raw data from the xml_parser
 def remove_stop_words(sentence):
     word_array = sentence.split()
-    stop_words = stopwords.words("english")
-    clean_string = ""
-    for word in word_array:
-        for stop_word in stop_words:
-            if word == stop_word:
-                word_array.remove(stop_word)
-    for word in word_array:
-        if clean_string == "":
-            clean_string = clean_string + word
-        else:
-            clean_string = clean_string + " " + word
 
-    return clean_string
+    # Converted all words to lowercase; e.g. so Sensors and sensors are not
+    # considered different words
+    word_array = [word.lower() for word in word_array]
+
+    stop_words = stopwords.words("english")
+
+    # Added additional stopwords
+    stop_words.extend(["a", "the", "th", "your"])
+
+    # Filters out stopwords from the array of words and concatenates them to a string
+    filtered_string = ' '.join([word for word in word_array if word not in stop_words])
+
+    # Cleans each word of non-alphanumeric characters
+    filtered_string = re.sub("[^a-zA-Z]"," ", filtered_string)
+
+    return filtered_string
 
 def pre_processing(raw_data):
     sentence_array = raw_data
     array_counter = 0
     for sentence in sentence_array:
         sentence[0] = remove_stop_words(sentence[0])
+
         if remove_stop_words(sentence[0]) ==  "":
             del sentence_array[array_counter]
         elif remove_stop_words(sentence[0]) == " ":

@@ -20,7 +20,7 @@ def main():
     parsed_files = parse_file(path, file_number)
 
     # Pre-processing to filter out stopwords from parsed_files
-    pre_processing(parsed_files)
+    parsed_files = pre_processing(parsed_files)
 
     # Apply a function from feature_selection to the return of the aforementioned function.
     # Return a two-dimensional array which contains each word and its features
@@ -36,9 +36,8 @@ def main():
     clustered_data = kmeans_clustering(selected_features, CLUSTERS)
 
     # Post-processing to measure the performance of our classifier
-    performance = post_processing(clustered_data)
-
-    print("F1 score: ", performance)
+    #performance = post_processing(clustered_data)
+    #print("F1 score: ", performance)
 
     # Write to file
     path = "../output/foundation-year/CSC079/SlidesWeek2.txt"
