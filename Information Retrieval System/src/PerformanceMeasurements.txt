@@ -23,8 +23,15 @@ Notes: 1. The word 'The' is classified as a keyword due to its
        lecture, the name of the module etc. (e.g. like in SlidesWeek2).
 
 
-After improving pre-processing by addressing the first 3 issues listed above
+After improving pre-processing by addressing the first 3 issues listed above.
+Also filtered out all words which aren't nouns.
 Current assigned features: isBold, RAKE
 F1 score of
 Notes:    1. The footers and headers represented in the XML data still require
           removing.
+
+          2. Almost every word is a keyword.
+
+          3. The type of some words is ambiguous and not filtered out.
+             For example, 'move' can be a verb or a noun, and thus not filtered out
+             by NLTK.
