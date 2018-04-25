@@ -13,7 +13,7 @@ from sklearn.metrics import f1_score
 def remove_stop_words(sentence):
     word_array = sentence.split()
 
-    # Converted all words to lowercase; e.g. so Sensors and sensors are not
+    # Converts all words to lowercase; e.g. so Sensors and sensors are not
     # considered different words
     word_array = [word.lower() for word in word_array]
 
@@ -26,6 +26,7 @@ def remove_stop_words(sentence):
     filtered_string = ' '.join([word for word in word_array if word not in stop_words])
 
     # Cleans each word of non-alphanumeric characters
+    # e.g. so 'sensors)' and 'sensors' are not considered different words
     filtered_string = re.sub("[^a-zA-Z]"," ", filtered_string)
 
     return filtered_string
