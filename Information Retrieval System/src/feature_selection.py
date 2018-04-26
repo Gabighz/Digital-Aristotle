@@ -24,20 +24,28 @@ def populate_word_list(raw_data):
     word_list = []
     av_font_size = average_font_size(raw_data)
     for entry in raw_data:
-        word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], av_font_size)
+        word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], av_font_size, entry[6])
         #for each element in raw data.... addword()...
     return word_list
 
 #adds each word in a sentence to the array
-def add_words_to_list(words_string, isBold, word_list, font_size, av_font_size):
+def add_words_to_list(words_string, isBold, word_list, font_size, av_font_size , color):
     isBold = isBold
 
     words = words_string.split()
     for w in words:
         global word_number
         word_number = word_number +1
-        word_list.append([w, isBold, isBig(av_font_size, font_size)])
+        word_list.append([w, isBold, isBig(av_font_size, font_size), is_unusual_color(color)])
     return word_list
+
+def is_unusual_color(color):
+    if color != "#000000":
+        return 1
+    else:
+        return 0
+
+
 
 def average_font_size(raw_data):
     total_font_size = 0
