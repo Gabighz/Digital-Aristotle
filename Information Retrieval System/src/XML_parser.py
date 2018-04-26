@@ -36,10 +36,8 @@ def collect_all_text( element):
 
 #parses each sentence in a list of sentences form a page and stores the raw
 #data in parsedWords
-def parse_sentences( sentences, page_num, parsed_words, file_number):
+def parse_sentences(sentences, page_num, parsed_words, file_number, fontspec_array):
     #This is where the raw parsed data is stored
-    #Format: group of words, text attributes[], isBold, file number, page number, sentence number
-    #text attributes format: top,left,width,height,font
     sentence_num = 0
 
     #iterates for each sentence in the page
@@ -47,30 +45,39 @@ def parse_sentences( sentences, page_num, parsed_words, file_number):
 
         sentence_num = sentence_num+1
 
+        #'top': '77', 'left': '29', 'width': '671', 'height': '62', 'font': '4'
         element_attributes = elem.attrib
+
+        #font attributes 'id': '4', 'size': '52', 'family': 'Times', 'color': '#1159a0'
+        font_specs= fontspec_array[int(element_attributes['font'])].attrib
 
         #adds the sentence to the array if it contains text and if it is note
         #a header or footer
+        #Format: group of words, isBold, file number, page number, sentence number, fontsize, font color
         if(hasText(elem) and is_not_head_or_foot(element_attributes)):
-            parsed_words.append([elem.text,element_attributes, 0,file_number, page_num,sentence_num])
+            parsed_words.append([elem.text, 0,file_number, page_num,sentence_num, int(font_specs['size']), font_specs['color']])
         elif is_not_head_or_foot(element_attributes):
-            parsed_words.append([collect_all_text(elem), element_attributes, 1,file_number, page_num,sentence_num])
-            
+            parsed_words.append([collect_all_text(elem), 1,file_number, page_num,sentence_num, int(font_specs['size']), font_specs['color'] ])
+
     return parsed_words
 
 #collects each page in the file and sends them to the sentence parser
 #keeps track of the page number for future use
 def parse_pages( pages, parsed_words, file_number):
     page_num = 0
+    fontspec_array = []
 
     #iterates through each page and runs each one through a method that parses
     #each sentence on each page
-    for c in pages:
+    for page in pages:
         page_num = page_num +1
 
+        #the current list of font attributes used
+        fontspec_array = fontspec_array + page.findall('fontspec')
+
         #'text' is the tag that the sentences are saved under in the xml files
-        sentences = c.findall('text')
-        parsed_words = parse_sentences(sentences, page_num, parsed_words, file_number)
+        sentences = page.findall('text')
+        parsed_words = parse_sentences(sentences, page_num, parsed_words, file_number, fontspec_array)
 
     return parsed_words
 
