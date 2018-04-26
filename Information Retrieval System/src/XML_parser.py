@@ -19,6 +19,17 @@ def hasText( element):
     else:
         return True
 
+#returns true if the attributes are not those of a header or footer
+#on later iterations this will be changed to work with any sized page
+def is_not_head_or_foot(attributes):
+    top = int(attributes['top'])
+
+    #checks top against the header and footer heights of a powerpoint page
+    if top > 765 or top < 30:
+        return False
+    else:
+        return True
+
 #returns true if child exists in the element, otherwise false
 def collect_all_text( element):
     return "".join(element.itertext())
@@ -33,9 +44,9 @@ def parse_sentences( sentences, page_num, parsed_words, file_number):
     for elem in sentences:
         sentence_num = sentence_num+1
         element_attributes = elem.attrib
-        if(hasText(elem)):
+        if(hasText(elem) and is_not_head_or_foot(element_attributes)):
             parsed_words.append([elem.text,element_attributes, 0,file_number, page_num,sentence_num])
-        else:
+        elif is_not_head_or_foot(element_attributes):
             parsed_words.append([collect_all_text(elem), element_attributes, 1,file_number, page_num,sentence_num])
     return parsed_words
 
