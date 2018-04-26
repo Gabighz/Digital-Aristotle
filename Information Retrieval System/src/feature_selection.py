@@ -22,22 +22,34 @@ def feature_assignment(raw_data):
 def populate_word_list(raw_data):
 
     word_list = []
-    for e in raw_data:
-        word_list = add_words_to_list(e[0], e[2], word_list)
+    av_font_size = average_font_size(raw_data)
+    for entry in raw_data:
+        word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], av_font_size)
         #for each element in raw data.... addword()...
     return word_list
 
 #adds each word in a sentence to the array
-def add_words_to_list(words_string, isBold, word_list):
+def add_words_to_list(words_string, isBold, word_list, font_size, av_font_size):
     isBold = isBold
-
 
     words = words_string.split()
     for w in words:
         global word_number
         word_number = word_number +1
-        word_list.append([w, isBold])
+        word_list.append([w, isBold, isBig(av_font_size, font_size)])
     return word_list
+
+def average_font_size(raw_data):
+    total_font_size = 0
+    for entry in raw_data:
+        total_font_size += int(entry[5])
+    return total_font_size / len(raw_data)
+
+def isBig(average, current):
+    if average < float(current):
+        return 1
+    else:
+        return 0
 
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
