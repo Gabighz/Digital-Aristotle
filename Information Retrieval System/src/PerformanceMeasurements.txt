@@ -23,7 +23,7 @@ Notes: 1. The word 'The' is classified as a keyword due to its
        lecture, the name of the module etc. (e.g. like in SlidesWeek2).
 
 
-After improving pre-processing by addressing the first 3 issues listed above.
+After improving pre-processing and addressing the issues listed above.
 Also filtered out all words which aren't nouns.
 Current assigned features: isBold, RAKE
 F1 score of 0.144 / 0.487
