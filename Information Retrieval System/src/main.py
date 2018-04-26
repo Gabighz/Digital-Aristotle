@@ -33,8 +33,8 @@ def main():
     clustered_data = kmeans_clustering(selected_features, CLUSTERS)
 
     # Post-processing to measure the performance of our classifier
-    #performance = post_processing(clustered_data)
-    #print("F1 score: ", performance)
+    performance = post_processing(clustered_data)
+    print("F1 score: ", performance)
 
     # Write to file
     path = "../output/foundation-year/CSC079/SlidesWeek2.txt"
