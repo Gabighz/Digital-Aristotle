@@ -2,7 +2,7 @@ Before implementing stopwords filtering
 Current assigned features: isBold, RAKE
 F1 score of 0.071 / 0.139
 
-
+--------------------------------------------------------------------------------
 After implementing stopwords filtering (NLTK dictionary)
 Current assigned features: isBold, RAKE
 F1 score of 0.066 / 0.209
@@ -22,7 +22,7 @@ Notes: 1. The word 'The' is classified as a keyword due to its
        such as the name of the lecturer, their email address and the date of the
        lecture, the name of the module etc. (e.g. like in SlidesWeek2).
 
-
+--------------------------------------------------------------------------------
 After improving pre-processing and addressing the issues listed above.
 Also filtered out all words which aren't nouns.
 Current assigned features: isBold, RAKE
@@ -30,3 +30,9 @@ F1 score of 0.144 / 0.487
 Notes:    1. The type of some words is ambiguous and not filtered out.
              For example, 'move' can be a verb or a noun, and thus not filtered out
              by NLTK.
+
+--------------------------------------------------------------------------------
+After improving manual annotation and adding new features.
+However, the features are not normalized yet.
+Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+F1 score of 0.072 / 0.536

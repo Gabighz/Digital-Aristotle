@@ -55,8 +55,8 @@ def pre_processing(raw_data):
 def post_processing(results):
 
     # Contains manually annoted ground truth values
-    true_output = []
-    true_output = manual_annotation(true_output)
+    true_output = manual_annotation(results)
+    print(true_output)
 
     # Contains the estimated targets returned by the classifier
     estimated_targets = []
@@ -67,96 +67,18 @@ def post_processing(results):
     return f1_score(true_output, estimated_targets)
 
 # Only for the SlidesWeek2 file at the moment
-def manual_annotation(true_output):
+def manual_annotation(results):
 
-    for i in range(1, 34):
-        true_output.append(0)
+    true_output = []
 
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(1)
+    true_keywords = ["nxt", "mindstorms", "lego", "robot", "sensors", "servo", "motors"]
 
-    for i in range(90, 98):
-        true_output.append(0)
+    for i in range(len(results)):
 
-    true_output.append(1)
-
-    for i in range(99, 115):
-        true_output.append(0)
-
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(1)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
-    true_output.append(0)
+        if results[i][0] in true_keywords:
+            true_output.append(1)
+        else:
+            true_output.append(0)
 
 
     return true_output
