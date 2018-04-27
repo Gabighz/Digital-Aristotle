@@ -32,7 +32,11 @@ Notes:    1. The type of some words is ambiguous and not filtered out.
              by NLTK.
 
 --------------------------------------------------------------------------------
-After improving manual annotation and adding new features.
-However, the features are not normalized yet.
+After improving manual annotation (less human error in that regard)
+and adding new features.
 Current assigned features: isBold, isBig, isAbnormalColour, RAKE
 F1 score of 0.072 / 0.536
+
+Notes:    1. The features are not normalized yet. Therefore, the features
+             of a word may be [0, 1, 1, 63] where RAKE is disproportionately
+             significant.
