@@ -34,14 +34,13 @@ def pre_processing(raw_data):
     filtered_data = []
     clean_words = filtered_string.split()
 
-    for i in range(len(clean_words)):
-        for j in range(len(raw_data)):
+    for i in range(len(raw_data)):
 
-            if clean_words[i] in raw_data[j][0].lower():
-                word_data = [clean_words[i]]
+        if raw_data[j][0].lower() in clean_words:
+            word_data = [clean_words[i]]
 
-                for features in raw_data[j][1:]:
-                    word_data.append(features)
+            for features in raw_data[j][1:]:
+                word_data.append(features)
 
         filtered_data.append(word_data)
 
