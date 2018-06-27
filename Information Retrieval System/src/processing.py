@@ -11,6 +11,9 @@ from sklearn.metrics import f1_score
 
 def pre_processing(raw_data):
 
+    # Prints the raw XML data so we can check if the pre-processor is working correctly 
+    print(raw_data)
+
     # Iterates through raw XML data and concatenates all words to a string
     sentence = ' '.join([word for (array_index, word_index), word in np.ndenumerate(raw_data) if word_index == 0])
 
