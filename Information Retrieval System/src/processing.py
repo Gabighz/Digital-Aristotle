@@ -62,7 +62,6 @@ def post_processing(results):
 
     # Contains manually annoted ground truth values
     true_output = manual_annotation(results)
-    print(true_output)
 
     # Contains the estimated targets returned by the classifier
     estimated_targets = []

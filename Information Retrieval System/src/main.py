@@ -17,7 +17,7 @@ from processing import pre_processing, post_processing
 def main():
     # Open a file here and apply a function from XML_parser to it
     path = '../input/foundation-year/CSC079/Slides-Week-2.xml'
-    file_number = 0 
+    file_number = 0
     parsed_content = parse_file(path, file_number)
 
     # Pre-processing to filter out stopwords from parsed_files
@@ -37,7 +37,7 @@ def main():
 
     # Post-processing to measure the performance of our classifier
     performance = post_processing(clustered_data)
-    print("F1 score: ", performance)
+    print("\n F1 score: ", performance)
 
     # Write to file
     path = "../output/foundation-year/CSC079/SlidesWeek2.txt"
