@@ -2,13 +2,13 @@
 # Selects desired features of words from XML data and represents each word as an array.    #
 # This array contains the word itself as a string and its features as numerical values.    #
 #                                                                                          #
-# Each word is saved in the following format: [WordString, isBold, isBig, is unusualColour]#
+# Each word is saved in the following format: [WordString, isBold, isBig, is unusualColour, RAKE]#
 #                                                                                          #
 # Word String: String, represents the word                                                 #
 # isBold: 1 or 0, 1 if the word is is bold                                                 #
 # isBig: 1 or 0, 1 if the word is in a big font                                            #
 # unusual_color: 1 or 0, 1 if the word font is not black                                   #
-#                                                                                          #
+# RAKE: the rake score                                                                     #
 ############################################################################################
 
 from rake_nltk import Rake
