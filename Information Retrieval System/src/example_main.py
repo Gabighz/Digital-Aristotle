@@ -2,7 +2,7 @@ from XML_parser import *
 from feature_selection import *
 def Main():
     #set your own absolute path to file#############################
-    path = r'C:\Users\Slades-PC\Documents\Test\Data.xml'
+    path = r'C:\Users\Slades-PC\Documents\Swansea-University-CS-chatbot\Information Retrieval System\input\foundation-year\CSC079\Slides-Week-2.xml'
     file_number = 1
 
     #doesnt take multiple files but returns an array so they can be joined other can easily be changed to take multiple
@@ -11,8 +11,8 @@ def Main():
 
 
     #prints out each entry in the raw data
-    for e in parsed_file:
-        print(e)
+    #for e in parsed_file:
+        #print(e)
 
 
 
