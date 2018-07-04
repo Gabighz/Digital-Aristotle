@@ -39,16 +39,16 @@ def pre_processing(raw_data):
     filtered_data = []
     clean_words = filtered_string.split()
 
-    for i in range(len(clean_words)):
-        for j in range(len(raw_data)):
-                
-            if clean_words[i] in raw_data[j][0].lower():
-                word_data = [clean_words[i]]
-
-                for feature in raw_data[j][1:]:
-                    word_data.append(feature)
-
-        filtered_data.append(word_data)
+    # Compiles only filtered words from raw data to an array which contains
+    # each word and its XML features that were in raw data
+    for j in raw_data:
+        filtered_sentence = ""
+        raw_sentence = re.sub("[^a-zA-Z]"," ", j[0]).split()
+        for i in range(len(raw_sentence)):
+            if raw_sentence[i].lower() in clean_words:
+                filtered_sentence= filtered_sentence + " " + raw_sentence[i]
+        if len(filtered_sentence.lstrip()) > 0:
+            filtered_data.append([filtered_sentence.lstrip().lower(),j[1],j[2],j[3],j[4],j[5],j[6]])
 
     print("\n Filtered data (each word with its own XML features): \n")
     print(filtered_data)
