@@ -36,13 +36,8 @@ def populate_word_list(raw_data):
         #for each element in raw data.... addword()...
     return word_list
 
-<<<<<<< HEAD
 #adds each word in a sentence to the array
 def add_words_to_list(words_string, isBold, word_list, font_size, color, biggest, smallest):
-=======
-# Adds each word in a sentence to the array
-def add_words_to_list(words_string, isBold, word_list, font_size, av_font_size , color):
->>>>>>> bcfeca838e18ee72c930c6e31d440a38cb90f69a
     isBold = isBold
 
     words = words_string.split()
@@ -61,7 +56,6 @@ def is_unusual_color(color):
     else:
         return 0
 
-<<<<<<< HEAD
 #This is a utility fucntion that simply converts the font sizes in their raw_data
 # into one font size array, this is used to make it easier to find the min
 # and max font sizes.
@@ -81,13 +75,6 @@ def isBig(current, biggest, smallest):
     #the smallest and biggest variables are taken from the document
     big = biggest
     small = smallest
-=======
-def average_font_size(raw_data):
-    total_font_size = 0
-    for entry in raw_data:
-        total_font_size += int(entry[5])
-    return total_font_size / len(raw_data)
->>>>>>> bcfeca838e18ee72c930c6e31d440a38cb90f69a
 
     #this if statement converts the current word into a decimal point based
     #upon its font size in relation to the biggest and smallest, this point is
