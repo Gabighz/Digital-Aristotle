@@ -13,12 +13,11 @@ word_number = 0
 def feature_assignment(raw_data):
     selected_features = []
     selected_features = populate_word_list(raw_data);
-    # Call a method here on selected_features for the other feature
 
     complete_features = assign_rake_ranking(selected_features)
     return complete_features
 
-#assigns the features for each word in the data and adds it to an array
+# Assigns the features for each word in the data and adds it to an array
 def populate_word_list(raw_data):
 
     word_list = []
@@ -28,7 +27,7 @@ def populate_word_list(raw_data):
         #for each element in raw data.... addword()...
     return word_list
 
-#adds each word in a sentence to the array
+# Adds each word in a sentence to the array
 def add_words_to_list(words_string, isBold, word_list, font_size, av_font_size , color):
     isBold = isBold
 
@@ -44,8 +43,6 @@ def is_unusual_color(color):
         return 1
     else:
         return 0
-
-
 
 def average_font_size(raw_data):
     total_font_size = 0
@@ -79,8 +76,6 @@ def assign_rake_ranking(selected_features):
     frequency_distribution = r.get_word_frequency_distribution() # word -> frequency (number of times it occurs)
     word_degrees= r.get_word_degrees() # word -> degree (linguistic co-occurance)
 
-
-
     # Appends the ranking to each word's array
     for word_array in selected_features:
 
@@ -104,10 +99,3 @@ def assign_rake_ranking(selected_features):
         word_array.append(ranking)
 
     return selected_features
-
-
-
-#converts the word into a unique number
-#def get_word_data(word):
-#    return int.from_bytes(word.encode(), 'little')
-#    return word
