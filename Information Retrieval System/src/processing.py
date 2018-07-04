@@ -11,7 +11,8 @@ from sklearn.metrics import f1_score
 
 def pre_processing(raw_data):
 
-    # Prints the raw XML data so we can check if the pre-processor is working correctly 
+    # Prints the raw XML data so we can check if the pre-processor is working correctly
+    print("\n Raw XML Data: \n")
     print(raw_data)
 
     # Iterates through raw XML data and concatenates all words to a string
@@ -30,6 +31,7 @@ def pre_processing(raw_data):
     tags = nltk.pos_tag(tokens)
 
     filtered_string = ' '.join([word for word,pos in tags if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS')])
+    print("\n Words that have remained after filtering (all in one string): \n")
     print(filtered_string)
 
     # Compiles the filtered words to an array which contains
@@ -38,16 +40,18 @@ def pre_processing(raw_data):
     clean_words = filtered_string.split()
 
     for i in range(len(clean_words)):
+        word_data = [clean_words[i]]
         for j in range(len(raw_data)):
 
             if clean_words[i] in raw_data[j][0].lower():
-                word_data = [clean_words[i]]
 
-                for features in raw_data[j][1:]:
-                    word_data.append(features)
+
+                for feature in raw_data[j][1:]:
+                    word_data.append(feature)
 
         filtered_data.append(word_data)
 
+    print("\n Filtered data (each word with its own XML features): \n")
     print(filtered_data)
 
     return filtered_data
