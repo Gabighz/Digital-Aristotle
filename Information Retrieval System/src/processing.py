@@ -40,10 +40,10 @@ def pre_processing(raw_data):
     clean_words = filtered_string.split()
 
     for i in range(len(clean_words)):
-        word_data = [clean_words[i]]
-
         for j in range(len(raw_data)):
+                
             if clean_words[i] in raw_data[j][0].lower():
+                word_data = [clean_words[i]]
 
                 for feature in raw_data[j][1:]:
                     word_data.append(feature)
