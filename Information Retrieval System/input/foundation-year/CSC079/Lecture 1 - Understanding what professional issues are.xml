@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="64" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-1_1.jpg"/>
+<text top="136" left="-1" width="833" height="74" font="0">CS-130 Professional Issues </text>
+<text top="214" left="-1" width="987" height="74" font="0">Introduction: Understanding what </text>
+<text top="294" left="-1" width="770" height="74" font="0">“Professional Issues” Are  </text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="46" family="Times" color="#0070c0"/>
+	<fontspec id="2" size="34" family="Times" color="#0070c0"/>
+	<fontspec id="3" size="13" family="Times" color="#0070c0"/>
+	<fontspec id="4" size="35" family="Times" color="#0070c0"/>
+	<fontspec id="5" size="35" family="Times" color="#0070c0"/>
+	<fontspec id="6" size="19" family="Times" color="#0070c0"/>
+	<fontspec id="7" size="25" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-2_1.jpg"/>
+<text top="49" left="41" width="510" height="54" font="1">Module Learning Goals </text>
+<text top="108" left="41" width="10" height="40" font="2"> </text>
+<text top="148" left="542" width="4" height="18" font="3"><i> </i></text>
+<text top="169" left="55" width="994" height="42" font="4"><i>What are the consequences of my decisions as a computer </i></text>
+<text top="214" left="371" width="363" height="42" font="4"><i>scientist going to be? </i></text>
+<text top="259" left="41" width="10" height="40" font="2"> </text>
+<text top="303" left="41" width="1003" height="42" font="5">- What sorts of real ethical or professional issues may I face </text>
+<text top="348" left="41" width="786" height="42" font="5">in my professional life as a computer scientist? </text>
+<text top="391" left="41" width="6" height="23" font="6"> </text>
+<text top="418" left="41" width="1013" height="42" font="5">- How has disruptive technology shaped the society I live in? </text>
+<text top="462" left="41" width="6" height="23" font="6"> </text>
+<text top="487" left="41" width="891" height="42" font="5">- How can I think about and analyse the effects of my </text>
+<text top="532" left="41" width="188" height="42" font="5">decisions? </text>
+<text top="577" left="41" width="10" height="40" font="2"> </text>
+<text top="621" left="41" width="10" height="40" font="2"> </text>
+<text top="663" left="41" width="8" height="30" font="7"> </text>
+<text top="695" left="41" width="8" height="30" font="7"> </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="34" family="Times" color="#0085cc"/>
+	<fontspec id="9" size="34" family="Times" color="#77933c"/>
+	<fontspec id="10" size="34" family="Times" color="#77933c"/>
+	<fontspec id="11" size="28" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-3_1.jpg"/>
+<text top="48" left="41" width="512" height="54" font="1">Lecture Learning Goals </text>
+<text top="189" left="41" width="10" height="40" font="2"> </text>
+<text top="231" left="41" width="13" height="40" font="2">•</text>
+<text top="236" left="53" width="5" height="36" font="8"> </text>
+<text top="231" left="81" width="945" height="40" font="2">Why should you think carefully about the societal impact of </text>
+<text top="274" left="81" width="280" height="40" font="2">new technology? </text>
+<text top="318" left="85" width="10" height="40" font="2"> </text>
+<text top="318" left="95" width="10" height="40" font="9"> </text>
+<text top="361" left="41" width="13" height="40" font="2">•</text>
+<text top="366" left="53" width="5" height="36" font="8"> </text>
+<text top="361" left="81" width="899" height="40" font="2">What are examples of modern and historical technology </text>
+<text top="405" left="81" width="440" height="40" font="2">having unpredicted effects?</text>
+<text top="405" left="521" width="10" height="40" font="10"><b> </b></text>
+<text top="447" left="41" width="10" height="40" font="2"> </text>
+<text top="490" left="41" width="13" height="40" font="2">•</text>
+<text top="495" left="53" width="5" height="36" font="8"> </text>
+<text top="490" left="81" width="742" height="40" font="2">How will the module be taught and assessed? </text>
+<text top="533" left="86" width="8" height="34" font="11"> </text>
+<text top="536" left="95" width="8" height="30" font="7"> </text>
+<text top="569" left="41" width="8" height="30" font="7"> </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="22" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-4_1.jpg"/>
+<text top="167" left="535" width="10" height="40" font="2"> </text>
+<text top="224" left="535" width="10" height="40" font="2"> </text>
+<text top="283" left="138" width="832" height="40" font="2">At the core of this module is the idea that computer  </text>
+<text top="341" left="122" width="866" height="40" font="2">scientists can have a profound effect on the world we  </text>
+<text top="400" left="319" width="404" height="40" font="2">live in, for better or worse</text>
+<text top="400" left="724" width="36" height="40" font="8">…</text>
+<text top="400" left="760" width="20" height="40" font="2">. </text>
+<text top="515" left="58" width="10" height="40" font="2"> </text>
+<text top="574" left="58" width="10" height="40" font="2"> </text>
+<text top="631" left="58" width="7" height="27" font="12"> </text>
+<text top="659" left="58" width="7" height="27" font="12"> </text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-5_1.jpg"/>
+<image top="141" left="183" width="757" height="426" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-5_2.png"/>
+<text top="49" left="41" width="889" height="54" font="1">Decisions we take have consequences… </text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="13" size="40" family="Times" color="#0070c0"/>
+	<fontspec id="14" size="40" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-6_1.jpg"/>
+<image top="164" left="183" width="713" height="402" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-6_2.png"/>
+<text top="9" left="41" width="12" height="47" font="13"> </text>
+<text top="59" left="41" width="995" height="47" font="13">…but with new technology they aren’t always obvious</text>
+<text top="59" left="1035" width="12" height="47" font="14"> </text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="15" size="31" family="Times" color="#0070c0"/>
+	<fontspec id="16" size="31" family="Times" color="#0070c0"/>
+	<fontspec id="17" size="31" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-7_1.jpg"/>
+<text top="24" left="41" width="851" height="54" font="1">Historical examples of unpredicted side-</text>
+<text top="81" left="41" width="154" height="54" font="1">effects </text>
+<text top="158" left="33" width="331" height="37" font="15"><i>Television and society </i></text>
+<text top="197" left="33" width="980" height="37" font="16">Television produced a seismic upheaval in the social order. People </text>
+<text top="236" left="33" width="895" height="37" font="16">now had access to previously hidden information or a <i>hidden </i></text>
+<text top="277" left="33" width="106" height="37" font="15"><i>world</i>.  </text>
+<text top="316" left="33" width="11" height="37" font="16">-</text>
+<text top="320" left="44" width="5" height="33" font="17"> </text>
+<text top="316" left="73" width="857" height="37" font="16">Children access to the adult world, poor had access to the </text>
+<text top="356" left="73" width="271" height="37" font="16">wealthy world etc. </text>
+<text top="434" left="33" width="978" height="37" font="15"><i>Television and Revolution, 1991 Russian Coup against Gorbachev </i></text>
+<text top="475" left="33" width="897" height="37" font="16">Coup failed. Boris Yeltsin was able to rally support easily and </text>
+<text top="514" left="33" width="692" height="37" font="16">overthrow the plotters. End of the Soviet Union </text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="98" width="813" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-8_1.png"/>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="18" size="34" family="Times" color="#0070c0"/>
+	<fontspec id="19" size="40" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-9_1.jpg"/>
+<text top="176" left="510" width="10" height="40" font="18"><i> </i></text>
+<text top="218" left="510" width="10" height="40" font="18"><i> </i></text>
+<text top="261" left="510" width="10" height="40" font="18"><i> </i></text>
+<text top="305" left="118" width="815" height="47" font="19"><i>What is this about and how does it relate to </i></text>
+<text top="356" left="343" width="364" height="47" font="19"><i>computer science? </i></text>
+<text top="49" left="41" width="399" height="54" font="1">Working in groups </text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="147" width="784" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-10_1.png"/>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="139" width="799" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-11_1.png"/>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="20" size="46" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-12_1.jpg"/>
+<text top="24" left="41" width="816" height="54" font="1">Modern examples of unpredicted side-</text>
+<text top="81" left="41" width="154" height="54" font="1">effects </text>
+<text top="81" left="194" width="27" height="54" font="20">–</text>
+<text top="81" left="221" width="547" height="54" font="1"> Facebook AI Moderation </text>
+<text top="158" left="33" width="473" height="37" font="15"><i>Social Media and Filter Bubbles </i></text>
+<text top="197" left="33" width="978" height="37" font="16">The initial vision for social media and the Internet was that it would </text>
+<text top="236" left="33" width="798" height="37" font="16">allow everyone to access to all of societies knowledge </text>
+<text top="277" left="33" width="11" height="37" font="16">-</text>
+<text top="281" left="44" width="5" height="33" font="17"> </text>
+<text top="277" left="73" width="908" height="37" font="16">Social media was an extension of this, everyone was going to </text>
+<text top="316" left="73" width="882" height="37" font="16">be able to talk to to everyone, but it turns out that’s not what </text>
+<text top="356" left="73" width="196" height="37" font="16">people want! </text>
+<text top="434" left="33" width="621" height="37" font="15"><i>Fake News in the 2016 American Election </i></text>
+<text top="475" left="33" width="868" height="37" font="16">The phenomenon arose when it did because of issues with </text>
+<text top="514" left="33" width="571" height="37" font="16">Facebook's automated filtering system </text>
+<text top="553" left="33" width="9" height="37" font="16"> </text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="209" width="662" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-13_1.png"/>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="21" size="22" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-14_1.jpg"/>
+<text top="49" left="41" width="483" height="54" font="1">Assessment Structure </text>
+<text top="167" left="58" width="10" height="40" font="2"> </text>
+<text top="209" left="58" width="208" height="40" font="2">Examination </text>
+<text top="253" left="58" width="13" height="40" font="2">•</text>
+<text top="257" left="70" width="5" height="36" font="8"> </text>
+<text top="253" left="98" width="870" height="40" font="2">One and a half hour exam (50% of your module mark) </text>
+<text top="296" left="58" width="10" height="40" font="2"> </text>
+<text top="340" left="58" width="202" height="40" font="2">Coursework </text>
+<text top="383" left="58" width="30" height="40" font="2">1.</text>
+<text top="388" left="88" width="5" height="36" font="8"> </text>
+<text top="383" left="112" width="454" height="40" font="2">Video Presentation due on 6</text>
+<text top="383" left="565" width="20" height="27" font="21">th</text>
+<text top="383" left="585" width="292" height="40" font="2"> November (10%) </text>
+<text top="425" left="58" width="30" height="40" font="2">2.</text>
+<text top="430" left="88" width="5" height="36" font="8"> </text>
+<text top="425" left="112" width="488" height="40" font="2">Careers Workbooks due on 27</text>
+<text top="425" left="599" width="20" height="27" font="21">th</text>
+<text top="425" left="619" width="282" height="40" font="2"> November(10%) </text>
+<text top="469" left="58" width="30" height="40" font="2">3.</text>
+<text top="473" left="88" width="5" height="36" font="8"> </text>
+<text top="469" left="112" width="332" height="40" font="2">Final report due on 4</text>
+<text top="469" left="444" width="20" height="27" font="21">th</text>
+<text top="469" left="464" width="292" height="40" font="2"> December (30%) </text>
+<text top="512" left="58" width="10" height="40" font="2"> </text>
+<text top="556" left="102" width="10" height="40" font="2"> </text>
+<text top="556" left="156" width="10" height="40" font="2"> </text>
+<text top="564" left="166" width="8" height="30" font="7"> </text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="22" size="34" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-15_1.jpg"/>
+<text top="49" left="41" width="366" height="54" font="1">Group Allocation </text>
+<text top="133" left="58" width="10" height="40" font="2"> </text>
+<text top="175" left="58" width="1001" height="40" font="2">Alphabetical allocation by last name, make sure your surname </text>
+<text top="219" left="58" width="676" height="40" font="2">on the Intranet is what you expect it to be: </text>
+<text top="262" left="58" width="10" height="40" font="2"> </text>
+<text top="313" left="220" width="495" height="40" font="22"><b>Group A</b>: Abajingin to Debiciki </text>
+<text top="364" left="220" width="512" height="40" font="22"><b>Group B</b>: Debreczeny to Jones </text>
+<text top="416" left="220" width="484" height="40" font="22"><b>Group C</b>: Kankol to Mosphilis </text>
+<text top="467" left="220" width="454" height="40" font="22"><b>Group D</b>: Mounter to Sailes </text>
+<text top="520" left="220" width="542" height="40" font="22"><b>Group E</b>: Salamanca to Zakarian </text>
+<text top="565" left="102" width="10" height="40" font="2"> </text>
+<text top="565" left="156" width="10" height="40" font="2"> </text>
+<text top="573" left="166" width="8" height="30" font="7"> </text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-16_1.jpg"/>
+<text top="49" left="41" width="222" height="54" font="1">Timetable </text>
+<text top="149" left="58" width="364" height="40" font="2">Lectures (every week) </text>
+<text top="195" left="58" width="13" height="40" font="2">•</text>
+<text top="200" left="70" width="5" height="36" font="8"> </text>
+<text top="195" left="98" width="722" height="40" font="2">Monday 13:00-14:00, Grove Lecture Theatre </text>
+<text top="243" left="58" width="13" height="40" font="2">•</text>
+<text top="248" left="70" width="5" height="36" font="8"> </text>
+<text top="243" left="98" width="783" height="40" font="2">Wednesday 12:00-13:00, Grove Lecture Theatre </text>
+<text top="291" left="58" width="13" height="40" font="2">•</text>
+<text top="296" left="70" width="5" height="36" font="8"> </text>
+<text top="291" left="98" width="741" height="40" font="2">Thursday 10:00-11:00, Grove Lecture Theatre </text>
+<text top="355" left="58" width="778" height="40" font="2">Careers sessions sorted by group in weeks of 16</text>
+<text top="355" left="836" width="20" height="27" font="21">th</text>
+<text top="355" left="856" width="60" height="40" font="2">, 23</text>
+<text top="355" left="916" width="21" height="27" font="21">rd</text>
+<text top="355" left="937" width="80" height="40" font="2"> and </text>
+<text top="397" left="58" width="40" height="40" font="2">30</text>
+<text top="397" left="98" width="20" height="27" font="21">th</text>
+<text top="397" left="118" width="158" height="40" font="2"> October: </text>
+<text top="444" left="58" width="13" height="40" font="2">•</text>
+<text top="449" left="70" width="5" height="36" font="8"> </text>
+<text top="444" left="98" width="946" height="40" font="2">Group A and B: Tuesdays, 15:00-17:00, Talbot PC Lab 043 </text>
+<text top="492" left="58" width="13" height="40" font="2">•</text>
+<text top="497" left="70" width="5" height="36" font="8"> </text>
+<text top="492" left="98" width="906" height="40" font="2">Group C: Tuesdays, 15:00-17:00, Faraday Tower Rm 01 </text>
+<text top="540" left="58" width="13" height="40" font="2">•</text>
+<text top="545" left="70" width="5" height="36" font="8"> </text>
+<text top="540" left="98" width="937" height="40" font="2">Group D and E: Thursday 16:00-18:00, Talbot PC Lab 043 </text>
+<text top="583" left="58" width="10" height="40" font="2"> </text>
+<text top="626" left="102" width="10" height="40" font="2"> </text>
+<text top="626" left="156" width="10" height="40" font="2"> </text>
+<text top="634" left="166" width="8" height="30" font="7"> </text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-17_1.jpg"/>
+<text top="49" left="41" width="216" height="54" font="1">Seminars </text>
+<text top="149" left="58" width="955" height="40" font="2">Seminars teach the skills needed for coursework and run in </text>
+<text top="191" left="58" width="318" height="40" font="2">weeks beginning 16</text>
+<text top="191" left="376" width="20" height="27" font="21">th</text>
+<text top="191" left="396" width="186" height="40" font="2"> October,  6</text>
+<text top="191" left="582" width="20" height="27" font="21">th</text>
+<text top="191" left="602" width="304" height="40" font="2"> November, and 13</text>
+<text top="191" left="906" width="20" height="27" font="21">th</text>
+<text top="191" left="926" width="10" height="40" font="2"> </text>
+<text top="235" left="58" width="186" height="40" font="2">November: </text>
+<text top="289" left="58" width="13" height="40" font="2">•</text>
+<text top="294" left="70" width="5" height="36" font="8"> </text>
+<text top="289" left="98" width="758" height="40" font="2">Group A: Tuesday, 09:00-10:00, Glyndwr Rm F </text>
+<text top="344" left="58" width="13" height="40" font="2">•</text>
+<text top="349" left="70" width="5" height="36" font="8"> </text>
+<text top="344" left="98" width="691" height="40" font="2">Group B: Tuesday, 10:00-11:00, Glyndwr F </text>
+<text top="401" left="58" width="13" height="40" font="2">•</text>
+<text top="406" left="70" width="5" height="36" font="8"> </text>
+<text top="401" left="98" width="695" height="40" font="2">Group C: Tuesday, 11:00-12:00, Glyndwr E </text>
+<text top="457" left="58" width="13" height="40" font="2">•</text>
+<text top="462" left="70" width="5" height="36" font="8"> </text>
+<text top="457" left="98" width="726" height="40" font="2">Group D: Tuesday, 12:00-13:00, Wallace 113 </text>
+<text top="514" left="58" width="13" height="40" font="2">•</text>
+<text top="519" left="70" width="5" height="36" font="8"> </text>
+<text top="514" left="98" width="933" height="40" font="2">Group E: Thursday, 09:00-10:00, Wallace Lecture Theatre </text>
+<text top="559" left="58" width="10" height="40" font="2"> </text>
+<text top="602" left="102" width="10" height="40" font="2"> </text>
+<text top="602" left="156" width="10" height="40" font="2"> </text>
+<text top="610" left="166" width="8" height="30" font="7"> </text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-18_1.jpg"/>
+<image top="156" left="646" width="399" height="495" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-18_2.png"/>
+<text top="49" left="41" width="531" height="54" font="1">Recommended Reading </text>
+<text top="167" left="102" width="10" height="40" font="2"> </text>
+<text top="167" left="156" width="10" height="40" font="2"> </text>
+<text top="175" left="166" width="8" height="30" font="7"> </text>
+<text top="167" left="58" width="10" height="40" font="18"><i> </i></text>
+<text top="209" left="58" width="10" height="40" font="18"><i> </i></text>
+<text top="253" left="58" width="254" height="40" font="18"><i>Pandora’s Box: </i></text>
+<text top="296" left="58" width="550" height="40" font="18"><i>Social and Professional Issues of  </i></text>
+<text top="340" left="58" width="335" height="40" font="18"><i>The Information Age </i></text>
+<text top="383" left="58" width="10" height="40" font="2"> </text>
+<text top="425" left="58" width="488" height="40" font="2">Copies available in the library, </text>
+<text top="469" left="58" width="466" height="40" font="2">bookshops or Amazon/Kindle</text>
+<text top="469" left="534" width="10" height="40" font="8"> </text>
+<text top="469" left="588" width="10" height="40" font="2"> </text>
+<text top="477" left="598" width="8" height="30" font="7"> </text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-19_1.jpg"/>
+<text top="49" left="41" width="267" height="54" font="1">Blackboard  </text>
+<text top="167" left="102" width="10" height="40" font="2"> </text>
+<text top="167" left="156" width="10" height="40" font="2"> </text>
+<text top="175" left="166" width="8" height="30" font="7"> </text>
+<text top="167" left="58" width="937" height="40" font="2">The module has a blackboard page where all updates and </text>
+<text top="209" left="58" width="370" height="40" font="2">emails will be archived </text>
+<text top="253" left="58" width="10" height="40" font="2"> </text>
+<text top="296" left="58" width="186" height="40" font="2">Also holds: </text>
+<text top="340" left="58" width="13" height="40" font="2">•</text>
+<text top="344" left="70" width="5" height="36" font="8"> </text>
+<text top="340" left="98" width="202" height="40" font="2">Coursework </text>
+<text top="383" left="58" width="13" height="40" font="2">•</text>
+<text top="388" left="70" width="5" height="36" font="8"> </text>
+<text top="383" left="98" width="228" height="40" font="2">Lecture notes </text>
+<text top="425" left="58" width="13" height="40" font="2">•</text>
+<text top="430" left="70" width="5" height="36" font="8"> </text>
+<text top="425" left="98" width="418" height="40" font="2">Video capture for revision </text>
+<text top="469" left="58" width="13" height="40" font="2">•</text>
+<text top="473" left="70" width="5" height="36" font="8"> </text>
+<text top="469" left="98" width="778" height="40" font="2">Supporting material (BCS code of conduct, Data </text>
+<text top="512" left="98" width="696" height="40" font="2">Protection hand-outs, hints for coursework) </text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-20_1.jpg"/>
+<text top="49" left="41" width="480" height="54" font="1">Me - Stephen Lindsay </text>
+<text top="168" left="58" width="12" height="47" font="13"> </text>
+<text top="217" left="58" width="12" height="47" font="13"> </text>
+<text top="268" left="58" width="634" height="47" font="13">Office: Room 951, Talbot Building </text>
+<text top="318" left="58" width="12" height="47" font="13"> </text>
+<text top="369" left="58" width="951" height="47" font="13">Office hours: Wednesday mornings 10.00 till 12.00 </text>
+<text top="420" left="58" width="12" height="47" font="13"> </text>
+<text top="469" left="58" width="657" height="47" font="13">Email: s.c.lindsay@swansea.ac.uk </text>
+<text top="520" left="58" width="10" height="40" font="2"> </text>
+<text top="563" left="58" width="10" height="40" font="2"> </text>
+<text top="604" left="58" width="8" height="30" font="7"> </text>
+<text top="637" left="58" width="8" height="30" font="7"> </text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="23" size="28" family="Times" color="#0085cc"/>
+	<fontspec id="24" size="28" family="Times" color="#77933c"/>
+	<fontspec id="25" size="28" family="Times" color="#77933c"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-21_1.jpg"/>
+<text top="48" left="41" width="512" height="54" font="1">Lecture Learning Goals </text>
+<text top="123" left="41" width="10" height="40" font="2"> </text>
+<text top="164" left="41" width="11" height="34" font="11">•</text>
+<text top="168" left="51" width="4" height="30" font="23"> </text>
+<text top="164" left="81" width="850" height="34" font="11">Why should you think carefully about the societal impact of new </text>
+<text top="200" left="81" width="170" height="34" font="11">technology? </text>
+<text top="236" left="86" width="8" height="34" font="11"> </text>
+<text top="236" left="95" width="8" height="34" font="24"> </text>
+<text top="308" left="41" width="11" height="34" font="11">•</text>
+<text top="312" left="51" width="4" height="30" font="23"> </text>
+<text top="308" left="81" width="846" height="34" font="11">What are examples of modern and historical technology having </text>
+<text top="344" left="81" width="278" height="34" font="11">unpredicted effects? </text>
+<text top="380" left="86" width="8" height="34" font="11"> </text>
+<text top="380" left="95" width="8" height="34" font="25"><b> </b></text>
+<text top="416" left="41" width="8" height="34" font="11"> </text>
+<text top="452" left="41" width="11" height="34" font="11">•</text>
+<text top="456" left="51" width="4" height="30" font="23"> </text>
+<text top="452" left="81" width="619" height="34" font="11">How will the module be taught and assessed? </text>
+<text top="488" left="86" width="8" height="34" font="11"> </text>
+<text top="491" left="95" width="8" height="30" font="7"> </text>
+<text top="524" left="41" width="8" height="30" font="7"> </text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="26" size="28" family="Times" color="#89a24c"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15522_97259327aeb2662ad5a91f74d645d30d8bb7c163da311e75e96294d86437adc4-22_1.jpg"/>
+<text top="48" left="41" width="512" height="54" font="1">Lecture Learning Goals </text>
+<text top="123" left="41" width="10" height="40" font="2"> </text>
+<text top="164" left="41" width="11" height="34" font="11">•</text>
+<text top="168" left="51" width="4" height="30" font="23"> </text>
+<text top="164" left="81" width="850" height="34" font="11">Why should you think carefully about the societal impact of new </text>
+<text top="200" left="81" width="170" height="34" font="11">technology? </text>
+<text top="236" left="86" width="8" height="34" font="11"> </text>
+<text top="236" left="94" width="831" height="34" font="24">Technology can have serious, far reaching consequences that </text>
+<text top="236" left="950" width="8" height="34" font="26"> </text>
+<text top="236" left="959" width="52" height="34" font="24">are </text>
+<text top="272" left="41" width="330" height="34" font="24">extremely hard to predict</text>
+<text top="272" left="371" width="8" height="34" font="11"> </text>
+<text top="308" left="41" width="11" height="34" font="11">•</text>
+<text top="312" left="51" width="4" height="30" font="23"> </text>
+<text top="308" left="81" width="846" height="34" font="11">What are examples of modern and historical technology having </text>
+<text top="344" left="81" width="278" height="34" font="11">unpredicted effects? </text>
+<text top="380" left="86" width="8" height="34" font="11"> </text>
+<text top="380" left="95" width="580" height="34" font="25"><b>Historical</b>: TV and the 1991 Russian Coup </text>
+<text top="416" left="86" width="657" height="34" font="24"> <b>Modern</b>: Fake news and the US election of 2016</text>
+<text top="416" left="743" width="8" height="34" font="11"> </text>
+<text top="452" left="41" width="11" height="34" font="11">•</text>
+<text top="456" left="51" width="4" height="30" font="23"> </text>
+<text top="452" left="81" width="619" height="34" font="11">How will the module be taught and assessed? </text>
+<text top="488" left="86" width="8" height="34" font="11"> </text>
+<text top="488" left="95" width="716" height="34" font="25"><b>Taught through</b>: Lectures, Seminars, and Practicals, </text>
+<text top="488" left="842" width="8" height="34" font="26"> </text>
+<text top="488" left="851" width="8" height="34" font="24"> </text>
+<text top="524" left="86" width="896" height="34" font="24"> <b>Assessed though</b>: Exam, Video and written report, and Workbook</text>
+<text top="519" left="982" width="10" height="40" font="9"> </text>
+<text top="561" left="41" width="10" height="40" font="2"> </text>
+<text top="603" left="41" width="8" height="30" font="7"> </text>
+<text top="636" left="41" width="8" height="30" font="7"> </text>
+</page>
+</pdf2xml>

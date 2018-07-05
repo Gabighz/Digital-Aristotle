@@ -56,8 +56,8 @@ def add_word(words_list, used_words, word_to_add):
     if word_to_add[0].lower() in used_words:
         notFound = True
         counter = 0
-        while (notFound == True  ) :
-            counter = counter+1
+        while (notFound == True ) and( counter != len(used_words)-1) :
+            counter +=1
             if(words_list[counter][0] == word_to_add[0] ):
                 words_list[counter][1] = words_list[counter][1] + word_to_add[1]
                 words_list[counter][2] = words_list[counter][2] + word_to_add[2]
