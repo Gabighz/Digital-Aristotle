@@ -22,19 +22,21 @@ def feature_assignment(raw_data):
     selected_features = []
     selected_features = populate_word_list(raw_data);
 
-    complete_features = assign_rake_ranking(selected_features)
-    return complete_features
+    return selected_features
 
 # Assigns the features for each word in the data and adds it to an array
 def populate_word_list(raw_data):
     biggest = max(raw_data_slice(raw_data, 5))
     smallest =min(raw_data_slice(raw_data, 5))
+    all_words = raw_data_slice(raw_data, 0)
 
     word_list = []
     used_words = []
     for entry in raw_data:
         word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], entry[6], biggest, smallest, used_words)
         #for each element in raw data.... addword()...
+
+    word_list = assign_rake_ranking(all_words, word_list)
     return word_list
 
 #adds each word in a sentence to the array
@@ -64,6 +66,26 @@ def add_word(words_list, used_words, word_to_add):
     else:
         words_list.append(word_to_add)
         used_words.append(word_to_add[0].lower())
+
+def assign_rake_ranking(all_words, words_with_features):
+    pre_raked_data = []
+    for elem in all_words:
+        if ' ' in elem:
+            sentence = elem.split(' ')
+            for word in sentence:
+                pre_raked_data.append(word)
+        else:
+            pre_raked_data.append(elem)
+    raked_data = calculate_rake_ranking(pre_raked_data)
+
+    for entry in words_with_features:
+        done = 0
+        for raked in raked_data:
+            if (entry[0] == raked[0]) &( done == 0) :
+                entry.append(raked[1])
+                done = 99
+    return words_with_features
+
 
 #this funtion simply checks if a colour is unusual or not, returns 1 if it is
 #else 0. At the moment this function only counts anything that is not black as
@@ -103,7 +125,8 @@ def isBig(current, biggest, smallest):
 
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
-def assign_rake_ranking(selected_features):
+def calculate_rake_ranking(selected_features):
+    output_array = []
 
     r = Rake()
 
@@ -141,6 +164,8 @@ def assign_rake_ranking(selected_features):
 
         ranking = word_degree / word_frequency # in accordance with the chosen metric
 
-        word_array.append(ranking)
+        array_item = [word_array, ranking]
+        output_array.append(array_item)
+        #word_array.append(ranking)
 
-    return selected_features
+    return output_array
