@@ -27,25 +27,43 @@ def feature_assignment(raw_data):
 
 # Assigns the features for each word in the data and adds it to an array
 def populate_word_list(raw_data):
-    biggest = max(font_sizes(raw_data))
-    smallest =min(font_sizes(raw_data))
+    biggest = max(raw_data_slice(raw_data, 5))
+    smallest =min(raw_data_slice(raw_data, 5))
 
     word_list = []
+    used_words = []
     for entry in raw_data:
-        word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], entry[6], biggest, smallest)
+        word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], entry[6], biggest, smallest, used_words)
         #for each element in raw data.... addword()...
     return word_list
 
 #adds each word in a sentence to the array
-def add_words_to_list(words_string, isBold, word_list, font_size, color, biggest, smallest):
+def add_words_to_list(words_string, isBold, word_list, font_size, color, biggest, smallest, used_words):
     isBold = isBold
 
     words = words_string.split()
     for w in words:
         global word_number
         word_number = word_number +1
-        word_list.append([w, isBold, isBig(font_size, biggest,smallest), is_unusual_color(color)])
+        #word_list.append([w, isBold, isBig(font_size, biggest,smallest), is_unusual_color(color)])
+        word_to_add = [w, isBold, isBig(font_size, biggest,smallest), is_unusual_color(color)]
+        add_word(word_list, used_words, word_to_add)
     return word_list
+
+def add_word(words_list, used_words, word_to_add):
+    if word_to_add[0].lower() in used_words:
+        notFound = True
+        counter = 0
+        while (notFound == True  ) :
+            counter = counter+1
+            if(words_list[counter][0] == word_to_add[0] ):
+                words_list[counter][1] = words_list[counter][1] + word_to_add[1]
+                words_list[counter][2] = words_list[counter][2] + word_to_add[2]
+                words_list[counter][3] = words_list[counter][3] + word_to_add[3]
+                notFound = False
+    else:
+        words_list.append(word_to_add)
+        used_words.append(word_to_add[0].lower())
 
 #this funtion simply checks if a colour is unusual or not, returns 1 if it is
 #else 0. At the moment this function only counts anything that is not black as
@@ -56,13 +74,12 @@ def is_unusual_color(color):
     else:
         return 0
 
-#This is a utility fucntion that simply converts the font sizes in their raw_data
-# into one font size array, this is used to make it easier to find the min
-# and max font sizes.
-def font_sizes(raw_data):
+#This is a utility fucntion that simply returns an array that is a slice of a
+#2D array, for example it is used to return all of the font sizes from raw_data
+def raw_data_slice(raw_data, row):
     sizes = []
     for entry in raw_data:
-        sizes.append(entry[5])
+        sizes.append(entry[row])
     return sizes
 
 
