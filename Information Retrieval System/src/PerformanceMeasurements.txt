@@ -7,7 +7,7 @@ After implementing stopwords filtering (NLTK dictionary)
 Current assigned features: isBold, RAKE
 F1 score of 0.066 / 0.209
 Notes: 1. The word 'The' is classified as a keyword due to its
-       high frequency and high degree of co-occurance.
+       high frequency and high degree of co-occurrence.
        We should consider adding 'The' as a stopword.
        Same issue occurs with other words such as 'a', 'th', 'your', etc.
 
@@ -40,3 +40,17 @@ F1 score of 0.072 / 0.536
 Notes:    1. The features are not normalized yet. Therefore, the features
              of a word may be [0, 1, 1, 63] where RAKE is disproportionately
              significant.
+
+--------------------------------------------------------------------------------
+We had a bug in the pre-processor. This bug meant that every occurrence of a word
+had only the XML features of the last occurrence of that word. This caused
+gross imprecision in its classification.
+
+We improved on how isBig is calculated. We now use the formula:
+((current font size - minimum font size) / (maximum font size - minimum font size))
+
+Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+F1 score of 0.058 / 0.594
+
+Notes:    1. Values still have to be normalized.
+          2. Repetitive samples are yet not handled.
