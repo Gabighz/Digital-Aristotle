@@ -33,14 +33,14 @@ def populate_word_list(raw_data):
     word_list = []
     used_words = []
     for entry in raw_data:
-        word_list = add_words_to_list(entry[0], entry[2], word_list, entry[5], entry[6], biggest, smallest, used_words)
+        word_list = add_words_to_list(entry[0], entry[1], entry[5], entry[6], biggest, smallest, used_words, word_list)
         #for each element in raw data.... addword()...
 
     word_list = assign_rake_ranking(all_words, word_list)
     return word_list
 
 #adds each word in a sentence to the array
-def add_words_to_list(words_string, isBold, word_list, font_size, color, biggest, smallest, used_words):
+def add_words_to_list(words_string, isBold, font_size, color, biggest, smallest, used_words, word_list):
     isBold = isBold
 
     words = words_string.split()

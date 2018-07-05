@@ -51,7 +51,8 @@ def pre_processing(raw_data):
             filtered_data.append([filtered_sentence.lstrip().lower(),j[1],j[2],j[3],j[4],j[5],j[6]])
 
     print("\n Filtered data (each word with its own XML features): \n")
-    print(filtered_data)
+    for elem in filtered_data:
+        print(elem)
 
     return filtered_data
 
