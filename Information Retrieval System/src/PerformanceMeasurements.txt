@@ -54,3 +54,16 @@ F1 score of 0.058 / 0.594
 
 Notes:    1. Values still have to be normalized.
           2. Repetitive samples are yet not handled.
+
+--------------------------------------------------------------------------------
+The issue of repetitive samples has been handled by adding up the numerical values
+of the classification features of all occurrences of a certain word, except RAKE.
+Changed where RAKE ranking is calculated in feature_selection.py (see commit f12d602).
+
+Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+F1 score of 0.112 / 0.461
+
+Notes:    1. Values still have to be normalized.
+          2. RAKE score is much lower than before for all words. Where 42 was a
+          common score before, now no word has a score more than 5. Not necessarily
+          an issue.
