@@ -28,7 +28,7 @@ def main():
 
     # Prints each word and its classification features
     print("\n \n Each word and its classification features: \n")
-    for word in classification_features:
+    for word in sorted(classification_features):
         # Format and content: [word, isBold, isBig, isAbnormalColour, RAKE]
         print(word)
 

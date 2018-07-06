@@ -14,7 +14,7 @@ def pre_processing(raw_data):
     # Prints the raw XML data so we can check if the pre-processor is working correctly
     print("\n Raw XML Data: \n")
     counter = 0
-    for word_array in raw_data:
+    for word_array in sorted(raw_data):
         print(word_array)
         counter += 1
     print("\n Number of word arrays in raw XML data: ", counter)
@@ -66,7 +66,7 @@ def pre_processing(raw_data):
 
     print("\n Filtered data (each word with its own XML features): \n")
     counter = 0
-    for word_array in filtered_data:
+    for word_array in sorted(filtered_data):
         print(word_array)
         counter += 1
     print("\n Number of word arrays in filtered data: ", counter)
