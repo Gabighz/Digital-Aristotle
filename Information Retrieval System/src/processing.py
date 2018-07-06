@@ -13,7 +13,11 @@ def pre_processing(raw_data):
 
     # Prints the raw XML data so we can check if the pre-processor is working correctly
     print("\n Raw XML Data: \n")
-    print(raw_data)
+    counter = 0
+    for word_array in raw_data:
+        print(word_array)
+        counter += 1
+    print("\n Number of word arrays in raw XML data: ", counter)
 
     # Iterates through raw XML data and concatenates all words to a string
     sentence = ' '.join([word for (array_index, word_index), word in np.ndenumerate(raw_data) if word_index == 0])
@@ -27,10 +31,14 @@ def pre_processing(raw_data):
     filtered_string = re.sub("[^a-zA-Z]"," ", lowercase_string)
 
     # Further filtering to keep only nouns; thus filtering stopwords as well
+    # Also filters out words which have a character count of 1 or less.
     tokens = nltk.word_tokenize(filtered_string)
     tags = nltk.pos_tag(tokens)
 
-    filtered_string = ' '.join([word for word,pos in tags if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS')])
+    filtered_string = ' '.join([word for word,pos in tags
+                    if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS')
+                    and (len(word) > 1)])
+
     print("\n Words that have remained after filtering (all in one string): \n")
     print(filtered_string)
 
@@ -41,18 +49,27 @@ def pre_processing(raw_data):
 
     # Compiles only filtered words from raw data to an array which contains
     # each word and its XML features that were in raw data
-    for j in raw_data:
+    for word_array in raw_data:
+
         filtered_sentence = ""
-        raw_sentence = re.sub("[^a-zA-Z]"," ", j[0]).split()
+        raw_sentence = re.sub("[^a-zA-Z]"," ", word_array[0]).split()
+
         for i in range(len(raw_sentence)):
             if raw_sentence[i].lower() in clean_words:
                 filtered_sentence= filtered_sentence + " " + raw_sentence[i]
+
         if len(filtered_sentence.lstrip()) > 0:
-            filtered_data.append([filtered_sentence.lstrip().lower(),j[1],j[2],j[3],j[4],j[5],j[6]])
+
+            filtered_data.append([filtered_sentence.lstrip().lower(),
+            word_array[1], word_array[2], word_array[3], word_array[4],
+            word_array[5], word_array[6]])
 
     print("\n Filtered data (each word with its own XML features): \n")
-    for elem in filtered_data:
-        print(elem)
+    counter = 0
+    for word_array in filtered_data:
+        print(word_array)
+        counter += 1
+    print("\n Number of word arrays in filtered data: ", counter)
 
     return filtered_data
 
