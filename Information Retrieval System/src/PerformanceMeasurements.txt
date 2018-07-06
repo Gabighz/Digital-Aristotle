@@ -67,3 +67,13 @@ Notes:    1. Values still have to be normalized.
           2. RAKE score is much lower than before for all words. Where 42 was a
           common score before, now no word has a score more than 5. Not necessarily
           an issue.
+          3. Words with a length of 1 are not filtered out.
+
+--------------------------------------------------------------------------------
+Words with a character count of 1 or less are now filtered out. We had numerous
+words such as "o" or "i".
+
+Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+F1 score of 0.122 / 0.242
+
+Notes:    1. Values still have to be normalized.
