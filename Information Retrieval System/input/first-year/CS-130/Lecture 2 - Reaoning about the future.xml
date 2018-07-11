@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="64" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-1_1.jpg"/>
+<text top="136" left="-1" width="851" height="74" font="0">CS-130: Professional Issues </text>
+<text top="214" left="-1" width="815" height="74" font="0">Reasoning about the future </text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="46" family="Times" color="#0070c0"/>
+	<fontspec id="2" size="40" family="Times" color="#0070c0"/>
+	<fontspec id="3" size="40" family="Times" color="#0085cc"/>
+	<fontspec id="4" size="40" family="Times" color="#77933c"/>
+	<fontspec id="5" size="32" family="Times" color="#0070c0"/>
+	<fontspec id="6" size="34" family="Times" color="#0070c0"/>
+	<fontspec id="7" size="25" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-2_1.jpg"/>
+<text top="49" left="41" width="512" height="54" font="1">Lecture Learning Goals </text>
+<text top="150" left="58" width="12" height="47" font="2"> </text>
+<text top="199" left="58" width="15" height="47" font="2">•</text>
+<text top="205" left="72" width="6" height="42" font="3"> </text>
+<text top="199" left="98" width="927" height="47" font="2">In general, how can I think about and analyse the </text>
+<text top="250" left="98" width="917" height="47" font="2">effect of a technology on society and vice versa? </text>
+<text top="300" left="100" width="12" height="47" font="2"> </text>
+<text top="300" left="112" width="12" height="47" font="4"> </text>
+<text top="351" left="58" width="15" height="47" font="2">•</text>
+<text top="357" left="72" width="6" height="42" font="3"> </text>
+<text top="351" left="98" width="663" height="47" font="2">Why can’t we just be good people? </text>
+<text top="402" left="100" width="12" height="47" font="2"> </text>
+<text top="402" left="112" width="12" height="47" font="4"> </text>
+<text top="451" left="58" width="15" height="47" font="2">•</text>
+<text top="457" left="72" width="6" height="42" font="3"> </text>
+<text top="451" left="98" width="878" height="47" font="2">What specific topics are we going to discuss in </text>
+<text top="502" left="98" width="177" height="47" font="2">CS-130? </text>
+<text top="553" left="102" width="10" height="39" font="5"> </text>
+<text top="551" left="112" width="10" height="40" font="6"> </text>
+<text top="595" left="58" width="10" height="40" font="6"> </text>
+<text top="637" left="58" width="8" height="30" font="7"> </text>
+<text top="670" left="58" width="8" height="30" font="7"> </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="31" family="Times" color="#0070c0"/>
+	<fontspec id="9" size="31" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-3_1.jpg"/>
+<image top="155" left="573" width="474" height="445" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-3_2.png"/>
+<text top="49" left="41" width="1017" height="54" font="1">So how do we think about changing technology </text>
+<text top="158" left="32" width="257" height="37" font="8">Lawrence Lessig </text>
+<text top="212" left="32" width="12" height="37" font="8">•</text>
+<text top="217" left="44" width="5" height="33" font="9"> </text>
+<text top="212" left="73" width="392" height="37" font="8">American Lawyer, Activist, </text>
+<text top="251" left="73" width="470" height="37" font="8">Academic and now Presidential </text>
+<text top="292" left="73" width="160" height="37" font="8">Candidate </text>
+<text top="346" left="32" width="12" height="37" font="8">•</text>
+<text top="350" left="44" width="5" height="33" font="9"> </text>
+<text top="346" left="73" width="442" height="37" font="8">Interesting ideas like “Code is </text>
+<text top="386" left="73" width="354" height="37" font="8">Law” and Net Neutrality </text>
+<text top="440" left="32" width="12" height="37" font="8">•</text>
+<text top="445" left="44" width="5" height="33" font="9"> </text>
+<text top="440" left="73" width="437" height="37" font="8">Wanted a way to understand, </text>
+<text top="479" left="73" width="468" height="37" font="8">what regulates behaviour in the </text>
+<text top="520" left="73" width="171" height="37" font="8">real world? </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="10" size="34" family="Times" color="#0070c0"/>
+	<fontspec id="11" size="25" family="Times" color="#ffffff"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-4_1.jpg"/>
+<text top="176" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="218" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="49" left="41" width="717" height="54" font="1">Lessig’s Four Modalities Analysis </text>
+<text top="265" left="515" width="50" height="33" font="11">Law	</text>
+<text top="381" left="268" width="143" height="33" font="11">Architecture	</text>
+<text top="381" left="676" width="97" height="33" font="11">Markets	</text>
+<text top="469" left="505" width="69" height="33" font="11">Social	</text>
+<text top="501" left="500" width="79" height="33" font="11">Norms	</text>
+<text top="381" left="475" width="132" height="33" font="11">Technology	</text>
+<text top="227" left="151" width="128" height="40" font="10"><i>Society </i></text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="25" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-5_1.jpg"/>
+<text top="49" left="41" width="717" height="54" font="1">Lessig’s Four Modalities Analysis </text>
+<text top="148" left="53" width="809" height="40" font="10"><i>Law – the applicable Laws that relate to a piece of </i></text>
+<text top="190" left="53" width="638" height="40" font="10"><i>technology (and there are lots of them!) </i></text>
+<text top="234" left="53" width="10" height="40" font="10"><i> </i></text>
+<text top="277" left="53" width="930" height="40" font="10"><i>Markets – the commercial factors that influence a piece of </i></text>
+<text top="321" left="53" width="184" height="40" font="10"><i>technology </i></text>
+<text top="364" left="53" width="10" height="40" font="10"><i> </i></text>
+<text top="406" left="53" width="971" height="40" font="10"><i>Social norms – the ways that people interact with each other </i></text>
+<text top="450" left="53" width="956" height="40" font="10"><i>and technology, unwritten rules hat govern how we behave  </i></text>
+<text top="493" left="53" width="10" height="40" font="10"><i> </i></text>
+<text top="537" left="53" width="932" height="40" font="10"><i>Architecture – any complex or designed physical structure </i></text>
+<text top="580" left="53" width="8" height="30" font="12"><i> </i></text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="13" size="46" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-6_1.jpg"/>
+<text top="49" left="41" width="662" height="54" font="1">So think, but don’t try to predict</text>
+<text top="49" left="702" width="13" height="54" font="13"><i> </i></text>
+<text top="141" left="53" width="916" height="30" font="12"><i>“This telephone has too many shortcomings to be considered as a means of </i></text>
+<text top="172" left="53" width="710" height="30" font="12"><i>communication. The device is inherently of no value to us”  </i></text>
+<text top="205" left="53" width="462" height="30" font="7">– Western Union internal memo, 1876 </text>
+<text top="237" left="53" width="8" height="30" font="12"><i> </i></text>
+<text top="270" left="53" width="974" height="30" font="12"><i>“The problem with television is that the people must sit and keep their eyes glued </i></text>
+<text top="301" left="53" width="719" height="30" font="12"><i>on a screen; the average American family hasn’t time for it”  </i></text>
+<text top="334" left="53" width="299" height="30" font="7">– New York Times, 1949<i> </i></text>
+<text top="367" left="53" width="8" height="30" font="12"><i> </i></text>
+<text top="399" left="53" width="803" height="30" font="12"><i>“There is no reason anyone would want a computer in their home”</i>  </text>
+<text top="432" left="53" width="300" height="30" font="7">– Founder of DEC, 1977 </text>
+<text top="465" left="53" width="8" height="30" font="12"><i> </i></text>
+<text top="505" left="53" width="482" height="30" font="12"><i>“640 kB ought to be enough for anybody</i></text>
+<text top="497" left="535" width="32" height="40" font="10"><i>”  </i></text>
+<text top="540" left="53" width="221" height="30" font="7">– Bill Gates, 1981 </text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="14" size="40" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-7_1.jpg"/>
+<text top="176" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="218" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="262" left="33" width="985" height="47" font="14"><i>Think of examples of how a technologies design has </i></text>
+<text top="313" left="111" width="829" height="47" font="14"><i>been affected by each of the components of </i></text>
+<text top="362" left="302" width="447" height="47" font="14"><i>Lessig’s four modalities </i></text>
+<text top="49" left="41" width="399" height="54" font="1">Working in groups </text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-8_1.jpg"/>
+<text top="176" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="218" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="261" left="510" width="10" height="40" font="10"><i> </i></text>
+<text top="305" left="83" width="885" height="47" font="14"><i>Think of examples of how Law, Markets, Social </i></text>
+<text top="356" left="99" width="853" height="47" font="14"><i>Norms and Architecture has been affected by </i></text>
+<text top="406" left="418" width="215" height="47" font="14"><i>technology </i></text>
+<text top="49" left="41" width="399" height="54" font="1">Working in groups </text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="15" size="34" family="Times" color="#0085cc"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-9_1.jpg"/>
+<text top="49" left="41" width="680" height="54" font="1">Key Lesson: The Law is an Ass </text>
+<text top="190" left="33" width="869" height="40" font="6">Vast amounts of laws and difficult to understand but it  </text>
+<text top="234" left="33" width="259" height="40" font="6">effects all of us! </text>
+<text top="277" left="33" width="10" height="40" font="6"> </text>
+<text top="321" left="33" width="886" height="40" font="6">Law is made by politicians, almost always without an in </text>
+<text top="363" left="33" width="582" height="40" font="6">depth understanding the technology </text>
+<text top="406" left="33" width="13" height="40" font="6">•</text>
+<text top="411" left="45" width="5" height="36" font="15"> </text>
+<text top="406" left="73" width="496" height="40" font="6">Not a judgement, a simple fact </text>
+<text top="450" left="33" width="10" height="40" font="6"> </text>
+<text top="493" left="33" width="891" height="40" font="6">In turn, judges and lawyers interpret these laws – again </text>
+<text top="537" left="33" width="606" height="40" font="6">without understanding the technology </text>
+<text top="578" left="33" width="8" height="30" font="7"> </text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="16" size="28" family="Times" color="#0070c0"/>
+	<fontspec id="17" size="28" family="Times" color="#0085cc"/>
+	<fontspec id="18" size="13" family="Times" color="#0070c0"/>
+	<fontspec id="19" size="5" family="Times" color="#0070c0"/>
+	<fontspec id="20" size="28" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-10_1.jpg"/>
+<text top="49" left="41" width="781" height="54" font="1">Examples of The Law Being an Ass  </text>
+<text top="158" left="30" width="977" height="34" font="16">1995 study published in Georgetown Law Journal suggested 83.5% of all </text>
+<text top="194" left="30" width="428" height="34" font="16">internet traffic was pornography </text>
+<text top="230" left="30" width="11" height="34" font="16">•</text>
+<text top="234" left="40" width="4" height="30" font="17"> </text>
+<text top="230" left="70" width="362" height="34" font="16">Horrendously flawed study </text>
+<text top="266" left="30" width="11" height="34" font="16">•</text>
+<text top="270" left="40" width="4" height="30" font="17"> </text>
+<text top="266" left="70" width="937" height="34" font="16">First picked up on and reported as fact in Time magazine 2 years later </text>
+<text top="302" left="30" width="11" height="34" font="16">•</text>
+<text top="306" left="40" width="4" height="30" font="17"> </text>
+<text top="302" left="70" width="924" height="34" font="16">Shaped laws for years to come and often repeated or believed to this </text>
+<text top="338" left="70" width="57" height="34" font="16">day </text>
+<text top="373" left="30" width="4" height="18" font="18"> </text>
+<text top="392" left="30" width="966" height="34" font="16">Judges in France decided that it is the responsibility of US companies to </text>
+<text top="428" left="30" width="794" height="34" font="16">prevent French citizens from accessing data on US servers </text>
+<text top="462" left="30" width="2" height="8" font="19"> </text>
+<text top="473" left="48" width="946" height="34" font="16">&#34;<i>As one who acknowledged in his opening statement that he was not a </i></text>
+<text top="509" left="62" width="917" height="34" font="20"><i>nerd and didn't understand a lot of the technological stuff, I'm not the </i></text>
+<text top="545" left="185" width="672" height="34" font="20"><i>person to argue about the technology part of this.“ </i></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="21" size="31" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-11_1.jpg"/>
+<text top="49" left="41" width="907" height="54" font="1">But the law faces some real challenges…  </text>
+<text top="175" left="33" width="866" height="37" font="8">Who is responsible when a computer program makes a far-</text>
+<text top="214" left="33" width="277" height="37" font="8">reaching mistake? </text>
+<text top="253" left="33" width="12" height="37" font="8">•</text>
+<text top="258" left="44" width="5" height="33" font="9"> </text>
+<text top="253" left="73" width="525" height="37" font="8">Software making medical decisions </text>
+<text top="294" left="33" width="12" height="37" font="8">•</text>
+<text top="298" left="44" width="5" height="33" font="9"> </text>
+<text top="294" left="73" width="438" height="37" font="8">Stock markets operating 24/7 </text>
+<text top="333" left="33" width="9" height="37" font="8"> </text>
+<text top="373" left="33" width="666" height="37" font="8">Software making decisions about drug doses </text>
+<text top="412" left="33" width="9" height="37" font="8"> </text>
+<text top="451" left="55" width="939" height="37" font="21"><i>“Computers have enabled people to make more mistakes faster </i></text>
+<text top="492" left="38" width="972" height="37" font="21"><i>than almost any invention in history, with the possible exception of </i></text>
+<text top="531" left="350" width="349" height="37" font="21"><i>Tequila and Handguns” </i></text>
+<text top="570" left="510" width="9" height="37" font="8"> </text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="22" size="16" family="Times" color="#0070c0"/>
+	<fontspec id="23" size="22" family="Times" color="#0070c0"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-12_1.jpg"/>
+<text top="49" left="41" width="984" height="54" font="1">Specific topics discussed in this lecture series </text>
+<text top="167" left="58" width="900" height="40" font="6">How to try to understand the impact of new or disruptive </text>
+<text top="209" left="58" width="184" height="40" font="6">technology </text>
+<text top="260" left="58" width="13" height="40" font="6">•</text>
+<text top="265" left="70" width="5" height="36" font="15"> </text>
+<text top="260" left="112" width="768" height="40" font="6">Examples, how new technology is created, tech </text>
+<text top="304" left="112" width="538" height="40" font="6">companies, language to use, etc. </text>
+<text top="353" left="58" width="5" height="20" font="22"> </text>
+<text top="383" left="58" width="906" height="40" font="6">The most important elements of the law as they relate to </text>
+<text top="427" left="58" width="176" height="40" font="6">computing </text>
+<text top="478" left="58" width="13" height="40" font="6">•</text>
+<text top="482" left="70" width="5" height="36" font="15"> </text>
+<text top="478" left="98" width="862" height="40" font="6">Data protection, computer crime, intellectual property, </text>
+<text top="521" left="98" width="442" height="40" font="6">Surveillance in society, etc. </text>
+<text top="571" left="58" width="10" height="40" font="6"> </text>
+<text top="628" left="58" width="7" height="27" font="23"> </text>
+<text top="656" left="58" width="7" height="27" font="23"> </text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-13_1.jpg"/>
+<text top="49" left="41" width="984" height="54" font="1">Specific topics discussed in this lecture series </text>
+<text top="167" left="58" width="528" height="40" font="6">Computer security fundamentals </text>
+<text top="217" left="58" width="13" height="40" font="6">•</text>
+<text top="221" left="70" width="5" height="36" font="15"> </text>
+<text top="217" left="98" width="913" height="40" font="6">Cryptography and encryption, Internet governance, good </text>
+<text top="260" left="98" width="378" height="40" font="6">data security practices  </text>
+<text top="309" left="58" width="5" height="20" font="22"> </text>
+<text top="340" left="58" width="496" height="40" font="6">Societal issues and computing </text>
+<text top="391" left="58" width="13" height="40" font="6">•</text>
+<text top="395" left="70" width="5" height="36" font="15"> </text>
+<text top="391" left="98" width="869" height="40" font="6">Warfare, healthcare,  education, computer games and </text>
+<text top="434" left="98" width="827" height="40" font="6">violence, social media, politics and democracy, The </text>
+<text top="478" left="98" width="902" height="40" font="6">ownership of the internet?, The tragedy of the commons </text>
+<text top="586" left="58" width="10" height="40" font="6"> </text>
+<text top="644" left="58" width="10" height="40" font="6"> </text>
+<text top="701" left="58" width="7" height="27" font="23"> </text>
+<text top="730" left="58" width="7" height="27" font="23"> </text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="24" size="32" family="Times" color="#0085cc"/>
+	<fontspec id="25" size="32" family="Times" color="#77933c"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-14_1.jpg"/>
+<text top="49" left="41" width="512" height="54" font="1">Lecture Learning Goals </text>
+<text top="116" left="58" width="10" height="39" font="5"> </text>
+<text top="157" left="58" width="12" height="39" font="5">•</text>
+<text top="161" left="70" width="5" height="35" font="24"> </text>
+<text top="157" left="98" width="922" height="39" font="5">In general, how can I think about and analyse the effect of a </text>
+<text top="199" left="98" width="593" height="39" font="5">technology on society and vice versa? </text>
+<text top="239" left="102" width="10" height="39" font="5"> </text>
+<text top="239" left="112" width="10" height="39" font="25"> </text>
+<text top="323" left="58" width="12" height="39" font="5">•</text>
+<text top="328" left="70" width="5" height="35" font="24"> </text>
+<text top="323" left="98" width="545" height="39" font="5">Why can’t we just be good people? </text>
+<text top="364" left="102" width="10" height="39" font="5"> </text>
+<text top="364" left="112" width="10" height="39" font="25"> </text>
+<text top="446" left="58" width="12" height="39" font="5">•</text>
+<text top="451" left="70" width="5" height="35" font="24"> </text>
+<text top="446" left="98" width="867" height="39" font="5">What specific topics are we going to discuss in CS-130? </text>
+<text top="490" left="102" width="10" height="39" font="5"> </text>
+<text top="488" left="112" width="10" height="40" font="6"> </text>
+<text top="532" left="58" width="10" height="40" font="6"> </text>
+<text top="574" left="58" width="8" height="30" font="7"> </text>
+<text top="606" left="58" width="8" height="30" font="7"> </text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="26" size="32" family="Times" color="#89a24c"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/14282_a6a42b755ebfdb5f5b4ee1af4b64afeff9bbe017d5dc32cf1cae086b59251504-15_1.jpg"/>
+<text top="49" left="41" width="512" height="54" font="1">Lecture Learning Goals </text>
+<text top="116" left="58" width="10" height="39" font="5"> </text>
+<text top="157" left="58" width="12" height="39" font="5">•</text>
+<text top="161" left="70" width="5" height="35" font="24"> </text>
+<text top="157" left="98" width="922" height="39" font="5">In general, how can I think about and analyse the effect of a </text>
+<text top="199" left="98" width="593" height="39" font="5">technology on society and vice versa? </text>
+<text top="239" left="102" width="10" height="39" font="5"> </text>
+<text top="239" left="111" width="930" height="39" font="25">Lessig’s four modalities analysis breaks down the elements of </text>
+<text top="281" left="102" width="397" height="39" font="25"> society you can consider </text>
+<text top="323" left="58" width="12" height="39" font="5">•</text>
+<text top="328" left="70" width="5" height="35" font="24"> </text>
+<text top="323" left="98" width="545" height="39" font="5">Why can’t we just be good people? </text>
+<text top="364" left="102" width="10" height="39" font="5"> </text>
+<text top="364" left="111" width="729" height="39" font="25">The legal issues in computing are complex and </text>
+<text top="364" left="858" width="10" height="39" font="26"> </text>
+<text top="364" left="868" width="161" height="39" font="25">ignorance </text>
+<text top="406" left="58" width="416" height="39" font="25">of the law is not an excuse </text>
+<text top="446" left="58" width="12" height="39" font="5">•</text>
+<text top="451" left="70" width="5" height="35" font="24"> </text>
+<text top="446" left="98" width="867" height="39" font="5">What specific topics are we going to discuss in CS-130? </text>
+<text top="488" left="102" width="10" height="39" font="5"> </text>
+<text top="488" left="111" width="930" height="39" font="25">Understanding new technology, law and computing, computer </text>
+<text top="530" left="102" width="685" height="39" font="25"> security and a wide range of societal issues </text>
+<text top="571" left="58" width="10" height="40" font="6"> </text>
+<text top="614" left="58" width="10" height="40" font="6"> </text>
+<text top="657" left="58" width="8" height="30" font="7"> </text>
+<text top="688" left="58" width="8" height="30" font="7"> </text>
+</page>
+</pdf2xml>

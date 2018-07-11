@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="57" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-1_1.jpg"/>
+<text top="134" left="41" width="720" height="67" font="0">CS130:Professional Issues</text>
+<text top="206" left="41" width="854" height="67" font="0">Cryptography and Data Security</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="45" family="Times" color="#4472c4"/>
+	<fontspec id="2" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-2_1.jpg"/>
+<text top="82" left="83" width="450" height="54" font="1">Topic Learning Goals</text>
+<text top="185" left="83" width="885" height="40" font="2">What key assumption must we make when transferring </text>
+<text top="228" left="83" width="823" height="40" font="2">data between two secure terminals over a network?</text>
+<text top="315" left="83" width="811" height="40" font="2">What vulnerability do we need to address with any </text>
+<text top="358" left="83" width="186" height="40" font="2">encryption?</text>
+<text top="444" left="83" width="867" height="40" font="2">What is Kerchkoffs’s principle and why is it superior to </text>
+<text top="488" left="83" width="430" height="40" font="2">security through obscurity?</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="148" left="0" width="1080" height="512" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-3_1.png"/>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="-77" width="1721" height="856" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-4_1.png"/>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="3" size="33" family="Times" color="#4472c4"/>
+<image top="3" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-5_1.jpg"/>
+<text top="82" left="83" width="677" height="54" font="1">Who is The Man In The Middle?</text>
+<text top="166" left="53" width="939" height="40" font="2">When we send data across a network outside our physical </text>
+<text top="209" left="53" width="914" height="40" font="2">control (untrusted Ethernet, all WiFi, all Mobile Data, The </text>
+<text top="253" left="53" width="913" height="40" font="2">Internet) we must assume that a man in the middle can…</text>
+<text top="296" left="53" width="961" height="40" font="2">• <b>View </b>the messages content so read personal information </text>
+<text top="339" left="94" width="118" height="40" font="2">in them</text>
+<text top="382" left="53" width="853" height="40" font="2">• <b>Intercept </b>the messages to stop them reaching the </text>
+<text top="425" left="94" width="295" height="40" font="2">intended recipient </text>
+<text top="469" left="53" width="923" height="40" font="2">• <b>Repeat </b>the messages to try to gain access to a secure </text>
+<text top="512" left="94" width="114" height="40" font="2">system</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="4" size="27" family="Times" color="#4472c4"/>
+	<fontspec id="5" size="27" family="Times" color="#4472c4"/>
+	<fontspec id="6" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-6_1.jpg"/>
+<text top="82" left="83" width="762" height="54" font="1">Cryptography – Classic Approaches</text>
+<text top="153" left="49" width="922" height="34" font="4">How do we address this problem? Our ideas have evolved quite a lot </text>
+<text top="189" left="49" width="123" height="34" font="4">over time</text>
+<text top="261" left="49" width="946" height="34" font="5"><i><b>Cryptography </b></i>– a form of secret writing, any technique to disguise the </text>
+<text top="297" left="49" width="814" height="34" font="4">meaning of a word to those who don’t know how to interpret it</text>
+<text top="366" left="49" width="676" height="34" font="5"><i><b>Transposition cyp</b></i><b>hers </b>– hello world = ehlol owrdl</text>
+<text top="402" left="49" width="795" height="34" font="4">• Swap the ordering of letters around in some fixed pattern</text>
+<text top="470" left="49" width="692" height="34" font="5"><i><b>Substitution Cyphers </b></i>– hello world = ifmmp xpsme</text>
+<text top="506" left="49" width="905" height="34" font="4">• Take a letter and replace it with another letter, so a becomes z, b </text>
+<text top="542" left="90" width="537" height="34" font="4">becomes y, c becomes x, d becomes…..</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="7" size="78" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-7_1.jpg"/>
+<text top="276" left="106" width="900" height="90" font="7"><i>What is the weakness of </i></text>
+<text top="373" left="67" width="954" height="90" font="7"><i>these cypher approaches?</i></text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="3" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-8_1.jpg"/>
+<image top="150" left="132" width="765" height="264" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-8_2.png"/>
+<text top="82" left="83" width="413" height="54" font="1">Frequency analysis</text>
+<text top="404" left="53" width="965" height="34" font="4">The Man in the Middle views all our messages and knows that letters do </text>
+<text top="440" left="53" width="937" height="34" font="4">not get used randomly, in any sufficiently long message this histogram </text>
+<text top="476" left="53" width="798" height="34" font="4">will reveal the link between code letters and message letters</text>
+<text top="512" left="53" width="902" height="34" font="4">• Side note, you should be able to apply this to wheel of fortune or </text>
+<text top="548" left="94" width="125" height="34" font="4">hangman</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-9_1.jpg"/>
+<text top="8" left="83" width="764" height="54" font="1">Responding to Frequency analysis -</text>
+<text top="66" left="83" width="504" height="54" font="1">Polyalphabetic Cyphers</text>
+<text top="149" left="83" width="928" height="34" font="4">Leon Bastilla Alberti- 1467 (ish) – use a different alphabet for different </text>
+<text top="185" left="83" width="458" height="34" font="4">portions of text, maybe each letter.</text>
+<text top="221" left="83" width="930" height="34" font="4">• <i>An instance of <b>“security through obscurity</b></i>” – the idea that if you </text>
+<text top="257" left="124" width="908" height="34" font="4">didn’t tell people how your system worked they couldn’t access your </text>
+<text top="293" left="124" width="137" height="34" font="4">messages</text>
+<text top="329" left="83" width="948" height="34" font="4">• In the modern world, this is also like not telling people what the URL </text>
+<text top="365" left="124" width="368" height="34" font="4">of your secure website is….</text>
+<text top="437" left="83" width="843" height="34" font="4">The specific approach was a great example of why the broader </text>
+<text top="473" left="83" width="438" height="34" font="4">concepts was a bad idea as well!</text>
+<text top="509" left="83" width="925" height="34" font="4">• If the Man in the Middle knew the cypher’s algorithm the code was </text>
+<text top="545" left="124" width="762" height="34" font="4">broken not just for you but for everyone using the system!</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="9" size="26" family="Times" color="#4472c4"/>
+	<fontspec id="10" size="26" family="Times" color="#4472c4"/>
+	<fontspec id="11" size="26" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-10_1.jpg"/>
+<text top="66" left="83" width="470" height="54" font="1">Kerchkoffs’s Principle </text>
+<text top="174" left="83" width="853" height="32" font="9"><i>Kerchkoffs’s Principle (1837) </i>– The security of a key alone must be </text>
+<text top="208" left="83" width="836" height="32" font="10">sufficient to guarantee the security of a message using the system</text>
+<text top="242" left="83" width="856" height="32" font="10">• <i><b>A key </b></i>– a <i><b>shared secret </b></i>item that unlocks something, usually a </text>
+<text top="276" left="124" width="116" height="32" font="10">message</text>
+<text top="345" left="83" width="844" height="32" font="10">This was a much better approach but how do we realise this using </text>
+<text top="379" left="83" width="149" height="32" font="10">computers?</text>
+<text top="413" left="83" width="887" height="32" font="10">• Typically, keys in modern computing are very large prime numbers </text>
+<text top="447" left="124" width="907" height="32" font="10">used to alter and adjust a message in a way that appears almost totally </text>
+<text top="482" left="124" width="862" height="32" font="10">random so removes the possibility of a frequency attack or it’s more </text>
+<text top="516" left="124" width="304" height="32" font="10">modern day equivalants</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-11_1.jpg"/>
+<image top="142" left="55" width="978" height="441" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-11_2.png"/>
+<text top="82" left="83" width="461" height="54" font="1">Key based encryption</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-12_1.jpg"/>
+<text top="82" left="83" width="599" height="54" font="1">Attacks in the Computer Era</text>
+<text top="149" left="66" width="952" height="34" font="4">The rise of the computer also made brute force attacking feasible – see </text>
+<text top="185" left="66" width="674" height="34" font="4">Bletchley Park for the most famous example of this</text>
+<text top="221" left="66" width="944" height="34" font="4">• To counter this, good encryption techniques rely on easy encryption </text>
+<text top="257" left="107" width="892" height="34" font="4">with difficult (in terms of time or maths) decryption unless you have </text>
+<text top="293" left="107" width="97" height="34" font="4">the key</text>
+<text top="329" left="66" width="968" height="34" font="4">• We address this with larger key sizes, this is what people mean when </text>
+<text top="365" left="107" width="573" height="34" font="4">they talk about 256bit or 1024bit encryption</text>
+<text top="421" left="66" width="971" height="34" font="4">In essence, to access this system you must require users know a <i>shared </i></text>
+<text top="457" left="66" width="90" height="34" font="8"><i>secret </i></text>
+<text top="493" left="66" width="908" height="34" font="4">• But if the key is lost, stolen, or intercepted the cypher is useless –</text>
+<text top="529" left="107" width="215" height="34" font="4">even dangerous</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="192" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-13_1.jpg"/>
+<text top="66" left="83" width="728" height="54" font="1">Kerchkoffs’s Principle in Java(ish!)</text>
+<text top="177" left="15" width="580" height="28" font="10">// Code to run on Sender’s machine</text>
+<text top="211" left="15" width="938" height="28" font="10">private Message encrypt(Message originalMessage, Key k)</text>
+<text top="245" left="15" width="17" height="28" font="10">{</text>
+<text top="279" left="123" width="870" height="28" font="10">new Message em = SomeFunkyMaths(originalMessage,k);</text>
+<text top="314" left="123" width="171" height="28" font="10">return em;</text>
+<text top="348" left="15" width="17" height="28" font="10">}</text>
+<text top="416" left="15" width="836" height="28" font="10">// em is sent over the internet to the recipient </text>
+<text top="485" left="15" width="614" height="28" font="10">// code to run on Recipients machine</text>
+<text top="519" left="15" width="1041" height="28" font="10">private Message legitimateDecrypt(EncryptedMessage em, Key k)</text>
+<text top="553" left="15" width="17" height="28" font="10">{</text>
+<text top="587" left="123" width="938" height="28" font="10">new Message decryptedMessage = reverseFunkyMaths(em,k);</text>
+<text top="621" left="123" width="290" height="28" font="10">return decrypted;</text>
+<text top="656" left="15" width="17" height="28" font="10">}</text>
+<text top="724" left="15" width="836" height="28" font="10">// now decryptedMesssage should = originalMessage</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="218" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-14_1.jpg"/>
+<text top="66" left="83" width="728" height="54" font="1">Kerchkoffs’s Principle in Java(ish!)</text>
+<text top="177" left="15" width="580" height="28" font="10">// Code to run on Sender’s machine</text>
+<text top="211" left="15" width="938" height="28" font="10">private Message encrypt(Message originalMessage, Key k)</text>
+<text top="245" left="15" width="17" height="28" font="10">{</text>
+<text top="279" left="123" width="870" height="28" font="10">new Message em = SomeFunkyMaths(originalMessage,k);</text>
+<text top="314" left="123" width="171" height="28" font="10">return em;</text>
+<text top="348" left="15" width="17" height="28" font="10">}</text>
+<text top="416" left="15" width="836" height="28" font="10">// em is sent over the internet to the recipient </text>
+<text top="485" left="15" width="768" height="28" font="10">// code to run on Man in the Middle’s machine</text>
+<text top="519" left="15" width="938" height="28" font="10">private Message ilegitimateDecrypt(EncryptedMessage em)</text>
+<text top="553" left="15" width="17" height="28" font="10">{</text>
+<text top="587" left="123" width="904" height="28" font="10">new Message decryptedMessage = reverseFunkyMaths(em);</text>
+<text top="621" left="123" width="290" height="28" font="10">return decrypted;</text>
+<text top="656" left="15" width="17" height="28" font="10">}</text>
+<text top="724" left="15" width="973" height="28" font="10">// now decryptedMesssage should = originalMessage BUT IT </text>
+<text top="758" left="15" width="717" height="28" font="10">TAKES 2,000 YEARS FOR THE METHOD TO RETURN</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="57" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-15_1.jpg"/>
+<text top="209" left="201" width="687" height="67" font="12"><i>Final thought of the week:</i></text>
+<text top="353" left="76" width="954" height="67" font="12"><i>What is the problem with needing a </i></text>
+<text top="425" left="67" width="954" height="67" font="12"><i>shared key to perform encryption….</i></text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-16_1.jpg"/>
+<text top="82" left="83" width="450" height="54" font="1">Topic Learning Goals</text>
+<text top="149" left="83" width="924" height="34" font="4">What key assumption must we make when transferring data between </text>
+<text top="185" left="83" width="496" height="34" font="4">two secure terminals over a network?</text>
+<text top="293" left="83" width="830" height="34" font="4">What vulnerability do we need to address with any encryption?</text>
+<text top="401" left="83" width="943" height="34" font="4">What is Kerchkoffs’s principle and why is it superior to security through </text>
+<text top="437" left="83" width="137" height="34" font="4">obscurity?</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="13" size="27" family="Times" color="#9bbb59"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22611_2f733926f6f6d6ce6bb8e71722e9ad89ce36938a5fec0f4f476fda8cfa39ef61-17_1.jpg"/>
+<text top="82" left="83" width="450" height="54" font="1">Topic Learning Goals</text>
+<text top="149" left="83" width="924" height="34" font="4">What key assumption must we make when transferring data between </text>
+<text top="185" left="83" width="496" height="34" font="4">two secure terminals over a network?</text>
+<text top="221" left="191" width="795" height="34" font="13">There is always a man in the middle who can see, intercept </text>
+<text top="257" left="191" width="348" height="34" font="13">and repeat our messages </text>
+<text top="293" left="83" width="830" height="34" font="4">What vulnerability do we need to address with any encryption?</text>
+<text top="329" left="191" width="761" height="34" font="13">Frequency analysis, looking for repeated elements of the </text>
+<text top="365" left="191" width="723" height="34" font="13">encrypted message (modern equivalents are complex)</text>
+<text top="401" left="83" width="943" height="34" font="4">What is Kerchkoffs’s principle and why is it superior to security through </text>
+<text top="437" left="83" width="137" height="34" font="4">obscurity?</text>
+<text top="473" left="191" width="814" height="34" font="13">Share a secret, not a system. Compromising a shared secret </text>
+<text top="509" left="191" width="809" height="34" font="13">compromises messages sent with that secret, compromising </text>
+<text top="545" left="191" width="478" height="34" font="13">in obscurity compromises everyone!</text>
+</page>
+</pdf2xml>

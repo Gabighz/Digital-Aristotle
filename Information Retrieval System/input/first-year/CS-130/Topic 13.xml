@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="45" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-1_1.jpg"/>
+<text top="133" left="41" width="754" height="54" font="0">CS-130: Legal Issues in Computing</text>
+<text top="191" left="41" width="816" height="54" font="0">The UK GDPR Principles and Subject </text>
+<text top="248" left="41" width="136" height="54" font="0">Rights</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="45" family="Times" color="#4472c4"/>
+	<fontspec id="2" size="29" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-2_1.jpg"/>
+<text top="77" left="83" width="325" height="54" font="1">Learning Goals</text>
+<text top="150" left="49" width="596" height="35" font="2">What are the core principles of UK GDPR?</text>
+<text top="225" left="49" width="1002" height="35" font="2">What are the rights of the subjects of data gathering activities under the </text>
+<text top="263" left="49" width="108" height="35" font="2">GDPR?</text>
+<text top="339" left="49" width="920" height="35" font="2">What are the implications of the Data Protection Act for Computer </text>
+<text top="377" left="49" width="323" height="35" font="2">Scientists in particular?</text>
+<text top="452" left="49" width="844" height="35" font="2">What is Privacy Shield and why do we need to care about it?</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="234" width="612" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-3_1.png"/>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="3" size="24" family="Times" color="#4472c4"/>
+	<fontspec id="4" size="24" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-4_1.jpg"/>
+<text top="82" left="83" width="509" height="54" font="1">UK GDPR - 6 Principles</text>
+<text top="157" left="49" width="889" height="30" font="3"><b>First principle – </b>Personal Data shall be processed lawfully, fairly and in a </text>
+<text top="189" left="49" width="531" height="30" font="4">transparent manner in relation to individuals;</text>
+<text top="247" left="49" width="938" height="30" font="3"><b>Second principle - </b>Personal Data shall be collected for specified, explicit and </text>
+<text top="279" left="49" width="945" height="30" font="4">legitimate purposes and not further processed in a manner that is incompatible </text>
+<text top="312" left="49" width="903" height="30" font="4">with those purposes; further processing for archiving purposes in the public </text>
+<text top="344" left="49" width="968" height="30" font="4">interest, scientific or historical research purposes or statistical purposes shall not </text>
+<text top="377" left="49" width="692" height="30" font="4">be considered to be incompatible with the initial purposes;</text>
+<text top="434" left="49" width="989" height="30" font="3"><b>Third principle - </b>Personal Data shall be  adequate, relevant and limited to what is </text>
+<text top="467" left="49" width="801" height="30" font="4">necessary in relation to the purposes for which they are processed;</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="47" left="0" width="1080" height="717" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-5_1.png"/>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="30" width="1020" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-6_1.png"/>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-7_1.jpg"/>
+<text top="82" left="83" width="520" height="54" font="1">UK GDPR – 6 Principles</text>
+<text top="157" left="49" width="988" height="30" font="3"><b>Fourth principle - </b>Personal data shall be accurate and, where necessary, kept up </text>
+<text top="189" left="49" width="990" height="30" font="4">to date; every reasonable step must be taken to ensure that personal data that are </text>
+<text top="222" left="49" width="912" height="30" font="4">inaccurate, having regard to the purposes for which they are processed, are </text>
+<text top="254" left="49" width="389" height="30" font="4">erased or rectified without delay;</text>
+<text top="319" left="49" width="989" height="30" font="3"><b>Fifth principle – </b>Personal Data shall be kept in a form which permits identification </text>
+<text top="351" left="49" width="936" height="30" font="4">of data subjects for no longer than is necessary for the purposes for which the </text>
+<text top="384" left="49" width="924" height="30" font="4">personal data are processed; personal data may be stored for longer periods </text>
+<text top="416" left="49" width="978" height="30" font="4">insofar as the personal data will be processed solely for archiving purposes in the </text>
+<text top="449" left="49" width="938" height="30" font="4">public interest, scientific or historical research purposes or statistical purposes </text>
+<text top="481" left="49" width="875" height="30" font="4">subject to implementation of the appropriate technical and organisational </text>
+<text top="513" left="49" width="977" height="30" font="4">measures required by the GDPR in order to safeguard the rights and freedoms of </text>
+<text top="546" left="49" width="134" height="30" font="4">individuals;</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="87" width="905" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-8_1.png"/>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-9_1.jpg"/>
+<text top="82" left="83" width="520" height="54" font="1">UK GDPR – 6 Principles</text>
+<text top="182" left="49" width="927" height="30" font="3"><b>Sixth principle - </b>Personal Data shall be processed in a manner that ensures </text>
+<text top="215" left="49" width="996" height="30" font="4">appropriate security of the personal data, including protection against unauthorised </text>
+<text top="247" left="49" width="971" height="30" font="4">or unlawful processing and against accidental loss, destruction or damage, using </text>
+<text top="279" left="49" width="591" height="30" font="4">appropriate technical or organisational measures.</text>
+<text top="344" left="49" width="159" height="30" font="4">And finally….</text>
+<text top="402" left="110" width="876" height="30" font="3"><b>“the controller shall be responsible for, and be able to demonstrate, </b></text>
+<text top="434" left="337" width="414" height="30" font="3"><b>compliance with the principles.”</b></text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="5" size="45" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-10_1.jpg"/>
+<text top="140" left="66" width="969" height="54" font="5"><i>You are designing a photo sharing app to run </i></text>
+<text top="198" left="94" width="914" height="54" font="5"><i>on peoples phones. The app automatically </i></text>
+<text top="256" left="66" width="970" height="54" font="5"><i>connects you to people who it judges to have </i></text>
+<text top="313" left="71" width="959" height="54" font="5"><i>similar photographic habits to you. It lets you </i></text>
+<text top="371" left="179" width="743" height="54" font="5"><i>add their photos to your collection. </i></text>
+<text top="486" left="138" width="826" height="54" font="5"><i>What issues does this app raise under </i></text>
+<text top="544" left="462" width="179" height="54" font="5"><i>GDPR? </i></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="6" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-11_1.jpg"/>
+<text top="77" left="83" width="869" height="54" font="1">Principle 1 – Fair and Lawful Processing </text>
+<text top="174" left="66" width="898" height="34" font="6">For processing to be lawful under the GDPR, you need to identify a </text>
+<text top="210" left="66" width="942" height="34" font="6">lawful basis before you can process personal data, often referred to as </text>
+<text top="246" left="66" width="604" height="34" font="6">the “conditions for processing” under the DPA</text>
+<text top="318" left="66" width="489" height="34" font="6">Typically can be one of the following:</text>
+<text top="354" left="66" width="477" height="34" font="6">• Have consent of the data subject</text>
+<text top="390" left="66" width="743" height="34" font="6">• Necessary to fulfil or enter a contract with the subject</text>
+<text top="426" left="66" width="524" height="34" font="6">• Necessary to meet a legal obligation</text>
+<text top="462" left="66" width="667" height="34" font="6">• Necessary to protect the subjects vital interests</text>
+<text top="498" left="66" width="954" height="34" font="6">• Necessary for the public interest or in the exercise of official authority</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="7" size="30" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-12_1.jpg"/>
+<image top="346" left="472" width="593" height="464" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-12_2.png"/>
+<text top="77" left="83" width="905" height="54" font="1">Subject Rights – The Right to be Informed </text>
+<text top="174" left="66" width="952" height="37" font="7">The right to be informed encompasses your obligation to provide </text>
+<text top="214" left="66" width="944" height="37" font="7">‘fair processing information’, typically through a privacy notice. It </text>
+<text top="254" left="66" width="839" height="37" font="7">emphasises the need for transparency over how you use </text>
+<text top="293" left="66" width="200" height="37" font="7">personal data</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-13_1.jpg"/>
+<text top="77" left="83" width="788" height="54" font="1">Subject Rights – The Right of Access</text>
+<text top="174" left="66" width="832" height="37" font="7">Under the GDPR, individuals will have the right to obtain:</text>
+<text top="214" left="66" width="716" height="37" font="7">• confirmation that their data is being processed</text>
+<text top="254" left="66" width="463" height="37" font="7">• access to their personal data</text>
+<text top="293" left="66" width="946" height="37" font="7">• other supplementary information – this largely corresponds to </text>
+<text top="333" left="107" width="854" height="37" font="7">the information that should be provided in a privacy notice </text>
+<text top="412" left="66" width="960" height="37" font="7">These are similar to existing subject access rights under the DPA.</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-14_1.jpg"/>
+<text top="77" left="83" width="897" height="54" font="1">Subject Rights – The Right to Rectification</text>
+<text top="174" left="66" width="874" height="37" font="7">Individuals are entitled to have personal data rectified if it is </text>
+<text top="214" left="66" width="360" height="37" font="7">inaccurate or incomplete</text>
+<text top="293" left="66" width="861" height="37" font="7">If you have disclosed the personal data in question to third </text>
+<text top="333" left="66" width="951" height="37" font="7">parties, you must inform them of the rectification where possible. </text>
+<text top="372" left="66" width="901" height="37" font="7">You must also inform the individuals about the third parties to </text>
+<text top="412" left="66" width="793" height="37" font="7">whom the data has been disclosed where appropriate.</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="30" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-15_1.jpg"/>
+<text top="77" left="83" width="804" height="54" font="1">Subject Rights – The Right to Erasure</text>
+<text top="174" left="66" width="961" height="37" font="7">The right to erasure is also known as <b>‘the right to be forgotten’. </b></text>
+<text top="214" left="66" width="850" height="37" font="7">The broad principle underpinning this right is to enable an </text>
+<text top="254" left="66" width="895" height="37" font="7">individual to request the deletion or removal of personal data </text>
+<text top="293" left="66" width="951" height="37" font="7">where there is no compelling reason for its continued processing.</text>
+<text top="372" left="66" width="569" height="37" font="7">Two key points where the right applies:</text>
+<text top="452" left="66" width="610" height="37" font="7">• When the individual withdraws consent</text>
+<text top="491" left="66" width="940" height="37" font="7">• When the individual objects to the processing and there is no </text>
+<text top="531" left="107" width="845" height="37" font="7">overriding legitimate interest for continuing the processing</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="-2" left="108" width="864" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-16_1.png"/>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-17_1.jpg"/>
+<text top="25" left="83" width="812" height="54" font="1">Subject Rights – The Right to Restrict </text>
+<text top="83" left="83" width="237" height="54" font="1">Processing</text>
+<text top="174" left="66" width="901" height="37" font="7">Under the DPA, individuals have a right to ‘block’ or suppress </text>
+<text top="214" left="66" width="942" height="37" font="7">processing of personal data. The restriction of processing under </text>
+<text top="254" left="66" width="295" height="37" font="7">the GDPR is similar.</text>
+<text top="333" left="66" width="893" height="37" font="7">When processing is restricted, you are permitted to store the </text>
+<text top="372" left="66" width="873" height="37" font="7">personal data, but not further process it. You can retain just </text>
+<text top="412" left="66" width="852" height="37" font="7">enough information about the individual to ensure that the </text>
+<text top="452" left="66" width="468" height="37" font="7">restriction is respected in future.</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-18_1.jpg"/>
+<text top="25" left="83" width="750" height="54" font="1">Subject Rights – The Right to Data </text>
+<text top="83" left="83" width="211" height="54" font="1">Portability</text>
+<text top="174" left="66" width="957" height="37" font="7">The right to data portability allows individuals to obtain and reuse </text>
+<text top="214" left="66" width="854" height="37" font="7">their personal data for their own purposes across different </text>
+<text top="254" left="66" width="130" height="37" font="7">services.</text>
+<text top="333" left="66" width="964" height="37" font="7">It allows them to move, copy or transfer personal data easily from </text>
+<text top="372" left="66" width="947" height="37" font="7">one IT environment to another in a safe and secure way, without </text>
+<text top="412" left="66" width="317" height="37" font="7">hindrance to usability.</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="2" left="0" width="1080" height="804" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-19_1.png"/>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-20_1.jpg"/>
+<text top="77" left="83" width="774" height="54" font="1">Subject Rights – The Right to Object</text>
+<text top="142" left="66" width="545" height="37" font="7">Individuals have the right to object to:</text>
+<text top="182" left="66" width="964" height="37" font="7">• processing based on legitimate interests or the performance of </text>
+<text top="222" left="107" width="807" height="37" font="7">a task in the public interest/exercise of official authority </text>
+<text top="261" left="107" width="286" height="37" font="7">(including profiling);</text>
+<text top="301" left="66" width="636" height="37" font="7">• direct marketing (including profiling); and</text>
+<text top="340" left="66" width="916" height="37" font="7">• processing for purposes of scientific/historical research and </text>
+<text top="380" left="107" width="127" height="37" font="7">statistics</text>
+<text top="420" left="66" width="755" height="37" font="7">You must stop processing the personal data unless:</text>
+<text top="459" left="66" width="907" height="37" font="7">• you can demonstrate compelling legitimate grounds for the </text>
+<text top="499" left="107" width="900" height="37" font="7">processing, which override the interests, rights and freedoms </text>
+<text top="538" left="107" width="230" height="37" font="7">of the individual</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-21_1.jpg"/>
+<text top="25" left="83" width="725" height="54" font="1">Subject Rights – Rights related to </text>
+<text top="83" left="83" width="858" height="54" font="1">automated decision making and profiling</text>
+<text top="174" left="66" width="920" height="37" font="7">The GDPR provides safeguards for individuals against the risk </text>
+<text top="214" left="66" width="881" height="37" font="7">that a potentially damaging decision is taken without human </text>
+<text top="254" left="66" width="941" height="37" font="7">intervention. These rights work in a similar way to existing rights </text>
+<text top="293" left="66" width="223" height="37" font="7">under the DPA.</text>
+<text top="372" left="66" width="898" height="37" font="7">Identify whether any of your processing operations constitute </text>
+<text top="412" left="66" width="918" height="37" font="7">automated decision making and consider whether you need to </text>
+<text top="452" left="66" width="884" height="37" font="7">update your procedures to deal with the requirements of the </text>
+<text top="491" left="66" width="104" height="37" font="7">GDPR.</text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="9" size="33" family="Times" color="#4472c4"/>
+	<fontspec id="10" size="51" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-22_1.jpg"/>
+<text top="77" left="83" width="277" height="54" font="1">Principle Six </text>
+<text top="175" left="58" width="948" height="40" font="9">Data shall be processed in a manner that ensures</text>
+<text top="218" left="58" width="948" height="40" font="9">appropriate security of the personal data, including</text>
+<text top="261" left="58" width="948" height="40" font="9">protection against unauthorised or unlawful processing and</text>
+<text top="304" left="58" width="948" height="40" font="9">against accidental loss, destruction or damage, using</text>
+<text top="348" left="58" width="789" height="40" font="9">appropriate technical or organisational measures.</text>
+<text top="457" left="267" width="528" height="60" font="10"><i>What does this imply?</i></text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-23_1.jpg"/>
+<text top="77" left="83" width="560" height="54" font="1">Principle Six - Implications</text>
+<text top="175" left="66" width="903" height="40" font="9">You can catch it in the neck for something that someone </text>
+<text top="218" left="66" width="394" height="40" font="9">else does that’s criminal!</text>
+<text top="304" left="66" width="808" height="40" font="9">You need to have some level of familiarity with the </text>
+<text top="348" left="66" width="927" height="40" font="9">techniques used to gain access to data illicitly and protect </text>
+<text top="391" left="66" width="206" height="40" font="9">against them</text>
+<text top="477" left="66" width="955" height="40" font="9">Think back to the Underwear Catalogue example and ask if </text>
+<text top="520" left="66" width="809" height="40" font="9">this level of protection was reasonable or negligent</text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="-28" left="166" width="408" height="839" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-24_1.png"/>
+<image top="-28" left="574" width="408" height="839" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-24_2.png"/>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="141" width="796" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-25_1.png"/>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="11" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-26_1.jpg"/>
+<text top="77" left="83" width="426" height="54" font="1">Breach Notifications</text>
+<text top="175" left="66" width="962" height="40" font="9">The GDPR has a requirement that you notify the subjects of </text>
+<text top="218" left="66" width="899" height="40" font="9">data collection if there is a breach in the security of their </text>
+<text top="261" left="66" width="80" height="40" font="9">data </text>
+<text top="304" left="66" width="895" height="40" font="9">• <i>“Where a breach is likely to result in a high risk to the </i></text>
+<text top="348" left="107" width="907" height="40" font="11"><i>rights and freedoms of individuals, you must notify those </i></text>
+<text top="391" left="107" width="312" height="40" font="11"><i>concerned directly.”</i></text>
+<text top="434" left="66" width="899" height="40" font="9">• <i>“Failing to notify a breach when required to do so can </i></text>
+<text top="477" left="107" width="895" height="40" font="11"><i>result in a significant fine up to 10 million Euros or 2 per </i></text>
+<text top="520" left="107" width="457" height="40" font="11"><i>cent of your global turnover.”</i></text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="111" width="858" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-27_1.png"/>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-28_1.jpg"/>
+<text top="20" left="83" width="818" height="54" font="1">Tensions between the US and Europe </text>
+<text top="78" left="83" width="455" height="54" font="1">(and maybe the UK?)</text>
+<text top="145" left="58" width="955" height="40" font="9">GDPR provisions on transference of data to non EU country</text>
+<text top="188" left="58" width="914" height="40" font="9">- Allowed to countries with adequate protection regimes </text>
+<text top="231" left="98" width="250" height="40" font="9">(very small list!)</text>
+<text top="274" left="58" width="794" height="40" font="9">- Allowed to countries with adequate contractual </text>
+<text top="318" left="98" width="825" height="40" font="9">requirements, stated and enforced by the exporting </text>
+<text top="361" left="98" width="428" height="40" font="9">country which is hard to do</text>
+<text top="447" left="58" width="991" height="40" font="9">Allowed to countries with something like the US “<i>safe harbour </i></text>
+<text top="490" left="58" width="138" height="40" font="11"><i>scheme</i>”</text>
+<text top="534" left="58" width="511" height="40" font="9">- Many issues with this though!</text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-29_1.jpg"/>
+<text top="24" left="83" width="818" height="54" font="1">Tensions between the US and Europe </text>
+<text top="82" left="83" width="455" height="54" font="1">(and maybe the UK?)</text>
+<text top="145" left="58" width="965" height="40" font="9">In Ireland, the Irish Data Protection Commissioner had rules </text>
+<text top="188" left="58" width="857" height="40" font="9">that the Safe Harbour scheme was adequate to allow </text>
+<text top="231" left="58" width="662" height="40" font="9">Facebook to pass data to it’s US holdings</text>
+<text top="300" left="58" width="903" height="40" font="9">An Austrian privacy campaigner challenged that decision</text>
+<text top="343" left="58" width="683" height="40" font="9">• In part citing the Edward Snowden leaks</text>
+<text top="411" left="131" width="835" height="40" font="11"><i>The EU court found the protections were inadequate</i></text>
+<text top="483" left="58" width="871" height="40" font="9">The new scheme is more stringent, the Privacy-Shield </text>
+<text top="526" left="58" width="172" height="40" font="9">agreement</text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="170" width="740" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-30_1.png"/>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="51" family="Times" color="#ffc000"/>
+<text top="214" left="108" width="875" height="66" font="12">“Problem	was,	US	tech	companies	have	</text>
+<text top="272" left="125" width="843" height="66" font="12">not	been	able	to	prevent	agencies	like	</text>
+<text top="330" left="107" width="878" height="66" font="12">the	NSA	from	snooping	on	foreign	data.	</text>
+<text top="389" left="128" width="836" height="66" font="12">It	was	the	Snowden-led	revelations	of	</text>
+<text top="447" left="111" width="870" height="66" font="12">2013	that	eventually	led	to	Safe	Harbor	</text>
+<text top="505" left="94" width="904" height="66" font="12">being	ruled	ineffective	at	protecting	data	</text>
+<text top="564" left="447" width="185" height="66" font="12">privacy.”</text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="116" width="847" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-32_1.png"/>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-33_1.jpg"/>
+<text top="77" left="83" width="325" height="54" font="1">Learning Goals</text>
+<text top="150" left="49" width="596" height="35" font="2">What are the core principles of UK GDPR?</text>
+<text top="225" left="49" width="1002" height="35" font="2">What are the rights of the subjects of data gathering activities under the </text>
+<text top="263" left="49" width="108" height="35" font="2">GDPR?</text>
+<text top="339" left="49" width="920" height="35" font="2">What are the implications of the Data Protection Act for Computer </text>
+<text top="377" left="49" width="323" height="35" font="2">Scientists in particular?</text>
+<text top="452" left="49" width="844" height="35" font="2">What is Privacy Shield and why do we need to care about it?</text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="13" size="29" family="Times" color="#a5a5a5"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/11095_4259e852e878249eac94f77422301a69fd5065a512591586dc922aceaac182b6-34_1.jpg"/>
+<text top="77" left="83" width="325" height="54" font="1">Learning Goals</text>
+<text top="150" left="49" width="596" height="35" font="2">What are the core principles of UK GDPR?</text>
+<text top="188" left="157" width="875" height="35" font="13">Six principles that say how and when you can handle personal </text>
+<text top="225" left="49" width="61" height="35" font="13">data</text>
+<text top="263" left="49" width="1002" height="35" font="2">What are the rights of the subjects of data gathering activities under the </text>
+<text top="301" left="49" width="108" height="35" font="2">GDPR?</text>
+<text top="339" left="157" width="687" height="35" font="13">Eight rights in total each with specific implications</text>
+<text top="377" left="49" width="920" height="35" font="2">What are the implications of the Data Protection Act for Computer </text>
+<text top="414" left="49" width="323" height="35" font="2">Scientists in particular?</text>
+<text top="452" left="157" width="798" height="35" font="13">You need to keep personal data safe or you are liable for </text>
+<text top="490" left="49" width="129" height="35" font="13">damages</text>
+<text top="528" left="49" width="844" height="35" font="2">What is Privacy Shield and why do we need to care about it?</text>
+<text top="566" left="157" width="834" height="35" font="13">A body that allows date outside the EU that may show what </text>
+<text top="603" left="49" width="70" height="35" font="13">data </text>
+<text top="603" left="157" width="461" height="35" font="13">control outside the EU will be like</text>
+</page>
+</pdf2xml>

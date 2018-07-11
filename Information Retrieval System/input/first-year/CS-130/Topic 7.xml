@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="63" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-1_1.jpg"/>
+<text top="108" left="41" width="833" height="74" font="0">CS-130 Professional Issues </text>
+<text top="188" left="41" width="634" height="74" font="0">Threat Vectors – The </text>
+<text top="267" left="41" width="676" height="74" font="0">Application of MalWare</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="45" family="Times" color="#4472c4"/>
+	<fontspec id="2" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-2_1.jpg"/>
+<text top="70" left="83" width="498" height="54" font="1">Lecture Learning Goals</text>
+<text top="189" left="45" width="802" height="40" font="2">What is a DDOS attack and what does it look like?</text>
+<text top="276" left="45" width="901" height="40" font="2">What is Advanced Fee Fraud and how can you avoid it? </text>
+<text top="362" left="45" width="821" height="40" font="2">What is Phishing and how is it normally conducted?</text>
+<text top="448" left="45" width="754" height="40" font="2">What is the weakest link in any secure system?</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="3" size="24" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-3_1.jpg"/>
+<text top="70" left="83" width="616" height="54" font="1">(D)DOS Attacks to Deny Use</text>
+<text top="151" left="45" width="602" height="30" font="3">Destroy utility of a machine or network or resource</text>
+<text top="183" left="45" width="575" height="30" font="3">• Usually performed by means of a flood attack</text>
+<text top="216" left="45" width="803" height="30" font="3">• Can come from a single source but typically they are(d)istributed</text>
+<text top="281" left="45" width="991" height="30" font="3">Difficult to distinguish “Slashdoting”, “Farking”, “Drudging” or the “Reddit Hug” from </text>
+<text top="313" left="45" width="72" height="30" font="3">DDoS</text>
+<text top="378" left="45" width="928" height="30" font="3">Vulnerability of home machines on connections produced armies of “zombies”</text>
+<text top="443" left="45" width="634" height="30" font="3">Technical, legal, and ethical responses are all difficult</text>
+<text top="507" left="45" width="977" height="30" font="3">Examples of (D)DOS software include LOIC and HOIC – used in famous (D)DOS </text>
+<text top="540" left="45" width="554" height="30" font="3">attacks on, for example, Scientology websites </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="72" left="0" width="1080" height="665" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-4_1.png"/>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="4" size="57" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-5_1.jpg"/>
+<text top="225" left="173" width="751" height="67" font="4">Technical, legal, and ethical </text>
+<text top="297" left="50" width="998" height="67" font="4">responses to a (D)DOS attack are all </text>
+<text top="369" left="125" width="846" height="67" font="4">difficult... Why do you think that </text>
+<text top="441" left="408" width="264" height="67" font="4">might be?</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="5" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-6_1.jpg"/>
+<text top="70" left="83" width="756" height="54" font="1">Advance-Fee Fraud to Steal Money</text>
+<text top="151" left="45" width="982" height="34" font="5">At the core of the attack is getting you to pay for something without a cast-</text>
+<text top="187" left="45" width="450" height="34" font="5">iron guarantee in place of a return</text>
+<text top="223" left="45" width="857" height="34" font="5">• Intelligent, educated people can still fall for it because getting </text>
+<text top="259" left="85" width="523" height="34" font="5">something for nothing is a powerful lure</text>
+<text top="295" left="45" width="842" height="34" font="5">• Comprises a significant proportion of spam and like all good </text>
+<text top="331" left="85" width="632" height="34" font="5">“confidence tricks”, relies on greed and illegality</text>
+<text top="367" left="99" width="851" height="34" font="5">• Non-refundable shipping, charge backs when selling an item </text>
+<text top="403" left="139" width="562" height="34" font="5">online, the infamous Nigerian Prince scam</text>
+<text top="472" left="45" width="183" height="34" font="5">Scam-baiting </text>
+<text top="508" left="45" width="987" height="34" font="5">• The act of going out and baiting scammers into giving you some money</text>
+<text top="544" left="45" width="411" height="34" font="5">• IT’S DEFINITELY ILLEGAL!</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="179" width="721" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-7_1.png"/>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="6" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-8_1.jpg"/>
+<text top="14" left="83" width="781" height="54" font="1">Phishing and Pharming for Personal </text>
+<text top="72" left="83" width="578" height="54" font="1">Information or Bank Details</text>
+<text top="152" left="45" width="995" height="40" font="6"><b>Phishing </b>originally was an email pointing AOL users to a fake </text>
+<text top="195" left="45" width="645" height="40" font="2">AOL login screen to capture login details</text>
+<text top="238" left="45" width="966" height="40" font="2">• Moved to other online services, particularly online banking</text>
+<text top="281" left="45" width="884" height="40" font="2">• Comprises a signification proportion of modern spam</text>
+<text top="368" left="45" width="914" height="40" font="6"><b>Pharming </b>uses cracked DNS servers (more on this later)</text>
+<text top="411" left="45" width="563" height="40" font="2">• Attacks local DNS configurations</text>
+<text top="454" left="45" width="965" height="40" font="2">• DNS is the Internet's equivalent of a phone book linking a </text>
+<text top="497" left="85" width="205" height="40" font="2">URL to an IP</text>
+<text top="541" left="45" width="915" height="40" font="2">• But stored on local networks for commonly visited sites</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="7" size="78" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-9_1.jpg"/>
+<text top="219" left="74" width="954" height="90" font="7">What is the most powerful </text>
+<text top="317" left="49" width="1004" height="90" font="7">technique available to most </text>
+<text top="414" left="376" width="329" height="90" font="7">hackers?</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-10_1.jpg"/>
+<text top="153" left="100" width="897" height="67" font="4">What do all of these films have in </text>
+<text top="225" left="416" width="247" height="67" font="4">common:</text>
+<text top="297" left="181" width="718" height="67" font="4">“The Thomas Crown Affair”</text>
+<text top="369" left="308" width="463" height="67" font="4">“The Fifth Estate”</text>
+<text top="441" left="255" width="587" height="67" font="4">“Catch me if you can” </text>
+<text top="513" left="231" width="617" height="67" font="4">“Feris Bueller’s day off”</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-11_1.jpg"/>
+<text top="70" left="83" width="809" height="54" font="1">The Weakest Link: Social Engineering</text>
+<text top="149" left="45" width="894" height="40" font="2">Based on one simple idea: <i>“People want to help people”</i></text>
+<text top="192" left="45" width="987" height="40" font="2">• The easiest way to get a users password is to ask them for </text>
+<text top="236" left="85" width="120" height="40" font="2">it nicely</text>
+<text top="279" left="45" width="946" height="40" font="2">• Socially awkward interactions, phrases like <i>“It would just </i></text>
+<text top="322" left="85" width="769" height="40" font="8"><i>make my life much easier….”</i>, building personal </text>
+<text top="365" left="85" width="397" height="40" font="2">relationships with targets</text>
+<text top="408" left="45" width="919" height="40" font="2">• Kevin Mitnick famously claimed that <i>“I never cracked a </i></text>
+<text top="452" left="85" width="318" height="40" font="8"><i>password in my life”</i></text>
+<text top="495" left="45" width="955" height="40" font="2">• The Waterloo Study involved people swapping chocolate </text>
+<text top="538" left="85" width="314" height="40" font="2">bars for passwords!</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-12_1.jpg"/>
+<text top="70" left="58" width="962" height="54" font="1">Social Engineering Augments Classic Attacks</text>
+<text top="152" left="45" width="926" height="40" font="6"><b>Spear Phishing </b>with Adobe/Word documents – the latest </text>
+<text top="195" left="45" width="559" height="40" font="2">evolution of phishing and pharming</text>
+<text top="238" left="45" width="968" height="40" font="2">• Involves sending customised emails to a single person so </text>
+<text top="281" left="85" width="715" height="40" font="2">they will open them with a customised Trojan</text>
+<text top="325" left="45" width="943" height="40" font="2">• Exploits the fact that spam filters and anti-virus needs to </text>
+<text top="368" left="85" width="605" height="40" font="2">know about an email/Trojan to catch it</text>
+<text top="443" left="45" width="996" height="40" font="6"><b>Baiting </b>– getting malicious software onto someone's machine </text>
+<text top="487" left="45" width="649" height="40" font="2">physically by leaving a USB lying around</text>
+<text top="530" left="45" width="608" height="40" font="2">• Who doesn’t want a free USB stick?</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="218" left="-29" width="1132" height="259" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-13_1.jpg"/>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="9" size="27" family="Times" color="#4472c4"/>
+	<fontspec id="10" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-14_1.jpg"/>
+<text top="70" left="83" width="831" height="54" font="1">Who are Black Hats in the Real World?</text>
+<text top="151" left="45" width="954" height="34" font="5">Individuals or “script-kiddies” trying out hacking for fun using pre-written </text>
+<text top="187" left="45" width="113" height="34" font="5">software</text>
+<text top="245" left="45" width="551" height="34" font="5">Online <b>hacking collectives </b>or hacktivists</text>
+<text top="281" left="45" width="10" height="34" font="5">•</text>
+<text top="281" left="99" width="338" height="34" font="5">Anonymous, LulzSec, etc</text>
+<text top="336" left="45" width="243" height="34" font="9"><b>Organized crime </b></text>
+<text top="372" left="45" width="484" height="34" font="5">• Links to black market distribution </text>
+<text top="408" left="45" width="10" height="34" font="5">•</text>
+<text top="408" left="99" width="629" height="34" font="5">Links to online communications for offline crime</text>
+<text top="464" left="45" width="313" height="34" font="9"><b>Government agencies</b></text>
+<text top="500" left="45" width="894" height="34" font="5">• Industrial espionage, influencing the course of foreign elections?</text>
+<text top="556" left="360" width="360" height="34" font="10"><i>How serious does this get?</i></text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="-2" left="-190" width="1449" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-15_1.png"/>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-16_1.jpg"/>
+<image top="158" left="219" width="685" height="419" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-16_2.png"/>
+<text top="70" left="83" width="365" height="54" font="1">A final thought….</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="11" size="30" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-17_1.jpg"/>
+<text top="70" left="83" width="498" height="54" font="1">Lecture Learning Goals</text>
+<text top="151" left="45" width="736" height="37" font="11">What is a DDOS attack and what does it look like?</text>
+<text top="270" left="45" width="826" height="37" font="11">What is Advanced Fee Fraud and how can you avoid it? </text>
+<text top="389" left="45" width="753" height="37" font="11">What is Phishing and how is it normally conducted?</text>
+<text top="468" left="45" width="692" height="37" font="11">What is the weakest link in any secure system?</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="30" family="Times" color="#9bbb59"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/22215_993ec55eae498183c99843cb1b59fcb28e634e394ddc5c6deb60c37e8dea337f-18_1.jpg"/>
+<text top="70" left="83" width="498" height="54" font="1">Lecture Learning Goals</text>
+<text top="151" left="45" width="736" height="37" font="11">What is a DDOS attack and what does it look like?</text>
+<text top="191" left="153" width="817" height="37" font="12">Multiple computers pool resources to attack your online </text>
+<text top="231" left="153" width="437" height="37" font="12">services and overwhelm them</text>
+<text top="270" left="45" width="826" height="37" font="11">What is Advanced Fee Fraud and how can you avoid it? </text>
+<text top="310" left="153" width="878" height="37" font="12">Giving away something for nothing, avoid it by checking the </text>
+<text top="349" left="153" width="797" height="37" font="12">legitimacy of anyone before you trannsfer them money</text>
+<text top="389" left="45" width="753" height="37" font="11">What is Phishing and how is it normally conducted?</text>
+<text top="429" left="153" width="701" height="37" font="12">Email large groups of people to find a weak link </text>
+<text top="468" left="45" width="692" height="37" font="11">What is the weakest link in any secure system?</text>
+<text top="508" left="153" width="812" height="37" font="12">Authorised users (all of us)who are vulnerable to social </text>
+<text top="547" left="153" width="173" height="37" font="12">engineering</text>
+</page>
+</pdf2xml>

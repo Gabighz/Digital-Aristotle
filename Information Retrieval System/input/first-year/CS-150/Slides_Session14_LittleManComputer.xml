@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="21" family="Times" color="#575757"/>
+	<fontspec id="1" size="13" family="Times" color="#575757"/>
+	<fontspec id="2" size="18" family="Times" color="#575757"/>
+	<fontspec id="3" size="78" family="Times" color="#1159a0"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-1_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-1_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="181" left="57" width="706" height="94" font="3"><b>Concepts of  CS I</b></text>
+<text top="336" left="57" width="850" height="94" font="3"><b>Little Man Computer</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="4" size="51" family="Times" color="#1159a0"/>
+	<fontspec id="5" size="33" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-2_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-2_2.png"/>
+<image top="270" left="444" width="562" height="479" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-2_3.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="575" height="62" font="4"><b>Assembly Language</b></text>
+<text top="173" left="57" width="962" height="40" font="5">Little Man Computer is an assembly language simulator</text>
+<text top="216" left="57" width="962" height="40" font="5">which gives an environment for users to program in an</text>
+<text top="260" left="57" width="321" height="40" font="5">assembly language.</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="6" size="33" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-3_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-3_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="483" height="62" font="4"><b>The Environment</b></text>
+<text top="190" left="58" width="962" height="40" font="5">• <b>Accumulator </b>- This is the like the active memory of the</text>
+<text top="233" left="98" width="922" height="40" font="5">simulator. The majority of our instructions will modify the</text>
+<text top="276" left="98" width="450" height="40" font="5">contents of the accumulator.</text>
+<text top="328" left="58" width="962" height="40" font="5">• <b>Program Counter </b>- This shows the current memory</text>
+<text top="371" left="98" width="599" height="40" font="5">location that the processor is running.</text>
+<text top="423" left="58" width="755" height="40" font="5">• <b>MEM Address </b>- The current instruction type.</text>
+<text top="475" left="58" width="963" height="40" font="5">• <b>MEM Data </b>- The data being used for the current</text>
+<text top="518" left="98" width="174" height="40" font="5">instruction.</text>
+<text top="570" left="58" width="412" height="40" font="5">• <b>In-Box </b>- The input box.</text>
+<text top="622" left="58" width="464" height="40" font="5">• <b>Out-Box </b>- The output box.</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="7" size="33" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-4_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-4_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="355" height="62" font="4"><b>Taking Input</b></text>
+<text top="191" left="62" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="191" left="278" width="80" height="40" font="5">Input</text>
+<text top="234" left="62" width="276" height="40" font="7"><i>Mnemonic: </i>INP</text>
+<text top="277" left="62" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="277" left="278" width="70" height="40" font="7"><i>901 </i></text>
+<text top="364" left="62" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="407" left="62" width="955" height="40" font="5">The input instruction takes the value in the <b>In-Box </b>and puts </text>
+<text top="450" left="62" width="514" height="40" font="5">the value into the <b>Accumulator</b>.</text>
+<text top="536" left="62" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="580" left="62" width="943" height="40" font="5">After the value has been copied the <b>Program Counter </b>will </text>
+<text top="623" left="62" width="789" height="40" font="5">move onto the next (sequential) memory location.</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-5_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-5_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="487" height="62" font="4"><b>Providing Output</b></text>
+<text top="190" left="58" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="190" left="274" width="108" height="40" font="5">Output</text>
+<text top="233" left="58" width="292" height="40" font="7"><i>Mnemonic: </i>OUT</text>
+<text top="276" left="58" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="276" left="274" width="60" height="40" font="7"><i>902</i></text>
+<text top="363" left="58" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="406" left="58" width="926" height="40" font="5">The output instruction takes the value in the <b>Accumulator</b></text>
+<text top="449" left="58" width="584" height="40" font="5">and puts the value into the <b>Out-Box</b>.</text>
+<text top="535" left="58" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="579" left="58" width="943" height="40" font="5">After the value has been copied the <b>Program Counter </b>will </text>
+<text top="622" left="58" width="789" height="40" font="5">move onto the next (sequential) memory location.</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-6_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-6_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="41" width="770" height="62" font="4"><b>Stopping the Programming</b></text>
+<text top="185" left="56" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="185" left="272" width="64" height="40" font="5">Halt</text>
+<text top="228" left="56" width="281" height="40" font="7"><i>Mnemonic: </i>HLT</text>
+<text top="271" left="56" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="271" left="272" width="60" height="40" font="7"><i>000</i></text>
+<text top="358" left="56" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="401" left="56" width="868" height="40" font="5">The halt instruction does not effect any of the memory </text>
+<text top="444" left="56" width="515" height="40" font="5">locations and stop the program. </text>
+<text top="530" left="56" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="574" left="56" width="619" height="40" font="5">The execution of the program will stop.</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-7_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-7_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="40" width="772" height="62" font="4"><b>Exercise: Input and Output</b></text>
+<text top="198" left="59" width="929" height="40" font="5">• Create a program which takes in an input from the user </text>
+<text top="241" left="99" width="226" height="40" font="5">and outputs it.</text>
+<text top="327" left="59" width="849" height="40" font="5">• Analysis the memory locations and write down the </text>
+<text top="371" left="99" width="677" height="40" font="5">instruction codes your program generated.</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-8_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-8_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="577" height="62" font="4"><b>LMC Code Summary</b></text>
+<text top="185" left="56" width="276" height="40" font="6"><b>___  INP  ___</b></text>
+<text top="185" left="380" width="112" height="40" font="5">- Input </text>
+<text top="228" left="56" width="276" height="40" font="6"><b>___  OUT  ___</b></text>
+<text top="228" left="380" width="130" height="40" font="5">- Output</text>
+<text top="271" left="56" width="175" height="40" font="6"><b>___  HLT</b></text>
+<text top="271" left="272" width="60" height="40" font="6"><b>___</b></text>
+<text top="271" left="380" width="86" height="40" font="5">- Halt</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-9_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-9_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="361" height="62" font="4"><b>Storing Data</b></text>
+<text top="191" left="59" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="191" left="275" width="86" height="40" font="5">Store</text>
+<text top="234" left="59" width="418" height="40" font="7"><i>Mnemonic: </i>STA <i>variable</i></text>
+<text top="277" left="59" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="277" left="275" width="80" height="40" font="7"><i>3 _ _</i></text>
+<text top="320" left="59" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="364" left="59" width="756" height="40" font="5">The store instruction will take the data from the </text>
+<text top="407" left="59" width="965" height="40" font="6"><b>Accumulator </b>and store it into an allocated memory location </text>
+<text top="450" left="59" width="829" height="40" font="5">which will be referred to by the variable name given.</text>
+<text top="536" left="59" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="580" left="59" width="943" height="40" font="5">After the value has been copied the <b>Program Counter </b>will </text>
+<text top="623" left="59" width="789" height="40" font="5">move onto the next (sequential) memory location.</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-10_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-10_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="445" height="62" font="4"><b>Retrieving Data</b></text>
+<text top="179" left="58" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="179" left="274" width="80" height="40" font="5">Load</text>
+<text top="222" left="58" width="420" height="40" font="7"><i>Mnemonic: </i>LDA variable</text>
+<text top="265" left="58" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="265" left="274" width="80" height="40" font="7"><i>5 _ _</i></text>
+<text top="352" left="58" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="395" left="58" width="947" height="40" font="5">The load instruction will put the value stored at the variable </text>
+<text top="438" left="58" width="502" height="40" font="5">location into the <b>Accumulator</b>. </text>
+<text top="524" left="58" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="568" left="58" width="947" height="40" font="5">After the value has been loaded into the <b>Accumulator </b>,the </text>
+<text top="611" left="58" width="881" height="40" font="6"><b>Program Counter </b>will move onto the next (sequential) </text>
+<text top="654" left="58" width="274" height="40" font="5">memory location.</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-11_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-11_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="676" height="62" font="4"><b>Data Memory Locations</b></text>
+<text top="169" left="58" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="169" left="274" width="76" height="40" font="5">Data</text>
+<text top="208" left="58" width="422" height="40" font="7"><i>Mnemonic: variable </i>DAT</text>
+<text top="247" left="58" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="247" left="274" width="154" height="40" font="7"><i>(the data)</i></text>
+<text top="325" left="58" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="364" left="58" width="951" height="40" font="5">The data instruction will reserve a memory location to store </text>
+<text top="403" left="58" width="880" height="40" font="5">data. This location can then be referred to by the given </text>
+<text top="442" left="58" width="100" height="40" font="5">name.</text>
+<text top="519" left="58" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="558" left="58" width="957" height="40" font="5">After the memory location has been reserved, the <b>Program </b></text>
+<text top="597" left="58" width="863" height="40" font="6"><b>Counter </b>will move onto the next (sequential) memory </text>
+<text top="636" left="58" width="134" height="40" font="5">location.</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-12_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-12_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="637" height="62" font="4"><b>Exercise: Storing and </b></text>
+<text top="142" left="29" width="230" height="62" font="4"><b>Loading</b></text>
+<text top="234" left="57" width="965" height="40" font="5">• Create a program which takes and stores in 2 inputs from </text>
+<text top="277" left="97" width="931" height="40" font="5">the user and outputs the first input followed by the second </text>
+<text top="321" left="97" width="98" height="40" font="5">input. </text>
+<text top="407" left="57" width="927" height="40" font="5">• Create a program which takes and stores 4 inputs from </text>
+<text top="450" left="97" width="865" height="40" font="5">the user and always outputs the third input to the user.</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="33" family="Times" color="#000000"/>
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-13_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-13_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="577" height="62" font="4"><b>LMC Code Summary</b></text>
+<text top="185" left="56" width="276" height="40" font="6"><b>___  INP  ___</b></text>
+<text top="185" left="380" width="112" height="40" font="5">- Input </text>
+<text top="228" left="56" width="276" height="40" font="6"><b>___  OUT  ___</b></text>
+<text top="228" left="380" width="130" height="40" font="5">- Output</text>
+<text top="271" left="56" width="175" height="40" font="6"><b>___  HLT</b></text>
+<text top="271" left="272" width="60" height="40" font="6"><b>___</b></text>
+<text top="271" left="380" width="86" height="40" font="5">- Halt</text>
+<text top="314" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="314" left="164" width="162" height="40" font="6"><b>STA <i>var</i></b></text>
+<text top="314" left="380" width="108" height="40" font="7"><i>- Store</i></text>
+<text top="358" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="358" left="164" width="162" height="40" font="6"><b>LDA <i>var</i></b></text>
+<text top="358" left="380" width="102" height="40" font="5">- Load</text>
+<text top="401" left="56" width="54" height="40" font="8"><i><b>var</b></i></text>
+<text top="401" left="164" width="168" height="40" font="6"><b>DAT ___</b></text>
+<text top="401" left="380" width="108" height="40" font="5">- Data </text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-14_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-14_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="241" height="62" font="4"><b>Addition</b></text>
+<text top="174" left="58" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="174" left="274" width="130" height="40" font="5">Addition</text>
+<text top="217" left="58" width="428" height="40" font="7"><i>Mnemonic: ADD variable</i></text>
+<text top="260" left="58" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="260" left="274" width="80" height="40" font="5">1 _ _</text>
+<text top="303" left="58" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="347" left="58" width="865" height="40" font="5">The add instruction adds the value stored in the given </text>
+<text top="390" left="58" width="579" height="40" font="5">memory location to the accumulator.</text>
+<text top="476" left="58" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="519" left="58" width="947" height="40" font="5">After the value has been loaded into the <b>Accumulator </b>,the </text>
+<text top="563" left="58" width="881" height="40" font="6"><b>Program Counter </b>will move onto the next (sequential) </text>
+<text top="606" left="58" width="274" height="40" font="5">memory location.</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-15_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-15_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="337" height="62" font="4"><b>Subtraction</b></text>
+<text top="174" left="58" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="174" left="274" width="182" height="40" font="5">Subtraction</text>
+<text top="217" left="58" width="426" height="40" font="7"><i>Mnemonic: SUB variable</i></text>
+<text top="260" left="58" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="260" left="274" width="80" height="40" font="5">2 _ _</text>
+<text top="303" left="58" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="347" left="58" width="953" height="40" font="5">The subtraction instruction subtracts the value stored in the </text>
+<text top="390" left="58" width="811" height="40" font="5">given memory location away from the accumulator.</text>
+<text top="476" left="58" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="519" left="58" width="947" height="40" font="5">After the value has been loaded into the <b>Accumulator </b>,the </text>
+<text top="563" left="58" width="881" height="40" font="6"><b>Program Counter </b>will move onto the next (sequential) </text>
+<text top="606" left="58" width="274" height="40" font="5">memory location.</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-16_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-16_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="544" height="62" font="4"><b>Exercise: Addition </b></text>
+<text top="142" left="29" width="337" height="62" font="4"><b>Subtraction</b></text>
+<text top="234" left="57" width="965" height="40" font="5">• Create a program which takes and stores in 2 inputs from </text>
+<text top="277" left="97" width="606" height="40" font="5">the user and outputs the sum of them.</text>
+<text top="364" left="57" width="971" height="40" font="5">• Create a program which take in three numbers and stores </text>
+<text top="407" left="97" width="928" height="40" font="5">them and then outputs the sum of the first 2 numbers with </text>
+<text top="450" left="97" width="328" height="40" font="5">the third subtracted. </text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-17_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-17_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="577" height="62" font="4"><b>LMC Code Summary</b></text>
+<text top="185" left="56" width="276" height="40" font="6"><b>___  INP  ___</b></text>
+<text top="185" left="380" width="112" height="40" font="5">- Input </text>
+<text top="228" left="56" width="276" height="40" font="6"><b>___  OUT  ___</b></text>
+<text top="228" left="380" width="130" height="40" font="5">- Output</text>
+<text top="271" left="56" width="175" height="40" font="6"><b>___  HLT</b></text>
+<text top="271" left="272" width="60" height="40" font="6"><b>___</b></text>
+<text top="271" left="380" width="86" height="40" font="5">- Halt</text>
+<text top="314" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="314" left="164" width="162" height="40" font="6"><b>STA <i>var</i></b></text>
+<text top="314" left="380" width="108" height="40" font="7"><i>- Store</i></text>
+<text top="358" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="358" left="164" width="162" height="40" font="6"><b>LDA <i>var</i></b></text>
+<text top="358" left="380" width="102" height="40" font="5">- Load</text>
+<text top="401" left="56" width="54" height="40" font="8"><i><b>var</b></i></text>
+<text top="401" left="164" width="168" height="40" font="6"><b>DAT ___</b></text>
+<text top="401" left="380" width="108" height="40" font="5">- Data </text>
+<text top="444" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="444" left="164" width="162" height="40" font="6"><b>ADD <i>var</i></b></text>
+<text top="444" left="380" width="150" height="40" font="5">- Addition</text>
+<text top="487" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="487" left="164" width="162" height="40" font="6"><b>SUB <i>var</i></b></text>
+<text top="487" left="380" width="204" height="40" font="7"><i>- Subtraction</i></text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-18_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-18_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="640" height="62" font="4"><b>Go to (Branch Always)</b></text>
+<text top="200" left="57" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="200" left="273" width="236" height="40" font="5">Branch Always</text>
+<text top="243" left="57" width="425" height="40" font="7"><i>Mnemonic: BRA variable</i></text>
+<text top="286" left="57" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="286" left="273" width="80" height="40" font="7"><i>6 _ _</i></text>
+<text top="329" left="57" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="373" left="57" width="966" height="40" font="5">Moves the <b>Program Counter </b>to the memory location stored </text>
+<text top="416" left="57" width="573" height="40" font="5">within the variable memory location.</text>
+<text top="502" left="57" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="545" left="57" width="907" height="40" font="5">After the memory location has been loaded that memory </text>
+<text top="589" left="57" width="401" height="40" font="5">location will be executed.</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-19_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-19_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="517" height="62" font="4"><b>Exercise: Looping</b></text>
+<text top="234" left="57" width="964" height="40" font="5">• Create a program which allows the user to input numbers </text>
+<text top="277" left="97" width="879" height="40" font="5">indefinitely and outputs the number which was entered </text>
+<text top="321" left="97" width="66" height="40" font="5">last.</text>
+<text top="407" left="57" width="964" height="40" font="5">• Create a program which allows the user to input numbers </text>
+<text top="450" left="97" width="904" height="40" font="5">indefinitely and outputs the running total after each entry.</text>
+<text top="537" left="57" width="917" height="40" font="5">• (Extension) Create a program which allows the user to </text>
+<text top="580" left="97" width="883" height="40" font="5">input numbers indefinitely and outputs the sum at each </text>
+<text top="623" left="97" width="87" height="40" font="5">entry.</text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-20_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-20_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="577" height="62" font="4"><b>LMC Code Summary</b></text>
+<text top="185" left="56" width="276" height="40" font="6"><b>___  INP  ___</b></text>
+<text top="185" left="380" width="112" height="40" font="5">- Input </text>
+<text top="228" left="56" width="276" height="40" font="6"><b>___  OUT  ___</b></text>
+<text top="228" left="380" width="130" height="40" font="5">- Output</text>
+<text top="271" left="56" width="175" height="40" font="6"><b>___  HLT</b></text>
+<text top="271" left="272" width="60" height="40" font="6"><b>___</b></text>
+<text top="271" left="380" width="86" height="40" font="5">- Halt</text>
+<text top="314" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="314" left="164" width="162" height="40" font="6"><b>STA <i>var</i></b></text>
+<text top="314" left="380" width="108" height="40" font="7"><i>- Store</i></text>
+<text top="358" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="358" left="164" width="162" height="40" font="6"><b>LDA <i>var</i></b></text>
+<text top="358" left="380" width="102" height="40" font="5">- Load</text>
+<text top="401" left="56" width="54" height="40" font="8"><i><b>var</b></i></text>
+<text top="401" left="164" width="168" height="40" font="6"><b>DAT ___</b></text>
+<text top="401" left="380" width="108" height="40" font="5">- Data </text>
+<text top="444" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="444" left="164" width="162" height="40" font="6"><b>ADD <i>var</i></b></text>
+<text top="444" left="380" width="150" height="40" font="5">- Addition</text>
+<text top="487" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="487" left="164" width="162" height="40" font="6"><b>SUB <i>var</i></b></text>
+<text top="487" left="380" width="204" height="40" font="7"><i>- Subtraction</i></text>
+<text top="530" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="530" left="164" width="162" height="40" font="8"><i><b>BRA var</b></i></text>
+<text top="530" left="380" width="258" height="40" font="7"><i>- </i>Branch Always</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-21_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-21_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="634" height="62" font="4"><b>Go to (Branch If  Zero)</b></text>
+<text top="200" left="57" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="200" left="273" width="228" height="40" font="5">Branch If Zero</text>
+<text top="243" left="57" width="424" height="40" font="7"><i>Mnemonic: BRZ variable</i></text>
+<text top="286" left="57" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="286" left="273" width="80" height="40" font="7"><i>7 _ _</i></text>
+<text top="329" left="57" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="373" left="57" width="966" height="40" font="5">Moves the <b>Program Counter </b>to the memory location stored </text>
+<text top="416" left="57" width="903" height="40" font="5">within the variable memory location if the accumulator is </text>
+<text top="459" left="57" width="218" height="40" font="5">equal to zero.</text>
+<text top="545" left="57" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="589" left="57" width="907" height="40" font="5">After the memory location has been loaded that memory </text>
+<text top="632" left="57" width="401" height="40" font="5">location will be executed.</text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-22_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-22_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="707" height="62" font="4"><b>Go to (Branch If  Zero or </b></text>
+<text top="142" left="29" width="248" height="62" font="4"><b>Positive)</b></text>
+<text top="226" left="56" width="116" height="40" font="7"><i>Name: </i></text>
+<text top="226" left="272" width="406" height="40" font="5">Branch If Zero or Positive</text>
+<text top="269" left="56" width="425" height="40" font="7"><i>Mnemonic: BRP variable</i></text>
+<text top="313" left="56" width="106" height="40" font="7"><i>Code: </i></text>
+<text top="313" left="272" width="80" height="40" font="7"><i>8 _ _</i></text>
+<text top="356" left="56" width="210" height="40" font="6"><b>Description:</b></text>
+<text top="399" left="56" width="966" height="40" font="5">Moves the <b>Program Counter </b>to the memory location stored </text>
+<text top="442" left="56" width="903" height="40" font="5">within the variable memory location if the accumulator is </text>
+<text top="485" left="56" width="254" height="40" font="5">zero or positive.</text>
+<text top="572" left="56" width="211" height="40" font="6"><b>Next Action:</b></text>
+<text top="615" left="56" width="907" height="40" font="5">After the memory location has been loaded that memory </text>
+<text top="658" left="56" width="401" height="40" font="5">location will be executed.</text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-23_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-23_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="577" height="62" font="4"><b>LMC Code Summary</b></text>
+<text top="185" left="56" width="276" height="40" font="6"><b>___  INP  ___</b></text>
+<text top="185" left="380" width="112" height="40" font="5">- Input </text>
+<text top="228" left="56" width="276" height="40" font="6"><b>___  OUT  ___</b></text>
+<text top="228" left="380" width="130" height="40" font="5">- Output</text>
+<text top="271" left="56" width="175" height="40" font="6"><b>___  HLT</b></text>
+<text top="271" left="272" width="60" height="40" font="6"><b>___</b></text>
+<text top="271" left="380" width="86" height="40" font="5">- Halt</text>
+<text top="314" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="314" left="164" width="162" height="40" font="6"><b>STA <i>var</i></b></text>
+<text top="314" left="380" width="108" height="40" font="7"><i>- Store</i></text>
+<text top="358" left="56" width="60" height="40" font="6"><b>___</b></text>
+<text top="358" left="164" width="162" height="40" font="6"><b>LDA <i>var</i></b></text>
+<text top="358" left="380" width="102" height="40" font="5">- Load</text>
+<text top="401" left="56" width="54" height="40" font="8"><i><b>var</b></i></text>
+<text top="401" left="164" width="168" height="40" font="6"><b>DAT ___</b></text>
+<text top="401" left="380" width="108" height="40" font="5">- Data </text>
+<text top="444" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="444" left="164" width="162" height="40" font="6"><b>ADD <i>var</i></b></text>
+<text top="444" left="380" width="150" height="40" font="5">- Addition</text>
+<text top="487" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="487" left="164" width="162" height="40" font="6"><b>SUB <i>var</i></b></text>
+<text top="487" left="380" width="204" height="40" font="7"><i>- Subtraction</i></text>
+<text top="530" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="530" left="164" width="162" height="40" font="8"><i><b>BRA var</b></i></text>
+<text top="530" left="380" width="258" height="40" font="7"><i>- </i>Branch Always</text>
+<text top="574" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="574" left="164" width="162" height="40" font="8"><i><b>BRZ var</b></i></text>
+<text top="574" left="380" width="250" height="40" font="7"><i>- </i>Branch If Zero</text>
+<text top="617" left="56" width="60" height="40" font="8"><i><b>___</b></i></text>
+<text top="617" left="164" width="162" height="40" font="8"><i><b>BRP var</b></i></text>
+<text top="617" left="380" width="302" height="40" font="7"><i>- </i>Branch If Positive</text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="857" width="213" height="150" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-24_1.png"/>
+<image top="653" left="0" width="1079" height="108" src="/export/freefileconvert/9129_3a149b5e90a868e3d2331b4d9a7cb8011cb6dbeded803d8714b6794eb1cfe2c1-24_2.png"/>
+<text top="767" left="30" width="199" height="27" font="0">Mr. Stewart Powell</text>
+<text top="767" left="393" width="292" height="27" font="0">s.w.powell@swansea.ac.uk</text>
+<text top="767" left="793" width="120" height="27" font="0">Thursday 2</text>
+<text top="768" left="913" width="18" height="18" font="1">nd</text>
+<text top="767" left="938" width="111" height="27" font="0">November</text>
+<text top="21" left="35" width="384" height="23" font="2">CS-150: Concepts of Computer Science I</text>
+<text top="77" left="29" width="632" height="62" font="4"><b>Exercise: Conditional </b></text>
+<text top="142" left="29" width="294" height="62" font="4"><b>Branching</b></text>
+<text top="234" left="57" width="879" height="40" font="5">• Create a program which allows the user to input two </text>
+<text top="277" left="97" width="793" height="40" font="5">numbers and outputs the multiplication of the two </text>
+<text top="321" left="97" width="150" height="40" font="5">numbers.</text>
+<text top="407" left="57" width="879" height="40" font="5">• Create a program which allows the user to input two </text>
+<text top="450" left="97" width="681" height="40" font="5">numbers and outputs the smallest number.</text>
+<text top="493" left="165" width="853" height="40" font="7"><i>Hint: if you do a - b and the number is positive then a </i></text>
+<text top="537" left="165" width="256" height="40" font="7"><i>is bigger than b.</i></text>
+</page>
+</pdf2xml>

@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="63" family="Times" color="#ffffff"/>
+	<fontspec id="1" size="63" family="Times" color="#ffffff"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-1_1.jpg"/>
+<text top="186" left="116" width="290" height="74" font="0">Chapter 7</text>
+<text top="298" left="125" width="283" height="74" font="1"><b>Problem </b></text>
+<text top="377" left="137" width="257" height="74" font="1"><b>Solving </b></text>
+<text top="456" left="198" width="136" height="74" font="1"><b>and </b></text>
+<text top="536" left="82" width="348" height="74" font="1"><b>Algorithms</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="2" size="18" family="Times" color="#000000"/>
+	<fontspec id="3" size="57" family="Times" color="#000000"/>
+	<fontspec id="4" size="33" family="Times" color="#000000"/>
+	<fontspec id="5" size="33" family="Times" color="#ff6600"/>
+	<fontspec id="6" size="35" family="Times" color="#ff6600"/>
+	<fontspec id="7" size="33" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-2_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>2</b></text>
+<text top="54" left="330" width="410" height="67" font="3"><b>Chapter Goals</b></text>
+<text top="201" left="65" width="884" height="40" font="4">• Describe the computer problem-solving process and </text>
+<text top="241" left="105" width="168" height="40" font="4">relate it to </text>
+<text top="241" left="273" width="90" height="40" font="5"><i>Polya</i></text>
+<text top="242" left="363" width="18" height="37" font="6">’</text>
+<text top="241" left="381" width="270" height="40" font="5"><i>s How to Solve It</i></text>
+<text top="241" left="661" width="44" height="40" font="4">list</text>
+<text top="301" left="65" width="403" height="40" font="4">• Distinguish between a </text>
+<text top="301" left="468" width="192" height="40" font="7">simple type </text>
+<text top="301" left="660" width="100" height="40" font="4">and a </text>
+<text top="301" left="760" width="252" height="40" font="7">composite type </text>
+<text top="361" left="65" width="433" height="40" font="4">• Describe two composite </text>
+<text top="361" left="498" width="463" height="40" font="7">data-structuring mechanisms</text>
+<text top="422" left="65" width="251" height="40" font="4">• Recognize a </text>
+<text top="422" left="316" width="156" height="40" font="7">recursive </text>
+<text top="422" left="472" width="483" height="40" font="4">problem and write a recursive </text>
+<text top="461" left="105" width="320" height="40" font="4">algorithm to solve it </text>
+<text top="521" left="65" width="423" height="40" font="4">• Distinguish between an </text>
+<text top="521" left="488" width="242" height="40" font="7">unsorted array </text>
+<text top="521" left="730" width="100" height="40" font="4">and a </text>
+<text top="521" left="830" width="100" height="40" font="7">sorted</text>
+<text top="561" left="105" width="82" height="40" font="7">array</text>
+<text top="620" left="65" width="403" height="40" font="4">• Distinguish between a </text>
+<text top="620" left="468" width="152" height="40" font="7">selection </text>
+<text top="620" left="620" width="190" height="40" font="4">sort and an </text>
+<text top="620" left="810" width="146" height="40" font="7">insertion </text>
+<text top="659" left="105" width="60" height="40" font="4">sort</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-3_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>3</b></text>
+<text top="54" left="330" width="410" height="67" font="3"><b>Chapter Goals</b></text>
+<text top="210" left="65" width="253" height="40" font="4">• Describe the </text>
+<text top="210" left="318" width="162" height="40" font="7">Quicksort </text>
+<text top="210" left="480" width="158" height="40" font="4">algorithm </text>
+<text top="271" left="65" width="201" height="40" font="4">• Apply the </text>
+<text top="271" left="265" width="152" height="40" font="7">selection </text>
+<text top="271" left="418" width="140" height="40" font="4">sort, the </text>
+<text top="271" left="558" width="118" height="40" font="7">bubble </text>
+<text top="271" left="676" width="80" height="40" font="4">sort, </text>
+<text top="271" left="756" width="146" height="40" font="7">insertion </text>
+<text top="271" left="902" width="80" height="40" font="4">sort, </text>
+<text top="310" left="105" width="70" height="40" font="4">and </text>
+<text top="310" left="175" width="162" height="40" font="7">Quicksort </text>
+<text top="310" left="337" width="446" height="40" font="4">to an array of items by hand</text>
+<text top="370" left="65" width="201" height="40" font="4">• Apply the </text>
+<text top="370" left="265" width="226" height="40" font="7">binary search </text>
+<text top="370" left="492" width="148" height="40" font="4">algorithm</text>
+<text top="435" left="65" width="307" height="40" font="4">• Demonstrate an </text>
+<text top="435" left="372" width="515" height="40" font="7">understanding of the algorithms </text>
+<text top="435" left="886" width="104" height="40" font="4">in this </text>
+<text top="478" left="105" width="178" height="40" font="4">chapter by </text>
+<text top="478" left="283" width="255" height="40" font="7">hand-simulating</text>
+<text top="478" left="548" width="400" height="40" font="4">them with a sequence of </text>
+<text top="521" left="105" width="96" height="40" font="4">items </text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="45" family="Times" color="#ff6600"/>
+	<fontspec id="9" size="45" family="Times" color="#000000"/>
+	<fontspec id="10" size="45" family="Times" color="#000000"/>
+	<fontspec id="11" size="45" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-4_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>4</b></text>
+<text top="54" left="299" width="473" height="67" font="3"><b>Problem Solving</b></text>
+<text top="206" left="65" width="373" height="54" font="8"><b>Problem solving</b></text>
+<text top="293" left="65" width="940" height="54" font="9">The act of finding a solution to a perplexing, </text>
+<text top="350" left="65" width="866" height="54" font="9">distressing, vexing, or unsettled question</text>
+<text top="523" left="173" width="780" height="54" font="10"><i>How do <b>you </b>define problem solving?</i></text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-5_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>5</b></text>
+<text top="54" left="299" width="473" height="67" font="3"><b>Problem Solving</b></text>
+<text top="206" left="65" width="717" height="54" font="10"><i>How to Solve It: A New Aspect of </i></text>
+<text top="264" left="65" width="828" height="54" font="10"><i>Mathematical Method </i>by George Polya</text>
+<text top="350" left="65" width="802" height="54" font="9">&#34;How to solve it list&#34; written within the </text>
+<text top="408" left="65" width="716" height="54" font="9">context of mathematical problems</text>
+<text top="494" left="65" width="482" height="54" font="9">But list is quite general</text>
+<text top="602" left="389" width="512" height="40" font="4">We can use it to solve computer</text>
+<text top="645" left="389" width="279" height="40" font="4">related problems!</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="51" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-6_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>6</b></text>
+<text top="54" left="299" width="473" height="67" font="3"><b>Problem Solving</b></text>
+<text top="207" left="65" width="693" height="60" font="12"><i>How do you solve problems?</i></text>
+<text top="386" left="65" width="514" height="54" font="9">Understand the problem</text>
+<text top="473" left="173" width="291" height="54" font="9">Devise a plan</text>
+<text top="559" left="281" width="381" height="54" font="9">Carry out the plan</text>
+<text top="646" left="389" width="218" height="54" font="9">Look back</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="13" size="39" family="Times" color="#000000"/>
+	<fontspec id="14" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-7_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>7</b></text>
+<text top="54" left="390" width="290" height="67" font="3"><b>Strategies</b></text>
+<text top="201" left="65" width="343" height="54" font="8"><b>Ask questions!</b></text>
+<text top="278" left="119" width="698" height="47" font="13">– <i>What do I know about the problem?</i></text>
+<text top="349" left="119" width="889" height="47" font="13">– <i>What is the information that I have to process </i></text>
+<text top="394" left="153" width="543" height="47" font="14"><i>in order the find the solution?</i></text>
+<text top="465" left="119" width="649" height="47" font="13">– <i>What does the solution look like?</i></text>
+<text top="535" left="119" width="646" height="47" font="13">– <i>What sort of special cases exist?</i></text>
+<text top="606" left="119" width="742" height="47" font="13">– <i>How will I recognize that I have found </i></text>
+<text top="651" left="153" width="239" height="47" font="14"><i>the solution?</i></text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-8_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>8</b></text>
+<text top="54" left="390" width="290" height="67" font="3"><b>Strategies</b></text>
+<text top="206" left="65" width="937" height="54" font="8"><b>Ask questions! Never reinvent the wheel!</b></text>
+<text top="293" left="65" width="922" height="54" font="9">Similar problems come up again and again </text>
+<text top="350" left="65" width="376" height="54" font="9">in different guises</text>
+<text top="437" left="65" width="881" height="54" font="9">A good programmer recognizes a task or </text>
+<text top="494" left="65" width="876" height="54" font="9">subtask that has been solved before and </text>
+<text top="552" left="65" width="424" height="54" font="9">plugs in the solution</text>
+<text top="638" left="173" width="823" height="54" font="10"><i>Can you think of two similar problems?</i></text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-9_1.jpg"/>
+<text top="754" left="101" width="12" height="23" font="2"><b>9</b></text>
+<text top="54" left="390" width="290" height="67" font="3"><b>Strategies</b></text>
+<text top="206" left="65" width="469" height="54" font="8"><b>Divide and Conquer!</b></text>
+<text top="293" left="65" width="924" height="54" font="9">Break up a large problem into smaller units </text>
+<text top="350" left="65" width="690" height="54" font="9">and solve each smaller problem </text>
+<text top="433" left="119" width="677" height="47" font="13">– Applies the concept of abstraction </text>
+<text top="508" left="119" width="816" height="47" font="13">– The divide-and-conquer approach can be </text>
+<text top="559" left="153" width="723" height="47" font="13">applied over and over again until each </text>
+<text top="609" left="153" width="430" height="47" font="13">subtask is manageable</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="15" size="27" family="Times" color="#000000"/>
+	<fontspec id="16" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-10_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>10</b></text>
+<text top="54" left="147" width="777" height="67" font="3"><b>Computer Problem-Solving</b></text>
+<text top="197" left="110" width="531" height="40" font="4">Analysis and Specification Phase</text>
+<text top="245" left="218" width="107" height="34" font="15">Analyze</text>
+<text top="283" left="218" width="170" height="34" font="15">Specification</text>
+<text top="319" left="110" width="487" height="40" font="4">Algorithm Development Phase</text>
+<text top="368" left="218" width="242" height="34" font="15">Develop algorithm</text>
+<text top="405" left="218" width="187" height="34" font="15">Test algorithm</text>
+<text top="442" left="110" width="358" height="40" font="4">Implementation Phase</text>
+<text top="490" left="218" width="203" height="34" font="15">Code algorithm</text>
+<text top="528" left="218" width="187" height="34" font="15">Test algorithm</text>
+<text top="564" left="110" width="319" height="40" font="4">Maintenance Phase</text>
+<text top="613" left="218" width="53" height="34" font="15">Use</text>
+<text top="650" left="218" width="113" height="34" font="15">Maintain</text>
+<text top="206" left="794" width="144" height="40" font="16"><i>Can you </i></text>
+<text top="249" left="794" width="90" height="40" font="16"><i>name</i></text>
+<text top="292" left="794" width="172" height="40" font="16"><i>a recurring</i></text>
+<text top="335" left="794" width="120" height="40" font="16"><i>theme?</i></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="17" size="27" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-11_1.jpg"/>
+<image top="144" left="182" width="356" height="564" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-11_2.jpg"/>
+<text top="754" left="101" width="22" height="23" font="2"><b>11</b></text>
+<text top="54" left="269" width="534" height="67" font="3"><b>Phase Interactions</b></text>
+<text top="237" left="587" width="168" height="40" font="16"><i>Should we</i></text>
+<text top="280" left="587" width="192" height="40" font="16"><i>add another</i></text>
+<text top="324" left="587" width="110" height="40" font="16"><i>arrow?</i></text>
+<text top="410" left="587" width="203" height="34" font="17"><i>(What happens</i></text>
+<text top="446" left="587" width="181" height="34" font="17"><i>if the problem</i></text>
+<text top="482" left="587" width="153" height="34" font="17"><i>is revised?)</i></text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="18" size="39" family="Times" color="#ff6600"/>
+	<fontspec id="19" size="39" family="Times" color="#ff6600"/>
+	<fontspec id="20" size="39" family="Times" color="#ff6600"/>
+	<fontspec id="21" size="33" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-12_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>12</b></text>
+<text top="54" left="377" width="317" height="67" font="3"><b>Algorithms</b></text>
+<text top="188" left="65" width="198" height="47" font="18"><b>Algorithm</b></text>
+<text top="264" left="65" width="154" height="47" font="13">A set of </text>
+<text top="264" left="219" width="265" height="47" font="19">unambiguous </text>
+<text top="264" left="483" width="463" height="47" font="13">instructions for solving a </text>
+<text top="314" left="65" width="524" height="47" font="13">problem or subproblem in a </text>
+<text top="314" left="590" width="100" height="47" font="19">finite </text>
+<text top="314" left="690" width="199" height="47" font="13">amount of </text>
+<text top="314" left="889" width="91" height="47" font="19">time </text>
+<text top="364" left="65" width="447" height="47" font="13">using a finite amount of </text>
+<text top="364" left="512" width="82" height="47" font="20"><i>data</i></text>
+<text top="436" left="65" width="244" height="40" font="21"><b>Abstract Step </b></text>
+<text top="501" left="65" width="787" height="40" font="4">An algorithmic step containing unspecified details</text>
+<text top="566" left="65" width="244" height="40" font="21"><b>Concrete Step</b></text>
+<text top="631" left="65" width="795" height="40" font="4">An algorithm step in which all details are specified</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="22" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-13_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>13</b></text>
+<text top="54" left="181" width="709" height="67" font="3"><b>Developing an Algorithm</b></text>
+<text top="206" left="65" width="526" height="47" font="13">Two methodologies used to </text>
+<text top="206" left="591" width="159" height="47" font="19">develop </text>
+<text top="206" left="750" width="187" height="47" font="13">computer </text>
+<text top="256" left="65" width="412" height="47" font="13">solutions to a problem</text>
+<text top="317" left="119" width="368" height="47" font="19">– Top-down design </text>
+<text top="317" left="487" width="510" height="47" font="13">focuses on the <b>tasks </b>to be </text>
+<text top="367" left="153" width="94" height="47" font="13">done</text>
+<text top="428" left="119" width="469" height="47" font="19">– Object-oriented design </text>
+<text top="428" left="588" width="372" height="47" font="13">focuses on the <b>data</b></text>
+<text top="478" left="153" width="825" height="47" font="13">involved in the solution (We will discuss this </text>
+<text top="529" left="153" width="295" height="47" font="13">design in Ch. 9)</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-14_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>14</b></text>
+<text top="54" left="167" width="737" height="67" font="3"><b>Summary of Methodology</b></text>
+<text top="201" left="56" width="354" height="40" font="21"><b>Analyze the Problem</b></text>
+<text top="248" left="110" width="338" height="34" font="15">Understand the problem!!</text>
+<text top="287" left="110" width="322" height="34" font="15">Develop a plan of attack</text>
+<text top="341" left="56" width="750" height="40" font="21"><b>List the Main Tasks (becomes Main Module)</b></text>
+<text top="388" left="110" width="583" height="34" font="15">Restate problem as a list of tasks (modules)</text>
+<text top="427" left="110" width="306" height="34" font="15">Give each task a name</text>
+<text top="481" left="56" width="504" height="40" font="21"><b>Write the Remaining Modules</b></text>
+<text top="527" left="110" width="619" height="34" font="15">Restate each abstract module as a list of tasks</text>
+<text top="567" left="110" width="306" height="34" font="15">Give each task a name</text>
+<text top="620" left="56" width="665" height="40" font="21"><b>Re-sequence and Revise as Necessary</b></text>
+<text top="667" left="110" width="696" height="34" font="15">Process ends when all steps (modules) are concrete</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-15_1.jpg"/>
+<image top="153" left="189" width="689" height="396" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-15_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>15</b></text>
+<text top="54" left="281" width="509" height="67" font="3"><b>Top-Down Design</b></text>
+<text top="589" left="65" width="907" height="34" font="15">Process continues for as many levels as it takes to make every step </text>
+<text top="621" left="65" width="115" height="34" font="15">concrete</text>
+<text top="672" left="65" width="908" height="34" font="15">Name of (sub)problem at one level becomes a module at next lower </text>
+<text top="704" left="65" width="62" height="34" font="15">level</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-16_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>16</b></text>
+<text top="54" left="270" width="530" height="67" font="3"><b>Control Structures</b></text>
+<text top="206" left="65" width="392" height="54" font="8"><b>Control structure</b></text>
+<text top="293" left="65" width="903" height="54" font="9">An instruction that determines the order in </text>
+<text top="350" left="65" width="879" height="54" font="9">which other instructions in a program are </text>
+<text top="408" left="65" width="195" height="54" font="9">executed</text>
+<text top="494" left="65" width="898" height="54" font="10"><i>Can you name the ones we defined in the </i></text>
+<text top="552" left="65" width="607" height="54" font="10"><i>functionality of pseudocode?</i></text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="23" size="24" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-17_1.jpg"/>
+<image top="171" left="171" width="720" height="405" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-17_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>17</b></text>
+<text top="54" left="232" width="607" height="67" font="3"><b>Selection Statements</b></text>
+<text top="677" left="65" width="338" height="27" font="23"><i><b>Flow of control of if statement</b></i></text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-18_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>18</b></text>
+<text top="54" left="184" width="703" height="67" font="3"><b>Algorithm with Selection</b></text>
+<text top="206" left="110" width="776" height="40" font="4">Problem: Write the appropriate dress for a given </text>
+<text top="248" left="110" width="203" height="42" font="4">temperature<i>.</i></text>
+<text top="408" left="137" width="420" height="40" font="16"><i>Write &#34;Enter  temperature&#34;</i></text>
+<text top="451" left="137" width="290" height="40" font="16"><i>Read temperature</i></text>
+<text top="494" left="137" width="270" height="40" font="16"><i>Determine Dress</i></text>
+<text top="612" left="421" width="516" height="40" font="16"><i>Which statements are concrete?</i></text>
+<text top="655" left="426" width="506" height="40" font="16"><i>Which statements are abstract?</i></text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="24" size="35" family="Times" color="#000000"/>
+	<fontspec id="25" size="39" family="Times" color="#008000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-19_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>19</b></text>
+<text top="54" left="184" width="703" height="67" font="3"><b>Algorithm with Selection</b></text>
+<text top="228" left="110" width="340" height="40" font="16"><i>IF (temperature &gt; 90)</i></text>
+<text top="279" left="218" width="84" height="40" font="16"><i>Write</i></text>
+<text top="280" left="312" width="18" height="37" font="24">“</text>
+<text top="279" left="330" width="439" height="40" font="16"><i>Texas weather: wear shorts</i></text>
+<text top="280" left="769" width="18" height="37" font="24">”</text>
+<text top="331" left="110" width="442" height="40" font="16"><i>ELSE IF (temperature &gt; 70)</i></text>
+<text top="383" left="218" width="84" height="40" font="16"><i>Write</i></text>
+<text top="384" left="312" width="18" height="37" font="24">“</text>
+<text top="383" left="330" width="579" height="40" font="16"><i>Ideal weather: short sleeves are fine</i></text>
+<text top="384" left="908" width="18" height="37" font="24">”</text>
+<text top="435" left="110" width="442" height="40" font="16"><i>ELSE IF (temperature &gt; 50)</i></text>
+<text top="487" left="218" width="84" height="40" font="16"><i>Write</i></text>
+<text top="488" left="312" width="18" height="37" font="24">“</text>
+<text top="487" left="330" width="495" height="40" font="16"><i>A little chilly: wear a light jacket</i></text>
+<text top="488" left="825" width="18" height="37" font="24">”</text>
+<text top="539" left="110" width="442" height="40" font="16"><i>ELSE IF (temperature &gt; 32)</i></text>
+<text top="591" left="218" width="84" height="40" font="16"><i>Write</i></text>
+<text top="592" left="312" width="18" height="37" font="24">“</text>
+<text top="591" left="330" width="647" height="40" font="16"><i>Philadelphia weather: wear a heavy coat</i></text>
+<text top="592" left="977" width="18" height="37" font="24">”</text>
+<text top="642" left="110" width="92" height="40" font="16"><i>ELSE</i></text>
+<text top="694" left="218" width="84" height="40" font="16"><i>Write</i></text>
+<text top="695" left="312" width="18" height="37" font="24">“</text>
+<text top="694" left="330" width="176" height="40" font="16"><i>Stay inside</i></text>
+<text top="695" left="506" width="18" height="37" font="24">”</text>
+<text top="171" left="119" width="334" height="47" font="25"><i><b>Determine Dress</b></i></text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="26" size="27" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-20_1.jpg"/>
+<image top="207" left="198" width="684" height="369" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-20_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>20</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="668" left="335" width="423" height="30" font="26"><i><b>Flow of control of while statement</b></i></text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-21_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>21</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="287" left="128" width="202" height="40" font="16"><i>Set sum to 0</i></text>
+<text top="330" left="128" width="222" height="40" font="16"><i>Set count to 1</i></text>
+<text top="373" left="128" width="338" height="40" font="16"><i>While (count &lt;= limit)</i></text>
+<text top="416" left="168" width="218" height="40" font="16"><i>Read number</i></text>
+<text top="460" left="168" width="413" height="40" font="16"><i>Set sum to sum + number</i></text>
+<text top="503" left="168" width="258" height="40" font="16"><i>Increment count</i></text>
+<text top="545" left="128" width="348" height="40" font="16"><i>Write &#34;Sum is &#34; + sum</i></text>
+<text top="458" left="641" width="136" height="40" font="16"><i>Why is it</i></text>
+<text top="501" left="641" width="124" height="40" font="16"><i>called a</i></text>
+<text top="544" left="641" width="256" height="40" font="16"><i>count-controlled</i></text>
+<text top="587" left="641" width="88" height="40" font="16"><i>loop?</i></text>
+<text top="206" left="128" width="428" height="47" font="13">A count-controlled loop</text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-22_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>22</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="296" left="137" width="202" height="40" font="16"><i>Set sum to 0</i></text>
+<text top="339" left="137" width="338" height="40" font="16"><i>Set allPositive to true</i></text>
+<text top="382" left="137" width="310" height="40" font="16"><i>WHILE (allPositive)</i></text>
+<text top="425" left="177" width="218" height="40" font="16"><i>Read number</i></text>
+<text top="469" left="177" width="248" height="40" font="16"><i>IF (number &gt; 0)</i></text>
+<text top="512" left="218" width="413" height="40" font="16"><i>Set sum to sum + number</i></text>
+<text top="555" left="177" width="92" height="40" font="16"><i>ELSE</i></text>
+<text top="598" left="218" width="352" height="40" font="16"><i>Set allPositive to false</i></text>
+<text top="640" left="137" width="348" height="40" font="16"><i>Write &#34;Sum is &#34; + sum</i></text>
+<text top="368" left="686" width="146" height="40" font="16"><i>Why is it </i></text>
+<text top="411" left="686" width="144" height="40" font="16"><i>called an</i></text>
+<text top="454" left="686" width="256" height="40" font="16"><i>event-controlled</i></text>
+<text top="497" left="686" width="108" height="40" font="16"><i>loop?  </i></text>
+<text top="541" left="686" width="180" height="40" font="16"><i>What is the</i></text>
+<text top="584" left="686" width="108" height="40" font="16"><i>event?</i></text>
+<text top="188" left="146" width="454" height="47" font="13">An event-controlled loop</text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-23_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>23</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="327" left="218" width="244" height="40" font="16"><i>Read in square</i></text>
+<text top="378" left="218" width="403" height="40" font="16"><i>Calculate the square root</i></text>
+<text top="430" left="218" width="587" height="40" font="16"><i>Write out square and the square root</i></text>
+<text top="196" left="182" width="449" height="47" font="22"><b>Calculate Square Root</b></text>
+<text top="647" left="539" width="470" height="40" font="16"><i>Are there any abstract steps?</i></text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-24_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>24</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="327" left="218" width="248" height="40" font="16"><i>Set epsilon to 1</i></text>
+<text top="378" left="218" width="403" height="40" font="16"><i>WHILE (epsilon &gt; 0.001)</i></text>
+<text top="430" left="272" width="333" height="40" font="16"><i>Calculate new guess</i></text>
+<text top="482" left="272" width="679" height="40" font="16"><i>Set epsilon to abs(square - guess * guess)</i></text>
+<text top="647" left="539" width="470" height="40" font="16"><i>Are there any abstract steps?</i></text>
+<text top="225" left="182" width="449" height="47" font="22"><b>Calculate Square Root</b></text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-25_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>25</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="327" left="218" width="274" height="40" font="16"><i>Set newGuess to</i></text>
+<text top="378" left="272" width="481" height="40" font="16"><i>(guess + (square/guess)) / 2.0</i></text>
+<text top="656" left="507" width="470" height="40" font="16"><i>Are there any abstract steps?</i></text>
+<text top="196" left="182" width="425" height="47" font="22"><b>Calculate New Guess</b></text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-26_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>26</b></text>
+<text top="54" left="247" width="576" height="67" font="3"><b>Looping Statements</b></text>
+<text top="233" left="182" width="244" height="40" font="16"><i>Read in square</i></text>
+<text top="280" left="182" width="350" height="40" font="16"><i>Set guess to square/4</i></text>
+<text top="332" left="182" width="248" height="40" font="16"><i>Set epsilon to 1</i></text>
+<text top="384" left="182" width="403" height="40" font="16"><i>WHILE (epsilon &gt; 0.001)</i></text>
+<text top="435" left="236" width="333" height="40" font="16"><i>Calculate new guess</i></text>
+<text top="487" left="236" width="679" height="40" font="16"><i>Set epsilon to abs(square - guess * guess)</i></text>
+<text top="539" left="182" width="500" height="40" font="16"><i>Write out square and the guess</i></text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-27_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>27</b></text>
+<text top="54" left="212" width="646" height="67" font="3"><b>Composite Data Types</b></text>
+<text top="201" left="65" width="168" height="47" font="18"><b>Records</b></text>
+<text top="272" left="65" width="863" height="47" font="13">A named heterogeneous collection of items in </text>
+<text top="317" left="65" width="940" height="47" font="13">which individual items are accessed by name. For </text>
+<text top="362" left="65" width="917" height="47" font="13">example, we could bundle name, age and hourly </text>
+<text top="408" left="65" width="798" height="47" font="13">wage items into a record named <i>Employee</i></text>
+<text top="478" left="65" width="133" height="47" font="18"><b>Arrays</b></text>
+<text top="549" left="65" width="849" height="47" font="13">A named homogeneous collection of items in </text>
+<text top="594" left="65" width="954" height="47" font="13">which an individual item is accessed by its position </text>
+<text top="640" left="65" width="505" height="47" font="13">(index) within the collection</text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="27" size="33" family="Times" color="#00b050"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-28_1.jpg"/>
+<image top="162" left="315" width="407" height="259" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-28_2.jpg"/>
+<text top="54" left="212" width="646" height="67" font="3"><b>Composite Data Types</b></text>
+<text top="465" left="65" width="927" height="40" font="4">Following algorithm, stores values into the fields of record:</text>
+<text top="551" left="65" width="416" height="40" font="16"><i>Employee employee         </i></text>
+<text top="551" left="481" width="531" height="40" font="27"><i>// Declare and Employee variable</i></text>
+<text top="595" left="65" width="370" height="40" font="16"><i>Set employee.name to </i></text>
+<text top="596" left="435" width="18" height="37" font="24">“</text>
+<text top="595" left="453" width="198" height="40" font="16"><i>Frank Jones</i></text>
+<text top="596" left="651" width="18" height="37" font="24">”</text>
+<text top="638" left="65" width="380" height="40" font="16"><i>Set employee.age to 32</i></text>
+<text top="681" left="65" width="563" height="40" font="16"><i>Set employee.hourlyWage to 27.50</i></text>
+<text top="754" left="101" width="23" height="23" font="2"><b>28</b></text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="28" size="18" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-29_1.jpg"/>
+<image top="162" left="333" width="235" height="554" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-29_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>29</b></text>
+<text top="54" left="204" width="646" height="67" font="3"><b>Composite Data Types</b></text>
+<text top="196" left="696" width="110" height="23" font="28"><i>numbers[0] </i></text>
+<text top="376" left="698" width="110" height="23" font="28"><i>numbers[4] </i></text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="29" size="51" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-30_1.jpg"/>
+<text top="57" left="482" width="171" height="60" font="29"><b>Arrays</b></text>
+<text top="206" left="65" width="893" height="47" font="13">As data is being read into an array, a counter is </text>
+<text top="256" left="65" width="914" height="47" font="13">updated so that we always know how many data </text>
+<text top="307" left="65" width="332" height="47" font="13">items were stored</text>
+<text top="458" left="65" width="832" height="47" font="13">If the array is called <i>list</i>, we are working with </text>
+<text top="534" left="119" width="383" height="47" font="20"><i>list[0] to list[length-1]</i></text>
+<text top="534" left="605" width="37" height="47" font="20"><i>or</i></text>
+<text top="609" left="119" width="348" height="47" font="20"><i>list[0]..list[length-1]</i></text>
+<text top="754" left="101" width="23" height="23" font="2"><b>30</b></text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-31_1.jpg"/>
+<image top="200" left="153" width="442" height="430" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-31_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>31</b></text>
+<text top="54" left="269" width="533" height="67" font="3"><b>An Unsorted Array</b></text>
+<text top="542" left="659" width="290" height="30" font="17"><i>data[0]...data[length-1]</i></text>
+<text top="578" left="659" width="147" height="30" font="17"><i>is of interest</i></text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-32_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>32</b></text>
+<text top="54" left="204" width="646" height="67" font="3"><b>Composite Data Types</b></text>
+<text top="255" left="173" width="250" height="40" font="16"><i>integer data[20]</i></text>
+<text top="306" left="173" width="84" height="40" font="16"><i>Write</i></text>
+<text top="307" left="267" width="18" height="37" font="24">“</text>
+<text top="306" left="285" width="304" height="40" font="16"><i>How many values?</i></text>
+<text top="307" left="589" width="18" height="37" font="24">”</text>
+<text top="358" left="173" width="194" height="40" font="16"><i>Read length</i></text>
+<text top="410" left="173" width="220" height="40" font="16"><i>Set index to 0</i></text>
+<text top="462" left="173" width="373" height="40" font="16"><i>WHILE (index &lt; length)</i></text>
+<text top="514" left="227" width="273" height="40" font="16"><i>Read data[index]</i></text>
+<text top="566" left="227" width="347" height="40" font="16"><i>Set index to index + 1</i></text>
+<text top="188" left="173" width="551" height="40" font="4">Fill array numbers with <i>limit </i>values</text>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-33_1.jpg"/>
+<text top="18" left="196" width="697" height="67" font="3"><b>Sequential Search of an </b></text>
+<text top="90" left="317" width="437" height="67" font="3"><b>Unsorted Array</b></text>
+<text top="206" left="65" width="896" height="47" font="13">A sequential search examines each item in turn </text>
+<text top="256" left="65" width="842" height="47" font="13">and compares it to the one we are searching.</text>
+<text top="332" left="65" width="890" height="47" font="13">If it matches, we have found the item. If not, we </text>
+<text top="382" left="65" width="622" height="47" font="13">look at the next item in the array. </text>
+<text top="458" left="65" width="563" height="47" font="13">We stop either when we have </text>
+<text top="458" left="628" width="278" height="47" font="19">found the item </text>
+<text top="458" left="906" width="49" height="47" font="13">or </text>
+<text top="508" left="65" width="416" height="47" font="13">when we have looked </text>
+<text top="508" left="482" width="435" height="47" font="19">at all the items and not </text>
+<text top="559" left="65" width="105" height="47" font="19">found</text>
+<text top="559" left="182" width="150" height="47" font="13">a match</text>
+<text top="634" left="65" width="734" height="47" font="13">Thus, a loop with two ending conditions</text>
+<text top="754" left="101" width="23" height="23" font="2"><b>33</b></text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-34_1.jpg"/>
+<text top="57" left="167" width="753" height="60" font="29"><b>Sequential Search Algorithm </b></text>
+<text top="188" left="74" width="262" height="40" font="16"><i>Set Position to 0</i></text>
+<text top="253" left="74" width="318" height="40" font="16"><i>Set found to FALSE</i></text>
+<text top="317" left="74" width="409" height="40" font="16"><i>WHILE (position &lt; length </i></text>
+<text top="317" left="483" width="172" height="40" font="5"><i>AND NOT </i></text>
+<text top="317" left="655" width="112" height="40" font="16"><i>found )</i></text>
+<text top="382" left="182" width="663" height="40" font="16"><i>IF (numbers [position] equals searchitem)</i></text>
+<text top="447" left="290" width="314" height="40" font="16"><i>Set Found to TRUE</i></text>
+<text top="512" left="182" width="102" height="40" font="16"><i>ELSE </i></text>
+<text top="577" left="290" width="423" height="40" font="16"><i>Set position to position + 1</i></text>
+<text top="754" left="101" width="23" height="23" font="2"><b>34</b></text>
+</page>
+<page number="35" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-35_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>35</b></text>
+<text top="67" left="383" width="270" height="67" font="3"><b>Booleans</b></text>
+<text top="206" left="47" width="378" height="47" font="18"><b>Boolean Operators</b></text>
+<text top="278" left="47" width="34" height="40" font="4">A </text>
+<text top="278" left="81" width="279" height="40" font="7">Boolean variable </text>
+<text top="278" left="359" width="643" height="40" font="4">is a location in memory that can contain </text>
+<text top="321" left="47" width="290" height="40" font="4">either <i>true </i>or <i>false</i></text>
+<text top="386" left="47" width="287" height="40" font="4">Boolean operator </text>
+<text top="386" left="333" width="76" height="40" font="7">AND</text>
+<text top="386" left="419" width="561" height="40" font="4">returns <i>TRUE </i>if both operands are </text>
+<text top="429" left="47" width="430" height="40" font="4">true and <i>FALSE </i>otherwise </text>
+<text top="494" left="47" width="287" height="40" font="4">Boolean operator </text>
+<text top="494" left="333" width="64" height="40" font="7">OR </text>
+<text top="494" left="397" width="609" height="40" font="4">returns <i>TRUE </i>if either operand is true </text>
+<text top="537" left="47" width="348" height="40" font="4">and <i>FALSE </i>otherwise</text>
+<text top="602" left="47" width="287" height="40" font="4">Boolean operator </text>
+<text top="602" left="333" width="86" height="40" font="7">NOT </text>
+<text top="602" left="419" width="568" height="40" font="4">returns <i>TRUE </i>if its operand is false </text>
+<text top="645" left="47" width="508" height="40" font="4">and <i>FALSE </i>if its operand is true</text>
+</page>
+<page number="36" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-36_1.jpg"/>
+<text top="736" left="56" width="23" height="23" font="2"><b>36</b></text>
+<text top="94" left="355" width="397" height="67" font="3"><b>Sorted Arrays</b></text>
+<text top="215" left="92" width="565" height="40" font="4">The values stored in an array have </text>
+<text top="215" left="657" width="202" height="40" font="7">unique keys </text>
+<text top="215" left="859" width="70" height="40" font="4">of a </text>
+<text top="258" left="92" width="811" height="40" font="4">type for which the relational operators are defined  </text>
+<text top="388" left="92" width="124" height="40" font="7">Sorting </text>
+<text top="388" left="217" width="743" height="40" font="4">rearranges the elements into either ascending </text>
+<text top="431" left="92" width="585" height="40" font="4">or descending order within the array </text>
+<text top="560" left="92" width="34" height="40" font="4">A </text>
+<text top="560" left="126" width="110" height="40" font="7">sorted </text>
+<text top="560" left="236" width="739" height="40" font="4">array is one in which the elements are in order</text>
+</page>
+<page number="37" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-37_1.jpg"/>
+<text top="18" left="112" width="864" height="67" font="3"><b>Sequential Search in a Sorted </b></text>
+<text top="90" left="457" width="157" height="67" font="3"><b>Array</b></text>
+<text top="323" left="146" width="715" height="47" font="13">If items in an array are sorted, we can </text>
+<text top="323" left="861" width="79" height="47" font="19">stop</text>
+<text top="373" left="146" width="145" height="47" font="19">looking </text>
+<text top="373" left="292" width="657" height="47" font="13">when we pass the place where the </text>
+<text top="424" left="146" width="769" height="47" font="13">item would be it were present in the array</text>
+<text top="754" left="101" width="23" height="23" font="2"><b>37</b></text>
+<text top="660" left="675" width="216" height="40" font="16"><i>Is this better?</i></text>
+</page>
+<page number="38" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-38_1.jpg"/>
+<image top="181" left="117" width="474" height="449" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-38_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>38</b></text>
+<text top="54" left="324" width="424" height="67" font="3"><b>A Sorted Array</b></text>
+<text top="551" left="677" width="212" height="30" font="17"><i>A sorted array of </i></text>
+<text top="587" left="677" width="96" height="30" font="17"><i>integers</i></text>
+</page>
+<page number="39" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="30" size="33" family="Times" color="#ff0000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-39_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>39</b></text>
+<text top="54" left="324" width="424" height="67" font="3"><b>A Sorted Array</b></text>
+<text top="219" left="146" width="371" height="40" font="30"><i>Read in array of values</i></text>
+<text top="270" left="146" width="84" height="40" font="16"><i>Write</i></text>
+<text top="271" left="240" width="18" height="37" font="24">“</text>
+<text top="270" left="258" width="494" height="40" font="16"><i>Enter value for which to search</i></text>
+<text top="271" left="752" width="18" height="37" font="24">”</text>
+<text top="322" left="146" width="274" height="40" font="16"><i>Read searchItem</i></text>
+<text top="374" left="146" width="646" height="40" font="30"><i>Set found to TRUE if searchItem is there</i></text>
+<text top="426" left="146" width="155" height="40" font="16"><i>IF (found)</i></text>
+<text top="478" left="254" width="84" height="40" font="16"><i>Write</i></text>
+<text top="479" left="348" width="18" height="37" font="24">“</text>
+<text top="478" left="366" width="206" height="40" font="16"><i>Item is found</i></text>
+<text top="479" left="572" width="18" height="37" font="24">”</text>
+<text top="530" left="146" width="92" height="40" font="16"><i>ELSE</i></text>
+<text top="582" left="254" width="84" height="40" font="16"><i>Write</i></text>
+<text top="583" left="348" width="18" height="37" font="24">“</text>
+<text top="582" left="366" width="266" height="40" font="16"><i>Item is not found</i></text>
+<text top="583" left="632" width="18" height="37" font="24">”</text>
+</page>
+<page number="40" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="31" size="33" family="Times" color="#008000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-40_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>40</b></text>
+<text top="54" left="324" width="424" height="67" font="3"><b>A Sorted Array</b></text>
+<text top="219" left="146" width="646" height="40" font="31"><i>Set found to TRUE if searchItem is there</i></text>
+<text top="270" left="146" width="220" height="40" font="16"><i>Set index to 0</i></text>
+<text top="322" left="146" width="315" height="40" font="16"><i>Set found to FALSE</i></text>
+<text top="374" left="146" width="644" height="40" font="16"><i>WHILE (index &lt; length AND NOT found)</i></text>
+<text top="426" left="254" width="546" height="40" font="16"><i>IF (data[index] equals searchItem)</i></text>
+<text top="478" left="362" width="302" height="40" font="16"><i>Set found to TRUE</i></text>
+<text top="530" left="254" width="562" height="40" font="16"><i>ELSE IF (data[index] &gt; searchItem)</i></text>
+<text top="582" left="362" width="298" height="40" font="16"><i>Set index to length</i></text>
+<text top="633" left="254" width="92" height="40" font="16"><i>ELSE</i></text>
+<text top="685" left="362" width="347" height="40" font="16"><i>Set index to index + 1</i></text>
+</page>
+<page number="41" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-41_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>41</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Binary Search</b></text>
+<text top="201" left="66" width="360" height="47" font="18"><b>Sequential search</b></text>
+<text top="272" left="66" width="854" height="47" font="13">Search begins at the beginning of the list and </text>
+<text top="317" left="72" width="900" height="47" font="13">continues until the item is found or the entire list </text>
+<text top="362" left="72" width="358" height="47" font="13">has been searched</text>
+<text top="433" left="66" width="290" height="47" font="18"><b>Binary search </b></text>
+<text top="433" left="356" width="369" height="47" font="13">(list must be sorted)</text>
+<text top="503" left="66" width="926" height="47" font="13">Search begins at the middle and finds the item or </text>
+<text top="549" left="72" width="921" height="47" font="13">eliminates half of the unexamined items; process </text>
+<text top="594" left="72" width="877" height="47" font="13">is repeated on the half where the item might be</text>
+<text top="687" left="582" width="240" height="36" font="16"><i>Say that again…</i></text>
+</page>
+<page number="42" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-42_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>42</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Binary Search</b></text>
+<text top="191" left="110" width="160" height="34" font="17"><i>Set first to 0</i></text>
+<text top="234" left="110" width="250" height="34" font="17"><i>Set last to length-1</i></text>
+<text top="277" left="110" width="263" height="34" font="17"><i>Set found to FALSE</i></text>
+<text top="320" left="110" width="495" height="34" font="17"><i>WHILE (first &lt;= last AND NOT found)</i></text>
+<text top="363" left="150" width="365" height="34" font="17"><i>Set middle to (first + last)/ 2</i></text>
+<text top="407" left="150" width="389" height="34" font="17"><i>IF (item equals data[middle]))</i></text>
+<text top="450" left="204" width="251" height="34" font="17"><i>Set found to TRUE</i></text>
+<text top="493" left="150" width="77" height="34" font="17"><i>ELSE</i></text>
+<text top="536" left="204" width="308" height="34" font="17"><i>IF (item &lt; data[middle])</i></text>
+<text top="579" left="245" width="280" height="34" font="17"><i>Set last to middle – 1</i></text>
+<text top="623" left="150" width="77" height="34" font="17"><i>ELSE</i></text>
+<text top="666" left="204" width="282" height="34" font="17"><i>Set first to middle + 1</i></text>
+<text top="709" left="110" width="209" height="34" font="17"><i>RETURN found</i></text>
+</page>
+<page number="43" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-43_1.jpg"/>
+<image top="138" left="126" width="293" height="569" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-43_2.jpg"/>
+<image top="144" left="468" width="529" height="557" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-43_3.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>43</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Binary Search</b></text>
+</page>
+<page number="44" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-44_1.jpg"/>
+<image top="198" left="234" width="591" height="357" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-44_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>44</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Binary Search</b></text>
+<text top="643" left="645" width="284" height="40" font="16"><i>Is a binary search</i></text>
+<text top="686" left="671" width="232" height="40" font="16"><i>always better?</i></text>
+</page>
+<page number="45" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-45_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>45</b></text>
+<text top="54" left="431" width="210" height="67" font="3"><b>Sorting</b></text>
+<text top="165" left="72" width="147" height="47" font="18"><b>Sorting</b></text>
+<text top="236" left="72" width="919" height="47" font="13">Arranging items in a collection so that there is an </text>
+<text top="281" left="72" width="933" height="47" font="13">ordering on one (or more) of the fields in the items</text>
+<text top="352" left="72" width="173" height="47" font="18"><b>Sort Key</b></text>
+<text top="422" left="72" width="931" height="47" font="13">The field (or fields) on which the ordering is based</text>
+<text top="493" left="72" width="373" height="47" font="18"><b>Sorting algorithms</b></text>
+<text top="563" left="72" width="886" height="47" font="13">Algorithms that order the items in the collection </text>
+<text top="609" left="72" width="402" height="47" font="13">based on the sort key</text>
+<text top="678" left="548" width="406" height="40" font="16"><i>Why is sorting important?</i></text>
+</page>
+<page number="46" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-46_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>46</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Selection Sort</b></text>
+<text top="206" left="65" width="872" height="47" font="13">Given a list of names, put them in alphabetical </text>
+<text top="256" left="65" width="98" height="47" font="13">order</text>
+<text top="328" left="119" width="791" height="40" font="4">– Find the name that comes first in the alphabet, </text>
+<text top="371" left="159" width="621" height="40" font="4">and write it on a second sheet of paper</text>
+<text top="436" left="119" width="645" height="40" font="4">– Cross out the name off the original list</text>
+<text top="501" left="119" width="890" height="40" font="4">– Continue this cycle until all the names on the original </text>
+<text top="544" left="159" width="755" height="40" font="4">list have been crossed out and written onto the </text>
+<text top="587" left="159" width="865" height="40" font="4">second list, at which point the second list contains the </text>
+<text top="631" left="159" width="486" height="40" font="4">same items but in sorted order</text>
+</page>
+<page number="47" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-47_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>47</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Selection Sort</b></text>
+<text top="206" left="65" width="943" height="54" font="9">A slight adjustment to this manual approach </text>
+<text top="264" left="65" width="927" height="54" font="9">does away with the need to duplicate space</text>
+<text top="331" left="119" width="908" height="47" font="13">– As you cross a name off the original list, a free </text>
+<text top="382" left="153" width="297" height="47" font="13">space opens up</text>
+<text top="442" left="119" width="904" height="47" font="13">– Instead of writing the value found on a second </text>
+<text top="493" left="153" width="858" height="47" font="13">list, exchange it with the value currently in the </text>
+<text top="543" left="153" width="847" height="47" font="13">position where the crossed-off item should go</text>
+</page>
+<page number="48" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-48_1.jpg"/>
+<image top="198" left="85" width="910" height="394" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-48_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>48</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Selection Sort</b></text>
+</page>
+<page number="49" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="32" size="33" family="Times" color="#339966"/>
+	<fontspec id="33" size="35" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-49_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>49</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Selection Sort</b></text>
+<text top="201" left="155" width="224" height="40" font="32"><i>Selection Sort</i></text>
+<text top="252" left="155" width="338" height="40" font="16"><i>Set firstUnsorted to 0</i></text>
+<text top="304" left="155" width="136" height="40" font="16"><i>WHILE (</i></text>
+<text top="304" left="291" width="218" height="40" font="30"><i>not sorted yet</i></text>
+<text top="304" left="509" width="12" height="40" font="16"><i>)</i></text>
+<text top="356" left="263" width="440" height="40" font="30"><i>Find smallest unsorted item</i></text>
+<text top="408" left="263" width="659" height="40" font="30"><i>Swap firstUnsorted item with the smallest</i></text>
+<text top="460" left="263" width="583" height="40" font="16"><i>Set firstUnsorted to firstUnsorted + 1</i></text>
+<text top="564" left="155" width="224" height="40" font="32"><i>Not sorted yet</i></text>
+<text top="615" left="155" width="268" height="46" font="33"><b>current &lt; length</b></text>
+<text top="619" left="432" width="18" height="36" font="16"><i>–</i></text>
+<text top="615" left="459" width="19" height="46" font="33"><b>1</b></text>
+</page>
+<page number="50" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-50_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>50</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Selection Sort</b></text>
+<text top="228" left="155" width="440" height="40" font="32"><i>Find smallest unsorted item</i></text>
+<text top="279" left="155" width="580" height="40" font="16"><i>Set indexOfSmallest to firstUnsorted</i></text>
+<text top="331" left="155" width="465" height="40" font="16"><i>Set index to firstUnsorted + 1</i></text>
+<text top="383" left="155" width="454" height="40" font="16"><i>WHILE (index &lt;= length – 1)</i></text>
+<text top="435" left="263" width="635" height="40" font="16"><i>IF (data[index] &lt; data[indexOfSmallest])</i></text>
+<text top="487" left="371" width="462" height="40" font="16"><i>Set indexOfSmallest to index</i></text>
+<text top="539" left="263" width="347" height="40" font="16"><i>Set index to index + 1</i></text>
+<text top="591" left="155" width="462" height="40" font="16"><i>Set index to indexOfSmallest</i></text>
+</page>
+<page number="51" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-51_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>51</b></text>
+<text top="54" left="334" width="403" height="67" font="3"><b>Selection Sort</b></text>
+<text top="279" left="137" width="521" height="40" font="32"><i>Swap firstUnsorted with smallest</i></text>
+<text top="331" left="137" width="558" height="40" font="16"><i>Set tempItem to data[firstUnsorted]</i></text>
+<text top="383" left="137" width="760" height="40" font="16"><i>Set data[firstUnsorted] to data[indexOfSmallest]</i></text>
+<text top="435" left="137" width="616" height="40" font="16"><i>Set data[indexOfSmallest] to tempItem</i></text>
+</page>
+<page number="52" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-52_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>52</b></text>
+<text top="54" left="384" width="340" height="67" font="3"><b>Bubble Sort</b></text>
+<text top="201" left="65" width="678" height="47" font="13">Bubble Sort uses the same strategy:</text>
+<text top="272" left="173" width="334" height="47" font="13">Find the next item</text>
+<text top="342" left="173" width="474" height="47" font="13">Put it into its proper place</text>
+<text top="413" left="65" width="891" height="47" font="13">But uses a different scheme for finding the next </text>
+<text top="458" left="65" width="91" height="47" font="13">item </text>
+<text top="529" left="65" width="313" height="47" font="13">Starting with the </text>
+<text top="529" left="378" width="77" height="47" font="19">last </text>
+<text top="529" left="455" width="412" height="47" font="13">list element, compare </text>
+<text top="574" left="65" width="945" height="47" font="13">successive pairs of elements, swapping whenever </text>
+<text top="619" left="65" width="924" height="47" font="13">the bottom element of the pair is smaller than the </text>
+<text top="665" left="65" width="229" height="47" font="13">one above it</text>
+</page>
+<page number="53" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-53_1.jpg"/>
+<image top="129" left="164" width="752" height="591" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-53_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>53</b></text>
+<text top="54" left="366" width="340" height="67" font="3"><b>Bubble Sort</b></text>
+</page>
+<page number="54" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-54_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>54</b></text>
+<text top="54" left="366" width="340" height="67" font="3"><b>Bubble Sort</b></text>
+<text top="260" left="191" width="453" height="47" font="13">Bubble sort is very slow!</text>
+<text top="336" left="191" width="692" height="47" font="13">Can you see a way to make it faster?</text>
+<text top="487" left="191" width="676" height="47" font="14"><i>Under what circumstances is bubble</i></text>
+<text top="562" left="191" width="173" height="47" font="14"><i>sort fast?</i></text>
+</page>
+<page number="55" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="34" size="35" family="Times" color="#ff0000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-55_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>55</b></text>
+<text top="54" left="366" width="340" height="67" font="3"><b>Bubble Sort</b></text>
+<text top="246" left="137" width="188" height="40" font="32"><i>Bubble Sort</i></text>
+<text top="297" left="137" width="338" height="40" font="16"><i>Set firstUnsorted to 0</i></text>
+<text top="349" left="137" width="465" height="40" font="16"><i>Set index to firstUnsorted + 1</i></text>
+<text top="401" left="137" width="296" height="40" font="16"><i>Set swap to TRUE</i></text>
+<text top="453" left="137" width="552" height="40" font="16"><i>WHILE (index &lt; length AND swap)</i></text>
+<text top="505" left="245" width="309" height="40" font="16"><i>Set swap to FALSE</i></text>
+<text top="558" left="245" width="18" height="37" font="34">“</text>
+<text top="557" left="263" width="162" height="40" font="30"><i>Bubble up</i></text>
+<text top="558" left="425" width="18" height="37" font="34">”</text>
+<text top="557" left="453" width="531" height="40" font="30"><i>the smallest item in unsorted part</i></text>
+<text top="609" left="245" width="583" height="40" font="16"><i>Set firstUnsorted to firstUnsorted + 1</i></text>
+</page>
+<page number="56" position="absolute" top="0" left="0" height="810" width="1080">
+<text top="754" left="101" width="23" height="23" font="2"><b>56</b></text>
+<text top="54" left="366" width="340" height="67" font="3"><b>Bubble Sort</b></text>
+<text top="246" left="137" width="162" height="40" font="32"><i>Bubble up</i></text>
+<text top="297" left="137" width="358" height="40" font="16"><i>Set index to length – 1</i></text>
+<text top="349" left="137" width="540" height="40" font="16"><i>WHILE (index &gt; firstUnsorted + 1)</i></text>
+<text top="401" left="245" width="519" height="40" font="16"><i>IF (data[index] &lt; data[index – 1])</i></text>
+<text top="453" left="353" width="593" height="40" font="16"><i>Swap data[index] and data[index – 1]</i></text>
+<text top="505" left="353" width="296" height="40" font="16"><i>Set swap to TRUE</i></text>
+<text top="557" left="353" width="338" height="40" font="16"><i>Set index to index - 1</i></text>
+</page>
+<page number="57" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-57_1.jpg"/>
+<text top="54" left="341" width="390" height="67" font="3"><b>Insertion Sort</b></text>
+<text top="206" left="65" width="938" height="47" font="13">If you have only one item in the array, it is already </text>
+<text top="256" left="65" width="129" height="47" font="13">sorted.</text>
+<text top="332" left="65" width="944" height="47" font="13">If you have two items, you can compare and swap </text>
+<text top="382" left="65" width="953" height="47" font="13">them if necessary, sorting the first two with respect </text>
+<text top="433" left="65" width="271" height="47" font="13">to themselves.</text>
+<text top="508" left="65" width="938" height="47" font="13">Take the third item and put it into its place relative </text>
+<text top="559" left="65" width="261" height="47" font="13">to the first two</text>
+<text top="634" left="65" width="949" height="47" font="13">Now the first three items are sorted with respect to </text>
+<text top="685" left="65" width="225" height="47" font="13">one another</text>
+<text top="754" left="101" width="23" height="23" font="2"><b>57</b></text>
+</page>
+<page number="58" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-58_1.jpg"/>
+<image top="360" left="140" width="800" height="316" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-58_2.jpg"/>
+<text top="54" left="341" width="390" height="67" font="3"><b>Insertion Sort</b></text>
+<text top="206" left="65" width="943" height="47" font="13">The item being added to the sorted portion can be </text>
+<text top="256" left="65" width="391" height="47" font="13">bubbled up as in the </text>
+<text top="256" left="456" width="208" height="47" font="19">bubble sort</text>
+<text top="754" left="101" width="23" height="23" font="2"><b>58</b></text>
+</page>
+<page number="59" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="35" size="27" family="Times" color="#008000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-59_1.jpg"/>
+<text top="54" left="341" width="390" height="67" font="3"><b>Insertion Sort</b></text>
+<text top="171" left="137" width="170" height="34" font="35"><i>InsertionSort</i></text>
+<text top="218" left="137" width="205" height="34" font="17"><i>Set current to 1</i></text>
+<text top="265" left="137" width="332" height="34" font="17"><i>WHILE (current &lt; length)</i></text>
+<text top="312" left="137" width="260" height="34" font="17"><i>Set index to current</i></text>
+<text top="358" left="137" width="347" height="34" font="17"><i>Set placeFound to FALSE</i></text>
+<text top="405" left="137" width="554" height="34" font="17"><i>WHILE (index &gt; 0 AND NOT placeFound)</i></text>
+<text top="452" left="245" width="432" height="34" font="17"><i>IF (data[index] &lt; data[index – 1])</i></text>
+<text top="499" left="353" width="493" height="34" font="17"><i>Swap data[index] and data[index – 1]</i></text>
+<text top="546" left="353" width="288" height="34" font="17"><i>Set index to index – 1</i></text>
+<text top="592" left="245" width="77" height="34" font="17"><i>ELSE</i></text>
+<text top="639" left="353" width="334" height="34" font="17"><i>Set placeFound to TRUE</i></text>
+<text top="686" left="137" width="332" height="34" font="17"><i>Set current to current + 1</i></text>
+<text top="754" left="101" width="23" height="23" font="2"><b>59</b></text>
+</page>
+<page number="60" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-60_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>60</b></text>
+<text top="54" left="187" width="697" height="67" font="3"><b>Subprogram Statements</b></text>
+<text top="206" left="65" width="919" height="54" font="9">We can give a section of code a name and </text>
+<text top="264" left="65" width="871" height="54" font="9">use that name as a statement in another </text>
+<text top="322" left="65" width="407" height="54" font="9">part of the program</text>
+<text top="408" left="65" width="772" height="54" font="9">When the name is encountered, the </text>
+<text top="466" left="65" width="919" height="54" font="9">processing in the other part of the program </text>
+<text top="523" left="65" width="837" height="54" font="9">halts while the named code is executed</text>
+<text top="647" left="603" width="198" height="40" font="16"><i>Remember?</i></text>
+</page>
+<page number="61" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-61_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>61</b></text>
+<text top="54" left="187" width="697" height="67" font="3"><b>Subprogram Statements</b></text>
+<text top="174" left="72" width="835" height="47" font="13">What if the subprogram needs data from the </text>
+<text top="219" left="72" width="222" height="47" font="13">calling unit?</text>
+<text top="290" left="72" width="229" height="47" font="18"><b>Parameters</b></text>
+<text top="361" left="72" width="798" height="47" font="13">Identifiers listed in parentheses beside the </text>
+<text top="406" left="72" width="943" height="47" font="13">subprogram declaration; sometimes called <b>formal </b></text>
+<text top="451" left="72" width="227" height="47" font="22"><b>parameters</b></text>
+<text top="522" left="72" width="222" height="47" font="18"><b>Arguments</b></text>
+<text top="592" left="72" width="720" height="47" font="13">Identifiers listed in parentheses on the </text>
+<text top="638" left="72" width="793" height="47" font="13">subprogram call; sometimes called <b>actual </b></text>
+<text top="683" left="72" width="227" height="47" font="22"><b>parameters</b></text>
+</page>
+<page number="62" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-62_1.jpg"/>
+<image top="166" left="163" width="754" height="478" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-62_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>62</b></text>
+<text top="54" left="187" width="697" height="67" font="3"><b>Subprogram Statements</b></text>
+</page>
+<page number="63" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-63_1.jpg"/>
+<image top="168" left="165" width="750" height="475" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-63_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>63</b></text>
+<text top="54" left="187" width="697" height="67" font="3"><b>Subprogram Statements</b></text>
+</page>
+<page number="64" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-64_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>64</b></text>
+<text top="54" left="389" width="326" height="67" font="3"><b>Recursion  </b></text>
+<text top="206" left="65" width="206" height="47" font="18"><b>Recursion</b></text>
+<text top="282" left="65" width="730" height="47" font="13">The ability of a subprogram to call itself</text>
+<text top="357" left="65" width="206" height="47" font="18"><b>Base case</b></text>
+<text top="433" left="65" width="737" height="47" font="13">The case to which we have an answer  </text>
+<text top="508" left="65" width="262" height="47" font="18"><b>General case</b></text>
+<text top="584" left="65" width="940" height="47" font="13">The case that expresses the solution in terms of a </text>
+<text top="634" left="65" width="905" height="47" font="13">call to itself with a smaller version of the problem</text>
+</page>
+<page number="65" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-65_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>65</b></text>
+<text top="54" left="389" width="326" height="67" font="3"><b>Recursion  </b></text>
+<text top="201" left="65" width="914" height="47" font="13">For example, the factorial of a number is defined </text>
+<text top="246" left="65" width="961" height="47" font="13">as the number times the product of all the numbers </text>
+<text top="292" left="65" width="398" height="47" font="13">between itself and 0: </text>
+<text top="368" left="132" width="183" height="40" font="16"><i>N! = N * (N </i></text>
+<text top="363" left="316" width="20" height="45" font="24">-</text>
+<text top="368" left="344" width="42" height="40" font="16"><i>1)!</i></text>
+<text top="433" left="65" width="196" height="47" font="19">Base case</text>
+<text top="503" left="132" width="436" height="47" font="13">Factorial(0) = 1 (0! is 1)</text>
+<text top="574" left="65" width="260" height="47" font="19">General Case</text>
+<text top="645" left="132" width="595" height="47" font="13">Factorial(N) = N * Factorial(N-1)</text>
+</page>
+<page number="66" position="absolute" top="0" left="0" height="810" width="1080">
+<text top="754" left="101" width="23" height="23" font="2"><b>66</b></text>
+<text top="54" left="389" width="326" height="67" font="3"><b>Recursion  </b></text>
+<text top="230" left="137" width="84" height="40" font="16"><i>Write</i></text>
+<text top="231" left="231" width="18" height="37" font="24">“</text>
+<text top="230" left="249" width="116" height="40" font="16"><i>Enter n</i></text>
+<text top="231" left="365" width="18" height="37" font="24">”</text>
+<text top="273" left="137" width="116" height="40" font="16"><i>Read n</i></text>
+<text top="317" left="137" width="192" height="40" font="16"><i>Set result to</i></text>
+<text top="317" left="339" width="182" height="40" font="30"><i>Factorial(n)</i></text>
+<text top="360" left="137" width="213" height="40" font="16"><i>Write result +</i></text>
+<text top="361" left="360" width="18" height="37" font="24">“</text>
+<text top="360" left="388" width="262" height="40" font="16"><i>is the factorial of</i></text>
+<text top="361" left="660" width="18" height="37" font="24">“</text>
+<text top="360" left="688" width="51" height="40" font="16"><i>+ n</i></text>
+<text top="446" left="137" width="182" height="40" font="32"><i>Factorial(n)</i></text>
+<text top="489" left="137" width="232" height="40" font="16"><i>IF (n equals 0)</i></text>
+<text top="533" left="204" width="180" height="40" font="16"><i>RETURN 1</i></text>
+<text top="576" left="137" width="92" height="40" font="16"><i>ELSE</i></text>
+<text top="619" left="204" width="428" height="40" font="16"><i>RETURN n * Factorial(n-1)</i></text>
+</page>
+<page number="67" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="36" size="27" family="Times" color="#339966"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-67_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>67</b></text>
+<text top="54" left="389" width="326" height="67" font="3"><b>Recursion  </b></text>
+<text top="200" left="137" width="320" height="34" font="36"><i>BinarySearch (first, last)</i></text>
+<text top="243" left="137" width="183" height="34" font="17"><i>IF (first &gt; last)</i></text>
+<text top="286" left="245" width="227" height="34" font="17"><i>RETURN FALSE</i></text>
+<text top="329" left="137" width="77" height="34" font="17"><i>ELSE</i></text>
+<text top="372" left="245" width="365" height="34" font="17"><i>Set middle to (first + last)/ 2</i></text>
+<text top="416" left="245" width="379" height="34" font="17"><i>IF (item equals data[middle])</i></text>
+<text top="459" left="353" width="216" height="34" font="17"><i>RETURN TRUE</i></text>
+<text top="502" left="245" width="77" height="34" font="17"><i>ELSE</i></text>
+<text top="545" left="353" width="308" height="34" font="17"><i>IF (item &lt; data[middle])</i></text>
+<text top="588" left="461" width="411" height="34" font="17"><i>BinarySearch (first, middle – 1)</i></text>
+<text top="632" left="353" width="77" height="34" font="17"><i>ELSE</i></text>
+<text top="675" left="461" width="401" height="34" font="17"><i>BinarySearch (middle + 1, last</i></text>
+</page>
+<page number="68" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-68_1.jpg"/>
+<image top="153" left="263" width="553" height="375" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-68_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>68</b></text>
+<text top="54" left="395" width="280" height="67" font="3"><b>Quicksort</b></text>
+<text top="647" left="65" width="278" height="27" font="23"><i><b>Ordering a list using the </b></i></text>
+<text top="680" left="65" width="226" height="27" font="23"><i><b>Quicksort algorithm</b></i></text>
+<text top="557" left="533" width="430" height="40" font="16"><i>It is easier to sort a smaller</i></text>
+<text top="600" left="533" width="450" height="40" font="16"><i>number of items: Sort A…F, </i></text>
+<text top="643" left="533" width="438" height="40" font="16"><i>G…L, M…R, and S…Z and</i></text>
+<text top="686" left="533" width="228" height="40" font="16"><i>A…Z is sorted</i></text>
+</page>
+<page number="69" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-69_1.jpg"/>
+<text top="54" left="250" width="570" height="67" font="3"><b>Quicksort algorithm</b></text>
+<text top="206" left="65" width="799" height="47" font="13">With each attempt to sort the stack of data </text>
+<text top="256" left="65" width="921" height="47" font="13">elements, the stack is divided at a splitting value, </text>
+<text top="307" left="65" width="886" height="47" font="14"><i>splitVal</i>, and the same approach is used to sort </text>
+<text top="357" left="65" width="797" height="47" font="13">each of the smaller stacks (a smaller case)</text>
+<text top="433" left="65" width="884" height="47" font="13">Process continues until the small stacks do not </text>
+<text top="483" left="65" width="779" height="47" font="13">need to be divided further (the base case)</text>
+<text top="559" left="65" width="921" height="47" font="13">The variables <i>first </i>and <i>last </i>in Quicksort algorithm </text>
+<text top="609" left="65" width="895" height="47" font="13">reflect the part of the array <i>data </i>that is currently </text>
+<text top="660" left="65" width="309" height="47" font="13">being processed</text>
+<text top="754" left="101" width="23" height="23" font="2"><b>69</b></text>
+</page>
+<page number="70" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="37" size="27" family="Times" color="#3366ff"/>
+	<fontspec id="38" size="27" family="Times" color="#ff0000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-70_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>70</b></text>
+<text top="54" left="395" width="280" height="67" font="3"><b>Quicksort</b></text>
+<text top="227" left="119" width="258" height="34" font="35"><i>Quicksort(first, last)</i></text>
+<text top="270" left="119" width="183" height="34" font="17"><i>IF (first &lt; last)</i></text>
+<text top="270" left="443" width="399" height="34" font="37"><i>// There is more than one item</i></text>
+<text top="313" left="159" width="187" height="34" font="38"><i>Select splitVal</i></text>
+<text top="356" left="159" width="183" height="34" font="38"><i>Split (splitVal)</i></text>
+<text top="356" left="443" width="340" height="34" font="37"><i>// Array between first and </i></text>
+<text top="399" left="443" width="344" height="34" font="37"><i>//   splitPoint–1 &lt;= splitVal</i></text>
+<text top="443" left="443" width="359" height="34" font="37"><i>//  data[splitPoint] = splitVal</i></text>
+<text top="486" left="443" width="406" height="34" font="37"><i>// Array between splitPoint + 1 </i></text>
+<text top="529" left="443" width="276" height="34" font="37"><i>//   and last &gt; splitVal</i></text>
+<text top="572" left="159" width="384" height="34" font="17"><i>Quicksort (first, splitPoint - 1)</i></text>
+<text top="614" left="159" width="390" height="34" font="17"><i>Quicksort (splitPoint + 1, last)</i></text>
+</page>
+<page number="71" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-71_1.jpg"/>
+<image top="189" left="108" width="864" height="159" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-71_2.png"/>
+<image top="360" left="108" width="864" height="168" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-71_3.png"/>
+<image top="549" left="108" width="864" height="203" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-71_4.png"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>71</b></text>
+<text top="54" left="395" width="280" height="67" font="3"><b>Quicksort</b></text>
+</page>
+<page number="72" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-72_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>72</b></text>
+<text top="54" left="395" width="280" height="67" font="3"><b>Quicksort</b></text>
+<text top="191" left="83" width="174" height="34" font="35"><i>Split(splitVal)</i></text>
+<text top="234" left="83" width="233" height="34" font="17"><i>Set left to first + 1</i></text>
+<text top="277" left="83" width="200" height="34" font="17"><i>Set right to last</i></text>
+<text top="320" left="83" width="273" height="34" font="17"><i>WHILE (left &lt;= right)</i></text>
+<text top="363" left="123" width="691" height="34" font="17"><i>Increment left until data[left] &gt; splitVal OR left &gt; right</i></text>
+<text top="407" left="123" width="556" height="34" font="17"><i>Decrement right until data[right] &lt; splitVal </i></text>
+<text top="450" left="158" width="185" height="34" font="17"><i>OR left &gt; right</i></text>
+<text top="493" left="123" width="179" height="34" font="17"><i>IF(left &lt; right)</i></text>
+<text top="536" left="158" width="398" height="34" font="17"><i>Swap data[left] and data[right]</i></text>
+<text top="579" left="83" width="275" height="34" font="17"><i>Set splitPoint to right</i></text>
+<text top="623" left="83" width="470" height="34" font="38"><i>Swap data[first] and data[splitPoint]</i></text>
+<text top="666" left="83" width="220" height="34" font="17"><i>Return splitPoint</i></text>
+</page>
+<page number="73" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-73_1.jpg"/>
+<image top="124" left="239" width="603" height="629" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-73_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>73</b></text>
+<text top="36" left="395" width="280" height="67" font="3"><b>Quicksort</b></text>
+</page>
+<page number="74" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-74_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>74</b></text>
+<text top="54" left="272" width="527" height="67" font="3"><b>Important Threads</b></text>
+<text top="206" left="65" width="374" height="47" font="18"><b>Information Hiding</b></text>
+<text top="282" left="65" width="935" height="47" font="13">The practice of hiding the details of a module with </text>
+<text top="332" left="65" width="622" height="47" font="13">the goal of controlling access to it</text>
+<text top="408" left="65" width="234" height="47" font="18"><b>Abstraction</b></text>
+<text top="458" left="65" width="898" height="47" font="13">A model of a complex system that includes only </text>
+<text top="508" left="65" width="620" height="47" font="13">the details essential to the viewer</text>
+<text top="609" left="65" width="862" height="47" font="22"><b>Information Hiding </b>and <b>Abstraction </b>are two </text>
+<text top="660" left="65" width="418" height="47" font="13">sides of the same coin</text>
+</page>
+<page number="75" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-75_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>75</b></text>
+<text top="54" left="272" width="527" height="67" font="3"><b>Important Threads</b></text>
+<text top="206" left="76" width="330" height="47" font="18"><b>Data abstraction</b></text>
+<text top="265" left="76" width="889" height="47" font="13">Separation of the logical view of data from their </text>
+<text top="316" left="75" width="286" height="47" font="13">implementation</text>
+<text top="375" left="76" width="458" height="47" font="18"><b>Procedural abstraction</b></text>
+<text top="435" left="76" width="940" height="47" font="13">Separation of the logical view of actions from their </text>
+<text top="485" left="75" width="286" height="47" font="13">implementation</text>
+<text top="544" left="76" width="388" height="47" font="18"><b>Control abstraction</b></text>
+<text top="604" left="76" width="779" height="47" font="13">Separation of the logical view of a control </text>
+<text top="654" left="75" width="610" height="47" font="13">structure from its implementation</text>
+</page>
+<page number="76" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-76_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>76</b></text>
+<text top="54" left="272" width="527" height="67" font="3"><b>Important Threads</b></text>
+<text top="206" left="65" width="229" height="54" font="8"><b>Identifiers</b></text>
+<text top="293" left="65" width="911" height="54" font="9">Names given to data and actions, by which</text>
+<text top="360" left="119" width="508" height="47" font="13">– we access the data and </text>
+<text top="419" left="166" width="621" height="40" font="16"><i>Read firstName, Set count to count + 1</i></text>
+<text top="472" left="119" width="416" height="47" font="13">– execute the actions</text>
+<text top="531" left="166" width="210" height="40" font="16"><i>Split(splitVal)</i></text>
+<text top="604" left="65" width="922" height="54" font="9">Giving names to data and actions is a form </text>
+<text top="661" left="65" width="288" height="54" font="9">of abstraction</text>
+</page>
+<page number="77" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-77_1.jpg"/>
+<image top="134" left="195" width="678" height="460" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-77_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>77</b></text>
+<text top="54" left="272" width="527" height="67" font="3"><b>Important Threads</b></text>
+<text top="641" left="192" width="696" height="34" font="17"><i>Abstraction is the most powerful tool people have for</i></text>
+<text top="677" left="395" width="290" height="34" font="17"><i>managing complexity!</i></text>
+</page>
+<page number="78" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="39" size="45" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-78_1.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>78</b></text>
+<text top="54" left="335" width="400" height="67" font="3"><b>Ethical Issues</b></text>
+<text top="201" left="65" width="831" height="54" font="39"><b>Open-Source Software Development</b></text>
+<text top="278" left="173" width="564" height="47" font="14"><i>What are the advantages and </i></text>
+<text top="323" left="173" width="758" height="47" font="14"><i>disadvantages of open-source software?</i></text>
+<text top="394" left="173" width="764" height="47" font="14"><i>What does the success of Linux suggest </i></text>
+<text top="439" left="173" width="781" height="47" font="14"><i>about the future of open-source software?</i></text>
+<text top="510" left="173" width="784" height="47" font="14"><i>Should open-source software be licensed </i></text>
+<text top="555" left="173" width="739" height="47" font="14"><i>and subject to standard copyright laws?</i></text>
+</page>
+<page number="79" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-79_1.jpg"/>
+<image top="135" left="216" width="413" height="593" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-79_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>79</b></text>
+<text top="54" left="384" width="303" height="67" font="3"><b>Who am I?</b></text>
+<text top="206" left="776" width="100" height="40" font="16"><i>I am a</i></text>
+<text top="249" left="776" width="244" height="40" font="16"><i>mathematician.</i></text>
+<text top="292" left="776" width="166" height="40" font="16"><i>Why is my</i></text>
+<text top="335" left="776" width="176" height="40" font="16"><i>picture in a</i></text>
+<text top="379" left="776" width="178" height="40" font="16"><i>book about</i></text>
+<text top="422" left="776" width="150" height="40" font="16"><i>computer</i></text>
+<text top="465" left="776" width="142" height="40" font="16"><i>science?</i></text>
+</page>
+<page number="80" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="40" size="24" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-80_1.jpg"/>
+<image top="135" left="108" width="900" height="610" src="/export/freefileconvert/5888_2947b992858fdc594c4d279d51bee072b89d709e02b2e8c206ab615edc3b9217-80_2.jpg"/>
+<text top="754" left="101" width="23" height="23" font="2"><b>80</b></text>
+<text top="54" left="331" width="409" height="67" font="3"><b>Do you know?</b></text>
+<text top="322" left="191" width="512" height="30" font="40"><i>What writing system did the Rosetta stone </i></text>
+<text top="354" left="191" width="351" height="30" font="40"><i>serve as a key to translating?</i></text>
+<text top="419" left="191" width="596" height="30" font="40"><i>What did the National Intellectual Property Rights </i></text>
+<text top="452" left="191" width="673" height="30" font="40"><i>Coordination Center warn the American people about in </i></text>
+<text top="484" left="191" width="75" height="30" font="40"><i>2013?</i></text>
+<text top="549" left="191" width="428" height="30" font="40"><i>What is piggybacking? Is it ethical? </i></text>
+<text top="614" left="191" width="672" height="30" font="40"><i>What parallels are there between philosophy and object </i></text>
+<text top="646" left="191" width="371" height="30" font="40"><i>oriented software engineering?</i></text>
+</page>
+</pdf2xml>

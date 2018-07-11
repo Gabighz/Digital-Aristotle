@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="63" family="Times" color="#ffffff"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-1_1.jpg"/>
+<text top="186" left="104" width="304" height="74" font="0"><b>Chapter 3</b></text>
+<text top="361" left="189" width="161" height="74" font="0"><b>Data </b></text>
+<text top="440" left="21" width="481" height="74" font="0"><b>Representation</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="18" family="Times" color="#000000"/>
+	<fontspec id="2" size="51" family="Times" color="#000000"/>
+	<fontspec id="3" size="39" family="Times" color="#000000"/>
+	<fontspec id="4" size="39" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-2_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>2</b></text>
+<text top="57" left="356" width="369" height="60" font="2"><b>Chapter Goals</b></text>
+<text top="179" left="65" width="423" height="47" font="3">• Distinguish between </text>
+<text top="179" left="488" width="126" height="47" font="4">analog</text>
+<text top="179" left="626" width="82" height="47" font="3">and </text>
+<text top="179" left="708" width="110" height="47" font="4">digital</text>
+<text top="229" left="99" width="208" height="47" font="3">information</text>
+<text top="290" left="65" width="278" height="47" font="3">• Explain data </text>
+<text top="290" left="342" width="239" height="47" font="4">compression</text>
+<text top="290" left="593" width="260" height="47" font="3">and calculate </text>
+<text top="340" left="99" width="250" height="47" font="3">compression </text>
+<text top="340" left="350" width="103" height="47" font="4">ratios</text>
+<text top="401" left="65" width="254" height="47" font="3">• Explain the </text>
+<text top="401" left="319" width="267" height="47" font="4">binary formats</text>
+<text top="401" left="597" width="314" height="47" font="3">for negative and </text>
+<text top="451" left="99" width="374" height="47" font="3">floating-point values</text>
+<text top="512" left="65" width="680" height="47" font="3">• Describe the characteristics of the </text>
+<text top="512" left="744" width="110" height="47" font="4">ASCII</text>
+<text top="512" left="866" width="82" height="47" font="3">and </text>
+<text top="562" left="99" width="154" height="47" font="4">Unicode</text>
+<text top="562" left="265" width="264" height="47" font="3">character sets</text>
+<text top="623" left="65" width="820" height="47" font="3">• Perform various types of text compression</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-3_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>3</b></text>
+<text top="57" left="401" width="369" height="60" font="2"><b>Chapter Goals</b></text>
+<text top="179" left="65" width="432" height="47" font="3">• Explain the nature of </text>
+<text top="179" left="497" width="126" height="47" font="4">sound </text>
+<text top="179" left="623" width="136" height="47" font="3">and its </text>
+<text top="229" left="99" width="269" height="47" font="3">representation</text>
+<text top="290" left="65" width="670" height="47" font="3">• Explain how RGB values define a </text>
+<text top="290" left="735" width="91" height="47" font="4">color</text>
+<text top="350" left="65" width="750" height="47" font="3">• Distinguish between raster and vector </text>
+<text top="350" left="815" width="159" height="47" font="4">graphics</text>
+<text top="411" left="65" width="575" height="47" font="3">• Explain temporal and spatial </text>
+<text top="411" left="640" width="112" height="47" font="4">video </text>
+<text top="411" left="752" width="239" height="47" font="3">compression</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="5" size="45" family="Times" color="#000000"/>
+	<fontspec id="6" size="45" family="Times" color="#ff6600"/>
+	<fontspec id="7" size="33" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-4_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>4</b></text>
+<text top="57" left="321" width="528" height="60" font="2"><b>Data and Computers</b></text>
+<text top="174" left="65" width="330" height="54" font="5">Computers are </text>
+<text top="174" left="395" width="253" height="54" font="6"><b>multimedia</b></text>
+<text top="174" left="661" width="357" height="54" font="5">devices, dealing </text>
+<text top="226" left="65" width="887" height="54" font="5">with a vast array of information categories</text>
+<text top="289" left="65" width="828" height="54" font="5">Computers store, present, and help us </text>
+<text top="341" left="65" width="141" height="54" font="5">modify</text>
+<text top="402" left="173" width="173" height="40" font="7">• Numbers</text>
+<text top="449" left="173" width="97" height="40" font="7">• Text</text>
+<text top="497" left="173" width="119" height="40" font="7">• Audio</text>
+<text top="545" left="173" width="361" height="40" font="7">• Images and graphics</text>
+<text top="592" left="173" width="119" height="40" font="7">• Video</text>
+<text top="642" left="65" width="562" height="54" font="5">All stored as binary digits (</text>
+<text top="642" left="627" width="85" height="54" font="6"><b>bits</b></text>
+<text top="642" left="712" width="16" height="54" font="5">)</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="39" family="Times" color="#ff6600"/>
+	<fontspec id="9" size="33" family="Times" color="#ff6600"/>
+	<fontspec id="10" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-5_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>5</b></text>
+<text top="57" left="321" width="528" height="60" font="2"><b>Data and Computers</b></text>
+<text top="174" left="65" width="388" height="47" font="8"><b>Data compression  </b></text>
+<text top="229" left="65" width="943" height="47" font="3">Reduction in the amount of space needed to store </text>
+<text top="275" left="65" width="839" height="47" font="3">a piece of data or the bandwidth to transmit it</text>
+<text top="330" left="65" width="371" height="47" font="8"><b>Compression ratio</b></text>
+<text top="386" left="65" width="893" height="47" font="3">The size of the compressed data divided by the </text>
+<text top="431" left="65" width="433" height="47" font="3">size of the original data</text>
+<text top="487" left="65" width="704" height="47" font="3">A data compression technique can be</text>
+<text top="541" left="119" width="142" height="40" font="9"><b>lossless</b></text>
+<text top="541" left="261" width="649" height="40" font="10">, which means the data can be retrieved </text>
+<text top="580" left="153" width="611" height="40" font="10">without any loss of original information</text>
+<text top="627" left="119" width="92" height="40" font="9"><b>lossy</b></text>
+<text top="627" left="211" width="759" height="40" font="10">, which means some information may be lost in </text>
+<text top="666" left="153" width="440" height="40" font="10">the process of compression</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="11" size="51" family="Times" color="#000000"/>
+	<fontspec id="12" size="51" family="Times" color="#ff6600"/>
+	<fontspec id="13" size="45" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-6_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>6</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Analog and Digital Information</b></text>
+<text top="180" left="65" width="516" height="60" font="11">Computers are finite! </text>
+<text top="258" left="65" width="930" height="60" font="12"><i>How do we represent an infinite world?</i></text>
+<text top="403" left="65" width="301" height="54" font="5">We represent </text>
+<text top="403" left="366" width="173" height="54" font="13">enough </text>
+<text top="403" left="539" width="464" height="54" font="5">of the world to satisfy </text>
+<text top="460" left="65" width="83" height="54" font="5">our </text>
+<text top="460" left="147" width="312" height="54" font="13">computational </text>
+<text top="460" left="459" width="538" height="54" font="5">needs and our senses of </text>
+<text top="518" left="65" width="101" height="54" font="13">sight</text>
+<text top="518" left="179" width="93" height="54" font="5">and </text>
+<text top="518" left="273" width="144" height="54" font="13">sound </text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-7_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>7</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Analog and Digital Information</b></text>
+<text top="179" left="65" width="847" height="47" font="3">Information can be represented in one of two </text>
+<text top="229" left="65" width="119" height="47" font="3">ways: </text>
+<text top="229" left="184" width="136" height="47" font="8"><b>analog</b></text>
+<text top="229" left="331" width="49" height="47" font="3">or </text>
+<text top="229" left="380" width="124" height="47" font="8"><b>digital</b></text>
+<text top="349" left="119" width="206" height="40" font="9"><b>Analog data</b></text>
+<text top="401" left="119" width="851" height="40" font="10">A continuous representation, analogous to the actual </text>
+<text top="444" left="153" width="386" height="40" font="10">information it represents</text>
+<text top="547" left="129" width="194" height="40" font="9"><b>Digital data</b></text>
+<text top="599" left="119" width="867" height="40" font="10">A discrete representation, breaking the information up </text>
+<text top="642" left="153" width="375" height="40" font="10">into separate elements </text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="14" size="21" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-8_1.jpg"/>
+<image top="162" left="432" width="216" height="573" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-8_2.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>8</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Analog and Digital Information</b></text>
+<text top="250" left="173" width="115" height="27" font="14">A mercury </text>
+<text top="279" left="173" width="136" height="27" font="14">thermometer</text>
+<text top="308" left="173" width="136" height="27" font="14">is an analog </text>
+<text top="336" left="173" width="69" height="27" font="14">device</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="15" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-9_1.jpg"/>
+<text top="763" left="74" width="12" height="23" font="1"><b>9</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Analog and Digital Information</b></text>
+<text top="179" left="65" width="627" height="47" font="3">Computers cannot work well with </text>
+<text top="179" left="691" width="138" height="47" font="4">analog </text>
+<text top="179" left="830" width="161" height="47" font="3">data, so </text>
+<text top="229" left="65" width="372" height="47" font="3">we digitize the data </text>
+<text top="350" left="65" width="149" height="47" font="8"><b>Digitize</b></text>
+<text top="411" left="65" width="926" height="47" font="3">Breaking data into pieces and representing those </text>
+<text top="461" left="65" width="328" height="47" font="3">pieces separately</text>
+<text top="582" left="65" width="933" height="47" font="15"><i>Why do we use binary to represent digitized data?</i></text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-10_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>10</b></text>
+<text top="57" left="351" width="468" height="60" font="2"><b>Electronic Signals</b></text>
+<text top="179" left="65" width="831" height="54" font="5">Important facts about electronic signals</text>
+<text top="247" left="65" width="104" height="47" font="3">• An </text>
+<text top="247" left="168" width="260" height="47" font="4">analog signal </text>
+<text top="247" left="428" width="447" height="47" font="3">continually fluctuates in </text>
+<text top="297" left="105" width="400" height="47" font="3">voltage up and down </text>
+<text top="358" left="65" width="80" height="47" font="3">• A </text>
+<text top="358" left="145" width="243" height="47" font="4">digital signal </text>
+<text top="358" left="388" width="533" height="47" font="3">has only a high or low state, </text>
+<text top="408" left="105" width="709" height="47" font="3">corresponding to the two binary digits </text>
+<text top="469" left="65" width="99" height="47" font="3">• All </text>
+<text top="469" left="164" width="335" height="47" font="4">electronic signals </text>
+<text top="469" left="498" width="463" height="47" font="3">(both analog and digital) </text>
+<text top="519" left="105" width="641" height="47" font="3">degrade as they move down a line</text>
+<text top="579" left="65" width="125" height="47" font="3">• The </text>
+<text top="579" left="189" width="147" height="47" font="4">voltage </text>
+<text top="579" left="337" width="559" height="47" font="3">of the signal fluctuates due to </text>
+<text top="630" left="105" width="400" height="47" font="3">environmental effects</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="16" size="33" family="Times" color="#000000"/>
+	<fontspec id="17" size="34" family="Times" color="#000000"/>
+	<fontspec id="18" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-11_1.jpg"/>
+<image top="144" left="166" width="739" height="216" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-11_2.jpg"/>
+<image top="369" left="118" width="835" height="234" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-11_3.jpg"/>
+<text top="763" left="74" width="22" height="23" font="1"><b>11</b></text>
+<text top="57" left="271" width="483" height="60" font="2"><b>Electronic Signals </b></text>
+<text top="73" left="754" width="94" height="40" font="16"><i><b>(Cont</b></i></text>
+<text top="74" left="848" width="18" height="36" font="17">’</text>
+<text top="73" left="866" width="34" height="40" font="16"><i><b>d)</b></i></text>
+<text top="620" left="65" width="943" height="47" font="3">Periodically, a digital signal is <b>reclocked </b>to regain </text>
+<text top="670" left="65" width="316" height="47" font="3">its original shape</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="19" size="45" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-12_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>12</b></text>
+<text top="57" left="282" width="606" height="60" font="2"><b>Binary Representations</b></text>
+<text top="174" left="65" width="517" height="54" font="5">• Each bit can be either </text>
+<text top="174" left="582" width="27" height="54" font="13">0</text>
+<text top="174" left="622" width="56" height="54" font="5">or </text>
+<text top="174" left="678" width="27" height="54" font="13">1</text>
+<text top="174" left="705" width="218" height="54" font="5">, so it can </text>
+<text top="226" left="105" width="690" height="54" font="5">represent a choice between two </text>
+<text top="277" left="105" width="594" height="54" font="5">possibilities (or “two things”)</text>
+<text top="341" left="65" width="776" height="54" font="5">• Two bits can represent four things </text>
+<text top="393" left="105" width="264" height="54" font="19"><i>(Why? Hint: </i></text>
+<text top="393" left="369" width="53" height="54" font="13">00</text>
+<text top="393" left="422" width="27" height="54" font="5">, </text>
+<text top="393" left="449" width="53" height="54" font="13">01</text>
+<text top="393" left="502" width="27" height="54" font="5">, </text>
+<text top="393" left="529" width="53" height="54" font="13">10</text>
+<text top="393" left="582" width="27" height="54" font="5">, </text>
+<text top="393" left="609" width="53" height="54" font="13">11</text>
+<text top="393" left="662" width="29" height="54" font="5">.<i>)</i></text>
+<text top="519" left="65" width="911" height="54" font="19"><i>How many things can three bits represent?</i></text>
+<text top="583" left="65" width="884" height="54" font="19"><i>How many things can four bits represent?</i></text>
+<text top="646" left="65" width="906" height="54" font="19"><i>How many things can eight bits represent?</i></text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-13_1.jpg"/>
+<image top="126" left="343" width="395" height="612" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-13_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>13</b></text>
+<text top="57" left="282" width="606" height="60" font="2"><b>Binary Representations</b></text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-14_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>14</b></text>
+<text top="57" left="282" width="606" height="60" font="2"><b>Binary Representations</b></text>
+<text top="174" left="65" width="919" height="54" font="19"><i>How many bits are needed to represent 32 </i></text>
+<text top="226" left="65" width="615" height="54" font="19"><i>things? One hundred things?</i></text>
+<text top="352" left="65" width="828" height="54" font="19"><i>How many things can </i>n bits <i>represent?</i></text>
+<text top="479" left="65" width="123" height="54" font="19"><i>Why?</i></text>
+<text top="606" left="65" width="922" height="54" font="19"><i>What happens every time you increase the </i></text>
+<text top="658" left="65" width="487" height="54" font="19"><i>number of bits by one?</i></text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="20" size="24" family="Times" color="#ffffff"/>
+	<fontspec id="21" size="24" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-15_1.jpg"/>
+<text top="57" left="188" width="795" height="60" font="2"><b>Representing Natural Numbers</b></text>
+<text top="174" left="137" width="156" height="30" font="20"><b>8-bit Binary </b></text>
+<text top="206" left="113" width="196" height="30" font="20"><b>Representation</b></text>
+<text top="174" left="341" width="101" height="30" font="20"><b>Natural </b></text>
+<text top="206" left="336" width="102" height="30" font="20"><b>Number</b></text>
+<text top="252" left="182" width="130" height="27" font="21">01111111</text>
+<text top="250" left="393" width="45" height="30" font="21">127</text>
+<text top="296" left="182" width="130" height="27" font="21">01111110</text>
+<text top="294" left="393" width="45" height="30" font="21">126</text>
+<text top="338" left="285" width="27" height="30" font="21">…</text>
+<text top="338" left="411" width="27" height="30" font="21">…</text>
+<text top="384" left="182" width="130" height="27" font="21">00000011</text>
+<text top="382" left="423" width="15" height="30" font="21">3</text>
+<text top="428" left="182" width="130" height="27" font="21">00000010</text>
+<text top="425" left="423" width="15" height="30" font="21">2</text>
+<text top="471" left="182" width="130" height="27" font="21">00000001</text>
+<text top="469" left="423" width="15" height="30" font="21">1</text>
+<text top="515" left="182" width="130" height="27" font="21">00000000</text>
+<text top="513" left="423" width="15" height="30" font="21">0</text>
+<text top="179" left="560" width="442" height="47" font="3">• Easy! Just convert to </text>
+<text top="229" left="600" width="115" height="47" font="3">binary</text>
+<text top="290" left="560" width="457" height="47" font="3">• Computers store data </text>
+<text top="340" left="600" width="390" height="47" font="3">in fixed-size chunks, </text>
+<text top="391" left="600" width="372" height="47" font="3">so we have leading </text>
+<text top="441" left="600" width="126" height="47" font="3">zeroes</text>
+<text top="562" left="560" width="400" height="47" font="15"><i>What do the integers </i></text>
+<text top="613" left="560" width="437" height="47" font="15"><i>include that the natural </i></text>
+<text top="663" left="560" width="316" height="47" font="15"><i>numbers do not?</i></text>
+<text top="763" left="74" width="23" height="23" font="1"><b>15</b></text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-16_1.jpg"/>
+<image top="549" left="210" width="660" height="140" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-16_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>16</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="179" left="65" width="836" height="47" font="8"><b>Signed-magnitude number representation</b></text>
+<text top="240" left="65" width="356" height="47" font="3">• Used by humans</text>
+<text top="300" left="65" width="937" height="47" font="3">• The sign represents the ordering (the negatives </text>
+<text top="350" left="105" width="852" height="47" font="3">come before the positives in ascending order)</text>
+<text top="411" left="65" width="955" height="47" font="3">• The digits represent the magnitude (the distance </text>
+<text top="461" left="105" width="192" height="47" font="3">from zero)</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="22" size="38" family="Times" color="#ff6600"/>
+	<fontspec id="23" size="38" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-17_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>17</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="174" left="65" width="151" height="45" font="22">Problem</text>
+<text top="174" left="216" width="662" height="45" font="23">: Two zeroes (positive and  negative)</text>
+<text top="281" left="65" width="749" height="45" font="23">No problem for humans, but would cause </text>
+<text top="325" left="65" width="675" height="45" font="23">unnecessary complexity in computers</text>
+<text top="432" left="65" width="146" height="45" font="22">Solution</text>
+<text top="432" left="211" width="745" height="45" font="23">: Represent integers by associating them </text>
+<text top="476" left="65" width="376" height="45" font="23">with natural numbers</text>
+<text top="583" left="65" width="909" height="45" font="23">Half the natural numbers will represent themselves</text>
+<text top="689" left="65" width="819" height="45" font="23">The other half will represent negative integers</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-18_1.jpg"/>
+<image top="459" left="129" width="823" height="164" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-18_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>18</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="179" left="65" width="541" height="54" font="5">Using two decimal digits, </text>
+<text top="249" left="119" width="844" height="54" font="5">let 0 through 49 represent 0 through 49 </text>
+<text top="318" left="119" width="889" height="54" font="5">let 50 through 99 represent -50 through -1</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="24" size="24" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-19_1.jpg"/>
+<image top="329" left="126" width="523" height="315" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-19_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>19</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="179" left="65" width="908" height="54" font="5">To perform addition, add the numbers and </text>
+<text top="237" left="65" width="812" height="54" font="5">discard any carry to the hundreds digit</text>
+<text top="336" left="722" width="164" height="30" font="24"><i>Now you try it</i></text>
+<text top="400" left="722" width="52" height="30" font="21">48   </text>
+<text top="403" left="774" width="207" height="27" font="14">(signed-magnitude)</text>
+<text top="433" left="722" width="32" height="30" font="21">- 1</text>
+<text top="465" left="722" width="30" height="30" font="21">47</text>
+<text top="530" left="722" width="234" height="30" font="24"><i>How does it work in</i></text>
+<text top="562" left="722" width="212" height="30" font="24"><i>the new scheme?</i></text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-20_1.jpg"/>
+<image top="324" left="150" width="780" height="234" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-20_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>20</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="179" left="65" width="951" height="54" font="5">To perform subtraction, use A – B = A + (-B) </text>
+<text top="249" left="65" width="884" height="54" font="5">Add the negative of the second to the first</text>
+<text top="592" left="393" width="118" height="30" font="24"><i>Try these:</i></text>
+<text top="624" left="408" width="15" height="30" font="24"><i>4</i></text>
+<text top="624" left="546" width="15" height="30" font="24"><i>4</i></text>
+<text top="624" left="654" width="32" height="30" font="24"><i>- 1</i></text>
+<text top="657" left="393" width="32" height="30" font="24"><i>- 3</i></text>
+<text top="657" left="501" width="66" height="30" font="24"><i>- (- 3)</i></text>
+<text top="657" left="654" width="32" height="30" font="24"><i>- 2</i></text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="25" size="42" family="Times" color="#000000"/>
+	<fontspec id="26" size="42" family="Times" color="#ff6600"/>
+	<fontspec id="27" size="42" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-21_1.jpg"/>
+<image top="324" left="63" width="945" height="118" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-21_2.png"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>21</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="175" left="65" width="140" height="50" font="25">Called </text>
+<text top="175" left="204" width="377" height="50" font="26">ten’s complement </text>
+<text top="175" left="582" width="312" height="50" font="25">representation, </text>
+<text top="223" left="65" width="902" height="50" font="25">because we can use this formula to compute </text>
+<text top="271" left="65" width="797" height="50" font="25">the representation of a negative number</text>
+<text top="450" left="65" width="892" height="50" font="25">For example, -3 is Negative(3), so using two </text>
+<text top="498" left="65" width="532" height="50" font="25">digits, its representation is </text>
+<text top="558" left="173" width="535" height="50" font="25">Negative(3) = 100 – 3 = 97</text>
+<text top="676" left="65" width="770" height="50" font="27"><i>What do we get if we try this in binary?</i></text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="28" size="27" family="Times" color="#ff6600"/>
+	<fontspec id="29" size="27" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-22_1.jpg"/>
+<image top="153" left="135" width="252" height="593" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-22_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>22</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="251" left="488" width="279" height="34" font="28"><b>Two</b>’<b>s Complement</b></text>
+<text top="322" left="488" width="320" height="30" font="21">(The binary number line is </text>
+<text top="354" left="488" width="332" height="30" font="21">easier to read when written </text>
+<text top="387" left="488" width="114" height="30" font="21">vertically)</text>
+<text top="452" left="488" width="360" height="30" font="24"><i>Remember our table showing </i></text>
+<text top="484" left="488" width="299" height="30" font="24"><i>how to represent natural </i></text>
+<text top="516" left="488" width="120" height="30" font="24"><i>numbers?</i></text>
+<text top="581" left="488" width="305" height="30" font="24"><i>Do you notice something </i></text>
+<text top="614" left="488" width="363" height="30" font="24"><i>interesting about the left-most </i></text>
+<text top="646" left="488" width="44" height="30" font="24"><i>bit?</i></text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-23_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>23</b></text>
+<text top="57" left="198" width="774" height="60" font="2"><b>Representing Negative Values</b></text>
+<text top="179" left="65" width="935" height="54" font="5">Addition and subtraction are the same as in </text>
+<text top="238" left="65" width="610" height="54" font="5">ten’s complement arithmetic</text>
+<text top="375" left="222" width="87" height="36" font="10">-127</text>
+<text top="375" left="389" width="174" height="36" font="10">10000001</text>
+<text top="427" left="222" width="87" height="36" font="10">+  1</text>
+<text top="427" left="389" width="174" height="36" font="10">00000001</text>
+<text top="478" left="222" width="87" height="36" font="10">-126</text>
+<text top="478" left="389" width="174" height="36" font="10">10000010</text>
+<text top="600" left="65" width="782" height="54" font="19"><i>What if the computed value won't fit?</i></text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="30" size="36" family="Times" color="#000000"/>
+	<fontspec id="31" size="30" family="Times" color="#000000"/>
+	<fontspec id="32" size="30" family="Times" color="#ff6600"/>
+	<fontspec id="33" size="36" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-24_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>24</b></text>
+<text top="57" left="360" width="450" height="60" font="2"><b>Number Overflow</b></text>
+<text top="204" left="65" width="840" height="44" font="30">If each value is stored using 8 bits, then 127 + 3 </text>
+<text top="241" left="65" width="176" height="44" font="30">overflows:</text>
+<text top="337" left="124" width="159" height="33" font="31">01111111</text>
+<text top="377" left="65" width="219" height="33" font="31">+  00000011</text>
+<text top="417" left="124" width="20" height="33" font="32">1</text>
+<text top="417" left="144" width="139" height="33" font="31">0000010</text>
+<text top="484" left="65" width="941" height="44" font="33"><i>Apparently, 127 + 3 is -126. Remember when we said </i></text>
+<text top="522" left="65" width="923" height="44" font="33"><i>we would always fail in our attempt to map an infinite </i></text>
+<text top="559" left="65" width="486" height="44" font="33"><i>world onto a finite machine?</i></text>
+<text top="653" left="65" width="871" height="44" font="30">Most computers use 32 or 64 bits for integers, but </text>
+<text top="690" left="65" width="949" height="44" font="30">there are always infinitely many that aren’t represented</text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="34" size="36" family="Times" color="#ff6600"/>
+	<fontspec id="35" size="23" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-25_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>25</b></text>
+<text top="57" left="224" width="723" height="60" font="2"><b>Representing Real Numbers</b></text>
+<text top="169" left="65" width="292" height="50" font="26">Real numbers </text>
+<text top="169" left="357" width="77" height="50" font="25">are </text>
+<text top="174" left="434" width="575" height="44" font="30">numbers with a whole part and a </text>
+<text top="213" left="65" width="751" height="44" font="30">fractional part (either of which may be zero)</text>
+<text top="307" left="173" width="120" height="44" font="34">104.32</text>
+<text top="353" left="173" width="163" height="44" font="34">0.999999</text>
+<text top="400" left="173" width="98" height="44" font="34">357.0</text>
+<text top="447" left="173" width="141" height="44" font="34">3.14159</text>
+<text top="541" left="65" width="473" height="44" font="30">In decimal, positions to the </text>
+<text top="541" left="538" width="87" height="44" font="34">right </text>
+<text top="541" left="625" width="350" height="44" font="30">of the decimal point </text>
+<text top="578" left="65" width="798" height="44" font="30">are the tenths, hundredths, thousandths, etc.: </text>
+<text top="662" left="65" width="43" height="44" font="30">10</text>
+<text top="662" left="108" width="23" height="29" font="35">-1</text>
+<text top="662" left="131" width="65" height="44" font="30">, 10</text>
+<text top="662" left="197" width="30" height="29" font="35">-2 </text>
+<text top="662" left="227" width="65" height="44" font="30">, 10</text>
+<text top="662" left="292" width="23" height="29" font="35">-3</text>
+<text top="662" left="326" width="39" height="44" font="30">…</text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="36" size="42" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-26_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>26</b></text>
+<text top="57" left="224" width="723" height="60" font="2"><b>Representing Real Numbers</b></text>
+<text top="169" left="65" width="804" height="50" font="25">Same rules apply in binary as in decimal</text>
+<text top="277" left="65" width="245" height="50" font="36"><b>Radix point</b></text>
+<text top="277" left="323" width="669" height="50" font="25">is general term for “decimal point”</text>
+<text top="385" left="65" width="947" height="50" font="25">Positions to the right of the radix point in binary:</text>
+<text top="493" left="173" width="25" height="50" font="26">2</text>
+<text top="493" left="198" width="27" height="34" font="29">-1</text>
+<text top="493" left="237" width="352" height="50" font="25">(halves position), </text>
+<text top="547" left="173" width="25" height="50" font="26">2</text>
+<text top="547" left="198" width="27" height="34" font="29">-2</text>
+<text top="547" left="237" width="387" height="50" font="25">(quarters position), </text>
+<text top="601" left="173" width="25" height="50" font="26">2</text>
+<text top="601" left="198" width="27" height="34" font="29">-3</text>
+<text top="601" left="237" width="342" height="50" font="25">(eighths position)</text>
+<text top="655" left="173" width="45" height="50" font="25">…</text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-27_1.jpg"/>
+<image top="288" left="252" width="531" height="128" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-27_2.png"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>27</b></text>
+<text top="57" left="224" width="723" height="60" font="2"><b>Representing Real Numbers</b></text>
+<text top="169" left="65" width="912" height="50" font="25">A real value in base 10 can be defined by the </text>
+<text top="212" left="65" width="859" height="50" font="25">following formula where the mantissa is an </text>
+<text top="255" left="65" width="137" height="50" font="25">integer</text>
+<text top="417" left="65" width="572" height="50" font="25">This representation is called </text>
+<text top="417" left="637" width="286" height="50" font="36"><b>floating point</b></text>
+<text top="460" left="65" width="614" height="50" font="25">because the radix point “floats”</text>
+<text top="568" left="65" width="837" height="50" font="25">In analogy to the fixed number of bits that </text>
+<text top="612" left="65" width="947" height="50" font="25">computers use to represent integers, we’ll treat </text>
+<text top="655" left="65" width="937" height="50" font="25">the mantissa as having a fixed number of digits</text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="37" size="15" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-28_1.jpg"/>
+<image top="207" left="55" width="662" height="434" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-28_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>28</b></text>
+<text top="57" left="179" width="723" height="60" font="2"><b>Representing Real Numbers</b></text>
+<text top="172" left="731" width="288" height="30" font="21">Floating-point in binary: </text>
+<text top="211" left="731" width="224" height="30" font="21">sign * mantissa * 2</text>
+<text top="211" left="954" width="29" height="20" font="37">exp</text>
+<text top="276" left="731" width="273" height="30" font="21">Only the base value is </text>
+<text top="308" left="731" width="259" height="30" font="21">different from decimal</text>
+<text top="373" left="731" width="235" height="30" font="21">Fundamentally, the </text>
+<text top="405" left="731" width="257" height="30" font="21">floating-point used by</text>
+<text top="438" left="731" width="303" height="30" font="21">computers is very similar,</text>
+<text top="470" left="731" width="261" height="30" font="21">but uses complicated </text>
+<text top="502" left="731" width="284" height="30" font="21">tricks to represent more</text>
+<text top="535" left="731" width="261" height="30" font="21">numbers and improve</text>
+<text top="567" left="731" width="112" height="30" font="21">efficiency</text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="38" size="25" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-29_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>29</b></text>
+<text top="57" left="224" width="723" height="60" font="2"><b>Representing Real Numbers</b></text>
+<text top="174" left="65" width="415" height="54" font="6"><b>Scientific notation</b></text>
+<text top="236" left="65" width="950" height="47" font="3">A form of floating-point representation in which the </text>
+<text top="281" left="65" width="879" height="47" font="3">decimal point is kept to the right of the leftmost </text>
+<text top="327" left="65" width="89" height="47" font="3">digit </text>
+<text top="438" left="65" width="246" height="47" font="4">12001.32708</text>
+<text top="438" left="322" width="42" height="47" font="3">is </text>
+<text top="438" left="364" width="322" height="47" font="4">1.200132708E+4</text>
+<text top="438" left="698" width="217" height="47" font="3">in scientific </text>
+<text top="483" left="65" width="813" height="47" font="3">notation (E+4 is how computers display x10</text>
+<text top="483" left="877" width="16" height="31" font="38">4</text>
+<text top="483" left="893" width="14" height="47" font="3">)</text>
+<text top="594" left="65" width="706" height="47" font="15"><i>What is 123.332 in scientific notation?</i></text>
+<text top="649" left="65" width="683" height="47" font="15"><i>What is 0.0034 in scientific notation?</i></text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-30_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>30</b></text>
+<text top="57" left="350" width="471" height="60" font="2"><b>Representing Text</b></text>
+<text top="159" left="65" width="879" height="54" font="19"><i>What must be provided to represent text?</i></text>
+<text top="267" left="65" width="872" height="47" font="3">The number of characters to represent is finite </text>
+<text top="307" left="65" width="928" height="47" font="3">(whew!), so list them all and assign each a binary </text>
+<text top="347" left="65" width="103" height="47" font="3">string</text>
+<text top="448" left="65" width="269" height="47" font="8"><b>Character set</b></text>
+<text top="498" left="65" width="783" height="47" font="3">A list of characters and the codes used to </text>
+<text top="539" left="65" width="363" height="47" font="3">represent each one</text>
+<text top="640" left="65" width="884" height="47" font="3">Computer manufacturers agreed to standardize</text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-31_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>31</b></text>
+<text top="57" left="275" width="621" height="60" font="2"><b>The ASCII Character Set</b></text>
+<text top="179" left="72" width="139" height="54" font="13">ASCII </text>
+<text top="179" left="211" width="775" height="54" font="5">stands for American Standard Code </text>
+<text top="237" left="113" width="588" height="54" font="5">for Information Interchange </text>
+<text top="306" left="72" width="139" height="54" font="13">ASCII </text>
+<text top="306" left="211" width="602" height="54" font="5">originally used seven bits to </text>
+<text top="364" left="113" width="908" height="54" font="5">represent each character, allowing for 128 </text>
+<text top="421" left="113" width="394" height="54" font="5">unique characters </text>
+<text top="490" left="72" width="122" height="54" font="5">Later </text>
+<text top="490" left="195" width="349" height="54" font="13">extended ASCII </text>
+<text top="490" left="544" width="397" height="54" font="5">evolved so that all </text>
+<text top="548" left="113" width="426" height="54" font="5">eight bits were used</text>
+<text top="617" left="72" width="671" height="54" font="19"><i>How many characters could be </i></text>
+<text top="675" left="113" width="282" height="54" font="19"><i>represented?</i></text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-32_1.jpg"/>
+<image top="144" left="50" width="980" height="569" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-32_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>32</b></text>
+<text top="57" left="212" width="747" height="60" font="2"><b>ASCII Character Set Mapping</b></text>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="39" size="47" family="Times" color="#000000"/>
+	<fontspec id="40" size="47" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-33_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>33</b></text>
+<text top="57" left="275" width="621" height="60" font="2"><b>The ASCII Character Set</b></text>
+<text top="180" left="65" width="784" height="55" font="39">The first 32 characters in the ASCII </text>
+<text top="239" left="65" width="815" height="55" font="39">character chart do not have a simple </text>
+<text top="299" left="65" width="853" height="55" font="39">character representation to print to the </text>
+<text top="358" left="65" width="149" height="55" font="39">screen</text>
+<text top="501" left="65" width="809" height="55" font="40"><i>What do you think they are used for?</i></text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-34_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>34</b></text>
+<text top="57" left="240" width="690" height="60" font="2"><b>The Unicode Character Set</b></text>
+<text top="179" left="65" width="355" height="54" font="13">Extended ASCII </text>
+<text top="179" left="419" width="370" height="54" font="5">is not enough for </text>
+<text top="237" left="99" width="365" height="54" font="5">international use </text>
+<text top="306" left="65" width="104" height="54" font="5">One </text>
+<text top="306" left="169" width="189" height="54" font="13">Unicode </text>
+<text top="306" left="358" width="549" height="54" font="5">mapping uses 16 bits per </text>
+<text top="364" left="99" width="213" height="54" font="5">character </text>
+<text top="433" left="99" width="866" height="54" font="19"><i>How many characters can this mapping  </i></text>
+<text top="490" left="99" width="229" height="54" font="19"><i>represent?</i></text>
+<text top="560" left="65" width="932" height="54" font="5">The first 256 characters correspond exactly </text>
+<text top="617" left="99" width="759" height="54" font="5">to the extended ASCII character set</text>
+</page>
+<page number="35" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-35_1.jpg"/>
+<image top="173" left="169" width="743" height="464" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-35_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>35</b></text>
+<text top="57" left="240" width="690" height="60" font="2"><b>The Unicode Character Set</b></text>
+</page>
+<page number="36" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-36_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>36</b></text>
+<text top="57" left="350" width="471" height="60" font="2"><b>Text Compression</b></text>
+<text top="165" left="65" width="932" height="45" font="23">If storage or bandwidth is scarce, how can we store </text>
+<text top="199" left="65" width="619" height="45" font="23">and transmit data more efficiently?</text>
+<text top="287" left="65" width="929" height="45" font="23">Compression is most useful for big files (e.g. audio, </text>
+<text top="321" left="65" width="632" height="45" font="23">graphics, video, and scientific data)</text>
+<text top="408" left="65" width="806" height="45" font="23">Text files are typically pretty small, but as an </text>
+<text top="442" left="65" width="794" height="45" font="23">illustration, can we use less than 16 bits per </text>
+<text top="476" left="65" width="659" height="45" font="23">character without losing information?</text>
+<text top="564" left="65" width="745" height="45" font="23">Lossless compression techniques include</text>
+<text top="608" left="119" width="333" height="45" font="22">Keyword encoding</text>
+<text top="651" left="119" width="374" height="45" font="22">Run-length encoding</text>
+<text top="695" left="119" width="329" height="45" font="22">Huffman encoding</text>
+</page>
+<page number="37" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-37_1.jpg"/>
+<image top="333" left="313" width="453" height="335" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-37_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>37</b></text>
+<text top="57" left="341" width="489" height="60" font="2"><b>Keyword Encoding</b></text>
+<text top="179" left="65" width="959" height="54" font="5">Replace frequently used patterns of text with </text>
+<text top="237" left="65" width="746" height="54" font="5">a single special character, such as:</text>
+</page>
+<page number="38" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-38_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>38</b></text>
+<text top="57" left="341" width="489" height="60" font="2"><b>Keyword Encoding</b></text>
+<text top="174" left="65" width="571" height="47" font="3">Given the following paragraph,</text>
+<text top="228" left="153" width="831" height="40" font="10">We hold these truths to be self-evident, that all men </text>
+<text top="267" left="153" width="795" height="40" font="10">are created equal, that they are endowed by their </text>
+<text top="306" left="153" width="829" height="40" font="10">Creator with certain unalienable Rights, that among </text>
+<text top="345" left="153" width="835" height="40" font="10">these are Life, Liberty and the pursuit of Happiness. </text>
+<text top="384" left="153" width="780" height="40" font="10">— That to secure these rights, Governments are </text>
+<text top="423" left="153" width="855" height="40" font="10">instituted among Men, deriving their just powers from </text>
+<text top="462" left="153" width="829" height="40" font="10">the consent of the governed, — That whenever any </text>
+<text top="501" left="153" width="820" height="40" font="10">Form of Government becomes destructive of these </text>
+<text top="539" left="153" width="865" height="40" font="10">ends, it is the Right of the People to alter or to abolish </text>
+<text top="578" left="153" width="726" height="40" font="10">it, and to institute new Government, laying its </text>
+<text top="617" left="153" width="769" height="40" font="10">foundation on such principles and organizing its </text>
+<text top="656" left="153" width="790" height="40" font="10">powers in such form, as to them shall seem most </text>
+<text top="695" left="153" width="671" height="40" font="10">likely to effect their Safety and Happiness.</text>
+</page>
+<page number="39" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-39_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>39</b></text>
+<text top="57" left="341" width="489" height="60" font="2"><b>Keyword Encoding</b></text>
+<text top="174" left="65" width="492" height="47" font="3">The encoded paragraph is</text>
+<text top="228" left="153" width="785" height="40" font="10">We hold # truths to be self-evident, $ all men are </text>
+<text top="267" left="153" width="839" height="40" font="10">created equal, $ ~y are endowed by ~ir Creator with </text>
+<text top="306" left="153" width="755" height="40" font="10">certain unalienable Rights, $ among # are Life, </text>
+<text top="345" left="153" width="792" height="40" font="10">Liberty + ~ pursuit of Happiness. — $ to secure # </text>
+<text top="384" left="153" width="761" height="40" font="10">rights, Governments are instituted among Men, </text>
+<text top="423" left="153" width="870" height="40" font="10">deriving ~ir just powers from ~ consent of ~ governed, </text>
+<text top="462" left="153" width="809" height="40" font="10">— $ whenever any Form of Government becomes </text>
+<text top="501" left="153" width="854" height="40" font="10">destructive of # ends, it is ~ Right of ~ People to alter </text>
+<text top="539" left="153" width="848" height="40" font="10">or to abolish it, + to institute new Government, laying </text>
+<text top="578" left="153" width="776" height="40" font="10">its foundation on such principles + organizing its </text>
+<text top="617" left="153" width="870" height="40" font="10">powers in such form, ^ to ~m shall seem most likely to </text>
+<text top="656" left="153" width="472" height="40" font="10">effect ~ir Safety + Happiness.</text>
+</page>
+<page number="40" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-40_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>40</b></text>
+<text top="57" left="341" width="489" height="60" font="2"><b>Keyword Encoding</b></text>
+<text top="174" left="65" width="355" height="47" font="15"><i>What did we save?</i></text>
+<text top="229" left="173" width="360" height="47" font="3">Original paragraph </text>
+<text top="285" left="281" width="278" height="47" font="3">656 characters</text>
+<text top="340" left="173" width="382" height="47" font="3">Encoded paragraph </text>
+<text top="396" left="281" width="278" height="47" font="3">596 characters</text>
+<text top="451" left="173" width="330" height="47" font="3">Characters saved</text>
+<text top="507" left="281" width="255" height="47" font="3">60 characters</text>
+<text top="562" left="173" width="342" height="47" font="3">Compression ratio</text>
+<text top="618" left="281" width="329" height="47" font="3">596/656 = 0.9085</text>
+<text top="673" left="65" width="879" height="47" font="15"><i>Could we use this substitution chart for all text?</i></text>
+</page>
+<page number="41" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-41_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>41</b></text>
+<text top="57" left="303" width="564" height="60" font="2"><b>Run-Length Encoding</b></text>
+<text top="177" left="65" width="890" height="54" font="5">In some types of data files, a single value </text>
+<text top="223" left="65" width="170" height="54" font="5">may be </text>
+<text top="223" left="235" width="202" height="54" font="13">repeated </text>
+<text top="223" left="438" width="527" height="54" font="5">over and over again in a </text>
+<text top="269" left="65" width="312" height="54" font="5">long sequence</text>
+<text top="327" left="65" width="229" height="54" font="5">Replace a </text>
+<text top="327" left="294" width="423" height="54" font="13">repeated sequence </text>
+<text top="327" left="717" width="99" height="54" font="5">with </text>
+<text top="384" left="119" width="69" height="47" font="3">– a </text>
+<text top="384" left="188" width="68" height="47" font="4">flag</text>
+<text top="434" left="119" width="382" height="47" font="3">– the repeated value</text>
+<text top="485" left="119" width="499" height="47" font="3">– the number of repetitions</text>
+<text top="535" left="65" width="72" height="54" font="13">*n8</text>
+<text top="593" left="119" width="242" height="47" font="3">– * is the flag</text>
+<text top="643" left="119" width="459" height="47" font="3">– n is the repeated value</text>
+<text top="694" left="119" width="738" height="47" font="3">– 8 is the number of times n is repeated</text>
+</page>
+<page number="42" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="41" size="33" family="Times" color="#000000"/>
+	<fontspec id="42" size="27" family="Times" color="#000000"/>
+	<fontspec id="43" size="28" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-42_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>42</b></text>
+<text top="57" left="303" width="564" height="60" font="2"><b>Run-Length Encoding</b></text>
+<text top="174" left="65" width="192" height="40" font="10">Original text</text>
+<text top="222" left="173" width="444" height="40" font="7">bbbbbbbbjjjkllqqqqqq+++++</text>
+<text top="269" left="65" width="210" height="40" font="10">Encoded text</text>
+<text top="317" left="173" width="242" height="40" font="7">*b8jjjkll*q6*+5  </text>
+<text top="317" left="414" width="415" height="40" font="41"><i>(Why isn't J encoded? L?)</i></text>
+<text top="365" left="65" width="574" height="40" font="10">The compression ratio is 15/25 or .6</text>
+<text top="460" left="65" width="210" height="40" font="10">Encoded text</text>
+<text top="507" left="173" width="166" height="40" font="7">*x4*p4l*k7</text>
+<text top="555" left="65" width="192" height="40" font="10">Original text</text>
+<text top="602" left="173" width="286" height="40" font="7">xxxxpppplkkkkkkk</text>
+<text top="689" left="65" width="376" height="34" font="42"><i>This type of repetition doesn</i></text>
+<text top="689" left="441" width="15" height="31" font="43">’</text>
+<text top="689" left="456" width="544" height="34" font="42"><i>t occur in English text; can you think of a </i></text>
+<text top="721" left="65" width="405" height="34" font="42"><i>situation where it might occur?</i></text>
+</page>
+<page number="43" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-43_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>43</b></text>
+<text top="57" left="309" width="480" height="60" font="2"><b>Huffman Encoding</b></text>
+<text top="174" left="65" width="854" height="50" font="25">The characters ‘X’ and ‘z’ occur much less </text>
+<text top="223" left="65" width="939" height="50" font="25">frequently than ‘e’ and the space character, for </text>
+<text top="271" left="65" width="195" height="50" font="25">example. </text>
+<text top="390" left="65" width="882" height="50" font="27"><i>What if we could use fewer bits for common </i></text>
+<text top="439" left="65" width="924" height="50" font="27"><i>characters in exchange for using more bits for </i></text>
+<text top="487" left="65" width="470" height="50" font="27"><i>uncommon characters?</i></text>
+<text top="612" left="65" width="919" height="50" font="25">This is the idea behind prefix codes, including </text>
+<text top="672" left="65" width="302" height="50" font="26">Huffman codes</text>
+</page>
+<page number="44" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="44" size="33" family="Times" color="#ff0000"/>
+	<fontspec id="45" size="33" family="Times" color="#ffff00"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-44_1.jpg"/>
+<image top="207" left="63" width="528" height="387" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-44_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>44</b></text>
+<text top="57" left="345" width="480" height="60" font="2"><b>Huffman Encoding</b></text>
+<text top="170" left="650" width="327" height="40" font="10">“ballboard” would be</text>
+<text top="225" left="650" width="87" height="36" font="44">1010</text>
+<text top="225" left="737" width="43" height="36" font="45">00</text>
+<text top="225" left="780" width="43" height="36" font="44">10</text>
+<text top="268" left="650" width="22" height="36" font="44">0</text>
+<text top="268" left="672" width="65" height="36" font="45">100</text>
+<text top="268" left="737" width="87" height="36" font="44">1010</text>
+<text top="311" left="650" width="65" height="36" font="45">110</text>
+<text top="311" left="715" width="43" height="36" font="44">00</text>
+<text top="311" left="759" width="65" height="36" font="45">111</text>
+<text top="354" left="650" width="87" height="36" font="44">1011</text>
+<text top="354" left="737" width="87" height="36" font="10">xxxx</text>
+<text top="430" left="650" width="221" height="30" font="21">compression ratio </text>
+<text top="463" left="650" width="310" height="30" font="21">4 bytes / 18 bytes <i>= </i>0.222</text>
+<text top="495" left="650" width="305" height="30" font="21">assuming 16-bit Unicode </text>
+<text top="576" left="650" width="218" height="40" font="41"><i>Try “roadbed”</i></text>
+<text top="642" left="53" width="933" height="30" font="21">Note: only the part of the code needed to encode “ballboard” and “roadbed” is </text>
+<text top="674" left="53" width="947" height="30" font="21">shown. In the full code, every character would have an encoding, and the most </text>
+<text top="707" left="53" width="668" height="30" font="21">common characters would have the shortest encodings.</text>
+</page>
+<page number="45" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-45_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>45</b></text>
+<text top="57" left="345" width="480" height="60" font="2"><b>Huffman Encoding</b></text>
+<text top="179" left="65" width="895" height="54" font="5">Huffman encoding is an example of prefix </text>
+<text top="237" left="65" width="933" height="54" font="5">coding: no character's bit string is the prefix </text>
+<text top="295" left="65" width="694" height="54" font="5">of any other character's bit string</text>
+<text top="433" left="65" width="226" height="54" font="5">To decode</text>
+<text top="513" left="173" width="570" height="40" font="10">Look for match left to right, bit by bit</text>
+<text top="568" left="173" width="577" height="40" font="10">Record letter when a match is found</text>
+<text top="619" left="173" width="662" height="40" font="10">Begin where you left off, going left to right</text>
+</page>
+<page number="46" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-46_1.jpg"/>
+<image top="284" left="54" width="455" height="333" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-46_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>46</b></text>
+<text top="57" left="345" width="480" height="60" font="2"><b>Huffman Encoding</b></text>
+<text top="340" left="560" width="124" height="40" font="10">Decode</text>
+<text top="419" left="560" width="210" height="27" font="21">1011111001010</text>
+<text top="162" left="205" width="102" height="47" font="15"><i>Try it!</i></text>
+</page>
+<page number="47" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-47_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>47</b></text>
+<text top="57" left="345" width="480" height="60" font="2"><b>Huffman Encoding</b></text>
+<text top="179" left="65" width="711" height="54" font="5">Technique for determining codes </text>
+<text top="237" left="65" width="913" height="54" font="5">guarantees the prefix property of the codes</text>
+<text top="375" left="65" width="860" height="54" font="5">Two types of codes based on where the </text>
+<text top="433" left="65" width="487" height="54" font="5">frequencies come from</text>
+<text top="500" left="119" width="838" height="47" font="3">– General, based on use of letters in English </text>
+<text top="551" left="153" width="257" height="47" font="3">(Spanish, ….)</text>
+<text top="611" left="119" width="836" height="47" font="3">– Specialized, based on text itself or specific </text>
+<text top="661" left="153" width="227" height="47" font="3">types of text</text>
+</page>
+<page number="48" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-48_1.jpg"/>
+<image top="162" left="239" width="602" height="399" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-48_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>48</b></text>
+<text top="57" left="173" width="825" height="60" font="2"><b>Representing Audio Information</b></text>
+<text top="583" left="128" width="787" height="30" font="21">We perceive sound when a series of air pressure waves vibrate a </text>
+<text top="622" left="128" width="648" height="30" font="21">membrane in our ear, which sends signals to our brain</text>
+</page>
+<page number="49" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-49_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>49</b></text>
+<text top="57" left="173" width="825" height="60" font="2"><b>Representing Audio Information</b></text>
+<text top="219" left="65" width="472" height="47" font="3">Your parents may use a “</text>
+<text top="219" left="537" width="117" height="47" font="4">stereo</text>
+<text top="219" left="654" width="350" height="47" font="3">” to listen to music </text>
+<text top="260" left="65" width="842" height="47" font="3">at home. It sends an electrical signal to each </text>
+<text top="300" left="65" width="893" height="47" font="3">speaker, which then vibrates to produce sound. </text>
+<text top="340" left="65" width="929" height="47" font="3">Your MP3 player and ear buds do the same thing.</text>
+<text top="441" left="65" width="912" height="47" font="3">The signal controls the motion of a membrane in </text>
+<text top="481" left="65" width="886" height="47" font="3">the speaker, which in turn creates the pressure </text>
+<text top="522" left="65" width="484" height="47" font="3">waves that reach our ears</text>
+<text top="623" left="65" width="409" height="47" font="3">Thus, the signal is an </text>
+<text top="623" left="474" width="419" height="47" font="4">analog representation </text>
+<text top="623" left="893" width="117" height="47" font="3">of the </text>
+<text top="663" left="65" width="236" height="47" font="4">sound wave </text>
+</page>
+<page number="50" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-50_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>50</b></text>
+<text top="57" left="191" width="825" height="60" font="2"><b>Representing Audio Information</b></text>
+<text top="174" left="65" width="160" height="50" font="26">Digitize </text>
+<text top="174" left="225" width="252" height="50" font="25">the signal by</text>
+<text top="234" left="119" width="221" height="50" font="26">– Sampling</text>
+<text top="234" left="340" width="682" height="50" font="25">: periodically measure the voltage </text>
+<text top="293" left="119" width="286" height="50" font="26">– Quantization</text>
+<text top="293" left="405" width="557" height="50" font="25">: represent the voltage as a </text>
+<text top="342" left="153" width="727" height="50" font="25">number using a finite number of bits </text>
+<text top="456" left="65" width="599" height="50" font="27"><i>How often should we sample?</i></text>
+<text top="563" left="72" width="500" height="50" font="25">A sampling rate of about </text>
+<text top="563" left="571" width="347" height="50" font="26">40,000 times per </text>
+<text top="612" left="72" width="157" height="50" font="26">second </text>
+<text top="612" left="229" width="667" height="50" font="25">is enough to create a reasonable </text>
+<text top="661" left="72" width="384" height="50" font="25">sound reproduction</text>
+</page>
+<page number="51" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-51_1.jpg"/>
+<image top="169" left="153" width="534" height="474" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-51_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>51</b></text>
+<text top="57" left="191" width="825" height="60" font="2"><b>Representing Audio Information</b></text>
+<text top="286" left="749" width="131" height="30" font="21">Some data</text>
+<text top="318" left="749" width="144" height="30" font="21">is lost, but a</text>
+<text top="351" left="749" width="134" height="30" font="21">reasonable</text>
+<text top="383" left="749" width="108" height="30" font="21">sound is </text>
+<text top="416" left="749" width="137" height="30" font="21">reproduced</text>
+</page>
+<page number="52" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="46" size="27" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-52_1.jpg"/>
+<image top="158" left="81" width="424" height="500" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-52_2.jpg"/>
+<text top="57" left="173" width="825" height="60" font="2"><b>Representing Audio Information</b></text>
+<text top="179" left="560" width="105" height="37" font="32">• CDs</text>
+<text top="179" left="674" width="318" height="37" font="31">store audio (or other) </text>
+<text top="218" left="600" width="301" height="37" font="31">information digitally  </text>
+<text top="265" left="614" width="92" height="34" font="29">– Pits </text>
+<text top="265" left="706" width="191" height="34" font="46">(reflect poorly)</text>
+<text top="308" left="614" width="116" height="34" font="29">– Lands</text>
+<text top="308" left="738" width="162" height="34" font="46">(reflect well)</text>
+<text top="359" left="560" width="362" height="37" font="31">• Read by low intensity </text>
+<text top="359" left="921" width="72" height="37" font="32">laser</text>
+<text top="418" left="560" width="318" height="37" font="31">• Receptor converts </text>
+<text top="470" left="600" width="398" height="37" font="31">reflections into binary digits</text>
+<text top="529" left="560" width="433" height="37" font="31">• Bit string represents audio </text>
+<text top="581" left="600" width="86" height="37" font="31">signal</text>
+<text top="763" left="74" width="23" height="23" font="1"><b>52</b></text>
+</page>
+<page number="53" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="47" size="30" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-53_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>53</b></text>
+<text top="57" left="395" width="381" height="60" font="2"><b>Audio Formats</b></text>
+<text top="171" left="65" width="215" height="37" font="31">Audio Formats</text>
+<text top="211" left="119" width="432" height="37" font="31">– WAV, AU, AIFF, VQF, and </text>
+<text top="211" left="551" width="77" height="37" font="32">MP3 </text>
+<text top="250" left="119" width="574" height="37" font="31">– Use various compression techniques</text>
+<text top="329" left="65" width="255" height="37" font="31">MP3 is dominant </text>
+<text top="369" left="119" width="419" height="37" font="31">– MPEG-2, audio layer 3 file</text>
+<text top="409" left="119" width="602" height="37" font="31">– MPEG = Motion Picture Experts Group</text>
+<text top="448" left="119" width="862" height="37" font="31">– Based on studies of interrelation between ear and brain, </text>
+<text top="480" left="153" width="788" height="37" font="31">discards frequency information that isn’t perceived by </text>
+<text top="511" left="153" width="270" height="37" font="31">humans (science!)</text>
+<text top="551" left="119" width="836" height="37" font="31">– Additional compression by a form of Huffman encoding</text>
+<text top="630" left="119" width="712" height="37" font="47"><i>Is this a lossy or lossless compression (or both)?</i></text>
+</page>
+<page number="54" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="48" size="42" family="Times" color="#ff0000"/>
+	<fontspec id="49" size="42" family="Times" color="#336633"/>
+	<fontspec id="50" size="42" family="Times" color="#0000ff"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-54_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>54</b></text>
+<text top="57" left="132" width="906" height="60" font="2"><b>Representing Images and Graphics</b></text>
+<text top="169" left="65" width="120" height="50" font="26">Color </text>
+<text top="228" left="65" width="890" height="50" font="25">• We take it for granted, but what is it really?</text>
+<text top="358" left="65" width="165" height="50" font="26">Retinas </text>
+<text top="358" left="230" width="630" height="50" font="25">of our eyes have three types of </text>
+<text top="412" left="65" width="502" height="50" font="26">photoreceptor cone cells </text>
+<text top="477" left="65" width="835" height="50" font="25">• Each type responds to a different set of </text>
+<text top="531" left="105" width="377" height="50" font="25">frequencies of light</text>
+<text top="595" left="65" width="855" height="50" font="25">• Our brain translates that response into a </text>
+<text top="649" left="105" width="272" height="50" font="25">perception of </text>
+<text top="649" left="378" width="65" height="50" font="48">red</text>
+<text top="649" left="442" width="25" height="50" font="25">, </text>
+<text top="649" left="468" width="115" height="50" font="49">green</text>
+<text top="649" left="582" width="78" height="50" font="25">, or </text>
+<text top="649" left="660" width="85" height="50" font="50">blue</text>
+</page>
+<page number="55" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="51" size="45" family="Times" color="#ff0000"/>
+	<fontspec id="52" size="45" family="Times" color="#336633"/>
+	<fontspec id="53" size="45" family="Times" color="#0000ff"/>
+	<fontspec id="54" size="45" family="Times" color="#ffff00"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-55_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>55</b></text>
+<text top="57" left="132" width="906" height="60" font="2"><b>Representing Images and Graphics</b></text>
+<text top="179" left="65" width="674" height="54" font="5">Color is expressed as an RGB (</text>
+<text top="179" left="739" width="69" height="54" font="51">red</text>
+<text top="179" left="808" width="16" height="54" font="5">-</text>
+<text top="179" left="824" width="122" height="54" font="52">green</text>
+<text top="179" left="946" width="16" height="54" font="5">-</text>
+<text top="237" left="65" width="91" height="54" font="53">blue</text>
+<text top="237" left="155" width="871" height="54" font="5">) value – three numbers that indicate the </text>
+<text top="295" left="65" width="905" height="54" font="5">relative contribution of each of these three </text>
+<text top="352" left="65" width="314" height="54" font="5">primary colors </text>
+<text top="490" left="65" width="908" height="54" font="5">An RGB  value of (255, 255, 0) maximizes </text>
+<text top="548" left="65" width="394" height="54" font="5">the contribution of </text>
+<text top="548" left="459" width="69" height="54" font="51">red</text>
+<text top="548" left="541" width="93" height="54" font="5">and </text>
+<text top="548" left="635" width="122" height="54" font="52">green</text>
+<text top="548" left="757" width="120" height="54" font="5">, and </text>
+<text top="606" left="65" width="621" height="54" font="5">minimizes the contribution of </text>
+<text top="606" left="685" width="91" height="54" font="53">blue</text>
+<text top="606" left="776" width="163" height="54" font="5">, which </text>
+<text top="663" left="65" width="378" height="54" font="5">results in a bright </text>
+<text top="663" left="443" width="133" height="54" font="54">yellow</text>
+</page>
+<page number="56" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-56_1.jpg"/>
+<image top="169" left="277" width="525" height="471" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-56_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>56</b></text>
+<text top="57" left="132" width="906" height="60" font="2"><b>Representing Images and Graphics</b></text>
+</page>
+<page number="57" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-57_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>57</b></text>
+<text top="57" left="132" width="906" height="60" font="2"><b>Representing Images and Graphics</b></text>
+<text top="179" left="65" width="218" height="47" font="4">Color depth</text>
+<text top="240" left="65" width="875" height="47" font="3">The amount of data that is used to represent a </text>
+<text top="290" left="65" width="103" height="47" font="3">color </text>
+<text top="350" left="65" width="140" height="47" font="4">HiColor</text>
+<text top="411" left="65" width="809" height="47" font="3">A 16-bit color depth: five bits used for each </text>
+<text top="461" left="65" width="790" height="47" font="3">number in an RGB value with the extra bit </text>
+<text top="512" left="65" width="809" height="47" font="3">sometimes used to represent transparency </text>
+<text top="572" left="65" width="187" height="47" font="4">TrueColor</text>
+<text top="633" left="65" width="835" height="47" font="3">A 24-bit color depth: eight bits used for each </text>
+<text top="683" left="65" width="461" height="47" font="3">number in an RGB value</text>
+</page>
+<page number="58" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-58_1.jpg"/>
+<image top="198" left="126" width="565" height="423" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-58_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>58</b></text>
+<text top="57" left="132" width="906" height="60" font="2"><b>Representing Images and Graphics</b></text>
+<text top="277" left="767" width="192" height="30" font="21">A few TrueColor</text>
+<text top="309" left="767" width="212" height="30" font="21">RGB values  and </text>
+<text top="342" left="767" width="176" height="30" font="21">the colors they</text>
+<text top="374" left="767" width="114" height="30" font="21">represent</text>
+</page>
+<page number="59" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-59_1.jpg"/>
+<image top="198" left="558" width="477" height="383" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-59_2.jpg"/>
+<text top="57" left="132" width="906" height="60" font="2"><b>Representing Images and Graphics</b></text>
+<text top="174" left="65" width="40" height="47" font="3">A </text>
+<text top="174" left="104" width="241" height="47" font="4">color palette </text>
+<text top="174" left="345" width="145" height="47" font="3">is a set </text>
+<text top="219" left="65" width="402" height="47" font="3">of colors, for example</text>
+<text top="275" left="65" width="464" height="47" font="3">• Colors supported by a </text>
+<text top="320" left="105" width="140" height="47" font="3">monitor</text>
+<text top="376" left="65" width="417" height="47" font="3">• Web-safe colors for </text>
+<text top="421" left="105" width="320" height="47" font="3">use with Internet </text>
+<text top="466" left="105" width="171" height="47" font="3">browsers</text>
+<text top="522" left="65" width="389" height="47" font="3">• Colors from which </text>
+<text top="567" left="105" width="309" height="47" font="3">user can choose</text>
+<text top="623" left="65" width="380" height="47" font="3">• Colors used in an </text>
+<text top="668" left="105" width="115" height="47" font="3">image</text>
+<text top="763" left="74" width="23" height="23" font="1"><b>59</b></text>
+</page>
+<page number="60" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="55" size="35" family="Times" color="#ff6600"/>
+	<fontspec id="56" size="35" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-60_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>60</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Digitized Images and Graphics</b></text>
+<text top="174" left="65" width="451" height="42" font="55">• Pixels (picture elements)</text>
+<text top="224" left="119" width="711" height="42" font="56">– Dots of color in image (or display device)</text>
+<text top="269" left="65" width="217" height="42" font="55">• Resolution</text>
+<text top="318" left="119" width="655" height="42" font="56">– Number of pixels in image (or device)</text>
+<text top="368" left="65" width="311" height="42" font="55">• Raster Graphics</text>
+<text top="413" left="119" width="598" height="42" font="56">– Treat image as collection of pixels</text>
+<text top="467" left="119" width="885" height="42" font="56">– Most common formats: BMP, GIF, PNG, and JPEG</text>
+<text top="521" left="65" width="309" height="42" font="55">• Vector Graphics</text>
+<text top="575" left="119" width="796" height="42" font="56">– Treat image as collection of geometric objects</text>
+<text top="629" left="119" width="693" height="42" font="56">– Most important formats: Flash and SVG</text>
+</page>
+<page number="61" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-61_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>61</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Digitized Images and Graphics</b></text>
+<text top="157" left="56" width="261" height="40" font="7">• BMP (bitmap)</text>
+<text top="196" left="110" width="799" height="40" font="10">– TrueColor color depth, or less to reduce file size</text>
+<text top="235" left="110" width="853" height="40" font="10">– Well suited for compression by run-length encoding</text>
+<text top="313" left="56" width="349" height="40" font="7">• GIF (indexed color)</text>
+<text top="352" left="110" width="855" height="40" font="10">– File explicitly includes palette of 256 or fewer colors</text>
+<text top="391" left="110" width="730" height="40" font="10">– Each pixel thus requires only 8 or fewer bits</text>
+<text top="430" left="110" width="776" height="40" font="10">– Animated GIFs are short sequences of images</text>
+<text top="507" left="56" width="583" height="40" font="7">• PNG (Portable Network Graphics)</text>
+<text top="546" left="110" width="430" height="40" font="10">– Intended to replace GIFs</text>
+<text top="585" left="110" width="889" height="40" font="10">– Greater compression with wider range of color depths</text>
+<text top="624" left="110" width="246" height="40" font="10">– No animation</text>
+</page>
+<page number="62" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-62_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>62</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Digitized Images and Graphics</b></text>
+<text top="165" left="56" width="709" height="40" font="7">• JPEG (Joint Photographic Experts Group)</text>
+<text top="213" left="110" width="616" height="40" font="10">– Averages hues over short distances </text>
+<text top="259" left="164" width="845" height="34" font="46">• Why? Human vision tends to blur colors together within small </text>
+<text top="292" left="191" width="213" height="34" font="46">areas (science!)</text>
+<text top="331" left="164" width="800" height="34" font="46">• How? Transform from the spatial domain to the frequency </text>
+<text top="364" left="191" width="758" height="34" font="46">domain, then discard high frequency components (math!)</text>
+<text top="403" left="164" width="759" height="34" font="46">• Sound familiar? Essentially the same idea used in MP3</text>
+<text top="444" left="110" width="579" height="40" font="10">– Adjustable degree of compression</text>
+<text top="539" left="56" width="812" height="40" font="10">Raster graphics recap: BMP, GIF, PNG, and JPEG</text>
+<text top="587" left="56" width="665" height="40" font="41"><i>Which use lossless compression? Lossy?</i></text>
+<text top="634" left="56" width="925" height="40" font="41"><i>Which would you use for line art? For a color photograph?</i></text>
+</page>
+<page number="63" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="57" size="18" family="Times" color="#327cb8"/>
+	<fontspec id="58" size="18" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-63_1.jpg"/>
+<image top="193" left="135" width="693" height="497" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-63_2.png"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>63</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Digitized Images and Graphics</b></text>
+<text top="709" left="155" width="117" height="23" font="57">Figure 3.12  </text>
+<text top="709" left="271" width="505" height="23" font="58">A digitized picture composed of many individual pixels </text>
+<text top="223" left="884" width="77" height="30" font="21">Whole</text>
+<text top="255" left="884" width="81" height="30" font="21">picture</text>
+</page>
+<page number="64" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-64_1.jpg"/>
+<image top="42" left="-41" width="721" height="585" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-64_2.png"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>64</b></text>
+<text top="57" left="192" width="786" height="60" font="2"><b>Digitized Images and Graphics</b></text>
+<text top="709" left="155" width="117" height="23" font="57">Figure 3.12  </text>
+<text top="709" left="271" width="505" height="23" font="58">A digitized picture composed of many individual pixels </text>
+<text top="223" left="731" width="207" height="30" font="21">Magnified portion</text>
+<text top="255" left="731" width="156" height="30" font="21">of the picture</text>
+<text top="320" left="731" width="185" height="30" font="24"><i>See the pixels?</i></text>
+<text top="385" left="731" width="207" height="30" font="24"><i>Each pixel of the </i></text>
+<text top="417" left="731" width="200" height="30" font="24"><i>image now fills a</i></text>
+<text top="450" left="731" width="182" height="30" font="24"><i>block of screen</i></text>
+<text top="482" left="731" width="69" height="30" font="24"><i>pixels</i></text>
+</page>
+<page number="65" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-65_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>65</b></text>
+<text top="57" left="377" width="417" height="60" font="2"><b>Vector Graphics</b></text>
+<text top="168" left="65" width="346" height="54" font="13">Vector graphics </text>
+<text top="226" left="65" width="941" height="54" font="5">• A format that describes an image in terms </text>
+<text top="272" left="105" width="650" height="54" font="5">of lines and geometric shapes </text>
+<text top="362" left="65" width="930" height="54" font="5">• A vector graphic is a series of commands </text>
+<text top="408" left="105" width="882" height="54" font="5">that describe shapes using mathematical </text>
+<text top="454" left="105" width="700" height="54" font="5">properties (e.g. direction, length, </text>
+<text top="500" left="105" width="346" height="54" font="5">thickness, color)</text>
+<text top="593" left="65" width="896" height="54" font="5">• For some types of images, the file sizes </text>
+<text top="640" left="105" width="860" height="54" font="5">can be smaller than with raster graphics </text>
+<text top="686" left="105" width="786" height="54" font="5">because not every pixel is described.</text>
+</page>
+<page number="66" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-66_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>66</b></text>
+<text top="57" left="377" width="417" height="60" font="2"><b>Vector Graphics</b></text>
+<text top="169" left="65" width="674" height="50" font="25">The good side and the bad side…</text>
+<text top="277" left="65" width="942" height="50" font="25">Vector graphics can be resized mathematically </text>
+<text top="320" left="65" width="939" height="50" font="25">and changes can be calculated dynamically as </text>
+<text top="363" left="65" width="162" height="50" font="25">needed.</text>
+<text top="471" left="65" width="829" height="50" font="25">Vector graphics are good for line art (e.g. </text>
+<text top="514" left="65" width="749" height="50" font="25">diagrams) and cartoon-style drawings</text>
+<text top="622" left="65" width="917" height="50" font="25">Vector graphics are <i>not </i>good for representing </text>
+<text top="666" left="65" width="480" height="50" font="25">images of the real-world</text>
+</page>
+<page number="67" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-67_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>67</b></text>
+<text top="57" left="332" width="507" height="60" font="2"><b>Representing Video</b></text>
+<text top="179" left="56" width="890" height="54" font="13">Video codec COmpressor/DECompressor</text>
+<text top="237" left="56" width="975" height="54" font="5">Methods used to shrink the size of a movie to </text>
+<text top="295" left="56" width="956" height="54" font="5">allow it to be played on a computer or over a </text>
+<text top="352" left="56" width="181" height="54" font="5">network </text>
+<text top="490" left="56" width="714" height="54" font="5">Almost all video codecs use lossy</text>
+<text top="548" left="56" width="938" height="54" font="5">compression to minimize the huge amounts </text>
+<text top="606" left="56" width="615" height="54" font="5">of data associated with video</text>
+</page>
+<page number="68" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-68_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>68</b></text>
+<text top="57" left="332" width="507" height="60" font="2"><b>Representing Video</b></text>
+<text top="179" left="65" width="462" height="47" font="8"><b>Temporal compression</b></text>
+<text top="240" left="65" width="807" height="47" font="3">A technique based on differences between </text>
+<text top="290" left="65" width="876" height="47" font="3">consecutive frames: If most of an image in two </text>
+<text top="340" left="65" width="884" height="47" font="3">frames has not changed, why should we waste </text>
+<text top="391" left="65" width="569" height="47" font="3">space duplicating information?</text>
+<text top="451" left="65" width="411" height="47" font="8"><b>Spatial compression</b></text>
+<text top="512" left="65" width="786" height="47" font="3">A technique based on removing repetitive </text>
+<text top="562" left="65" width="802" height="47" font="3">information within a frame: This problem is </text>
+<text top="613" left="65" width="758" height="47" font="3">essentially the same as that faced when </text>
+<text top="663" left="65" width="458" height="47" font="3">compressing still images</text>
+</page>
+<page number="69" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="59" size="45" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-69_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>69</b></text>
+<text top="57" left="405" width="360" height="60" font="2"><b>Ethical Issues</b></text>
+<text top="174" left="65" width="924" height="54" font="59"><b>The Fallout from Snowden’s Revelations</b></text>
+<text top="254" left="112" width="898" height="47" font="15"><i>What government program was revealed by the </i></text>
+<text top="300" left="112" width="788" height="47" font="15"><i>documents that Edward Snowden leaked?</i></text>
+<text top="390" left="112" width="753" height="47" font="15"><i>When was this program first authorized?</i></text>
+<text top="481" left="112" width="875" height="47" font="15"><i>What led to President Obama announcing that </i></text>
+<text top="527" left="112" width="664" height="47" font="15"><i>the program would be scaled back?</i></text>
+<text top="617" left="112" width="888" height="47" font="15"><i>Do you think Snowden is a criminal? A hero? A </i></text>
+<text top="663" left="112" width="334" height="47" font="15"><i>traitor? A patriot? </i></text>
+</page>
+<page number="70" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="60" size="51" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-70_1.jpg"/>
+<image top="138" left="99" width="478" height="527" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-70_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>70</b></text>
+<text top="57" left="449" width="273" height="60" font="60"><i><b>Who am I?</b></i></text>
+<text top="287" left="677" width="172" height="40" font="41"><i>I was very </i></text>
+<text top="330" left="677" width="154" height="40" font="41"><i>versatile. </i></text>
+<text top="373" left="677" width="244" height="40" font="41"><i>Can you name </i></text>
+<text top="416" left="677" width="276" height="40" font="41"><i>four items on my </i></text>
+<text top="460" left="677" width="140" height="40" font="41"><i>resume?</i></text>
+</page>
+<page number="71" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-71_1.jpg"/>
+<image top="144" left="117" width="900" height="610" src="/export/freefileconvert/21003_02206de2a8e96a4adbbb012dc14bd611b9ebf16dad1943771f91f70665bb89a5-71_2.jpg"/>
+<text top="754" left="47" width="23" height="23" font="1"><b>71</b></text>
+<text top="57" left="401" width="369" height="60" font="60"><i><b>Do you know?</b></i></text>
+<text top="319" left="227" width="518" height="30" font="24"><i>How many computer character sets existed</i></text>
+<text top="348" left="227" width="103" height="30" font="24"><i>in 1960?</i></text>
+<text top="406" left="227" width="472" height="30" font="24"><i>What happened between 10/24/02 and </i></text>
+<text top="435" left="227" width="552" height="30" font="24"><i>10/26/02 to guests of Holiday Inn, Holiday Inn </i></text>
+<text top="465" left="227" width="305" height="30" font="24"><i>Express or Crown Plaza?</i></text>
+<text top="523" left="227" width="483" height="30" font="24"><i>What criteria are used in Japan’s phone </i></text>
+<text top="552" left="227" width="284" height="30" font="24"><i>answering competition?</i></text>
+<text top="610" left="227" width="498" height="30" font="24"><i>Who described the telegraph as a kind of </i></text>
+<text top="640" left="227" width="168" height="30" font="24"><i>very long cat?</i></text>
+</page>
+</pdf2xml>

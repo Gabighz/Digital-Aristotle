@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="57" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-1_1.jpg"/>
+<text top="134" left="41" width="720" height="67" font="0">CS130:Professional Issues</text>
+<text top="206" left="41" width="887" height="67" font="0">Cryptography and Data Security: </text>
+<text top="278" left="41" width="940" height="67" font="0">Solving the Key Exchange Problem</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="45" family="Times" color="#4472c4"/>
+	<fontspec id="2" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-2_1.jpg"/>
+<text top="82" left="83" width="450" height="54" font="1">Topic Learning Goals</text>
+<text top="190" left="83" width="661" height="40" font="2">How does encryption secure a message?</text>
+<text top="276" left="83" width="608" height="40" font="2">What is Diffie-Hellman key exchange?</text>
+<text top="363" left="83" width="773" height="40" font="2">What is RSA Public Key/Private Key encryption?</text>
+<text top="449" left="83" width="681" height="40" font="2">What maths underpin modern encryption? </text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="3" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-3_1.jpg"/>
+<text top="60" left="83" width="608" height="54" font="1">Encryption as a Locked Box </text>
+<text top="150" left="83" width="925" height="40" font="2">Picture encryption as a box that you secure a message in </text>
+<text top="193" left="83" width="620" height="40" font="2">by locking it with a key (shared secret) </text>
+<text top="236" left="83" width="898" height="40" font="2">• But everything is digital so it can be copied infinitely…</text>
+<text top="305" left="83" width="893" height="40" font="2">The sender locks up the box and hands it along in pass-</text>
+<text top="348" left="83" width="244" height="40" font="2">the-parcel style</text>
+<text top="416" left="83" width="943" height="40" font="2">When it reaches the intended recipient, they then open the </text>
+<text top="459" left="83" width="278" height="40" font="2">box with their key</text>
+<text top="535" left="232" width="651" height="40" font="3"><i>But how does the recipient get their key?</i></text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="4" size="27" family="Times" color="#4472c4"/>
+<image top="10" left="497" width="519" height="778" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-4_1.png"/>
+<text top="82" left="83" width="314" height="54" font="1">Diffie-Hellman </text>
+<text top="140" left="83" width="208" height="54" font="1">Principles</text>
+<text top="203" left="66" width="373" height="34" font="4">A way to establish a shared </text>
+<text top="239" left="66" width="365" height="34" font="4">secret between two parties </text>
+<text top="275" left="66" width="398" height="34" font="4">where communication can be </text>
+<text top="311" left="66" width="165" height="34" font="4">seen by Eve</text>
+<text top="383" left="66" width="368" height="34" font="4">Relies on maths that works </text>
+<text top="419" left="66" width="205" height="34" font="4">like paint works</text>
+<text top="455" left="66" width="361" height="34" font="4">• Specifically factorisation</text>
+<text top="527" left="66" width="388" height="34" font="4">What is the weakness of this </text>
+<text top="563" left="66" width="142" height="34" font="4">approach?</text>
+<text top="599" left="66" width="91" height="34" font="4">• ???</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="10" left="497" width="519" height="778" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-5_1.png"/>
+<text top="82" left="83" width="314" height="54" font="1">Diffie-Hellman </text>
+<text top="140" left="83" width="208" height="54" font="1">Principles</text>
+<text top="203" left="66" width="373" height="34" font="4">A way to establish a shared </text>
+<text top="239" left="66" width="365" height="34" font="4">secret between two parties </text>
+<text top="275" left="66" width="398" height="34" font="4">where communication can be </text>
+<text top="311" left="66" width="165" height="34" font="4">seen by Eve</text>
+<text top="383" left="66" width="368" height="34" font="4">Relies on maths that works </text>
+<text top="419" left="66" width="205" height="34" font="4">like paint works</text>
+<text top="455" left="66" width="361" height="34" font="4">• Specifically factorisation</text>
+<text top="527" left="66" width="388" height="34" font="4">What is the weakness of this </text>
+<text top="563" left="66" width="142" height="34" font="4">approach?</text>
+<text top="599" left="66" width="346" height="34" font="4">• The Man in the Middle </text>
+<text top="635" left="107" width="242" height="34" font="4">Attack where Eve </text>
+<text top="671" left="107" width="355" height="34" font="4">intercepts and pretends to </text>
+<text top="707" left="107" width="225" height="34" font="4">be Alice and Bob</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="5" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-6_1.jpg"/>
+<text top="60" left="83" width="760" height="54" font="1">Public Key/Private Key Pairs - RSA </text>
+<text top="149" left="83" width="926" height="34" font="4">A “lock” anyone can close (encrypt) with your public key but only your </text>
+<text top="185" left="83" width="277" height="34" font="4">private key can open</text>
+<text top="243" left="83" width="630" height="34" font="4">RSA generates a <i><b>public key </b></i>and a <i><b>private key</b></i></text>
+<text top="279" left="83" width="905" height="34" font="4">• You publish the public key online and let anyone use it to lock up </text>
+<text top="315" left="124" width="391" height="34" font="4">their message to you in a box</text>
+<text top="351" left="83" width="949" height="34" font="4">• You keep the private key a secret that only you know and only it can </text>
+<text top="387" left="124" width="655" height="34" font="4">open the messages encrypted with the public key</text>
+<text top="445" left="83" width="911" height="34" font="4">Anybody can encode a message to send to you using the public key </text>
+<text top="481" left="83" width="495" height="34" font="4">but only the private key can decrypt it</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="6" size="24" family="Times" color="#4472c4"/>
+<image top="192" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-7_1.jpg"/>
+<text top="66" left="83" width="735" height="54" font="1">Public Key, Private Key Encryption</text>
+<text top="173" left="15" width="548" height="27" font="6">// Code to run on Sender’s machine</text>
+<text top="206" left="15" width="1032" height="27" font="6">private Message pkEncrypt(Message originalMessage, PublicKey pk)</text>
+<text top="238" left="15" width="16" height="27" font="6">{</text>
+<text top="270" left="123" width="839" height="27" font="6">new Message em = SomeFunkyMaths(originalMessage,pk);</text>
+<text top="303" left="123" width="161" height="27" font="6">return em;</text>
+<text top="335" left="15" width="16" height="27" font="6">}</text>
+<text top="400" left="15" width="790" height="27" font="6">// em is sent over the internet to the recipient </text>
+<text top="465" left="15" width="581" height="27" font="6">// code to run on Recipients machine</text>
+<text top="497" left="15" width="822" height="27" font="6">private Message pkDecrypt(Message em, PrivateKey k)</text>
+<text top="530" left="15" width="16" height="27" font="6">{</text>
+<text top="562" left="123" width="887" height="27" font="6">new Message decryptedMessage = reverseFunkyMaths(em,k);</text>
+<text top="594" left="123" width="274" height="27" font="6">return decrypted;</text>
+<text top="627" left="15" width="16" height="27" font="6">}</text>
+<text top="692" left="15" width="806" height="27" font="6">// now decrypted should equal the original message</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="192" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-8_1.jpg"/>
+<text top="66" left="83" width="606" height="54" font="1">Key Idea: This Doesn’t Work</text>
+<text top="238" left="15" width="919" height="27" font="6">// A malicious user intercepts your message and tries to </text>
+<text top="270" left="15" width="564" height="27" font="6">// decrypt it using your Public Key</text>
+<text top="335" left="15" width="806" height="27" font="6">private Message pkDecrypt(Message em, PublicKey k)</text>
+<text top="368" left="15" width="16" height="27" font="6">{</text>
+<text top="400" left="123" width="887" height="27" font="6">new Message decryptedMessage = reverseFunkyMaths(em,k);</text>
+<text top="432" left="123" width="274" height="27" font="6">return decrypted;</text>
+<text top="465" left="15" width="16" height="27" font="6">}</text>
+<text top="530" left="15" width="806" height="27" font="6">// decrypted will still be unreadable in this case</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-9_1.jpg"/>
+<text top="82" left="83" width="884" height="54" font="1">Encryption foundation: One way functions</text>
+<text top="151" left="79" width="845" height="34" font="4">Trapdoor or one way functions, easy to calculate the result with </text>
+<text top="187" left="79" width="340" height="34" font="4">inputs but hard to reverse</text>
+<text top="248" left="79" width="303" height="34" font="4">Easy: 2 x 2 x 2 x 3 = ? </text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-10_1.jpg"/>
+<text top="82" left="83" width="922" height="54" font="1">Solving the Problem: Public Key Encryption</text>
+<text top="151" left="79" width="845" height="34" font="4">Trapdoor or one way functions, easy to calculate the result with </text>
+<text top="187" left="79" width="340" height="34" font="4">inputs but hard to reverse</text>
+<text top="248" left="79" width="328" height="34" font="4">Easy: 2 x 2 x 2 x 3 = 24  </text>
+<text top="309" left="79" width="405" height="34" font="4">Hard: Prime factorisation of 24</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-11_1.jpg"/>
+<image top="215" left="631" width="436" height="425" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-11_2.png"/>
+<text top="82" left="83" width="922" height="54" font="1">Solving the Problem: Public Key Encryption</text>
+<text top="151" left="79" width="845" height="34" font="4">Trapdoor or one way functions, easy to calculate the result with </text>
+<text top="187" left="79" width="340" height="34" font="4">inputs but hard to reverse</text>
+<text top="248" left="79" width="328" height="34" font="4">Easy: 2 x 2 x 2 x 3 = 24  </text>
+<text top="309" left="79" width="405" height="34" font="4">Hard: Prime factorisation of 24</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-12_1.jpg"/>
+<image top="215" left="631" width="436" height="425" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-12_2.png"/>
+<text top="82" left="83" width="922" height="54" font="1">Solving the Problem: Public Key Encryption</text>
+<text top="151" left="79" width="845" height="34" font="4">Trapdoor or one way functions, easy to calculate the result with </text>
+<text top="187" left="79" width="340" height="34" font="4">inputs but hard to reverse</text>
+<text top="248" left="79" width="452" height="34" font="4">Easy: 2 x 2 x 2 x 3 = 24 (PrivKey) </text>
+<text top="309" left="79" width="538" height="34" font="4">Hard: Prime factorisation of 24 (PubKey)</text>
+<text top="371" left="79" width="525" height="34" font="4">So, we encrypt using functions that are </text>
+<text top="407" left="79" width="528" height="34" font="4">easily decrypted (reversed) if you know </text>
+<text top="443" left="79" width="485" height="34" font="4">their prime factors like Eulers totient </text>
+<text top="479" left="79" width="113" height="34" font="4">function </text>
+<text top="515" left="79" width="544" height="34" font="4">• Still more to this like block size we will</text>
+<text top="551" left="120" width="148" height="34" font="4">not get into</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="7" size="51" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-13_1.jpg"/>
+<text top="153" left="113" width="855" height="60" font="7">1. Select 4 prime numbers - private </text>
+<text top="218" left="491" width="99" height="60" font="7">key </text>
+<text top="283" left="81" width="903" height="60" font="7">2. Multiply them to get your public key</text>
+<text top="347" left="110" width="861" height="60" font="7">3. Swap with a friend and figure out </text>
+<text top="412" left="342" width="381" height="60" font="7">their private key</text>
+<text top="513" left="202" width="662" height="54" font="1">2, 3, 5, 7, 11, 13, 17, 19, 23, 29</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-14_1.jpg"/>
+<text top="82" left="83" width="725" height="54" font="1">Public Key Encryption – How Big?</text>
+<text top="172" left="79" width="1304" height="51" font="8">2039568783564019774057658669290345772801939933143482630947726</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-15_1.jpg"/>
+<text top="82" left="83" width="725" height="54" font="1">Public Key Encryption – How Big?</text>
+<text top="172" left="79" width="898" height="51" font="8">203956878356401977405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="8">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="9" size="39" family="Times" color="#ff0000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-16_1.jpg"/>
+<text top="82" left="83" width="826" height="54" font="1">Public Key Encryption – UK Population</text>
+<text top="172" left="79" width="171" height="51" font="9">20395687</text>
+<text top="172" left="250" width="727" height="51" font="8">8356401977405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="8">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-17_1.jpg"/>
+<text top="82" left="83" width="884" height="54" font="1">Public Key Encryption – World Population</text>
+<text top="172" left="79" width="214" height="51" font="9">2039568783</text>
+<text top="172" left="293" width="684" height="51" font="8">56401977405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="8">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-18_1.jpg"/>
+<text top="82" left="83" width="530" height="54" font="1">People who’ve ever lived</text>
+<text top="172" left="79" width="235" height="51" font="9">20395687835</text>
+<text top="172" left="314" width="663" height="51" font="8">6401977405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="8">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-19_1.jpg"/>
+<text top="82" left="83" width="501" height="54" font="1">Grains of sand on earth</text>
+<text top="172" left="79" width="385" height="51" font="9">203956878356401977</text>
+<text top="172" left="464" width="513" height="51" font="8">405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="8">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-20_1.jpg"/>
+<text top="82" left="83" width="695" height="54" font="1">Age of the Universe (in seconds)</text>
+<text top="172" left="79" width="385" height="51" font="9">203956878356401977</text>
+<text top="172" left="464" width="513" height="51" font="8">405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="8">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-21_1.jpg"/>
+<text top="82" left="83" width="469" height="54" font="1">Atoms in the Universe</text>
+<text top="172" left="79" width="898" height="51" font="9">203956878356401977405765866929034577280193</text>
+<text top="222" left="79" width="898" height="51" font="9">993314348263094772646453283062722701277632</text>
+<text top="272" left="79" width="898" height="51" font="8">936616063144088173312372882677123879538709</text>
+<text top="323" left="79" width="898" height="51" font="8">400158306567338328279154499698366071906766</text>
+<text top="373" left="79" width="898" height="51" font="8">440037074217117805690872792848149112022286</text>
+<text top="424" left="79" width="898" height="51" font="8">332144876183376326512083574821647933992961</text>
+<text top="474" left="79" width="898" height="51" font="8">249731983621930427428024380310401500056379</text>
+<text top="524" left="79" width="85" height="51" font="8">0123</text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-22_1.jpg"/>
+<text top="159" left="181" width="710" height="60" font="7">We still have a major problem</text>
+<text top="289" left="202" width="684" height="60" font="7">Public Key Encryption is the </text>
+<text top="354" left="92" width="903" height="60" font="7">foundation of the modern Internet but </text>
+<text top="419" left="149" width="789" height="60" font="7">how do you know the owner of a </text>
+<text top="483" left="113" width="846" height="60" font="7">Public Key is who they claim to be?</text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-23_1.jpg"/>
+<text top="82" left="83" width="450" height="54" font="1">Topic Learning Goals</text>
+<text top="189" left="83" width="550" height="34" font="4">How does encryption secure a message?</text>
+<text top="261" left="83" width="506" height="34" font="4">What is Diffie-Hellman key exchange?</text>
+<text top="369" left="83" width="644" height="34" font="4">What is RSA Public Key/Private Key encryption?</text>
+<text top="477" left="83" width="566" height="34" font="4">What maths underpin modern encryption? </text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="10" size="27" family="Times" color="#a5a5a5"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/15020_d3c5d4d888bcf839a88a5b691a4bd66b5686f6ad17368718744ce562520195bd-24_1.jpg"/>
+<text top="82" left="83" width="450" height="54" font="1">Topic Learning Goals</text>
+<text top="189" left="83" width="550" height="34" font="4">How does encryption secure a message?</text>
+<text top="225" left="191" width="627" height="34" font="10">It locks it in a “box” that you need a key to open</text>
+<text top="261" left="83" width="506" height="34" font="4">What is Diffie-Hellman key exchange?</text>
+<text top="297" left="191" width="821" height="34" font="10">A system that mixes numbers together to allow public sharing </text>
+<text top="333" left="191" width="437" height="34" font="10">of keys albeit with a vulnerability </text>
+<text top="369" left="83" width="644" height="34" font="4">What is RSA Public Key/Private Key encryption?</text>
+<text top="405" left="191" width="801" height="34" font="10">Locked boxes using two different keys, one which locks and </text>
+<text top="441" left="191" width="245" height="34" font="10">one which unlocks</text>
+<text top="477" left="83" width="566" height="34" font="4">What maths underpin modern encryption? </text>
+<text top="513" left="191" width="555" height="34" font="10">Trapdoor functions like prime factorisation</text>
+</page>
+</pdf2xml>

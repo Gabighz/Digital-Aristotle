@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="63" family="Times" color="#ffffff"/>
+<image top="-19" left="-26" width="1107" height="830" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-1_1.jpg"/>
+<text top="89" left="41" width="224" height="74" font="0">CS-130</text>
+<text top="169" left="41" width="745" height="74" font="0">Interlude: Governance of </text>
+<text top="248" left="41" width="356" height="74" font="0">The Internet</text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="45" family="Times" color="#4472c4"/>
+	<fontspec id="2" size="24" family="Times" color="#4472c4"/>
+	<fontspec id="3" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-2_1.jpg"/>
+<text top="73" left="83" width="314" height="54" font="1">Learning goals</text>
+<text top="173" left="58" width="954" height="30" font="2">Going forward we still want to look at two more major security issues but before </text>
+<text top="205" left="58" width="909" height="30" font="2">we can do that, we need to understand the legal structure and the protocols </text>
+<text top="238" left="58" width="897" height="30" font="2">behind the Internet so the next hour is something of a detour as we start to </text>
+<text top="270" left="58" width="84" height="30" font="2">ask…..</text>
+<text top="323" left="112" width="556" height="40" font="3">Where did the Internet come from?</text>
+<text top="409" left="112" width="729" height="40" font="3">Who decides who owns a given web domain?</text>
+<text top="495" left="112" width="801" height="40" font="3">Who are the major stakeholders when it comes to </text>
+<text top="539" left="112" width="821" height="40" font="3">decision making about how the online world works?</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="4" size="69" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-3_1.jpg"/>
+<text top="243" left="151" width="806" height="80" font="4">What do you understand </text>
+<text top="330" left="176" width="756" height="80" font="4">by “Governance of The </text>
+<text top="416" left="390" width="309" height="80" font="4">Internet”?</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-4_1.jpg"/>
+<text top="82" left="83" width="461" height="54" font="1">What is Governance?</text>
+<text top="173" left="58" width="919" height="40" font="3">Amazon.co.uk and Amazon.com – both exist and point to </text>
+<text top="216" left="58" width="618" height="40" font="3">different servers but who decides that?</text>
+<text top="302" left="58" width="919" height="40" font="3">Can the US President order the shutdown of the Internet?</text>
+<text top="389" left="58" width="949" height="40" font="3">How do we solve the identity issue when it comes to Public </text>
+<text top="432" left="58" width="256" height="40" font="3">Key ownership?</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="5" size="27" family="Times" color="#4472c4"/>
+	<fontspec id="6" size="27" family="Times" color="#4472c4"/>
+	<fontspec id="7" size="27" family="Times" color="#4472c4"/>
+	<fontspec id="8" size="27" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-5_1.jpg"/>
+<text top="82" left="83" width="628" height="54" font="1">A Brief History of The Internet</text>
+<text top="150" left="41" width="90" height="34" font="5"><i>1960s </i></text>
+<text top="186" left="41" width="1013" height="34" font="6">ARPANET – Request For Comments (RFCs) – Steve Cocker, Vint Cerf, Jon </text>
+<text top="222" left="41" width="373" height="34" font="6">Postel (he’s quite important)</text>
+<text top="280" left="41" width="175" height="34" font="5"><i>1973 – 1981 </i></text>
+<text top="316" left="41" width="1005" height="34" font="6">Many different transmission protocols in operation on different networks but </text>
+<text top="352" left="41" width="996" height="34" font="6">one eventual winner: <b>Transmission Control Protocol / Internet Protocol </b></text>
+<text top="388" left="41" width="117" height="34" font="7"><b>(TCP/IP)</b></text>
+<text top="445" left="41" width="83" height="34" font="5"><i>1982  </i></text>
+<text top="481" left="41" width="858" height="34" font="6">Twenty five networks joined using TCP/IP, Jon Postel personally </text>
+<text top="517" left="41" width="939" height="34" font="6">responsibility for assigning new address blocks and updating <i><b>hosts.txt</b></i></text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="-7" left="-9" width="1090" height="818" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-6_1.jpg"/>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="90" left="0" width="1085" height="604" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-7_1.jpg"/>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="9" size="33" family="Times" color="#0563c1"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-8_1.jpg"/>
+<text top="82" left="83" width="711" height="54" font="1">How does the Internet work now?</text>
+<text top="175" left="41" width="260" height="40" font="3">How do we turn </text>
+<text top="175" left="301" width="362" height="40" font="9">http://www.google.com</text>
+<text top="175" left="673" width="314" height="40" font="3">into something that </text>
+<text top="218" left="41" width="591" height="40" font="3">we can find through our web browser</text>
+<text top="304" left="41" width="518" height="40" font="3">Internet Protocol (IP) addresses </text>
+<text top="304" left="559" width="380" height="40" font="9">http://www.google.co.uk</text>
+<text top="477" left="438" width="330" height="40" font="9">http://74.125.224.72/</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-9_1.jpg"/>
+<image top="158" left="461" width="612" height="450" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-9_2.png"/>
+<text top="174" left="58" width="445" height="34" font="6">Document requests use a known </text>
+<text top="210" left="58" width="393" height="34" font="7"><b>Domain Name Server (DNS)</b></text>
+<text top="246" left="58" width="461" height="34" font="6">• But each DNS doesn’t know <i>all </i></text>
+<text top="282" left="98" width="220" height="34" font="6">address pairings</text>
+<text top="318" left="58" width="448" height="34" font="6">• <i>Hierarchical lookup </i>eventually </text>
+<text top="354" left="98" width="363" height="34" font="6">reach the root DNS servers</text>
+<text top="390" left="58" width="392" height="34" font="6">• Caching frequently visited </text>
+<text top="426" left="98" width="255" height="34" font="6">servers at each tier</text>
+<text top="498" left="58" width="395" height="34" font="6">DNS resolution is an example</text>
+<text top="534" left="58" width="266" height="34" font="6">of an <i>open standard</i></text>
+<text top="82" left="83" width="796" height="54" font="1">How does the IP conversion happen?</text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="10" size="33" family="Times" color="#4472c4"/>
+	<fontspec id="11" size="33" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-10_1.jpg"/>
+<text top="82" left="83" width="881" height="54" font="1">A Brief History of The Internet (continued)</text>
+<text top="150" left="41" width="80" height="40" font="10"><i>1983</i></text>
+<text top="193" left="41" width="13" height="40" font="3">•</text>
+<text top="193" left="95" width="768" height="40" font="3">First (and “temporary”) top-level DNS = dot-arpa</text>
+<text top="237" left="41" width="985" height="40" font="3">• Jon Postel’s suggestion to distinguish by <i><b>type </b></i>dot-edu, dot-</text>
+<text top="280" left="81" width="183" height="40" font="3">gov, dot-mil</text>
+<text top="323" left="41" width="995" height="40" font="3">• Others wanted to distinguish by <i><b>geography </b></i>dot-uk etc. and </text>
+<text top="366" left="81" width="659" height="40" font="3">this approach is adopted in October 1984</text>
+<text top="409" left="95" width="887" height="40" font="3">• ISO-3166 dictates Country Code Top Level Domains </text>
+<text top="453" left="135" width="536" height="40" font="3">(ccTLD) such as .uk, .au, .us, etc.</text>
+<text top="539" left="257" width="575" height="40" font="10"><i>Both still in operation at the moment</i></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="12" size="24" family="Times" color="#4472c4"/>
+	<fontspec id="13" size="24" family="Times" color="#4472c4"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-11_1.jpg"/>
+<text top="82" left="83" width="769" height="54" font="1">A History of The Internet (continued)</text>
+<text top="164" left="58" width="237" height="30" font="12"><i>1980 – early 1990s </i></text>
+<text top="196" left="58" width="916" height="30" font="2">• American <b>National Science Foundation (NSF) </b>funding maintains all key </text>
+<text top="229" left="91" width="99" height="30" font="2">services</text>
+<text top="261" left="58" width="785" height="30" font="2">• European involvement in decision making, partially commercial</text>
+<text top="294" left="58" width="905" height="30" font="2">• EU backed International <b>Telecomms Union’s (ITU) </b>proposed <b>OSI </b>as an </text>
+<text top="326" left="91" width="495" height="30" font="2">alternative to TCP/IP but it fails to take off</text>
+<text top="384" left="58" width="60" height="30" font="12"><i>1991</i></text>
+<text top="416" left="58" width="781" height="30" font="2">• Deregulation of naming to <b>Regional Internet Registries (RIR)</b></text>
+<text top="448" left="58" width="973" height="30" font="2">• The <b>Internet Society (ISOC) </b>formed to formalise governance process but key </text>
+<text top="481" left="91" width="453" height="30" font="2">decisions still made without their input</text>
+<text top="533" left="173" width="743" height="30" font="12"><i>US Government holds a major level of control over the system</i></text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-12_1.jpg"/>
+<text top="82" left="83" width="769" height="54" font="1">A History of The Internet (continued)</text>
+<text top="156" left="49" width="75" height="34" font="5"><i>1991 </i></text>
+<text top="192" left="49" width="994" height="34" font="6">• Tim Berners-Lee invents the world wide web or at least it’s foundations, </text>
+<text top="228" left="90" width="788" height="34" font="7"><b>Hyper Text Mark-up Language (HTML) </b>and <b>Hyperlinking</b></text>
+<text top="283" left="49" width="75" height="34" font="5"><i>1994 </i></text>
+<text top="319" left="49" width="955" height="34" font="6">• NFS paying for thousands of commercial registrations per month, an </text>
+<text top="355" left="90" width="252" height="34" font="6">untenable situation</text>
+<text top="411" left="49" width="75" height="34" font="6">1995 </text>
+<text top="447" left="49" width="913" height="34" font="6">• Commercial ISPs had emerged as front runners to control naming</text>
+<text top="483" left="49" width="993" height="34" font="6">• <b>Network Solutions (NSI) </b>charges a fee for registration of sub-domains </text>
+<text top="519" left="90" width="844" height="34" font="6">and controlled (existing) top-level domains .com, .net, .org, .edu</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-13_1.jpg"/>
+<text top="272" left="280" width="549" height="80" font="4">Can you register </text>
+<text top="359" left="246" width="617" height="80" font="4">cocacola.com as a </text>
+<text top="445" left="406" width="276" height="80" font="4">domain?</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="14" size="27" family="Times" color="#0563c1"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-14_1.jpg"/>
+<text top="82" left="83" width="769" height="54" font="1">A History of The Internet (continued)</text>
+<text top="147" left="49" width="75" height="34" font="5"><i>1995 </i></text>
+<text top="183" left="49" width="976" height="34" font="6">• NSI passes 30% of cost of registering any TLD to the US Government </text>
+<text top="219" left="90" width="664" height="34" font="6">which will be rules as illegal in an anti trust lawsuit</text>
+<text top="255" left="49" width="10" height="34" font="6">•</text>
+<text top="255" left="90" width="388" height="34" font="14">www.shitakemushrooms.com</text>
+<text top="255" left="486" width="400" height="34" font="6">registration attempt highlights </text>
+<text top="291" left="90" width="621" height="34" font="6">censorship of the system for registering names</text>
+<text top="363" left="49" width="75" height="34" font="5"><i>1996 </i></text>
+<text top="399" left="49" width="954" height="34" font="6">• Trade-mark names in second level naming starts becoming an issue </text>
+<text top="435" left="49" width="933" height="34" font="6">• <b>WIPO  - The World Intellectual Property Organisation </b>formed to </text>
+<text top="471" left="90" width="874" height="34" font="6">arbitrate Trade Marks, but who are these people and how do they </text>
+<text top="507" left="90" width="173" height="34" font="6">exert power?</text>
+<text top="543" left="103" width="355" height="34" font="6">• In general favours ????</text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-15_1.jpg"/>
+<text top="21" left="83" width="842" height="54" font="1">So who decides what domains get how </text>
+<text top="79" left="83" width="730" height="54" font="1">many numbers and which names?</text>
+<text top="157" left="49" width="733" height="34" font="6">US DOC issues contract for managing naming services</text>
+<text top="193" left="103" width="853" height="34" font="6">Internet Corporation for Assigned Names and Numbers (ICANN)</text>
+<text top="229" left="103" width="864" height="34" font="6">holds authority in it’s Internet Assigned Numbers Authority (IANA)</text>
+<text top="265" left="157" width="641" height="34" font="6">Which in turn delegates to the Regional Internet </text>
+<text top="301" left="157" width="213" height="34" font="6">Registries (RIR)</text>
+<text top="337" left="265" width="592" height="34" font="6">Which in turn delegates to ISP’s, Telecomms</text>
+<text top="373" left="273" width="628" height="34" font="6">groups and Academic Institutes (among others)</text>
+<text top="435" left="49" width="941" height="34" font="6">The three main top level players in contention to control how this works</text>
+<text top="471" left="49" width="435" height="34" font="6">• US Department of Commerce</text>
+<text top="507" left="49" width="350" height="34" font="6">• ISOC (Internet Society)</text>
+<text top="543" left="49" width="434" height="34" font="6">• Council of Registrars (CORE)</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-16_1.jpg"/>
+<text top="65" left="83" width="664" height="54" font="1">ICANN Controls and Problems </text>
+<text top="150" left="49" width="595" height="34" font="6">By 2000 there were still only 5 generic TLDs.</text>
+<text top="186" left="49" width="612" height="34" font="6">• ICANN added a few: .info .museum .aero ?</text>
+<text top="244" left="49" width="960" height="34" font="6">Rejection of the dot-xxx domain name in 2007 was found to be wrong in </text>
+<text top="280" left="49" width="67" height="34" font="6">court</text>
+<text top="316" left="49" width="864" height="34" font="6">• Happened initially because of US influence according to some</text>
+<text top="384" left="49" width="695" height="34" font="6">Revenue generation remains a hot topic with ICANN</text>
+<text top="442" left="49" width="986" height="34" font="6">US <b>Department of Commerce (DoC) </b>was supposed to cede control over </text>
+<text top="478" left="49" width="983" height="34" font="7"><b>IANA (Internet Assigned Numbers Authority </b>– the main part of ICANN) </text>
+<text top="514" left="49" width="651" height="34" font="6">but retained authority of IANA though didn’t use it</text>
+<text top="550" left="49" width="720" height="34" font="6">• And in 2006 the DoC renewed contract with ICANN</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="-83" left="-514" width="2160" height="1170" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-17_1.png"/>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/4533_14a9480e0a43de5881f4ceeb560823a253923333b66ae2dc47ae5f639a2051b9-18_1.jpg"/>
+<text top="73" left="83" width="314" height="54" font="1">Learning goals</text>
+<text top="218" left="58" width="463" height="34" font="6">Where did the Internet come from?</text>
+<text top="254" left="166" width="489" height="34" font="6">ARPA NET and US millitary research</text>
+<text top="326" left="58" width="607" height="34" font="6">Who decides who owns a given web domain?</text>
+<text top="362" left="166" width="586" height="34" font="6">It’s complicated, ICANN, WIPO, the US govt</text>
+<text top="434" left="58" width="890" height="34" font="6">Who are the major stakeholders when it comes to decision making </text>
+<text top="470" left="58" width="460" height="34" font="6">about how the online world works?</text>
+<text top="506" left="166" width="558" height="34" font="6">ISOC – Large companies and the US Gov</text>
+</page>
+</pdf2xml>
