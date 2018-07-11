@@ -54,7 +54,4 @@ def kmeans_clustering(word_list, k):
     for i in range(len(labels)):
         results.append([dataset[i][0], labels[i]])
 
-    # Coordinates of cluster centers (centroids)
-    print("\nCoordinates of centroids: \n", kmeans.cluster_centers_)
-
     return results

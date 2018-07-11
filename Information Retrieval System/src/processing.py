@@ -11,14 +11,6 @@ from sklearn.metrics import f1_score
 
 def pre_processing(raw_data):
 
-    # Prints the raw XML data so we can check if the pre-processor is working correctly
-    print("\n Raw XML Data: \n")
-    counter = 0
-    for word_array in sorted(raw_data):
-        print(word_array)
-        counter += 1
-    print("\n Number of word arrays in raw XML data: ", counter)
-
     # Iterates through raw XML data and concatenates all words to a string
     sentence = ' '.join([word for (array_index, word_index), word in np.ndenumerate(raw_data) if word_index == 0])
 
@@ -38,9 +30,6 @@ def pre_processing(raw_data):
     filtered_string = ' '.join([word for word,pos in tags
                     if (pos == 'NN' or pos == 'NNP' or pos == 'NNS' or pos == 'NNPS')
                     and (len(word) > 1)])
-
-    print("\n Words that have remained after filtering (all in one string): \n")
-    print(filtered_string)
 
     # Compiles the filtered words to an array which contains
     # each word and its XML features
@@ -63,13 +52,6 @@ def pre_processing(raw_data):
             filtered_data.append([filtered_sentence.lstrip().lower(),
             word_array[1], word_array[2], word_array[3], word_array[4],
             word_array[5], word_array[6]])
-
-    print("\n Filtered data (each word with its own XML features): \n")
-    counter = 0
-    for word_array in sorted(filtered_data):
-        print(word_array)
-        counter += 1
-    print("\n Number of word arrays in filtered data: ", counter)
 
     return filtered_data
 
