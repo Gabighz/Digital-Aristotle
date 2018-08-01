@@ -1,14 +1,12 @@
 # Created by Mubaris NK (https://mubaris.com/2017/10/01/kmeans-clustering-in-python/)
 # Modified by Gabriel Ghiuzan (914067)
 
-import numpy as np
 import matplotlib.pyplot as plt
+import pylab
+# noinspection PyUnresolvedReferences
 from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cluster import KMeans
 from sklearn.datasets import make_blobs
-import pylab
-
-
 
 plt.rcParams['figure.figsize'] = (16, 9)
 

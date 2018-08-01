@@ -14,10 +14,12 @@ from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
 
+
 def interface_path():
     path = input("Type the relative path of your input file: ")
 
     return path
+
 
 def main():
     # Open a file here and apply a function from XML_parser to it
@@ -58,5 +60,6 @@ def main():
         file.write(str(observation) + "\n")
 
     file.close()
+
 
 main()

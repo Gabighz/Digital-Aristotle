@@ -6,7 +6,7 @@
 from xml.etree import ElementTree
 
 # Returns true if the element has text and false if not
-def hasText( element):
+def has_text(element):
     if element.text is None:
         return False
     else:
@@ -47,7 +47,7 @@ def parse_sentences(sentences, page_num, parsed_words, file_number, fontspec_arr
         # Adds the sentence to the array if it contains text and if it is note
         # a header or footer.
         # Format: group of words, isBold, file number, page number, sentence number, fontsize, font color
-        if(hasText(elem) and is_not_head_or_foot(element_attributes)):
+        if has_text(elem) and is_not_head_or_foot(element_attributes):
             parsed_words.append([elem.text, 0,file_number, page_num,sentence_num, int(font_specs['size']), font_specs['color']])
         elif is_not_head_or_foot(element_attributes):
             parsed_words.append([collect_all_text(elem), 1,file_number, page_num,sentence_num, int(font_specs['size']), font_specs['color'] ])
@@ -75,7 +75,7 @@ def parse_pages( pages, parsed_words, file_number):
     return parsed_words
 
 # This is the main method used to parse a files.
-# The parameters taken are a file path, to succesfully find the file and a file
+# The parameters taken are a file path, to successfully find the file and a file
 # number so that the current amount of files passed can be recorded
 def parse_file(file_path, file_number):
 
@@ -91,5 +91,5 @@ def parse_file(file_path, file_number):
     parsed_words = parse_pages(pages, parsed_words, file_number)
 
     # Returns an array containing sentences with all the corresponding data
-    # added and any uneccesarry data filtered out.
+    # added and any unnecessary data filtered out.
     return parsed_words

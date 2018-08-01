@@ -6,9 +6,9 @@
 import numpy as np
 from sklearn.cluster import KMeans
 
+
 # Create a dataset from the list of words
 def construct_dataset(word_list):
-
     # Contains each word as a string and the sum of its features
     dataset = []
 
@@ -24,9 +24,9 @@ def construct_dataset(word_list):
 
     return dataset
 
+
 # Apply K-means clustering to dataset
 def kmeans_clustering(word_list, k):
-
     dataset = construct_dataset(word_list)
 
     # Stores only the sum of each word
@@ -40,7 +40,7 @@ def kmeans_clustering(word_list, k):
     features_sum = np.array(features_sum).reshape(-1, 1)
 
     # Initializes KMeans and assigns the number of clusters
-    kmeans = KMeans(n_clusters = k)
+    kmeans = KMeans(n_clusters=k)
 
     # Compute K-means clustering
     kmeans = kmeans.fit(features_sum)
