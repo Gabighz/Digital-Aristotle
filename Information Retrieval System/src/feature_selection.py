@@ -130,6 +130,7 @@ def is_big(current, biggest, smallest):
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
 def calculate_rake_ranking(selected_features):
+    unnormalized_array = []
     output_array = []
 
     r = Rake()
@@ -168,7 +169,19 @@ def calculate_rake_ranking(selected_features):
         ranking = word_degree / word_frequency  # in accordance with the chosen metric
 
         array_item = [word_array, ranking]
-        output_array.append(array_item)
-        # word_array.append(ranking)
+        unnormalized_array.append(array_item)
+
+    # Gets the maximum ranking
+    maximum_ranking = 0
+    for word_array in unnormalized_array:
+        if word_array[1] > maximum_ranking:
+            maximum_ranking = word_array[1]
+
+    # Normalizes the value of the ranking to [0, 2]
+    for i in range(len(unnormalized_array)):
+        ranking = unnormalized_array[i][1]
+        unscaled_ranking = ranking / maximum_ranking  # normalizes to [0, 1]
+        unnormalized_array[i][1] = round(unscaled_ranking * 2, 5)  # scales to [0, 2]
+        output_array.append(unnormalized_array[i])
 
     return output_array
