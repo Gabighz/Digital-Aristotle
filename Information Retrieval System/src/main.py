@@ -16,7 +16,7 @@ from processing import pre_processing, post_processing
 
 
 def interface_path():
-    path = "../input/first-year/" + input("Input path: ../input/first-year/")
+    path = "../input/first-year/CS-150/" + input("Input path: ../input/first-year/CS-150/")
 
     return path
 
@@ -49,12 +49,12 @@ def main():
     print("\n F1 score: ", performance)
 
     # Write to file
-    path = "../output/foundation-year/CSC079/SlidesWeek2.txt"
+    output_path = "../output/first-year/CS-150/" + path
 
     # Enables us to create paths from within the program
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    file = open(path, "w")
+    file = open(output_path, "w")
 
     for observation in clustered_data:
         file.write(str(observation) + "\n")
