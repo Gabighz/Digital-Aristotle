@@ -75,9 +75,9 @@ def pre_processing(raw_data):
 # Computes the F1-score of our classifier
 # Takes in a 2D array which contains each observation and their label
 # Compares that to the ground truth (correct) value of each observation
-def post_processing(results):
+def post_processing(results, path):
     # Contains manually annoted ground truth values
-    true_output = manual_annotation(results)
+    true_output = manual_annotation(results, path)
 
     # Contains the estimated targets returned by the classifier
     estimated_targets = []
@@ -89,10 +89,42 @@ def post_processing(results):
 
 
 # Only for the SlidesWeek2 file at the moment
-def manual_annotation(results):
+def manual_annotation(results, path):
     true_output = []
+    true_keywords = []
 
-    true_keywords = ["nxt", "mindstorms", "lego", "robot", "sensors", "servo", "motors"]
+    # These manual annotations must be scrutinized, given their subjective nature
+    if path == "ComputingComponents.xml":
+        true_keywords = ["ad", "computer", "memory", "unit", "input", "output", "control", "bus", "cycle",
+                         "fetch-execute", "instruction", "register", "program" , "counter", "central" , "processing",
+                         "random", "access", "read", "only", "magnetic", "storage", "disks", "seek", "time", "latency",
+                         "transfer", "rate", "cd", "dvd", "blu-ray", "touch", "screen", "resistive", "capacitive",
+                         "infrared", "surface", "acoustic", "wave", "embedded", "systems", "cd-rom", "cd-da", "cd-worm",
+                         "rw", "ram"]
+
+    elif path == "GatesAndCircuits.xml":
+        true_keywords = ["gates", "transistors", "circuits", "boolean", "expressions", "truth", "tables", "logic",
+                         "diagrams", "adder", "half", "full", "multiplexer", "s-r", "latch", "integrated", "circuits",
+                         "gate", "not", "and", "or", "xor", "nand", "nor", "transistor", "combinational",
+                         "sequential", "equivalence", "algebra", "adders", "multiplexers", "memory", "central",
+                         "processing", "unit"]
+
+    elif path == "NumberSystems.xml":
+        true_keywords = ["positional", "convert", "numbers", "natural", "negative", "integers", "rational", "base",
+                         "converting", "binary", "arithmetic", "subtracting", "octal", "hexadecimal", "decimal",
+                         "byte"]
+
+    elif path == "TheBigPicture":
+        true_keywords = ["layers", "abstraction", "history", "application", "programmers", "computing",
+                         "systems", "hardware", "software", "system", "abacus", "blaise", "pascal", "joseph", "jacquard",
+                         "charles", "babbage", "ada", "lovelace", "alan", "turing", "harvard", "mark", "vacuum",
+                         "tubes", "magnetic", "drum", "card", "readers", "tape", "drives", "transistor", "cores",
+                         "disks", "integrated", "circuits", "terminal", "generation", "first", "second", "third",
+                         "large-scale", "integration", "pcs", "commercial", "market", "workstations", "laptops",
+                         "tablet", "computers", "smart", "phones", "parallel", "computing", "networking", "arpanet",
+                         "lans", "internet", "quantum", "qubits", "machine", "language", "languages", "assembly",
+                         "translators", "changes", "high-level", "separation", "users", "structured", "new", "Microsoft",
+                         "design", "object-oriented", "world", "wide", "web"]
 
     for i in range(len(results)):
 

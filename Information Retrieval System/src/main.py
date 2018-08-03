@@ -16,14 +16,14 @@ from processing import pre_processing, post_processing
 
 
 def interface_path():
-    path = "../input/first-year/CS-150/" + input("Input path: ../input/first-year/CS-150/")
+    path = input("Input path: ../input/first-year/CS-150/")
 
     return path
 
 
 def main():
     # Open a file here and apply a function from XML_parser to it
-    path = interface_path()
+    path =  "../input/first-year/CS-150/" + interface_path()
     file_number = 0
     parsed_content = parse_file(path, file_number)
 
@@ -43,7 +43,7 @@ def main():
         print(word)
 
     # Post-processing to measure the performance of our classifier
-    performance = post_processing(clustered_data)
+    performance = post_processing(clustered_data, path)
 
     # F1 score from 0 to 1
     print("\n F1 score: ", performance)
