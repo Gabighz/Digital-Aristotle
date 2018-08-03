@@ -16,7 +16,7 @@ from processing import pre_processing, post_processing
 
 
 def interface_path():
-    path = input("Type the relative path of your input file: ")
+    path = "../input/first-year/" + input("Input path: ../input/first-year/")
 
     return path
 
