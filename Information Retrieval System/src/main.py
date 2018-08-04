@@ -13,7 +13,7 @@ from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
-from F1ScoreTesting import F1Tests
+from F1ScoreTesting import F1Tests, test_individual_features
 
 
 def interface_path():
@@ -50,6 +50,9 @@ def main():
     # F1 score from 0 to 1
     print("\n F1 score: ", performance)
 
+    #tests the F1 score of each individual feature
+    test_individual_features(classification_features, user_path)
+
     # Write to file
     output_path = "../output/first-year/CS-150/" + path
 
@@ -61,7 +64,7 @@ def main():
     for observation in clustered_data:
         file.write(str(observation) + "\n")
 
-    # Performs analysis of F1 scores
+    # Performs analysis of F1 scores using a new normalising method
     F1Tests(classification_features, user_path)
 
     file.close()
