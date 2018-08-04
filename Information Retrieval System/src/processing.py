@@ -114,7 +114,7 @@ def manual_annotation(results, path):
                          "converting", "binary", "arithmetic", "subtracting", "octal", "hexadecimal", "decimal",
                          "byte"]
 
-    elif path == "TheBigPicture":
+    elif path == "TheBigPicture.xml":
         true_keywords = ["layers", "abstraction", "history", "application", "programmers", "computing",
                          "systems", "hardware", "software", "system", "abacus", "blaise", "pascal", "joseph", "jacquard",
                          "charles", "babbage", "ada", "lovelace", "alan", "turing", "harvard", "mark", "vacuum",
