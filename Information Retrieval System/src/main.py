@@ -16,6 +16,7 @@ from f1_score_testing import f1_tests, test_individual_features
 
 CLUSTERS = 2
 
+
 def interface_path():
     path = input("Input path: ../input/first-year/CS-150/")
 

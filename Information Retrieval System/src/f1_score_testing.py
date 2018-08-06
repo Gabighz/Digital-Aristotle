@@ -27,7 +27,7 @@ def f1_tests(classification_features, user_path):
     for word in classification_features:
         for x in range(4):
             if x > 0:
-                if (word[x] > 0):
+                if word[x] > 0:
                     word[x] = 1
 
     # The return is 2D array which contains each word and its label

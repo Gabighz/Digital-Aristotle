@@ -146,7 +146,7 @@ def calculate_rake_ranking(selected_features):
 
     # The return type of both functions called below is Dictionary (key -> value)
     frequency_distribution = r.get_word_frequency_distribution()  # word -> frequency (number of times it occurs)
-    word_degrees = r.get_word_degrees()  # word -> degree (linguistic co-occurance)
+    word_degrees = r.get_word_degrees()  # word -> degree (linguistic co-occurrence)
 
     # Appends the ranking to each word's array
     for word_array in selected_features:
