@@ -12,7 +12,7 @@ from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
-from F1ScoreTesting import F1Tests, test_individual_features
+from f1_score_testing import f1_tests, test_individual_features
 
 CLUSTERS = 2
 
