@@ -25,7 +25,7 @@ def interface_path():
 def main():
     # Open a file here and apply a function from XML_parser to it
     user_path = interface_path()
-    path =  "../input/first-year/CS-150/" + user_path
+    path = "../input/first-year/CS-150/" + user_path
     file_number = 0
     parsed_content = parse_file(path, file_number)
 
@@ -47,14 +47,16 @@ def main():
     # Post-processing to measure the performance of our classifier
     performance = post_processing(clustered_data, user_path)
 
-    # F1 score from 0 to 1
-    print("\n F1 score: ", performance)
-
-    #tests the F1 score of each individual feature
+    # Tests the F1 score of each individual feature
     test_individual_features(classification_features, user_path)
 
+    # Performs analysis of F1 scores using a new normalising method
+    F1Tests(classification_features, user_path)
+
+    file_name, file_extension = user_path.split('.')
+
     # Write to file
-    output_path = "../output/first-year/CS-150/" + path
+    output_path = "../output/first-year/CS-150/" + file_name + ".txt"
 
     # Enables us to create paths from within the program
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -64,10 +66,10 @@ def main():
     for observation in clustered_data:
         file.write(str(observation) + "\n")
 
-    # Performs analysis of F1 scores using a new normalising method
-    F1Tests(classification_features, user_path)
-
     file.close()
+
+    # F1 score from 0 to 1
+    print("\n F1 score: ", performance)
 
 
 main()
