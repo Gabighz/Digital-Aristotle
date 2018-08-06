@@ -53,6 +53,7 @@ def main():
     # Performs analysis of F1 scores using a new normalising method
     F1Tests(classification_features, user_path)
 
+    # Extracts the name of the file and its extension from the path provided by the user
     file_name, file_extension = user_path.split('.')
 
     # Write to file
