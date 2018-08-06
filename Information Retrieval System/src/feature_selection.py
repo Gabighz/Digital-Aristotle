@@ -90,7 +90,7 @@ def assign_rake_ranking(all_words, words_with_features):
     return words_with_features
 
 
-# this funtion simply checks if a colour is unusual or not, returns 1 if it is
+# this function simply checks if a colour is unusual or not, returns 1 if it is
 # else 0. At the moment this function only counts anything that is not black as
 # unusual.
 def is_unusual_color(color):
@@ -100,7 +100,7 @@ def is_unusual_color(color):
         return 0
 
 
-# This is a utility fucntion that simply returns an array that is a slice of a
+# This is a utility function that simply returns an array that is a slice of a
 # 2D array, for example it is used to return all of the font sizes from raw_data
 def raw_data_slice(raw_data, row):
     sizes = []

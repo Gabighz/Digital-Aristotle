@@ -5,7 +5,6 @@
 
 # This constant is used in kmeans.py. It determines the number of classifications.
 # Currently, we have 2 classifications, namely Keywords and Non-keywords.
-CLUSTERS = 2
 
 import os
 
@@ -15,6 +14,7 @@ from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
 from F1ScoreTesting import F1Tests, test_individual_features
 
+CLUSTERS = 2
 
 def interface_path():
     path = input("Input path: ../input/first-year/CS-150/")
@@ -51,7 +51,7 @@ def main():
     test_individual_features(classification_features, user_path)
 
     # Performs analysis of F1 scores using a new normalising method
-    F1Tests(classification_features, user_path)
+    f1_tests(classification_features, user_path)
 
     # Extracts the name of the file and its extension from the path provided by the user
     file_name, file_extension = user_path.split('.')
