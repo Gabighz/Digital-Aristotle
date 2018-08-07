@@ -1,6 +1,6 @@
-# Swansea-University-CS-chatbot
+# Digital-Aristotle
 
-The purpose of this project is to create a chatbot that will augment studying for Swansea University Computer Science students.
+The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
 
 ## AIML
 
