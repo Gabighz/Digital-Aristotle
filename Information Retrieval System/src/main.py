@@ -5,6 +5,7 @@
 
 # This constant is used in kmeans.py. It determines the number of classifications.
 # Currently, we have 2 classifications, namely Keywords and Non-keywords.
+CLUSTERS = 2
 
 import os
 
