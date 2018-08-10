@@ -12,9 +12,7 @@ from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
-from f1_score_testing import f1_tests, test_individual_features
-
-CLUSTERS = 2
+from f1_score_testing import new_norm_approach,new_norm_approach_2,remove_rake, test_individual_features,calculate_F1
 
 
 def interface_path():
@@ -26,7 +24,7 @@ def interface_path():
 def main():
     # Open a file here and apply a function from XML_parser to it
     user_path = interface_path()
-    path = "../input/first-year/CS-150/" + user_path
+    path =  "../input/first-year/CS-150/" + user_path
     file_number = 0
     parsed_content = parse_file(path, file_number)
 
@@ -48,17 +46,14 @@ def main():
     # Post-processing to measure the performance of our classifier
     performance = post_processing(clustered_data, user_path)
 
-    # Tests the F1 score of each individual feature
+    # F1 score from 0 to 1
+    print("\n F1 score: ", performance)
+
+    #tests the F1 score of each individual feature
     test_individual_features(classification_features, user_path)
 
-    # Performs analysis of F1 scores using a new normalising method
-    f1_tests(classification_features, user_path)
-
-    # Extracts the name of the file and its extension from the path provided by the user
-    file_name, file_extension = user_path.split('.')
-
     # Write to file
-    output_path = "../output/first-year/CS-150/" + file_name + ".txt"
+    output_path = "../output/first-year/CS-150/" + path
 
     # Enables us to create paths from within the program
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -68,10 +63,34 @@ def main():
     for observation in clustered_data:
         file.write(str(observation) + "\n")
 
-    file.close()
 
-    # F1 score from 0 to 1
-    print("\n F1 score: ", performance)
+    #---------------------------Below are the 3 tests without rake------------------------------------
+
+    #test the origional norm approach without rake
+    print("\n F1 - origional norm approach(without rake): ", calculate_F1(remove_rake(classification_features), user_path))
+    #test_individual_features(remove_rake(classification_features),user_path)
+
+    # Performs analysis of F1 scores using a new normalising method
+    new_norm_approach(classification_features, user_path)
+
+    # Performs analysis of F1 scores using a new normalising method
+    new_norm_approach_2(classification_features, user_path)
+
+    print("\n second set of tests------------------------\n")
+    # test the origional norm approach without rake
+    print("\n F1 - origional norm approach(without rake): ",
+          calculate_F1(remove_rake(classification_features), user_path))
+    # test_individual_features(remove_rake(classification_features),user_path)
+
+    # Performs analysis of F1 scores using a new normalising method
+    new_norm_approach(classification_features, user_path)
+
+    # Performs analysis of F1 scores using a new normalising method
+    new_norm_approach_2(classification_features, user_path)
+
+    #-----------------------------------------------------------------------------------------------
+
+    file.close()
 
 
 main()
