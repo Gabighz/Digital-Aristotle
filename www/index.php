@@ -35,17 +35,7 @@ else
     $format = (isset($get_vars['format'])) ? $get_vars['format'] : $format;
     $format = _strtolower($format);
 
-    switch ($format)
-    {
-        case 'json':
-            $gui = 'jquery';
-            break;
-        case 'xml':
-            $gui= 'xml';
-            break;
-        default:
-            $gui = 'plain';
-    }
+    $gui = 'plain';
 
     if (!defined('SCRIPT_INSTALLED'))
     {
