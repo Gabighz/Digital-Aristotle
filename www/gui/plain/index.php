@@ -61,13 +61,9 @@ endDebugDiv;
 
   <body onload="document.getElementById('say').focus()">
 
-    <div id="responses">
-        <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
-    </div>
-    <?php echo $debug_div ?>
-
   <form name="chatform" method="post" action="index.php#end"
         onsubmit="if(document.getElementById('say').value == '') return false;">
+
       <div id="input">
           <label for="say">Say:</label>
           <input type="text" name="say" id="say" size="70"/>
@@ -76,8 +72,13 @@ endDebugDiv;
           <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
           <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
       </div>
+      
   </form>
 
+    <div id="responses">
+        <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
+    </div>
+    <?php echo $debug_div ?>
 
 <div id="bottom">
 	Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
