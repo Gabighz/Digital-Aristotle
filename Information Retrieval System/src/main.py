@@ -13,7 +13,6 @@ from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
-from f1_score_testing import new_norm_approach,new_norm_approach_2,remove_rake, test_individual_features,calculate_F1
 
 
 def interface_path():
@@ -50,8 +49,6 @@ def main():
     # F1 score from 0 to 1
     print("\n F1 score: ", performance)
 
-    #tests the F1 score of each individual feature
-    test_individual_features(classification_features, user_path)
 
     # Write to file
     output_path = "../output/first-year/CS-150/" + path
@@ -63,33 +60,6 @@ def main():
 
     for observation in clustered_data:
         file.write(str(observation) + "\n")
-
-
-    #---------------------------Below are the 3 tests without rake------------------------------------
-
-    #test the origional norm approach without rake
-    print("\n F1 - origional norm approach(without rake): ", calculate_F1(remove_rake(classification_features), user_path))
-    #test_individual_features(remove_rake(classification_features),user_path)
-
-    # Performs analysis of F1 scores using a new normalising method
-    new_norm_approach(classification_features, user_path)
-
-    # Performs analysis of F1 scores using a new normalising method
-    new_norm_approach_2(classification_features, user_path)
-
-    print("\n second set of tests------------------------\n")
-    # test the origional norm approach without rake
-    print("\n F1 - origional norm approach(without rake): ",
-          calculate_F1(remove_rake(classification_features), user_path))
-    # test_individual_features(remove_rake(classification_features),user_path)
-
-    # Performs analysis of F1 scores using a new normalising method
-    new_norm_approach(classification_features, user_path)
-
-    # Performs analysis of F1 scores using a new normalising method
-    new_norm_approach_2(classification_features, user_path)
-
-    #-----------------------------------------------------------------------------------------------
 
     file.close()
 

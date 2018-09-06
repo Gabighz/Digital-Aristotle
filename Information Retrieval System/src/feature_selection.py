@@ -21,7 +21,18 @@ word_number = 0
 def feature_assignment(raw_data):
     selected_features = populate_word_list(raw_data)
 
+    norm_features = normalise_features(selected_features)
     return selected_features
+
+
+#Normalising approach of [word,6,3,0] becomes [word,1,1,0]
+def normalise_features(classification_features):
+
+    for word in classification_features:
+        for x in range(len(word)-1):
+            if(x > 0):
+                if (word[x] > 0):
+                    word[x] = 1
 
 
 # Assigns the features for each word in the data and adds it to an array
