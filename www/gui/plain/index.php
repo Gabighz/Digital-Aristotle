@@ -54,7 +54,6 @@ endDebugDiv;
 		<link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
 		<link href="/css/styles.css" rel="stylesheet"/>
 
-		<script src="/js/scripts.js"></script>
         <meta charset="UTF-8">
         <title>Swansea University Chatbot</title>
 
