@@ -12,6 +12,7 @@
 ############################################################################################
 
 from rake_nltk import Rake
+from sklearn.feature_selection import VarianceThreshold
 
 # word number created as a global variable for this version, will be changed
 word_number = 0
@@ -21,9 +22,35 @@ word_number = 0
 def feature_assignment(raw_data):
     selected_features = populate_word_list(raw_data)
 
-    norm_features = normalise_features(selected_features)
+    normalise_features(selected_features)
+    variance_threshold(selected_features)
+
     return selected_features
 
+# Removes all zero-variance features, i.e. features that have the same value in all samples
+def variance_threshold(classification_features):
+
+    # Makes a copy of the array which contains each word and its classification features
+    features = classification_features
+
+    # Array which will only contain each word
+    word_array = []
+
+    # Removes the string of each array, e.g. ["word", 0, 1, 1, 1] becomes [0, 1, 1, 1]
+    # since this features selection algorithm does not work with arrays that contain strings
+    for array in features:
+        word_array.append(array[0])
+        del array[0]
+
+    selection_algorithm = VarianceThreshold()
+
+    selection_algorithm.fit_transform(features)
+
+    # Puts the corresponding word of each array back in
+    index = 0
+    for array in features:
+        array.insert(0, word_array[index])
+        index += 1
 
 #Normalising approach of [word,6,3,0] becomes [word,1,1,0]
 def normalise_features(classification_features):
