@@ -38,10 +38,14 @@ def main():
     clustered_data = kmeans_clustering(classification_features, CLUSTERS)
 
     # Prints each word and its classification features
+    counter = 0
     print("\n \n Each word and its classification features: \n")
     for word in sorted(classification_features):
         # Format and content: [word, isBold, isBig, isAbnormalColour, RAKE]
         print(word)
+        counter += 1
+
+    print("\n Number of words with classification features: ", counter)
 
     # Post-processing to measure the performance of our classifier
     performance = post_processing(clustered_data, user_path)
