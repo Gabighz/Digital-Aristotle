@@ -60,14 +60,14 @@ def pre_processing(raw_data):
                                   word_array[1], word_array[2], word_array[3], word_array[4],
                                   word_array[5], word_array[6]])
 
-        # Prints the filtered data so we can check if the pre-processor is working correctly
-        print("\n Filtered data (each word with its own XML features): \n")
-        counter = 0
-        # noinspection PyAssignmentToLoopOrWithParameter
-        for word_array in sorted(filtered_data):
-            print(word_array)
-            counter += 1
-        print("\n Number of word arrays in filtered data: ", counter)
+    # Prints the filtered data so we can check if the pre-processor is working correctly
+    print("\n Filtered data (each word with its own XML features): \n")
+    counter = 0
+    # noinspection PyAssignmentToLoopOrWithParameter
+    for word_array in sorted(filtered_data):
+        print(word_array)
+        counter += 1
+    print("\n Number of word arrays in filtered data: ", counter)
 
     return filtered_data
 
