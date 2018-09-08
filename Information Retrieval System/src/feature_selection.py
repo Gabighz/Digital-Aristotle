@@ -27,6 +27,7 @@ def feature_assignment(raw_data):
 
     return selected_features
 
+
 # Removes all zero-variance features, i.e. features that have the same value in all samples
 def variance_threshold(classification_features):
 
@@ -52,7 +53,8 @@ def variance_threshold(classification_features):
         array.insert(0, word_array[index])
         index += 1
 
-#Normalising approach of [word,6,3,0] becomes [word,1,1,0]
+
+# Normalising approach of [word,6,3,0] becomes [word,1,1,0]
 def normalise_features(classification_features):
 
     for word in classification_features:
