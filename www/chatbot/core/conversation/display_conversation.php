@@ -37,19 +37,11 @@ function get_conversation_to_display($convoArr)
         $bot_name = $row['bot_name'];
     }
 
-    if ($convoArr['conversation']['conversation_lines'] != 0)
-    {
-        $limit = " LIMIT " . $convoArr['conversation']['conversation_lines'];
-    }
-    else {
-        $limit = "";
-    }
-
     $sql = "SELECT * FROM `$dbn`.`conversation_log` WHERE
         `user_id` = :user_id
         AND `bot_id` = :bot_id
         AND `convo_id` = :convo_id
-        ORDER BY id DESC $limit";
+        ORDER BY id";
     $params = array(
         ':bot_id'   => $convoArr['conversation']['bot_id'],
         ':convo_id' => $convoArr['conversation']['convo_id'],
