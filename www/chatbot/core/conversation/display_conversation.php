@@ -91,18 +91,9 @@ function get_conversation($convoArr)
     $conversation = get_conversation_to_display($convoArr);
     runDebug(__FILE__, __FUNCTION__, __LINE__, "Processing conversation as " . $convoArr['conversation']['format'], 4);
 
-    switch ($convoArr['conversation']['format'])
-    {
-        case "html" :
-            $convoArr = get_html($convoArr, $conversation);
-            break;
-        case "json" :
-            $convoArr = get_json($convoArr, $conversation);
-            break;
-        case "xml" :
-            $convoArr = get_xml($convoArr, $conversation);
-            break;
-    }
+
+    $convoArr = get_html($convoArr, $conversation);
+
     return $convoArr;
 }
 
@@ -137,88 +128,6 @@ function get_html($convoArr, $conversation)
 }
 
 /**
- * function get_json()
- * This function formats the response as json
- * @link http://blog.program-o.com/?p=1229
- * @param  array $convoArr - the conversation array
- * @param  array $conversation - the conversation lines to format
- * @return array $convoArr
- **/
-function get_json($convoArr, $conversation)
-{
-    runDebug(__FILE__, __FUNCTION__, __LINE__, 'Outputting response as JSON', 2);
-    $show_json = array();
-    $i = 0;
-
-    foreach ($conversation as $index => $conversation_subarray)
-    {
-        $show_json['convo_id'] = $convoArr['conversation']['convo_id'];
-        $show_json['usersay'] = stripslashes($conversation_subarray['input']);
-        $show_json['botsay'] = stripslashes($conversation_subarray['response']);
-        $show_json['botData'] = $convoArr['conversation'];
-        $i++;
-    }
-
-    $convoArr['send_to_user'] = json_encode($show_json);
-    runDebug(__FILE__, __FUNCTION__, __LINE__, "Returning JSON string: " . $convoArr['send_to_user'], 4);
-
-    return $convoArr;
-}
-
-/**
- * function get_xml()
- * This function formats the response as xml
- * @link http://blog.program-o.com/?p=1238
- * @param  array $convoArr - the conversation array
- * @param  array $conversation - the conversation lines to format
- * @return array $convoArr
- **/
-function get_xml($convoArr, $conversation)
-{
-    $addTags = array('bot_id', 'bot_name', 'user_id', 'user_name');
-    $program_o = new SimpleXMLElement('<program_o/>');
-    $program_o->addChild('version', VERSION);
-    $program_o->addChild('status');
-    $status = $program_o->status;
-    $status->addChild('success', true);
-
-    foreach ($addTags as $tag_name)
-    {
-        $tmpVal = $convoArr['conversation'][$tag_name];
-        $program_o->addChild($tag_name, $tmpVal);
-    }
-
-    $program_o->addChild('chat');
-    $chat = $program_o->chat;
-
-    foreach ($conversation as $index => $conversation_subarray)
-    {
-        if (empty($conversation_subarray)) {
-            continue;
-        }
-
-        $line = $chat->addChild('line');
-        $line->addChild('input', $conversation_subarray['input']);
-        $line->addChild('response', $conversation_subarray['response']);
-    }
-
-    $responseXML = $program_o->asXML();
-    libxml_use_internal_errors(true);
-
-    $dom = new DOMDocument('1.0');
-    $dom->preserveWhiteSpace = true;
-    $dom->formatOutput = true;
-    $dom->loadXML($responseXML);
-
-    $send_to_user = $dom->saveXML();
-    $convoArr['send_to_user'] = $send_to_user;
-
-    runDebug(__FILE__, __FUNCTION__, __LINE__, "Returning XML", 4);
-
-    return $convoArr;
-}
-
-/**
  * function display_conversation()
  * Displays the output of the conversation if the current format is XML or JSON and updated referenced $display if html
  *
@@ -229,27 +138,7 @@ function get_xml($convoArr, $conversation)
 function display_conversation($convoArr)
 {
     $display = $convoArr['send_to_user'];
-    $format = (isset($convoArr['conversation']['format'])) ? _strtolower(trim($convoArr['conversation']['format'])) : 'html';
 
-    switch ($format)
-    {
-        case 'html' :
-        case 'HTML' :
-            $display = str_ireplace('<![CDATA[', '', $display);
-            $display = str_replace(']]>', '', $display);
-            break;
-        case 'xml' :
-        case 'XML' :
-            header("Content-type: text/xml; charset=utf-8", false);
-            header("Access-Control-Allow-Origin: *", false);
-            echo trim($display);
-            break;
-        case 'json' :
-        case 'JSON' :
-            header("Content-type: text/plain; charset=utf-8", false);
-            header("Access-Control-Allow-Origin: *", false);
-            echo trim($display);
-            break;
-        default :
-    }
+    $display = str_ireplace('<![CDATA[', '', $display);
+    $display = str_replace(']]>', '', $display);
 }
