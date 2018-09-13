@@ -26,7 +26,7 @@ def main():
     while True:
         try:
             user_path = interface_path()
-            path =  "../input/first-year/CS-150/" + user_path
+            path = "../input/first-year/CS-150/" + user_path
             file_number = 0
             parsed_content = parse_file(path, file_number)
             break
@@ -57,7 +57,6 @@ def main():
 
     # F1 score from 0 to 1
     print("\n F1 score: ", performance)
-
 
     # Write to file
     output_path = "../output/first-year/CS-150/" + path
