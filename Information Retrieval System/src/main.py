@@ -23,10 +23,15 @@ def interface_path():
 
 def main():
     # Open a file here and apply a function from XML_parser to it
-    user_path = interface_path()
-    path =  "../input/first-year/CS-150/" + user_path
-    file_number = 0
-    parsed_content = parse_file(path, file_number)
+    while True:
+        try:
+            user_path = interface_path()
+            path =  "../input/first-year/CS-150/" + user_path
+            file_number = 0
+            parsed_content = parse_file(path, file_number)
+            break
+        except FileNotFoundError:
+            print("File not found! Try again.")
 
     # Pre-processing to filter out stopwords from parsed_files
     filtered_content = pre_processing(parsed_content)
