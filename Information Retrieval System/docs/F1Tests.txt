@@ -1,52 +1,28 @@
---------------------------------------current----------------------------------------------------
-ComputingComponents.xml - F1 score:  0.45614035087719296
-         feature 1 F1 score:  0.4482758620689655
-         feature 2 F1 score:  0.3125
-         feature 3 F1 score:  0.1543859649122807
-         feature 4 F1 score:  0.21428571428571433
-GatesAndCircuits.xml - F1 score:  0.24000000000000002
-        feature 1 F1 score:  0.2962962962962963
-        feature 2 F1 score:  0.24000000000000002
-        feature 3 F1 score:  0.6857142857142856
-        feature 4 F1 score:  0.1869158878504673
+The latest F1 scores of the Keyword Extractor and of the features used, individually.
 
-NumberSystems.xml - F1 score:  0.6153846153846153
-        feature 1 F1 score:  0.6153846153846153
-        feature 2 F1 score:  0.5454545454545454
-        feature 3 F1 score:  0.3870967741935483
-        feature 4 F1 score:  0.10526315789473685
-TheBigPicture.xml - F1 score:  0.1724137931034483
-        feature 1 F1 score:  0.16949152542372883
-         feature 2 F1 score:  0.14285714285714288
-         feature 3 F1 score:  0.8749999999999999
-         feature 4 F1 score:  0.37037037037037035
 
-Average: 0.37098468984
--------------------------------------------------------------------------------------------------
--------------------------------With new normalising----------------------------------------------
 ComputingComponents.xml - F1 score:  0.46875
-          feature 1 F1 score:  0.47619047619047616
-          feature 2 F1 score:  0.10572687224669604
-          feature 3 F1 score:  0.7654320987654322
-          feature 4 F1 score:  0.17894736842105263
+          isBold:  0.47619
+          isBig:  0.10572
+          isAbnormalColour:  0.76543
+          RAKE:  0.17894
 
 GatesAndCircuits.xml - F1 score:  0.5
-          feature 1 F1 score:  0.32911392405063294
-          feature 2 F1 score:  0.47619047619047616
-          feature 3 F1 score:  0.026845637583892617
-          feature 4 F1 score:  0.1869158878504673
+          isBold:  0.32911
+          isBig:  0.47619
+          isAbnormalColour:  0.02684
+          RAKE:  0.18691
 
-NumberSystems.xml - F1 score:  0.2222222222222222
-        feature 1 F1 score:  0.16901408450704225
-          feature 2 F1 score:  0.1
-          feature 3 F1 score:  0.3870967741935483
-          feature 4 F1 score:  0.10526315789473685
+NumberSystems.xml - F1 score:  0.22222
+          isBold:  0.16901
+          isBig:  0.1
+          isAbnormalColour:  0.38709
+          RAKE:  0.10526
 
-TheBigPicture.xml - F1 score:  0.6580645161290323
-          feature 1 F1 score:  0.013986013986013988
-          feature 2 F1 score:  0.28571428571428575
-          feature 3 F1 score:  0.8749999999999999
-          feature 4 F1 score:  0.37037037037037035
+TheBigPicture.xml - F1 score:  0.65806
+          isBold:  0.01398
+          isBig:  0.28571
+          isAbnormalColour:  0.87499
+          RAKE:  0.37037
 
-Average: 0.46225918458
--------------------------------------------------------------------------------------------------
+Average: 0.46225

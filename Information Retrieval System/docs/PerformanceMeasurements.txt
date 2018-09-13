@@ -92,7 +92,7 @@ Current assigned features: isBold, isBig, isAbnormalColour, RAKE
 F1 scores:
     ComputingComponents.xml - 0.46875
     GatesAndCircuits.xml - 0.5
-    NumberSystems.xml - F1 score:  0.22222
-    TheBigPicture.xml - F1 score:  0.65806
+    NumberSystems.xml - 0.22222
+    TheBigPicture.xml - 0.65806
 
-    Average: 0.46225918458
+    Average: 0.46225
