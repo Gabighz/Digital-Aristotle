@@ -36,7 +36,7 @@
 	padding-left: 25px;
 	border-radius: 15px;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
-    	overflow-y: scroll; /* Add vertical scrollbar */
+	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 a
