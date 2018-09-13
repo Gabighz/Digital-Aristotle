@@ -75,7 +75,7 @@ endDebugDiv;
       
   </form>
 
-    <div id="responses">
+    <div id="conversation" ::-webkit-scrollbar>
         <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
     </div>
     <?php echo $debug_div ?>

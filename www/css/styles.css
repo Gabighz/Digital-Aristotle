@@ -19,29 +19,24 @@
 	margin: 20px;
 
 	text-align: center;
+
 }
 
-#sidebar
-{
-	width: auto;
-	height: auto;
-	position: absolute;
-	top:260px;
-	left:425px;
-	margin: 20px;
-	font-family: 'Cabin', sans-serif;
-	font-size: 13px;
-	background: #ffffff;
-	text-transform: uppercase;
-	border: 2px solid black;
-	border-radius: 10px;
-}
-
-#sidebar td
-{
-	border: 2px solid black;
-	padding: 10px;
-	border-radius: 5px;
+#responses {
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	font: 15px arial, sans-serif;
+	background: rgba(255, 255, 255, 0.7);
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border-radius: 15px;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+    	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
 a
@@ -66,24 +61,9 @@ html, body {
 		height: 100%;
 		background-image: url("../img/background.jpg");
 		background-repeat: no-repeat;
-	  background-size: 20%;
+	  	background-size: 20%;
 		background-position: center;
 		display: block;
-}
-
-#responses {
-	margin: auto;
-	width: 80%;
-	height: 80%;
-	font: 15px arial, sans-serif;
-	background: rgba(255, 255, 255, 0.7);
-	border-style: solid;
-	border-width: 1px;
-	padding-top: 20px;
-	padding-bottom: 25px;
-	padding-right: 25px;
-	padding-left: 25px;
-	border-radius: 15px;
 }
 
 #debugDiv {
@@ -97,7 +77,6 @@ html, body {
 		font-family: "Lucida Console", Monaco, monospace;
 		font-size: large;
 		padding: 1em;
-		overflow: auto;
 }
 
 #input {
