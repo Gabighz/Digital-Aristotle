@@ -80,6 +80,10 @@ endDebugDiv;
 
     </form>
 
+    <div id="clearhistory">
+        <a href="index.php"> Clear conversation history </a>
+    </div>
+
 <div id="bottom">
 	Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
 </div>

@@ -38,10 +38,24 @@
 	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
-a
-{
-    /*for link references*/
-	color: #0D0D65;
+/* unvisited link */
+a:link {
+	color: red;
+}
+
+/* visited link */
+a:visited {
+	color: red;
+}
+
+/* mouse over link */
+a:hover {
+	color: blue;
+}
+
+/* selected link */
+a:active {
+	color: blue;
 }
 
 
@@ -85,4 +99,9 @@ html, body {
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
+}
+
+#clearhistory {
+		text-align: center;
+
 }
