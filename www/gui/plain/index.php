@@ -61,24 +61,24 @@ endDebugDiv;
 
   <body onload="document.getElementById('say').focus()">
 
-  <form name="chatform" method="post" action="index.php#end"
-        onsubmit="if(document.getElementById('say').value == '') return false;">
-
-      <div id="input">
-          <label for="say">Say:</label>
-          <input type="text" name="say" id="say" size="70"/>
-          <input type="submit" name="submit" id="btn_say" value="say"/>
-          <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
-          <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
-          <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
-      </div>
-      
-  </form>
-
     <div id="responses">
         <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
     </div>
     <?php echo $debug_div ?>
+
+    <form name="chatform" method="post" action="index.php#end"
+          onsubmit="if(document.getElementById('say').value == '') return false;">
+
+        <div id="input">
+            <label for="say">Say:</label>
+            <input type="text" name="say" id="say" size="70"/>
+            <input type="submit" name="submit" id="btn_say" value="say"/>
+            <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
+            <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
+            <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
+        </div>
+
+    </form>
 
 <div id="bottom">
 	Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
