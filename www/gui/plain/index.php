@@ -57,6 +57,11 @@ endDebugDiv;
         <meta charset="UTF-8">
         <title>Swansea University Chatbot</title>
 
+        <script>
+            document.getElementById(window.name==='reload'?'reload':'say').focus();
+            window.name='reload';
+        </script>
+
 	</head>
 
   <body onload="document.getElementById('say').focus()">
