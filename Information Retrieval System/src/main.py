@@ -39,9 +39,6 @@ def main():
     # Return a two-dimensional array which contains each word and its features
     classification_features = feature_assignment(filtered_content)
 
-    # The return is 2D array which contains each word and its label
-    clustered_data = kmeans_clustering(classification_features, CLUSTERS)
-
     # Prints each word and its classification features
     counter = 0
     print("\n \n Each word and its classification features: \n")
@@ -51,6 +48,9 @@ def main():
         counter += 1
 
     print("\n Number of words with classification features: ", counter)
+
+    # The return is 2D array which contains each word and its label
+    clustered_data = kmeans_clustering(classification_features, CLUSTERS)
 
     # Post-processing to measure the performance of our classifier
     performance = post_processing(clustered_data, user_path)
