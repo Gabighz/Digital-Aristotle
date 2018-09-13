@@ -130,9 +130,8 @@ def assign_rake_ranking(all_words, words_with_features):
     return words_with_features
 
 
-# this function simply checks if a colour is unusual or not, returns 1 if it is
-# else 0. At the moment this function only counts anything that is not black as
-# unusual.
+# This function checks if a colour is unusual or not, returns 1 if true else 0.
+# At the moment this function only counts anything that is not black as usual.
 def is_unusual_color(color):
     if color != "#000000":
         return 1
