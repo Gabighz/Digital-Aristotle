@@ -15,7 +15,7 @@ from rake_nltk import Rake
 from sklearn.feature_selection import VarianceThreshold
 
 # word number created as a global variable for this version, will be changed
-word_number = 0
+WORD_NUMBER = 0
 
 
 # Constructs the word list
@@ -86,8 +86,8 @@ def add_words_to_list(words_string, is_bold, font_size, color, biggest, smallest
 
     words = words_string.split()
     for w in words:
-        global word_number
-        word_number = word_number + 1
+        global WORD_NUMBER
+        WORD_NUMBER = WORD_NUMBER + 1
         # word_list.append([w, is_bold, is_big(font_size, biggest,smallest), is_unusual_color(color)])
         word_to_add = [w, is_bold, is_big(font_size, biggest, smallest), is_unusual_color(color)]
         add_word(word_list, used_words, word_to_add)
