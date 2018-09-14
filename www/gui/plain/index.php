@@ -48,16 +48,18 @@ endDebugDiv;
 
 <html>
 
+    <!-- Head section -->
 	<head>
 
 		<link href="/css/bootstrap.min.css" rel="stylesheet"/>
 		<link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
-		<link href="/css/styles.css" rel="stylesheet"/>
+		<link href="/css/styles.css" rel="stylesheet"/> <!-- Main CSS file -->
         <link rel="icon" href="/img/favicon.ico?" type="image/x-icon">
 
         <meta charset="UTF-8">
         <title>Swansea University Chatbot</title>
 
+        <!-- After the page is refreshed or a message is sent, focus will remain on the input box -->
         <script>
             document.getElementById(window.name==='reload'?'reload':'say').focus();
             window.name='reload';
@@ -65,36 +67,44 @@ endDebugDiv;
 
 	</head>
 
-  <body onload="document.getElementById('say').focus()">
+    <!-- Body section-->
+    <body onload="document.getElementById('say').focus()">
 
-    <div id="responses">
-        <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
-    </div>
-    <?php echo $debug_div ?>
+        <!-- Container which displays the conversation history -->
+        <div id="responses">
+            <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
+        </div>
+        <?php echo $debug_div ?>
 
-    <form name="chatform" method="post" action="index.php#end"
-          onsubmit="if(document.getElementById('say').value == '') return false;">
+        <!-- Input box. The user can send information to the chatbot from here -->
+        <form name="chatform" method="post" action="index.php#end"
+            onsubmit="if(document.getElementById('say').value == '') return false;">
 
-        <div id="input">
-            <label for="say">Say:</label>
-            <input type="text" name="say" id="say" size="70"/>
-            <input type="submit" name="submit" id="btn_say" value="say"/>
-            <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
-            <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
-            <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
+            <!-- Sends the user message, the conversation ID and the bot's ID to the SQL database -->
+            <div id="input">
+                <label for="say">Say:</label>
+                <input type="text" name="say" id="say" size="70"/>
+                <input type="submit" name="submit" id="btn_say" value="say"/>
+                <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
+                <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
+                <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
+            </div>
+
+        </form>
+
+        <!--
+        The user can use this to refresh the page and, thus, clear the display of the conversation history.
+        There is one issue with this feature: a new conversation ID and log will be created by refreshing the page.
+        -->
+        <div id="clearhistory">
+            <a href="index.php"> Clear conversation history </a>
         </div>
 
-    </form>
-
-    <div id="clearhistory">
-        <a href="index.php"> Clear conversation history </a>
+    <!-- Copyright notice -->
+    <div id="bottom">
+	    Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
     </div>
 
-<div id="bottom">
-	Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
-</div>
-
-</div>
 
 </body>
 </html>
