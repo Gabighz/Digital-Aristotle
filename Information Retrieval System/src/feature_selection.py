@@ -58,10 +58,9 @@ def variance_threshold(classification_features):
 def normalise_features(classification_features):
 
     for word in classification_features:
-        for x in range(len(word)-1):
-            if(x > 0):
-                if (word[x] > 0):
-                    word[x] = 1
+        for x in range(len(word) - 1):
+            if x > 0 and word[x] > 0:
+                word[x] = 1
 
 
 # Assigns the features for each word in the data and adds it to an array
