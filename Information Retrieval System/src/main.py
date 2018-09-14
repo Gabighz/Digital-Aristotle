@@ -5,14 +5,14 @@
 
 # This constant is used in kmeans.py. It determines the number of classifications.
 # Currently, we have 2 classifications, namely Keywords and Non-keywords.
-CLUSTERS = 2
-
 import os
 
 from XML_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
+
+CLUSTERS = 2
 
 
 def interface_path():
