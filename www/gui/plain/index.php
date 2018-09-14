@@ -8,7 +8,7 @@
  * AUTHOR: Elizabeth Perreau and Dave Morton
  * DATE: MAY 17TH 2014
  * DETAILS: simple example gui
- * Modified by: Gabriel Ghiuzan (914067@swansea.ac.uk)
+ * Modified by: Gabriel Ghiuzan (gghiuzan1@sheffield.ac.uk)
  ***************************************/
 $display = "";
 $thisFile = __FILE__;
