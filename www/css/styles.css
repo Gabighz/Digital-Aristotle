@@ -61,17 +61,13 @@ a:active {
 	text-align: center;
 }
 
-p
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-}
-
+/* Style rules which apply to the whole document and overwrites any unwanted body rules from bootstrap */
 html, body {
 		height: 100%;
 		display: block;
 }
 
+/* Style rules for debugging mode */
 #debugDiv {
 		width: 90%;
 		min-height: 1.2em;
@@ -85,6 +81,7 @@ html, body {
 		padding: 1em;
 }
 
+/* Style rules for the input box */
 #input {
 		width: 90%;
 		min-width: 535px;
