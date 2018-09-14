@@ -53,6 +53,7 @@ endDebugDiv;
 		<link href="/css/bootstrap.min.css" rel="stylesheet"/>
 		<link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
 		<link href="/css/styles.css" rel="stylesheet"/>
+        <link rel="icon" href="/img/favicon.ico?" type="image/x-icon">
 
         <meta charset="UTF-8">
         <title>Swansea University Chatbot</title>
