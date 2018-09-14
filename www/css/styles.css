@@ -22,6 +22,7 @@
 
 }
 
+/* Container which displays the conversation history  */
 #responses {
 	margin: auto;
 	width: 80%;
@@ -35,6 +36,7 @@
 	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
+/* Style rules for the 'Clear conversation history' link  */
 /* unvisited link */
 a:link {
 	color: red;
@@ -55,10 +57,8 @@ a:active {
 	color: blue;
 }
 
-
-.intros
-{
-    padding-top:25px;
+#clearhistory {
+	text-align: center;
 }
 
 p
@@ -92,9 +92,4 @@ html, body {
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-}
-
-#clearhistory {
-		text-align: center;
-
 }
