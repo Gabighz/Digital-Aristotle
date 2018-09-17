@@ -26,6 +26,8 @@ def construct_dataset(word_list):
 
 
 # Apply K-means clustering to dataset
+# The dataset is a two-dimensional array which contains each word and its features
+# Format: [word, isBold, isBig, isAbnormalColour, RAKE]
 def kmeans_clustering(word_list, k):
     dataset = construct_dataset(word_list)
 
@@ -49,6 +51,7 @@ def kmeans_clustering(word_list, k):
     labels = kmeans.predict(features_sum)
 
     # Contains each observation and its label
+    # [word, 0] or [word, 1] => [word, Non-keyword] or [word, Keyword]
     results = []
 
     for i in range(len(labels)):
