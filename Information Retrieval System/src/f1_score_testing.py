@@ -12,7 +12,7 @@ CLUSTERS = 2
 
 
 # Computes the F1 score of each classification feature
-# @param classification_features: Contains each word and its features, i.e.[word, isBold, isBig, isAbnormalColour, RAKE]
+# @param classification_features: Contains each word and its features, i.e.[word, is_bold, is_larger, is_not_black, RAKE]
 # @param user_path: Specifies what lecture notes file will be loaded into the Keyword extractor.
 def test_individual_features(classification_features, filename):
 
@@ -32,8 +32,8 @@ def test_individual_features(classification_features, filename):
 
 
 # Removes RAKE as a classification features. This is done to measure the performance without it.
-# @param classification_features: Contains each word and its features, i.e.[word, isBold, isBig, isAbnormalColour, RAKE]
-# @return no_rake: Contains each word and its features without RAKE, i.e. [word, isBold, isBig, isAbnormalColour]
+# @param classification_features: Contains each word and its features, i.e.[word, is_bold, is_larger, is_not_black, RAKE]
+# @return no_rake: Contains each word and its features without RAKE, i.e. [word, is_bold, is_larger, is_not_black]
 def remove_rake(classification_features):
     no_rake = []
     for word in classification_features:
@@ -42,7 +42,7 @@ def remove_rake(classification_features):
 
 
 # Applies k-means clustering with the feature(s) of the test case. Then, F1 score is computed.
-# @param classification_features: Contains each word and its features, i.e.[word, isBold, isBig, isAbnormalColour, RAKE]
+# @param classification_features: Contains each word and its features, i.e.[word, is_bold, is_larger, is_not_black, RAKE]
 # @param filename: Specifies what lecture notes file will be loaded into the Keyword extractor.
 # @return performance: Outputs the F1 score for a particular test case.
 def calculate_f1(classification_features, filename):
