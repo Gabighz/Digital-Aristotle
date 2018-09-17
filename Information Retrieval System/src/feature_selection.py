@@ -1,15 +1,17 @@
-############################################################################################
-# Selects desired features of words from XML data and represents each word as an array.    #
-# This array contains the word itself as a string and its features as numerical values.    #
-#                                                                                          #
-# Each word is saved in the following format: [WordString, is_bold, is_big, is unusualColour, RAKE]#
-#                                                                                          #
-# Word String: String, represents the word                                                 #
-# is_bold: 1 or 0, 1 if the word is is bold                                                 #
-# is_big: 1 or 0, 1 if the word is in a big font                                            #
-# unusual_color: 1 or 0, 1 if the word font is not black                                   #
-# RAKE: the rake score                                                                     #
-############################################################################################
+###############################################################################################################
+# Selects desired features of words from XML data and represents each word as an array.                       #
+# This array contains the word itself as a string and its features as numerical values.                       #
+#                                                                                                             #
+# Each word is stored in a 2D array as the following: [word, is_bold, is_larger, is unusualColour, RAKE]      #
+#                                                                                                             #
+# word: A String which represents the word                                                                    #
+# is_bold: A Boolean value to see if it is bold                                                               #
+# is_larger: A Boolean value to see if it is a larger font                                                    #
+# is_not_black: A Boolean value to see if it is not black                                                     #
+# RAKE: The RAKE ranking                                                                                      #
+#                                                                                                             #
+# Author: Slade Brooks & Gabriel Ghiuzan                                                                      #
+###############################################################################################################
 
 from rake_nltk import Rake
 from sklearn.feature_selection import VarianceThreshold
@@ -87,8 +89,8 @@ def add_words_to_list(words_string, is_bold, font_size, color, biggest, smallest
     for w in words:
         global WORD_NUMBER
         WORD_NUMBER = WORD_NUMBER + 1
-        # word_list.append([w, is_bold, is_big(font_size, biggest,smallest), is_unusual_color(color)])
-        word_to_add = [w, is_bold, is_big(font_size, biggest, smallest), is_unusual_color(color)]
+        # word_list.append([w, is_bold, is_larger(font_size, biggest,smallest), is_unusual_color(color)])
+        word_to_add = [w, is_bold, is_larger(font_size, biggest, smallest), is_unusual_color(color)]
         add_word(word_list, used_words, word_to_add)
     return word_list
 
@@ -151,7 +153,7 @@ def raw_data_slice(raw_data, row):
 # Params: current-word checking, biggest-biggest font from document, smallest-
 #        smallest font from document
 # returns: 1 if is big, else 0
-def is_big(current, biggest, smallest):
+def is_larger(current, biggest, smallest):
     # the smallest and biggest variables are taken from the document
     big = biggest
     small = smallest
@@ -204,7 +206,8 @@ def calculate_rake_ranking(selected_features):
             if word_array[0] == word:
                 word_degree = value
 
-        ranking = word_degree / word_frequency  # in accordance with the chosen metric
+        # Formula in accordance with the chosen metric
+        ranking = word_degree / word_frequency
 
         array_item = [word_array, ranking]
         unnormalized_array.append(array_item)
@@ -218,8 +221,10 @@ def calculate_rake_ranking(selected_features):
     # Normalizes the value of the ranking to [0, 2]
     for i in range(len(unnormalized_array)):
         ranking = unnormalized_array[i][1]
-        unscaled_ranking = ranking / maximum_ranking  # normalizes to [0, 1]
-        unnormalized_array[i][1] = round(unscaled_ranking * 2, 5)  # scales to [0, 2]
+        # Normalizes to [0, 1]
+        unscaled_ranking = ranking / maximum_ranking
+        # Scales to [0, 2]
+        unnormalized_array[i][1] = round(unscaled_ranking * 2, 5)
         output_array.append(unnormalized_array[i])
 
     return output_array
