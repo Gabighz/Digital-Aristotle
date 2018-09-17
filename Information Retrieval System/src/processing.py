@@ -75,9 +75,9 @@ def pre_processing(raw_data):
 # Computes the F1-score of our classifier
 # Takes in a 2D array which contains each observation and their label
 # Compares that to the ground truth (correct) value of each observation
-def post_processing(results, path):
+def post_processing(results, filename):
     # Contains manually annotated ground truth values
-    true_output = manual_annotation(results, path)
+    true_output = manual_annotation(results, filename)
 
     # Contains the estimated targets returned by the classifier
     estimated_targets = []
@@ -89,12 +89,12 @@ def post_processing(results, path):
 
 
 # Only for the SlidesWeek2 file at the moment
-def manual_annotation(results, path):
+def manual_annotation(results, filename):
     true_output = []
     true_keywords = []
 
     # These manual annotations must be scrutinized, given their subjective nature
-    if path == "ComputingComponents.xml":
+    if filename == "ComputingComponents.xml":
         true_keywords = ["ad", "computer", "memory", "unit", "input", "output", "control", "bus", "cycle",
                          "fetch-execute", "instruction", "register", "program", "counter", "central", "processing",
                          "random", "access", "read", "only", "magnetic", "storage", "disks", "seek", "time", "latency",
@@ -102,19 +102,19 @@ def manual_annotation(results, path):
                          "infrared", "surface", "acoustic", "wave", "embedded", "systems", "cd-rom", "cd-da", "cd-worm",
                          "rw", "ram"]
 
-    elif path == "GatesAndCircuits.xml":
+    elif filename == "GatesAndCircuits.xml":
         true_keywords = ["gates", "transistors", "circuits", "boolean", "expressions", "truth", "tables", "logic",
                          "diagrams", "adder", "half", "full", "multiplexer", "s-r", "latch", "integrated", "circuits",
                          "gate", "not", "and", "or", "xor", "nand", "nor", "transistor", "combinational",
                          "sequential", "equivalence", "algebra", "adders", "multiplexers", "memory", "central",
                          "processing", "unit"]
 
-    elif path == "NumberSystems.xml":
+    elif filename == "NumberSystems.xml":
         true_keywords = ["positional", "convert", "numbers", "natural", "negative", "integers", "rational", "base",
                          "converting", "binary", "arithmetic", "subtracting", "octal", "hexadecimal", "decimal",
                          "byte"]
 
-    elif path == "TheBigPicture.xml":
+    elif filename == "TheBigPicture.xml":
         true_keywords = ["layers", "abstraction", "history", "application", "programmers", "computing",
                          "systems", "hardware", "software", "system", "abacus", "blaise", "pascal", "joseph",
                          "jacquard",
