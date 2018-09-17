@@ -44,7 +44,7 @@ def main():
     counter = 0
     print("\n \n Each word and its classification features: \n")
     for word in sorted(classification_features):
-        # Format: [word, isBold, isBig, isAbnormalColour, RAKE]
+        # Format: [word, is_bold, is_larger, is_not_black, RAKE]
         print(word)
         counter += 1
 

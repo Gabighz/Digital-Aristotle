@@ -2,27 +2,27 @@ The latest F1 scores of the Keyword Extractor and of the features used, individu
 
 
 ComputingComponents.xml - F1 score:  0.46875
-          isBold:  0.47619
-          isBig:  0.10572
-          isAbnormalColour:  0.76543
+          is_bold:  0.47619
+          is_larger:  0.10572
+          is_not_black:  0.76543
           RAKE:  0.17894
 
 GatesAndCircuits.xml - F1 score:  0.5
-          isBold:  0.32911
-          isBig:  0.47619
-          isAbnormalColour:  0.02684
+          is_bold:  0.32911
+          is_larger:  0.47619
+          is_not_black:  0.02684
           RAKE:  0.18691
 
 NumberSystems.xml - F1 score:  0.22222
-          isBold:  0.16901
-          isBig:  0.1
-          isAbnormalColour:  0.38709
+          is_bold:  0.16901
+          is_larger:  0.1
+          is_not_black:  0.38709
           RAKE:  0.10526
 
 TheBigPicture.xml - F1 score:  0.65806
-          isBold:  0.01398
-          isBig:  0.28571
-          isAbnormalColour:  0.87499
+          is_bold:  0.01398
+          is_larger:  0.28571
+          is_not_black:  0.87499
           RAKE:  0.37037
 
 Average: 0.46225

@@ -1,10 +1,10 @@
 Before implementing stopwords filtering
-Current assigned features: isBold, RAKE
+Current assigned features: is_bold, RAKE
 F1 score of 0.071 / 0.139
 
 --------------------------------------------------------------------------------
 After implementing stopwords filtering (NLTK dictionary)
-Current assigned features: isBold, RAKE
+Current assigned features: is_bold, RAKE
 F1 score of 0.066 / 0.209
 Notes: 1. The word 'The' is classified as a keyword due to its
        high frequency and high degree of co-occurrence.
@@ -25,7 +25,7 @@ Notes: 1. The word 'The' is classified as a keyword due to its
 --------------------------------------------------------------------------------
 After improving pre-processing and addressing the issues listed above.
 Also filtered out all words which aren't nouns.
-Current assigned features: isBold, RAKE
+Current assigned features: is_bold, RAKE
 F1 score of 0.144 / 0.487
 Notes:    1. The type of some words is ambiguous and not filtered out.
              For example, 'move' can be a verb or a noun, and thus not filtered out
@@ -34,7 +34,7 @@ Notes:    1. The type of some words is ambiguous and not filtered out.
 --------------------------------------------------------------------------------
 After improving manual annotation (less human error in that regard)
 and adding new features.
-Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+Current assigned features: is_bold, is_larger, is_not_black, RAKE
 F1 score of 0.072 / 0.536
 
 Notes:    1. The features are not normalized yet. Therefore, the features
@@ -46,10 +46,10 @@ We had a bug in the pre-processor. This bug meant that every occurrence of a wor
 had only the XML features of the last occurrence of that word. This caused
 gross imprecision in its classification.
 
-We improved on how isBig is calculated. We now use the formula:
+We improved on how is_larger is calculated. We now use the formula:
 ((current font size - minimum font size) / (maximum font size - minimum font size))
 
-Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+Current assigned features: is_bold, is_larger, is_not_black, RAKE
 F1 score of 0.058 / 0.594
 
 Notes:    1. Values still have to be normalized.
@@ -60,7 +60,7 @@ The issue of repetitive samples has been handled by adding up the numerical valu
 of the classification features of all occurrences of a certain word, except RAKE.
 Changed where RAKE ranking is calculated in feature_selection.py (see commit f12d602).
 
-Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+Current assigned features: is_bold, is_larger, is_not_black, RAKE
 F1 score of 0.112 / 0.461
 
 Notes:    1. Values still have to be normalized.
@@ -73,7 +73,7 @@ Notes:    1. Values still have to be normalized.
 Words with a character count of 1 or less are now filtered out. We had numerous
 words such as "o" or "i".
 
-Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+Current assigned features: is_bold, is_larger, is_not_black, RAKE
 F1 score of 0.122 / 0.242
 
 Notes:    1. Values still have to be normalized.
@@ -87,7 +87,7 @@ NumberSystems, and TheBigPicture. They are from the CS-150 module.
 Values have been normalized. RAKE is in the range of [0,2], inclusive. The rest of the features are between [0, 1],
 inclusive, for each observation.
 
-Current assigned features: isBold, isBig, isAbnormalColour, RAKE
+Current assigned features: is_bold, is_larger, is_not_black, RAKE
 
 F1 scores:
     ComputingComponents.xml - 0.46875

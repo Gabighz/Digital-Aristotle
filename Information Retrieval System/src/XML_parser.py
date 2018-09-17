@@ -51,7 +51,7 @@ def parse_sentences(sentences, page_num, parsed_words, file_number, fontspec_arr
 
         # Adds the sentence to the array if it contains text and if it is note
         # a header or footer.
-        # Format: group of words, isBold, file number, page number, sentence number, fontsize, font color
+        # Format: group of words, is_bold, file number, page number, sentence number, fontsize, font color
         if has_text(elem) and is_not_head_or_foot(element_attributes):
             parsed_words.append(
                 [elem.text, 0, file_number, page_num, sentence_num, int(font_specs['size']), font_specs['color']])
