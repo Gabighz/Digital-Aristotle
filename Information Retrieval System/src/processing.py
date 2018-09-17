@@ -12,8 +12,8 @@ from sklearn.metrics import f1_score
 
 def pre_processing(raw_data):
     # Prints the raw XML data so we can check if the pre-processor is working correctly
-    print("\n Raw XML Data: \n")
     counter = 0
+    print("\n Raw XML Data: \n")
     for word_array in sorted(raw_data):
         print(word_array)
         counter += 1
@@ -22,8 +22,7 @@ def pre_processing(raw_data):
     # Iterates through raw XML data and concatenates all words to a string
     sentence = ' '.join([word for (array_index, word_index), word in np.ndenumerate(raw_data) if word_index == 0])
 
-    # Converts all words to lowercase; e.g. so Sensors and sensors are not
-    # considered different words
+    # Converts all words to lowercase to prevent duplication of same word with different cases.
     lowercase_string = sentence.lower()
 
     # Cleans each word of non-alphanumeric characters
