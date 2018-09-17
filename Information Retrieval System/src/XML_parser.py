@@ -1,6 +1,7 @@
 ############################################################################
 # Takes lectures notes which were pre-converted from pdf or pptx into XML  #
 # and parses the XML attributes of each word or sentence                   #
+# Author: Slade Brooks                                                     #
 ############################################################################
 
 from xml.etree import ElementTree

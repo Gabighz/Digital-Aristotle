@@ -1,3 +1,9 @@
+#######################################################
+# Tests the performance of individual classification  #
+# features with F1 score                              #
+# Author: Slade Brooks                                #
+#######################################################
+
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
 

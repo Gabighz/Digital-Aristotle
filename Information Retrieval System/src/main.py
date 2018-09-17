@@ -1,6 +1,7 @@
 ##################################################
 # Main program which executes the modules,       #
 # and writes Keywords and Non-keywords to a file #
+# Author: Gabriel Ghiuzan                        #
 ##################################################
 
 # This constant is used in kmeans.py. It determines the number of classifications.

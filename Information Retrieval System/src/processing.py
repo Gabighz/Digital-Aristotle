@@ -1,6 +1,7 @@
 ##################################################
 # Handles pre-processing (stopwords filtering)   #
 # and post-processing (performance testing)      #
+# Author: Gabriel Ghiuzan                        #
 ##################################################
 
 import re

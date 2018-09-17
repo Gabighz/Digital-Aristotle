@@ -1,6 +1,7 @@
-########################################################
+#######################################################
 # Perform K-means clustering on features of the words #
 # (2 clusters, Keyword & Not-Keyword)                 #
+# Author: Gabriel Ghiuzan                             #
 #######################################################
 
 import numpy as np
