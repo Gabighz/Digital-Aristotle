@@ -7,40 +7,50 @@
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
 
-def test_individual_features(classification_features, user_path):
-    CLUSTERS = 2
+# Global for the number of clusters used by k-means clustering.
+CLUSTERS = 2
 
-    for x in range(len(classification_features[0])-1):
+
+# Computes the F1 score of each classification feature
+# @param classification_features: Contains each word and its features, i.e.[word, isBold, isBig, isAbnormalColour, RAKE]
+# @param user_path: Specifies what lecture notes file will be loaded into the Keyword extractor.
+def test_individual_features(classification_features, filename):
+
+    for index in range(len(classification_features[0]) - 1):
         temp_array = []
         for word in classification_features:
-            temp_array.append([word[0],word[x+1]])
+            temp_array.append([word[0], word[index + 1]])
 
         # The return is 2D array which contains each word and its label
         clustered_data = kmeans_clustering(temp_array, CLUSTERS)
 
         # Post-processing to measure the performance of our classifier
-        performance = post_processing(clustered_data, user_path)
+        performance = post_processing(clustered_data, filename)
 
-            # F1 score from 0 to 1
-        print("\n          feature "+ str(x+1) + " F1 score: ", performance)
-
-    #test_individual_features(classification_features,user_path)
+        # F1 score from 0 to 1
+        print(" \n Classification feature: " + str(index + 1) + ", F1 score: ", performance)
 
 
+# Removes RAKE as a classification features. This is done to measure the performance without it.
+# @param classification_features: Contains each word and its features, i.e.[word, isBold, isBig, isAbnormalColour, RAKE]
+# @return no_rake: Contains each word and its features without RAKE, i.e. [word, isBold, isBig, isAbnormalColour]
 def remove_rake(classification_features):
-    temp_array = []
+    no_rake = []
     for word in classification_features:
-        temp_array.append([word[0],word[1],word[2],word[3],])
+        no_rake.append([word[0], word[1], word[2], word[3]])
+    return no_rake
 
-    return temp_array
 
-def calculate_F1(word_array, user_path):
-    CLUSTERS = 2
+# Applies k-means clustering with the feature(s) of the test case. Then, F1 score is computed.
+# @param classification_features: Contains each word and its features, i.e.[word, isBold, isBig, isAbnormalColour, RAKE]
+# @param filename: Specifies what lecture notes file will be loaded into the Keyword extractor.
+# @return performance: Outputs the F1 score for a particular test case.
+def calculate_f1(classification_features, filename):
 
     # The return is 2D array which contains each word and its label
-    clustered_data = kmeans_clustering(word_array, CLUSTERS)
+    clustered_data = kmeans_clustering(classification_features, CLUSTERS)
 
     # Post-processing to measure the performance of our classifier
-    performance = post_processing(clustered_data, user_path)
+    performance = post_processing(clustered_data, filename)
 
     return performance
