@@ -12,7 +12,7 @@ CLUSTERS = 2
 
 
 # Computes the F1 score of each classification feature
-# @param classification_features: Contains each word and its features, i.e.[word, is_bold, is_larger, is_not_black, RAKE]
+# @param classification_features: Contains each word and its features,i.e.[word, is_bold, is_larger, is_not_black, RAKE]
 # @param user_path: Specifies what lecture notes file will be loaded into the Keyword extractor.
 def test_individual_features(classification_features, filename):
 
