@@ -17,17 +17,17 @@ CLUSTERS = 2
 
 
 def interface_path():
-    path = input("Input path: ../input/first-year/CS-150/")
+    filename = input("Input path: ../input/first-year/CS-150/")
 
-    return path
+    return filename
 
 
 def main():
     # Open a file here and apply a function from XML_parser to it
     while True:
         try:
-            user_path = interface_path()
-            path = "../input/first-year/CS-150/" + user_path
+            filename = interface_path()
+            path = "../input/first-year/CS-150/" + filename
             file_number = 0
             parsed_content = parse_file(path, file_number)
             break
@@ -54,12 +54,12 @@ def main():
     clustered_data = kmeans_clustering(classification_features, CLUSTERS)
 
     # Post-processing to measure the performance of our classifier
-    performance = post_processing(clustered_data, user_path)
+    performance = post_processing(clustered_data, filename)
 
     # F1 score from 0 to 1
     print("\n F1 score: ", performance)
 
-    # Write to file
+    # Write to file - needs improvement
     output_path = "../output/first-year/CS-150/" + path
 
     # Enables us to create paths from within the program
