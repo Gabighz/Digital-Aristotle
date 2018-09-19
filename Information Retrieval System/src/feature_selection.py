@@ -20,7 +20,10 @@ from sklearn.feature_selection import VarianceThreshold
 WORD_NUMBER = 0
 
 
-# Constructs the word list
+# Constructs the word list using the raw data which has been normalised, then set is filtered down to the values
+# within the variance threshold.
+# @param raw_data: Files that have been pre-processed and outputted into an XML format.
+# @return selected_features: Outputs the filtered array.
 def feature_assignment(raw_data):
     selected_features = populate_word_list(raw_data)
 
@@ -31,6 +34,7 @@ def feature_assignment(raw_data):
 
 
 # Removes all zero-variance features, i.e. features that have the same value in all samples
+# @param classification_features:
 def variance_threshold(classification_features):
 
     # Makes a copy of the array which contains each word and its classification features
@@ -57,6 +61,7 @@ def variance_threshold(classification_features):
 
 
 # Normalising approach of [word,6,3,0] becomes [word,1,1,0]
+# @param classification_features:
 def normalise_features(classification_features):
 
     for word in classification_features:
@@ -66,6 +71,8 @@ def normalise_features(classification_features):
 
 
 # Assigns the features for each word in the data and adds it to an array
+# @param raw_data:
+# @return word_list:
 def populate_word_list(raw_data):
     biggest = max(raw_data_slice(raw_data, 5))
     smallest = min(raw_data_slice(raw_data, 5))
@@ -82,6 +89,7 @@ def populate_word_list(raw_data):
 
 
 # adds each word in a sentence to the array
+
 def add_words_to_list(words_string, is_bold, font_size, color, biggest, smallest, used_words, word_list):
     is_bold = is_bold
 
