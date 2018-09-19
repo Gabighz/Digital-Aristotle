@@ -110,21 +110,22 @@ def manual_annotation(results, filename):
                          "processing", "unit"]
 
     elif filename == "NumberSystems.xml":
-        true_keywords = ["positional", "convert", "numbers", "natural", "negative", "integers", "rational", "base",
+        true_keywords = ["positional", "convert", "base", "bases", "numbers", "natural", "negative", "integers",
+                         "rational", "integer", "base",
                          "converting", "binary", "arithmetic", "subtracting", "octal", "hexadecimal", "decimal",
                          "byte"]
 
     elif filename == "TheBigPicture.xml":
-        true_keywords = ["layers", "abstraction", "history", "application", "programmers", "computing",
+        true_keywords = ["layers", "abstraction", "analytical", "engine", "history", "application", "programmers",
                          "systems", "hardware", "software", "system", "abacus", "blaise", "pascal", "joseph",
-                         "jacquard",
+                         "jacquard", "utility", "computing",
                          "charles", "babbage", "ada", "lovelace", "alan", "turing", "harvard", "mark", "vacuum",
                          "tubes", "magnetic", "drum", "card", "readers", "tape", "drives", "transistor", "cores",
                          "disks", "integrated", "circuits", "terminal", "generation", "first", "second", "third",
                          "large-scale", "integration", "pcs", "commercial", "market", "workstations", "laptops",
-                         "tablet", "computers", "smart", "phones", "parallel", "computing", "networking", "arpanet",
-                         "lans", "internet", "quantum", "qubits", "machine", "language", "languages", "assembly",
-                         "translators", "changes", "high-level", "separation", "users", "structured", "new",
+                         "tablet", "computers", "computer", "smart", "phones", "parallel", "computing", "networking", "arpanet",
+                         "lan", "internet", "quantum", "qubits", "machine", "language", "languages", "assembly",
+                         "translators", "translator", "changes", "high-level", "separation", "users", "structured", "new",
                          "Microsoft",
                          "design", "object-oriented", "world", "wide", "web"]
 
