@@ -23,14 +23,14 @@ WORD_NUMBER = 0
 # Constructs the word list using the raw data which has been normalised, then set is filtered down to the values
 # within the variance threshold.
 # @param raw_data: Files that have been pre-processed and outputted into an XML format.
-# @return selected_features: Outputs the filtered array.
+# @return classification_features: Outputs the filtered array.
 def feature_assignment(raw_data):
-    selected_features = populate_word_list(raw_data)
+    classification_features = populate_word_list(raw_data)
 
-    normalise_features(selected_features)
-    variance_threshold(selected_features)
+    normalise_features(classification_features)
+    variance_threshold(classification_features)
 
-    return selected_features
+    return classification_features
 
 
 # Removes all zero-variance features, i.e. features that have the same value in all samples
@@ -60,11 +60,13 @@ def variance_threshold(classification_features):
         index += 1
 
 
-# Normalising approach of [word,6,3,0] becomes [word,1,1,0]
-# @param classification_features:
+# Instead of summing up the instances in which a feature appears, a boolean value is used.
+# For example, [word, 4, 3, 0, 1] becomes [word, 1, 1, 0, 1]
+# @param classification_features: A two-dimensional array which contains each word and its features
 def normalise_features(classification_features):
 
     for word in classification_features:
+        # Range stops at the length of the array minus one as not to include RAKE in the below computation
         for x in range(len(word) - 1):
             if x > 0 and word[x] > 0:
                 word[x] = 1
@@ -152,8 +154,9 @@ def is_unusual_color(color):
 # 2D array, for example it is used to return all of the font sizes from raw_data
 def raw_data_slice(raw_data, row):
     sizes = []
-    for entry in raw_data:
-        sizes.append(entry[row])
+
+    for element in raw_data:
+        sizes.append(element[row])
     return sizes
 
 
@@ -177,7 +180,7 @@ def is_larger(current, biggest, smallest):
 
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
-def calculate_rake_ranking(selected_features):
+def calculate_rake_ranking(classification_features):
     unnormalized_array = []
     output_array = []
 
@@ -187,7 +190,7 @@ def calculate_rake_ranking(selected_features):
     words_string = ''
 
     # Extracts only the word itself as a string
-    for word_array in selected_features:
+    for word_array in classification_features:
         words_string += word_array[0] + " "
 
     r.extract_keywords_from_text(words_string)
@@ -197,7 +200,7 @@ def calculate_rake_ranking(selected_features):
     word_degrees = r.get_word_degrees()  # word -> degree (linguistic co-occurrence)
 
     # Appends the ranking to each word's array
-    for word_array in selected_features:
+    for word_array in classification_features:
 
         word_frequency = 1
         word_degree = 1
