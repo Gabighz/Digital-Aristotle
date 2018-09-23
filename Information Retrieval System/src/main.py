@@ -1,11 +1,9 @@
 ##################################################
 # Main program which executes the modules,       #
 # and writes Keywords and Non-keywords to a file #
+#                                                #
 # Author: Gabriel Ghiuzan                        #
 ##################################################
-
-# This constant is used in kmeans.py. It determines the number of classifications.
-# Currently, we have 2 classifications, namely Keywords and Non-keywords.
 import os
 
 from XML_parser import parse_file
@@ -13,9 +11,14 @@ from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
 
+# This constant is used in kmeans.py. It determines the number of classifications.
+# Currently, we have 2 classifications: Keywords and Non-keywords.
 CLUSTERS = 2
 
 
+# This function requests user input of the name of a file as a string
+#
+# @return filename: The name of the file which will be processed
 def interface_path():
     filename = input("Input path: ../input/first-year/CS-150/")
 
@@ -23,24 +26,32 @@ def interface_path():
 
 
 def main():
-    # Open a file here and apply a function from XML_parser to it
+    # Opens a file and applies an XML parser to it. Can also handle the FileNotFoundError exception.
     while True:
         try:
+            # Gets the name of the file from the user
             filename = interface_path()
+
+            # Concatenates the name of the file to a pre-determined input path
             path = "../input/first-year/CS-150/" + filename
+
+            # The number of files to be processed (currently, we process only one file at a time)
             file_number = 0
+
+            # An array which contains a phrase or a word and its corresponding XML data
             parsed_content = parse_file(path, file_number)
+
             break
         except FileNotFoundError:
             print("File not found! Try again.")
 
-    # Pre-processing to filter out stopwords from parsed_files
+    # Pre-processing to filter out unwanted data from parsed_content
     filtered_content = pre_processing(parsed_content)
 
-    # Return a two-dimensional array which contains each word and its features
+    # A two-dimensional array which contains each word and its features
     classification_features = feature_assignment(filtered_content)
 
-    # Prints each word and its classification features
+    # Prints each word and its classification features and the number of all words in classification_features
     counter = 0
     print("\n \n Each word and its classification features: \n")
     for word in sorted(classification_features):
@@ -48,29 +59,31 @@ def main():
         print(word)
         counter += 1
 
-    print("\n Number of words with classification features: ", counter)
+    print("\n Number of words in classification_features: ", counter)
 
-    # The return is 2D array which contains each word and its label
-    clustered_data = kmeans_clustering(classification_features, CLUSTERS)
+    # A 2D array which contains each word and its label
+    # For example, [word, 0] or [word, 1], which means [word, Non-keyword] or [word, Keyword]
+    classified_words = kmeans_clustering(classification_features, CLUSTERS)
 
-    # Post-processing to measure the performance of our classifier
-    performance = post_processing(clustered_data, filename)
+    # Post-processing to measure the performance of our keyword extractor
+    performance = post_processing(classified_words, filename)
 
-    # F1 score from 0 to 1
+    # F1 score, from 0 to 1
     print("\n F1 score: ", performance)
 
-    # Write to file - needs improvement
-    output_path = "../output/first-year/CS-150/" + path
+    # Stores the path of the file which will contain the classified words
+    # Needs improvement. Currently, the path is something like "../output/input/first-year/CS-150"
+    output_path = "../output" + path
 
-    # Enables us to create paths from within the program
+    # Enables us to create directories from within the program
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    file = open(output_path, "w")
+    output_file = open(output_path, "w")
 
-    for observation in clustered_data:
-        file.write(str(observation) + "\n")
+    for word_with_label in classified_words:
+        file.write(str(word_with_label) + "\n")
 
-    file.close()
+    output_file.close()
 
 
 main()
