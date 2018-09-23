@@ -22,6 +22,7 @@ WORD_NUMBER = 0
 
 # Constructs the word list using the raw data which has been normalised, then set is filtered down to the values
 # within the variance threshold.
+#
 # @param raw_data: Files that have been pre-processed and outputted into an XML format.
 # @return classification_features: Outputs the filtered array.
 def feature_assignment(raw_data):
@@ -34,7 +35,8 @@ def feature_assignment(raw_data):
 
 
 # Removes all zero-variance features, i.e. features that have the same value in all samples
-# @param classification_features:
+#
+# @param classification_features: A two-dimensional array which contains each word and its features
 def variance_threshold(classification_features):
 
     # Makes a copy of the array which contains each word and its classification features
@@ -62,6 +64,7 @@ def variance_threshold(classification_features):
 
 # Instead of summing up the instances in which a feature appears, a boolean value is used.
 # For example, [word, 4, 3, 0, 1] becomes [word, 1, 1, 0, 1]
+#
 # @param classification_features: A two-dimensional array which contains each word and its features
 def normalise_features(classification_features):
 
@@ -73,6 +76,7 @@ def normalise_features(classification_features):
 
 
 # Assigns the features for each word in the data and adds it to an array
+#
 # @param raw_data:
 # @return word_list:
 def populate_word_list(raw_data):
@@ -180,19 +184,28 @@ def is_larger(current, biggest, smallest):
 
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
-def calculate_rake_ranking(classification_features):
-    unnormalized_array = []
-    output_array = []
+#
+# @param classification_without_rake: A two-dimensional array which contains each word and its features, but not RAKE yet
+# @return classification_with_rake: A two-dimensional array which contains each word and all of its features, including RAKE
+def calculate_rake_ranking(classification_without_rake):
 
+    # Meant to contain each word and its features, but with RAKE ranking not normalized
+    rake_not_normalized = []
+    
+    # Will be the value returned by this function, containing each word and its features, with RAKE normalized
+    classification_with_rake = []
+
+    # Initializes the Rake object
     r = Rake()
 
-    # Contains all the words in the document
+    # Meant to contain each word in a string
     words_string = ''
 
     # Extracts only the word itself as a string
-    for word_array in classification_features:
+    for word_array in classification_without_rake:
         words_string += word_array[0] + " "
 
+    # The Rake object ranks all the words in the string
     r.extract_keywords_from_text(words_string)
 
     # The return type of both functions called below is Dictionary (key -> value)
@@ -200,7 +213,7 @@ def calculate_rake_ranking(classification_features):
     word_degrees = r.get_word_degrees()  # word -> degree (linguistic co-occurrence)
 
     # Appends the ranking to each word's array
-    for word_array in classification_features:
+    for word_array in classification_without_rake:
 
         word_frequency = 1
         word_degree = 1
@@ -220,22 +233,31 @@ def calculate_rake_ranking(classification_features):
         # Formula in accordance with the chosen metric
         ranking = word_degree / word_frequency
 
+        # Contains the array of a word and its features and the word's RAKE ranking
         array_item = [word_array, ranking]
-        unnormalized_array.append(array_item)
 
-    # Gets the maximum ranking
+
+        rake_not_normalized.append(array_item)
+
+    # Gets the maximum ranking out of all the words
     maximum_ranking = 0
-    for word_array in unnormalized_array:
+    for word_array in rake_not_normalized:
+
         if word_array[1] > maximum_ranking:
+            # If there is a score higher than the one previously found, maximum_ranking is replaced with it
             maximum_ranking = word_array[1]
 
     # Normalizes the value of the ranking to [0, 2]
-    for i in range(len(unnormalized_array)):
-        ranking = unnormalized_array[i][1]
+    for i in range(len(rake_not_normalized)):
+        ranking = rake_not_normalized[i][1]
+
         # Normalizes to [0, 1]
         unscaled_ranking = ranking / maximum_ranking
-        # Scales to [0, 2]
-        unnormalized_array[i][1] = round(unscaled_ranking * 2, 5)
-        output_array.append(unnormalized_array[i])
 
-    return output_array
+        # Scales to [0, 2]
+        rake_not_normalized[i][1] = round(unscaled_ranking * 2, 5)
+
+        # Appends the array of each word and its features, with RAKE normalized to between 0 and 2 inclusive
+        classification_with_rake.append(rake_not_normalized[i])
+
+    return classification_with_rake
