@@ -8,12 +8,15 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 
-# Create a dataset from the list of words
-def construct_dataset(word_list):
+# Creates an array which contains each word and the sum of its features
+#
+# @param classification_features: A two-dimensional array which contains each word and its features
+# @return words_with_sum: A two-dimensional array which contains each word and the sum of its features
+def features_summing(classification_features):
     # Contains each word as a string and the sum of its features
-    dataset = []
+    words_with_sum = []
 
-    for word in word_list:
+    for word in classification_features:
 
         # Stores the sum of features of each word
         feature_sum = 0
@@ -23,39 +26,44 @@ def construct_dataset(word_list):
 
         dataset.append([word[0], feature_sum])
 
-    return dataset
+    return words_with_sum
 
 
-# Apply K-means clustering to dataset
-# The dataset is a two-dimensional array which contains each word and its features
-# Format: [word, is_bold, is_larger, is_not_black, RAKE]
-def kmeans_clustering(word_list, k):
-    dataset = construct_dataset(word_list)
+# Apply K-means clustering to a two-dimensional array which contains each word and its features
+#
+# @param classification_features: A two-dimensional array which contains each word and its features
+#        k: The number of clusters desired to result out of k-means clustering
+# @return results: Contains each word and its Keyword or Non-keyword label
+def kmeans_clustering(classification_features, k):
 
-    # Stores only the sum of each word
-    # to be changed to something that can reference each sum to its corresponding word
+    # An array which contains each word and the sum of its features
+    words_with_sum = features_summing(classification_features)
+
+    # Will store only the sum of each word
     features_sum = []
 
+    # Extracts only the sum of each word and appends it to features_sum
     for i in range(len(dataset)):
         features_sum.append(dataset[i][1])
 
-    # Convert array to passable numpy data which can be manipulated by sklearn
+    # Converts array to passable numpy data which can be manipulated by sklearn
     features_sum = np.array(features_sum).reshape(-1, 1)
 
-    # Initializes KMeans and assigns the number of clusters
-    kmeans = KMeans(n_clusters=k)
+    # Initializes the KMeans object and assigns the number of clusters
+    kmeans = KMeans(n_clusters = k)
 
-    # Compute K-means clustering
+    # Computes K-means clustering given the sum of each word as discrete values
     kmeans = kmeans.fit(features_sum)
 
-    # Predict the closest cluster each observation in features_sum belongs to
+    # Predicts the closest cluster each item in features_sum belongs to
     labels = kmeans.predict(features_sum)
 
-    # Contains each observation and its label
-    # [word, 0] or [word, 1] => [word, Non-keyword] or [word, Keyword]
+    # Will contain each word and its label
+    # For example, [word, 0] or [word, 1], which means [word, Non-keyword] or [word, Keyword]
     results = []
 
+    # Appends each word and its label to results
     for i in range(len(labels)):
-        results.append([dataset[i][0], labels[i]])
+        results.append([words_with_sum[i][0], labels[i]])
 
     return results
