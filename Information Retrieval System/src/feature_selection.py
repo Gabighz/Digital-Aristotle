@@ -105,7 +105,7 @@ def generate_classification_features(raw_data):
     for element in raw_data:
         classification_features = add_words_to_list(element[word_index], element[bold_index], element[font_size_index],
                                                     element[colour_index], biggest_font_size, smallest_font_size,
-                                                    used_words)
+                                                    used_words, classification_features)
 
     classification_features = assign_rake_ranking(all_words, classification_features)
     return classification_features
@@ -154,21 +154,21 @@ def add_word(classification_features, used_words, word_to_add):
 
 def assign_rake_ranking(all_words, words_with_features):
     pre_raked_data = []
-    for elem in all_words:
-        if ' ' in elem:
-            sentence = elem.split(' ')
+    for element in all_words:
+        if ' ' in element:
+            sentence = element.split(' ')
             for word in sentence:
                 pre_raked_data.append(word)
         else:
-            pre_raked_data.append(elem)
+            pre_raked_data.append(element)
     raked_data = calculate_rake_ranking(pre_raked_data)
 
-    for entry in words_with_features:
-        done = 0
+    for element in words_with_features:
+        done = False
         for raked in raked_data:
-            if (entry[0] == raked[0]) & (done == 0):
-                entry.append(raked[1])
-                done = 99
+            if (element[0] == raked[0]) and not done:
+                element.append(raked[1])
+                done = True
     return words_with_features
 
 
