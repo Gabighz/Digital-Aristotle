@@ -28,8 +28,8 @@
 	width: 80%;
 	height: 80%;
 	font: 15px arial, sans-serif;
-	background-size: 20%;
 	background: rgba(255, 255, 255, 0.7) url("../img/background.jpg") no-repeat center;
+	background-size: 20%;
 	border: 1px solid;
 	padding: 20px 25px 25px;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
