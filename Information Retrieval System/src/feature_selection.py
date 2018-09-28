@@ -136,6 +136,10 @@ def add_words_to_list(words, is_bold, font_size, color, biggest_font_size, small
     return classification_features
 
 
+#
+#
+# @param
+# @return
 def add_word(classification_features, used_words, word_to_add):
     if word_to_add[0].lower() in used_words:
         not_found = True
@@ -152,23 +156,31 @@ def add_word(classification_features, used_words, word_to_add):
         used_words.append(word_to_add[0].lower())
 
 
+#
+#
+# @param
+# @return
 def assign_rake_ranking(all_words, words_with_features):
-    pre_raked_data = []
+    pre_ranked_words = []
+
     for element in all_words:
         if ' ' in element:
             sentence = element.split(' ')
             for word in sentence:
-                pre_raked_data.append(word)
+                pre_ranked_words.append(word)
         else:
-            pre_raked_data.append(element)
-    raked_data = calculate_rake_ranking(pre_raked_data)
+            pre_ranked_words.append(element)
+
+    ranked_words = calculate_rake_ranking(pre_ranked_words)
 
     for element in words_with_features:
+
         done = False
-        for raked in raked_data:
-            if (element[0] == raked[0]) and not done:
-                element.append(raked[1])
+        for word in ranked_words:
+            if (element[0] == word[0]) and not done:
+                element.append(word[1])
                 done = True
+
     return words_with_features
 
 
@@ -191,19 +203,19 @@ def raw_data_slice(raw_data, row):
     return sizes
 
 
-# Determines if a word is big or note.
-# Params: current-word checking, biggest-biggest font from document, smallest-
-#        smallest font from document
-# returns: 1 if is big, else 0
-def is_larger(current, biggest, smallest):
-    # the smallest and biggest variables are taken from the document
-    big = biggest
-    small = smallest
+# Determines whether the word is larger than the average font size
+#
+# @param current_font_size: The font size of the word being currently considered
+# @param biggest_font_size: The biggest size of the fonts recorded in the xml file
+# @param smallest_font_size: The smallest size of the fonts recorded in the xml file
+# @return: A boolean value of 1 or 0
+def is_larger(current_font_size, biggest_font_size, smallest_font_size):
 
-    # this if statement converts the current word into a decimal point based
-    # upon its font size in relation to the biggest and smallest, this point is
-    # between 0 and one, anything over 0.5 is considered big.
-    if ((current - small) / (big - small)) > 0.5:
+    # Maximum difference in value before font is considered larger than average.
+    font_size_fence = 0.5
+
+    # Checks whether the word is larger than the average font size
+    if ((current_font_size - smallest_font_size) / (biggest_font_size - smallest_font_size)) > font_size_fence:
         return 1
     else:
         return 0
