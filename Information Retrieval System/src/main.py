@@ -73,7 +73,7 @@ def main():
 
     # Stores the path of the file which will contain the classified words
     # Needs improvement. Currently, the path is something like "../output/input/first-year/CS-150"
-    output_path = "../output" + path
+    output_path = "../output/first-year/CS-150/" + path
 
     # Enables us to create directories from within the program
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -81,7 +81,7 @@ def main():
     output_file = open(output_path, "w")
 
     for word_with_label in classified_words:
-        file.write(str(word_with_label) + "\n")
+        output_file.write(str(word_with_label) + "\n")
 
     output_file.close()
 

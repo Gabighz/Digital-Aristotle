@@ -24,7 +24,7 @@ def features_summing(classification_features):
         for feature in range(1, len(word)):
             feature_sum += word[feature]
 
-        dataset.append([word[0], feature_sum])
+        words_with_sum.append([word[0], feature_sum])
 
     return words_with_sum
 
@@ -43,8 +43,8 @@ def kmeans_clustering(classification_features, k):
     features_sum = []
 
     # Extracts only the sum of each word and appends it to features_sum
-    for i in range(len(dataset)):
-        features_sum.append(dataset[i][1])
+    for i in range(len(words_with_sum)):
+        features_sum.append(words_with_sum[i][1])
 
     # Converts array to passable numpy data which can be manipulated by sklearn
     features_sum = np.array(features_sum).reshape(-1, 1)
