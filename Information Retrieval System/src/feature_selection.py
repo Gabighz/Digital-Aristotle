@@ -19,6 +19,9 @@ from sklearn.feature_selection import VarianceThreshold
 # word number created as a global variable for this version, will be changed
 WORD_NUMBER = 0
 
+# The position of the word in the raw XML array
+WORD_INDEX = 0
+
 
 # Constructs the word list using the raw data which has been normalised, then set is filtered down to the values
 # within the variance threshold.
@@ -81,9 +84,6 @@ def normalise_features(classification_features):
 # @return classification_features: A two-dimensional array which contains each word and its features
 def generate_classification_features(raw_data):
 
-    # The position of the word in the raw XML array
-    word_index = 0
-
     # The position of the bold value in the raw XML array
     bold_index = 1
 
@@ -98,12 +98,12 @@ def generate_classification_features(raw_data):
     smallest_font_size = min(raw_data_slice(raw_data, font_size_index))
 
     # An array which contains only the words
-    all_words = raw_data_slice(raw_data, word_index)
+    all_words = raw_data_slice(raw_data, WORD_INDEX)
 
     classification_features = []
     used_words = []
     for element in raw_data:
-        classification_features = add_words_to_list(element[word_index], element[bold_index], element[font_size_index],
+        classification_features = add_words_to_list(element[WORD_INDEX], element[bold_index], element[font_size_index],
                                                     element[colour_index], biggest_font_size, smallest_font_size,
                                                     used_words, classification_features)
 
@@ -136,30 +136,32 @@ def add_words_to_list(words, is_bold, font_size, color, biggest_font_size, small
     return classification_features
 
 
+# Adds each word and its classification features to an array.
 #
-#
-# @param
-# @return
+# @param classification_features: A two-dimensional array which contains each word and its features
+# @param used_words: (?) no idea what this does yet (?)
+# @param word_to_add: (?) no idea what this does yet (?)
 def add_word(classification_features, used_words, word_to_add):
-    if word_to_add[0].lower() in used_words:
+    if word_to_add[WORD_INDEX].lower() in used_words:
         not_found = True
         counter = 0
-        while (not_found == True) and (counter != len(used_words) - 1):
-            counter += 1
+        while not_found and (counter != len(used_words) - 1):
             if classification_features[counter][0] == word_to_add[0]:
                 classification_features[counter][1] = classification_features[counter][1] + word_to_add[1]
                 classification_features[counter][2] = classification_features[counter][2] + word_to_add[2]
                 classification_features[counter][3] = classification_features[counter][3] + word_to_add[3]
                 not_found = False
+            counter += 1
     else:
         classification_features.append(word_to_add)
         used_words.append(word_to_add[0].lower())
 
 
+# Assigns Rake ranking to each word.
 #
-#
-# @param
-# @return
+# @param all_words: words from the XML file.
+# @param words_with_features: Words from XML file that have been highlighted with different features to rest of text.
+# @return words_with_features: Added the ranking to the array with the data on word features.
 def assign_rake_ranking(all_words, words_with_features):
     pre_ranked_words = []
 
