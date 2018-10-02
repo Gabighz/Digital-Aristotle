@@ -1,7 +1,7 @@
 ##################################################
 # Main program which identifies and writes       #
 # Keyphrases to a txt file based on XML files    #
-# and the output of the Keyword Extractor        #
+# and the output of the keyword_extractor        #
 #                                                #
 # Author: Gabriel Ghiuzan                        #
 ##################################################
@@ -47,7 +47,7 @@ def keyword_output(path):
 def main():
 
     # Defines the path of the keyword extractor's output
-    keywords_path = "../../Keyword Extractor/output/first-year/CS-150"
+    keywords_path = "../../keyword_extractor/output/first-year/CS-150"
 
     keywords = keyword_output(keywords_path)
 
