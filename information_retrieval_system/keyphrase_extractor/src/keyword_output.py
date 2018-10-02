@@ -29,4 +29,6 @@ def keyword_output(filename):
             if filtered_line[-1] == "1":
                 keywords.append(filtered_line[:-1])
 
+    output_file.close()
+
     return keywords
