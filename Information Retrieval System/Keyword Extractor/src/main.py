@@ -1,6 +1,6 @@
 ##################################################
-# Main program which executes the modules,       #
-# and writes Keywords and Non-keywords to a file #
+# Main program which identifies and writes       #
+# Keywords and Non-keywords to a txt file        #
 #                                                #
 # Author: Gabriel Ghiuzan                        #
 ##################################################
