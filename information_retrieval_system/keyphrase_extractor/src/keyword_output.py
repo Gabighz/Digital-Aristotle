@@ -1,3 +1,11 @@
+##################################################
+# Module which contains a function that stores   #
+# keywords into an array, given the output of the#
+# Keyword Extractor                              #
+#                                                #
+# Author: Gabriel Ghiuzan                        #
+##################################################
+
 import re
 
 

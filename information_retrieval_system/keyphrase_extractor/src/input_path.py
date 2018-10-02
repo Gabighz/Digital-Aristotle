@@ -1,3 +1,8 @@
+##################################################
+# Module which contains a function that requests #
+# for the output of the Keyword Extractor        #
+# Author: Gabriel Ghiuzan                        #
+##################################################
 
 
 # This function requests user input of the name of a file as a string
