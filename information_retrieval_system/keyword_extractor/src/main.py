@@ -19,7 +19,7 @@ CLUSTERS = 2
 # This function requests user input of the name of a file as a string
 #
 # @return filename: The name of the file which will be processed
-def interface_path():
+def input_path():
     filename = input("Input path: ../../Input files/first-year/CS-150/")
 
     return filename
@@ -30,7 +30,7 @@ def main():
     while True:
         try:
             # Gets the name of the file from the user
-            filename = interface_path()
+            filename = input_path()
 
             # Concatenates the name of the file to a pre-determined input path
             path = "../../Input files/first-year/CS-150/" + filename
