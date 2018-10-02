@@ -6,7 +6,7 @@
 ##################################################
 import os
 
-from XML_parser import parse_file
+from xml_parser import parse_file
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
