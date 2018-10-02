@@ -20,7 +20,7 @@ CLUSTERS = 2
 #
 # @return filename: The name of the file which will be processed
 def interface_path():
-    filename = input("Input path: ../input/first-year/CS-150/")
+    filename = input("Input path: ../../Input files/first-year/CS-150/")
 
     return filename
 
@@ -33,7 +33,7 @@ def main():
             filename = interface_path()
 
             # Concatenates the name of the file to a pre-determined input path
-            path = "../input/first-year/CS-150/" + filename
+            path = "../../Input files/first-year/CS-150/" + filename
 
             # The number of files to be processed (currently, we process only one file at a time)
             file_number = 0
