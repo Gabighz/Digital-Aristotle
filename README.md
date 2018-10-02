@@ -22,3 +22,5 @@ Within the AIML generator:
 
 Contains the files necessary for running the chatbot on a website. We integrated Program O as our AIML interpreter and
 customised the Graphical User Interface to our needs.
+
+Source of Program-O: https://github.com/Program-O/Program-O
