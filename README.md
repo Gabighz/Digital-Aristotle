@@ -14,8 +14,8 @@ The AIML generator is used to create AIML files from lecture notes, such as PDF 
 
 Within the AIML generator:
 <ul>
-    <li><b>Keyword extractor:</b> is used to generate AIML questions ("patterns")</li>
-    <li><b>Keyphrase extractor:</b> is used to generate corresponding AIML answers ("templates")</li>
+    <li> The <b>keyword extractor</b> is used to generate AIML questions ("patterns")</li>
+    <li>The <b>keyphrase extractor</b> is used to generate corresponding AIML answers ("templates")</li>
 </ul>
 
 ## www
