@@ -71,9 +71,15 @@ def main():
     # F1 score, from 0 to 1
     print("\n F1 score: ", performance)
 
+    # Creates and array in which the first index is the name of the file
+    # and the second index is the extension of the file (typically 'xml')
+    filename_and_extension = filename.split('.')
+
+    # Takes only the name of the file and adds the .txt extension
+    output_filename = filename_and_extension[0] + '.txt'
+
     # Stores the path of the file which will contain the classified words
-    # Needs improvement. Currently, the path is something like "../output/input/first-year/CS-150"
-    output_path = "../output/first-year/CS-150/" + path
+    output_path = "../output/first-year/CS-150/" + output_filename
 
     # Enables us to create directories from within the program
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
