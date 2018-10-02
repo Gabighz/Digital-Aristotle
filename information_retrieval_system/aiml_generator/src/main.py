@@ -46,9 +46,9 @@ def main():
     # The keywords will be used for patterns. The keyphrases for templates
     for keyword in keywords:
         aiml_file.write("\n   <category>")
-        aiml_file.write("\n        <pattern>WHAT IS * %s </pattern> \n" % keyword)
-        aiml_file.write("\n        <template> %s </template> \n" % keyphrase)
-        aiml_file.write("\n   </category>")
+        aiml_file.write("\n        <pattern>WHAT IS * %s </pattern>" % keyword)
+        aiml_file.write("\n        <template> %s </template>" % keyphrase)
+        aiml_file.write("\n   </category>\n")
 
     aiml_file.write("\n</aiml>")
 
