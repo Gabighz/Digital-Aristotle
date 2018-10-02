@@ -8,12 +8,14 @@ Contains AIML files which will be uploaded to the chatbot's brain. This will be 
 
 ## Information Retrieval System
 
-Contains a program which will generate AIML files from lecture notes, such as PDF and PPTX files.
+Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
 
-Within an AIML file:
+The AIML generator is used to create AIML files from lecture notes, such as PDF and PPTX files.
+
+Within the AIML generator:
 <ul>
-    <li><b>Keyword extractor:</b> will be used to generate AIML questions ("patterns")</li>
-    <li><b>Keyphrase extractor:</b> will be used to generate corresponding AIML answers ("templates")</li>
+    <li><b>Keyword extractor:</b> is used to generate AIML questions ("patterns")</li>
+    <li><b>Keyphrase extractor:</b> is used to generate corresponding AIML answers ("templates")</li>
 </ul>
 
 ## www
