@@ -4,7 +4,7 @@
 # Author: Gabriel Ghiuzan                                                  #
 ############################################################################
 
-import xml.etree.ElementTree as element_tree
+import xml.etree.ElementTree as elementTree
 
 
 # Creates a two-dimensional array which contains each word or sentence and its XML attributes
@@ -13,14 +13,14 @@ import xml.etree.ElementTree as element_tree
 # @return parsed_xml: A two-dimensional array which contains each word or sentence and its XML attributes
 def parse_xml(path):
 
-    tree = element_tree.parse(path)
+    tree = elementTree.parse(path)
 
     tree_root = tree.getroot()
 
     document_fontspecs = []
 
-    for pages in tree_root:
-        for fontspec in pages.iter('fontspec'):
-            document_fontspecs.append(fontspec.attrib)
+    for fontspec in tree_root.iter('fontspec'):
+        document_fontspecs.append(fontspec.attrib)
 
-    print(document_fontspecs)
+
+    
