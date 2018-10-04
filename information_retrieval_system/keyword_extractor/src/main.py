@@ -6,7 +6,7 @@
 ##################################################
 import os
 
-from xml_parser import parse_file
+from xml_parser import parse_xml
 from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
@@ -35,18 +35,15 @@ def main():
             # Concatenates the name of the file to a pre-determined input path
             path = "../../Input files/first-year/CS-150/" + filename
 
-            # The number of files to be processed (currently, we process only one file at a time)
-            file_number = 0
-
             # An array which contains a phrase or a word and its corresponding XML data
-            parsed_content = parse_file(path, file_number)
+            parsed_xml = parse_xml(path)
 
             break
         except FileNotFoundError:
             print("File not found! Try again.")
 
     # Pre-processing to filter out unwanted data from parsed_content
-    filtered_content = pre_processing(parsed_content)
+    filtered_content = pre_processing(parsed_xml)
 
     # A two-dimensional array which contains each word and its features
     classification_features = feature_assignment(filtered_content)
