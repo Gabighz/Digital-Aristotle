@@ -46,13 +46,15 @@ def parse_xml(path):
         # it's because the word or sentence is contained by a bold or italic tag.
         if text.text is None:
 
-            # Appends bolded text
-            for bolded in text.findall('b'):
-                word.extend((bolded.text, 1, size, color))
+            # Appends bold text
+            for bold_text in text.findall('b'):
+                word.extend((bold_text.text, 1, size, color))
 
         else:
             word.extend((text.text, 0, size, color))
 
-        parsed_xml.extend([word])
+        # Appends non-empty word arrays to parsed_xml
+        if word:
+            parsed_xml.append(word)
 
-    print(parsed_xml)
+    return parsed_xml
