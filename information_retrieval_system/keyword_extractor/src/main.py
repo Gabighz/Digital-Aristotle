@@ -42,6 +42,14 @@ def main():
         except FileNotFoundError:
             print("File not found! Try again.")
 
+    # Prints the raw XML data
+    counter = 0
+    print("\n Raw XML Data: \n")
+    for word_array in sorted(parsed_xml):
+        print(word_array)
+        counter += 1
+    print("\n Number of word arrays in raw XML data: ", counter)
+
     # Pre-processing to filter out unwanted data from parsed_content
     filtered_content = pre_processing(parsed_xml)
 
