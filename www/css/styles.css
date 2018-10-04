@@ -6,7 +6,6 @@
  *
  * Gabriel Ghiuzan (914067@swansea.ac.uk) 2018
  */
-
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 
@@ -22,21 +21,18 @@
 
 }
 
-/* Container which displays the conversation history  */
 #responses {
 	margin: auto;
 	width: 80%;
 	height: 80%;
 	font: 15px arial, sans-serif;
-	background: rgba(255, 255, 255, 0.7) url("../img/background.jpg") no-repeat center;
-	background-size: 20%;
-	border: 1px solid;
-	padding: 20px 25px 25px;
-	overflow-x: hidden; /* Hide horizontal scrollbar */
+	background: rgba(255, 255, 255, 0.7);
+    border: 1px solid;
+    padding: 20px 25px 25px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 	overflow-y: scroll; /* Add vertical scrollbar */
 }
 
-/* Style rules for the 'Clear conversation history' link  */
 /* unvisited link */
 a:link {
 	color: red;
@@ -57,36 +53,48 @@ a:active {
 	color: blue;
 }
 
-#clearhistory {
+
+.intros
+{
+	padding-top:25px;
+}
+
+p
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+}
+
+html, body {
+	height: 100%;
+    background-size: 20%;
+    background: url("../img/background.jpg") no-repeat center;
+    display: block;
+}
+
+#debugDiv {
+	width: 90%;
+	min-height: 1.2em;
+	max-height: 55vh;
+	border: 3px inset #666;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: pre;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: large;
+	padding: 1em;
+}
+
+#input {
+	width: 90%;
+	min-width: 535px;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 }
 
-/* Style rules which apply to the whole document and overwrites any unwanted body rules from bootstrap */
-html, body {
-		height: 100%;
-		display: block;
-}
+#clearhistory {
+	text-align: center;
 
-/* Style rules for debugging mode */
-#debugDiv {
-		width: 90%;
-		min-height: 1.2em;
-		max-height: 55vh;
-		border: 3px inset #666;
-		margin-left: auto;
-		margin-right: auto;
-		white-space: pre;
-		font-family: "Lucida Console", Monaco, monospace;
-		font-size: large;
-		padding: 1em;
-}
-
-/* Style rules for the input box */
-#input {
-		width: 90%;
-		min-width: 535px;
-		margin-top: 2%;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
 }
