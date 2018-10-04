@@ -12,6 +12,7 @@ from input_path import input_path
 
 def main():
 
+    # Opens a file and applies a .txt reader to it. Can also handle the FileNotFoundError exception.
     while True:
         try:
             keywords = keyword_output(input_path())
