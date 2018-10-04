@@ -13,3 +13,14 @@ import xml.etree.ElementTree as element_tree
 # @return parsed_xml: A two-dimensional array which contains each word or sentence and its XML attributes
 def parse_xml(path):
 
+    tree = element_tree.parse(path)
+
+    tree_root = tree.getroot()
+
+    document_fontspecs = []
+
+    for pages in tree_root:
+        for fontspec in pages.iter('fontspec'):
+            document_fontspecs.append(fontspec.attrib)
+
+    print(document_fontspecs)
