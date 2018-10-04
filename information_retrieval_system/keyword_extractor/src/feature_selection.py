@@ -88,10 +88,10 @@ def generate_classification_features(raw_data):
     bold_index = 1
 
     # The position of the font size in the raw XML array
-    font_size_index = 5
+    font_size_index = 2
 
     # The position of the font size in the raw XML array
-    colour_index = 6
+    colour_index = 3
 
     # The biggest and smallest size of the fonts recorded in the xml file
     biggest_font_size = max(raw_data_slice(raw_data, font_size_index))

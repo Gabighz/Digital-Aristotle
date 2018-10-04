@@ -39,7 +39,7 @@ def parse_xml(path):
         # Linear search to match text to its corresponding fontspec
         for fontspec in document_fontspecs:
             if text.attrib["font"] == fontspec["id"]:
-                size = fontspec["size"]
+                size = int(fontspec["size"])
                 color = fontspec["color"]
 
         # If tree.findall('.//page/text') returns a None object,

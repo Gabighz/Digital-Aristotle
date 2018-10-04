@@ -48,9 +48,7 @@ def pre_processing(raw_data):
                 filtered_sentence = filtered_sentence + " " + raw_sentence[i]
         # !to be improved
         if len(filtered_sentence.lstrip()) > 0:
-            filtered_data.append([filtered_sentence.lstrip().lower(),
-                                  word_array[1], word_array[2], word_array[3], word_array[4],
-                                  word_array[5], word_array[6]])
+            filtered_data.append([filtered_sentence.lstrip().lower(), word_array[1], word_array[2], word_array[3]])
 
     # Prints the filtered data so we can check if the pre-processor is working correctly
     print("\n Filtered data (each word with its own XML features): \n")
