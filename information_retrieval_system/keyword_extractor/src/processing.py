@@ -44,7 +44,7 @@ def pre_processing(raw_data):
     filtered_data = []
     clean_words = filtered_string.split()
 
-    # Compiles only filtered words from raw data to an array which contains
+    # Appends only filtered words from raw data to an array which contains
     # each word and its XML features that were in raw data
     for word_array in raw_data:
 
@@ -54,7 +54,7 @@ def pre_processing(raw_data):
         for i in range(len(raw_sentence)):
             if raw_sentence[i].lower() in clean_words:
                 filtered_sentence = filtered_sentence + " " + raw_sentence[i]
-
+        # !to be improved
         if len(filtered_sentence.lstrip()) > 0:
             filtered_data.append([filtered_sentence.lstrip().lower(),
                                   word_array[1], word_array[2], word_array[3], word_array[4],
