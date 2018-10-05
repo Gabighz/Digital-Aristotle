@@ -6,8 +6,12 @@
 
 import xml.etree.ElementTree as elementTree
 
+# Constants which represent boolean values of whether a word is bold.
+IS_BOLD = 1
+IS_NOT_BOLD = 0
 
-# Creates a two-dimensional array which contains each word or sentence and its XML attributes
+
+# Creates a two-dimensional array which contains each word or sentence and its relevant XML attributes
 #
 # @param path: The path of the XML file
 # @return parsed_xml: A two-dimensional array which contains each word or sentence and its relevant XML attributes.
@@ -28,12 +32,12 @@ def parse_xml(path):
     for fontspec in tree_root.iter('fontspec'):
         document_fontspecs.append(fontspec.attrib)
 
-    # Will contain each word or sentence and its XML features
+    # Will contain each word or sentence and its relevant XML attributes
     parsed_xml = []
 
     # Extracts all text and their attributes
     for text in tree.findall('.//page/text'):
-        # Will contain a word or sentence and its XML features
+        # Will contain a word or sentence and its relevant XML attributes
         word = []
 
         # Linear search to match text to its corresponding fontspec
@@ -48,12 +52,12 @@ def parse_xml(path):
 
             # Appends bold text
             for bold_text in text.findall('b'):
-                word.extend((bold_text.text, 1, size, color))
+                word.extend((bold_text.text, IS_BOLD, size, color))
 
         else:
-            word.extend((text.text, 0, size, color))
+            word.extend((text.text, IS_NOT_BOLD, size, color))
 
-        # Appends non-empty word arrays to parsed_xml
+        # Appends only non-empty word arrays to parsed_xml
         if word:
             parsed_xml.append(word)
 
