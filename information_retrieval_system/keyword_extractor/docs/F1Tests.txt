@@ -1,4 +1,4 @@
-The latest F1 scores of the Keyword Extractor and of the features used, individually.
+The F1 scores of the Keyword Extractor and of the features used, individually, before commit 13153ca.
 
 
 ComputingComponents.xml - F1 score:  0.46875

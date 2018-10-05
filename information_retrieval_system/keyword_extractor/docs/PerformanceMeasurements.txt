@@ -96,3 +96,35 @@ F1 scores:
     TheBigPicture.xml - 0.65806
 
     Average: 0.46225
+
+--------------------------------------------------------------------------------
+COMMIT 99aaac2
+
+Using a new input space. The input files are called ComputingComponents, GatesAndCircuits,
+NumberSystems, and TheBigPicture. They are from the CS-150 module.
+
+Values have been normalized. RAKE is in the range of [0,2], inclusive. The rest of the features are between [0, 1],
+inclusive, for each observation.
+
+Current assigned features: is_bold, is_larger, is_not_black, RAKE
+
+F1 scores:
+    ComputingComponents.xml - 0.46875
+    GatesAndCircuits.xml - 0.51
+    NumberSystems.xml - 0.22222
+    TheBigPicture.xml - 0.65806
+
+    Average: 0.46225
+
+--------------------------------------------------------------------------------
+COMMIT 13153ca
+
+Re-wrote the XML parser. Though, there is a bug when trying to parse certain files.
+
+F1 scores:
+    ComputingComponents.xml - 0.5940
+    GatesAndCircuits.xml - 0.5531
+    NumberSystems.xml - !bug encountered in pre-processor
+    TheBigPicture.xml - !bug encountered in pre-processor
+
+    Average: 0.5735
