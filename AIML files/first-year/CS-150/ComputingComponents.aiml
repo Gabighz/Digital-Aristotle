@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+   <category>
+        <pattern>WHAT IS * chapter </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * components </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * goals </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * read </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * ad </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * computer </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * jargon </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * list </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * function </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * von </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * fetch </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * decode </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * execute </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * cycle </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * memory </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * storage </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * devices </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * parallel </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * configurations </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * concept </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * systems </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * examples </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * home </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * following </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * dvd </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * rw </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * sizes </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * hopper </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * picosecond </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * processor </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * rate </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * screen </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * program </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * unit </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * bit </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * instruction </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * performs </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * units </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * registers </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * input </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * output </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * control </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * register </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * counter </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * processing </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * flow </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * information </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * bus </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * ram </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * rom </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * access </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * tape </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * disks </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * latency </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * cd </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * worm </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * blu </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * ray </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * flash </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * drives </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * touch </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * screens </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * capacitive </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * surface </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * wave </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * horizontal </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * frequency </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * issues </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+   <category>
+        <pattern>WHAT IS * privacy </pattern>
+        <template> A multiplexer is a special circuit that does this and that. </template>
+   </category>
+
+</aiml>
