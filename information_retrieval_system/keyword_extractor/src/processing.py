@@ -50,15 +50,6 @@ def pre_processing(raw_data):
         if len(filtered_sentence.lstrip()) > 0:
             filtered_data.append([filtered_sentence.lstrip().lower(), word_array[1], word_array[2], word_array[3]])
 
-    # Prints the filtered data so we can check if the pre-processor is working correctly
-    print("\n Filtered data (each word with its own XML features): \n")
-    counter = 0
-    # noinspection PyAssignmentToLoopOrWithParameter
-    for word_array in sorted(filtered_data):
-        print(word_array)
-        counter += 1
-    print("\n Number of word arrays in filtered data: ", counter)
-
     return filtered_data
 
 
