@@ -53,13 +53,21 @@ def main():
     # Pre-processing to filter out unwanted data from parsed_content
     filtered_content = pre_processing(parsed_xml)
 
+    # Prints the filtered data so we can check if the pre-processor is working correctly
+    print("\n Filtered data (each word with its own XML features): \n")
+    counter = 0
+    for word_array in filtered_content:
+        print(word_array)
+        counter += 1
+    print("\n Number of word arrays in filtered data: ", counter)
+
     # A two-dimensional array which contains each word and its features
     classification_features = feature_assignment(filtered_content)
 
     # Prints each word and its classification features and the number of all words in classification_features
     counter = 0
     print("\n \n Each word and its classification features: \n")
-    for word in sorted(classification_features):
+    for word in classification_features:
         # Format: [word, is_bold, is_larger, is_not_black, RAKE]
         print(word)
         counter += 1
