@@ -10,17 +10,24 @@
 # is_not_black: A Boolean value to see if it is not black                                                     #
 # RAKE: The RAKE ranking                                                                                      #
 #                                                                                                             #
-# Author: Slade Brooks & Gabriel Ghiuzan & Avi Varma                                                          #
+# Author: Gabriel Ghiuzan, Avi Varma & Slade Brooks                                                           #
 ###############################################################################################################
 
+import numpy as np
 from rake_nltk import Rake
 from sklearn.feature_selection import VarianceThreshold
 
-# word number created as a global variable for this version, will be changed
-WORD_NUMBER = 0
-
 # The position of the word in the raw XML array
 WORD_INDEX = 0
+
+# The position of the bold value in the raw XML array
+BOLD_INDEX = 1
+
+# The position of the font size in the raw XML array
+FONT_SIZE_INDEX = 2
+
+# The position of the font size in the raw XML array
+COLOUR_INDEX = 3
 
 
 # Constructs the word list using the raw data which has been normalised, then set is filtered down to the values
@@ -73,117 +80,86 @@ def normalise_features(classification_features):
 
     for word in classification_features:
         # Range stops at the length of the array minus one as not to include RAKE in the below computation
-        for x in range(len(word) - 1):
-            if x > 0 and word[x] > 0:
-                word[x] = 1
+        for index in range(len(word) - 1):
+            if index > WORD_INDEX and word[index] > 0:
+                word[index] = 1
 
 
 # Assigns classification features for each word in the data and adds it to an array
 #
 # @param raw_data: A two-dimensional array which contains each word and its XML data
-# @return classification_features: A two-dimensional array which contains each word and its features
+# @return classification_features: A two-dimensional array which contains each word and its classification features
 def generate_classification_features(raw_data):
 
-    # The position of the bold value in the raw XML array
-    bold_index = 1
-
-    # The position of the font size in the raw XML array
-    font_size_index = 2
-
-    # The position of the font size in the raw XML array
-    colour_index = 3
-
-    # The biggest and smallest size of the fonts recorded in the xml file
-    biggest_font_size = max(raw_data_slice(raw_data, font_size_index))
-    smallest_font_size = min(raw_data_slice(raw_data, font_size_index))
-
-    # An array which contains only the words
-    all_words = raw_data_slice(raw_data, WORD_INDEX)
-
+    # Will contain each word and its classification features
     classification_features = []
-    used_words = []
-    for element in raw_data:
-        classification_features = add_words_to_list(element[WORD_INDEX], element[bold_index], element[font_size_index],
-                                                    element[colour_index], biggest_font_size, smallest_font_size,
-                                                    used_words, classification_features)
 
-    classification_features = assign_rake_ranking(all_words, classification_features)
+    # Finds the biggest font size in the XML array
+    biggest_font_size = int(max([font_size for (array_index, font_size_index), font_size in np.ndenumerate(raw_data)
+                            if font_size_index == FONT_SIZE_INDEX]))
+
+    # Finds the smallest font size in the XML array
+    smallest_font_size = int(min([font_size for (array_index, font_size_index), font_size in np.ndenumerate(raw_data)
+                             if font_size_index == FONT_SIZE_INDEX]))
+
+    # Contains each word and its XML attributes
+    words = split_sentences_into_words(raw_data)
+
+    for array in words:
+        classification_features.append([array[WORD_INDEX], array[BOLD_INDEX],
+                                       is_larger(array[FONT_SIZE_INDEX], biggest_font_size, smallest_font_size),
+                                       is_not_black(array[COLOUR_INDEX])])
+
+    # Contains only the words
+    just_words = [word for (array_index, word_index), word in np.ndenumerate(words) if word_index == WORD_INDEX]
+
+    # A two-dimensional array which contains each word and its RAKE ranking
+    words_with_ranking = calculate_rake_ranking(just_words)
+
+    # Appends the RAKE ranking
+    for word_array in classification_features:
+
+        found = False
+        for ranked_array in words_with_ranking:
+
+            if word_array[WORD_INDEX] == ranked_array[WORD_INDEX] and not found:
+                word_array.append(ranked_array[1])
+                found = True
+
     return classification_features
 
 
-# Adds each word in a sentence to the array
+# Some arrays contain sentences instead of individual words. These are split and appended in their own separate array
+# while maintaining their XML attributes.
 #
-# @param words: String that contains all the words in the XML array
-# @param is_bold: Specifies the boldness of the word
-# @param font_size: Specifies the font size of the word
-# @param color: Specifies the hexadecimal value for the color of the word
-# @param biggest_font_size : The biggest size of the fonts recorded in the xml file
-# @param smallest_font_size: The smallest size of the fonts recorded in the xml file
-# @param used_words: (?) no idea what this does yet (?)
-# @return classification_features: A two-dimensional array which contains each word and its features
-def add_words_to_list(words, is_bold, font_size, color, biggest_font_size, smallest_font_size,
-                      used_words, classification_features):
+# @param raw_data: A two-dimensional array which contains each word and its XML data
+# @return words: A two-dimensional array which contains each word and its XML attributes
+def split_sentences_into_words(raw_data):
+    # Will contain individual words and their corresponding XML attributes
+    words = []
 
-    words = words.split()
-    for word in words:
-        global WORD_NUMBER
-        WORD_NUMBER = WORD_NUMBER + 1
-        # word_list.append([w, is_bold, is_larger(font_size, biggest,smallest), is_not_black(color)])
-        word_to_add = [word, is_bold, is_larger(font_size, biggest_font_size, smallest_font_size),
-                       is_not_black(color)]
+    # Will be used to check if the string is a sentence or a word
+    is_sentence = False
+    for array in raw_data:
 
-        add_word(classification_features, used_words, word_to_add)
-    return classification_features
+        # If the string contains a space, it is treated as a sentence
+        for character in array[WORD_INDEX]:
+            if character == " ":
+                is_sentence = True
 
+        # If the array contains a string which is a sentence, the string is split into words.
+        # Then, each word is appended to the words array.
+        # Else, it is directly appended.
+        if is_sentence:
+            sentence = array[WORD_INDEX].split(" ")
 
-# Adds each word and its classification features to an array.
-#
-# @param classification_features: A two-dimensional array which contains each word and its features
-# @param used_words: (?) no idea what this does yet (?)
-# @param word_to_add: (?) no idea what this does yet (?)
-def add_word(classification_features, used_words, word_to_add):
-    if word_to_add[WORD_INDEX].lower() in used_words:
-        not_found = True
-        counter = 0
-        while not_found and (counter != len(used_words) - 1):
-            if classification_features[counter][0] == word_to_add[0]:
-                classification_features[counter][1] = classification_features[counter][1] + word_to_add[1]
-                classification_features[counter][2] = classification_features[counter][2] + word_to_add[2]
-                classification_features[counter][3] = classification_features[counter][3] + word_to_add[3]
-                not_found = False
-            counter += 1
-    else:
-        classification_features.append(word_to_add)
-        used_words.append(word_to_add[0].lower())
+            for element in sentence:
+                words.append([element, array[BOLD_INDEX], array[FONT_SIZE_INDEX], array[COLOUR_INDEX]])
 
-
-# Assigns Rake ranking to each word.
-#
-# @param all_words: words from the XML file.
-# @param words_with_features: Words from XML file that have been highlighted with different features to rest of text.
-# @return words_with_features: Added the ranking to the array with the data on word features.
-def assign_rake_ranking(all_words, words_with_features):
-    pre_ranked_words = []
-
-    for element in all_words:
-        if ' ' in element:
-            sentence = element.split(' ')
-            for word in sentence:
-                pre_ranked_words.append(word)
         else:
-            pre_ranked_words.append(element)
+            words.append([array[WORD_INDEX], array[BOLD_INDEX], array[FONT_SIZE_INDEX], array[COLOUR_INDEX]])
 
-    ranked_words = calculate_rake_ranking(pre_ranked_words)
-
-    for element in words_with_features:
-
-        done = False
-        for word in ranked_words:
-            if (element[0] == word[0]) and not done:
-                element.append(word[1])
-                done = True
-
-    return words_with_features
+    return words
 
 
 # This function checks if a colour is unusual or not, returns 1 if true else 0.
@@ -193,16 +169,6 @@ def is_not_black(color):
         return 1
     else:
         return 0
-
-
-# This is a utility function that simply returns an array that is a slice of a
-# 2D array, for example it is used to return all of the font sizes from raw_data
-def raw_data_slice(raw_data, row):
-    sizes = []
-
-    for element in raw_data:
-        sizes.append(element[row])
-    return sizes
 
 
 # Determines whether the word is larger than the average font size
@@ -226,17 +192,14 @@ def is_larger(current_font_size, biggest_font_size, smallest_font_size):
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
 #
-# @param classification_without_rake: A two-dimensional array which contains each word and its features,
-#                                     but not RAKE yet
-# @return classification_with_rake: A two-dimensional array which contains each word and all of its features,
-#                                   including RAKE
-def calculate_rake_ranking(classification_without_rake):
-
+# @param just_words: An array which contains just words
+# @return words_with_rake: A two-dimensional array which contains each word and its RAKE ranking
+def calculate_rake_ranking(just_words):
     # Meant to contain each word and its features, but with RAKE ranking not normalized
     rake_not_normalized = []
-    
+
     # Will be the value returned by this function, containing each word and its features, with RAKE normalized
-    classification_with_rake = []
+    words_with_rake = []
 
     # Initializes the Rake object
     r = Rake()
@@ -245,7 +208,7 @@ def calculate_rake_ranking(classification_without_rake):
     words_string = ''
 
     # Extracts only the word itself as a string
-    for word_array in classification_without_rake:
+    for word_array in just_words:
         words_string += word_array[0] + " "
 
     # The Rake object ranks all the words in the string
@@ -256,7 +219,7 @@ def calculate_rake_ranking(classification_without_rake):
     word_degrees = r.get_word_degrees()  # word -> degree (linguistic co-occurrence)
 
     # Appends the ranking to each word's array
-    for word_array in classification_without_rake:
+    for word_array in just_words:
 
         word_frequency = 1
         word_degree = 1
@@ -300,6 +263,6 @@ def calculate_rake_ranking(classification_without_rake):
         rake_not_normalized[i][1] = round(unscaled_ranking * 2, 5)
 
         # Appends the array of each word and its features, with RAKE normalized to between 0 and 2 inclusive
-        classification_with_rake.append(rake_not_normalized[i])
+        words_with_rake.append(rake_not_normalized[i])
 
-    return classification_with_rake
+    return words_with_rake
