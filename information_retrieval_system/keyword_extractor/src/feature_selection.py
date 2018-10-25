@@ -41,6 +41,7 @@ def feature_assignment(raw_data):
 
     return classification_features
 
+
 # Instead of summing up the instances in which a feature appears, a boolean value is used.
 # For example, [word, 4, 3, 0, 1] becomes [word, 1, 1, 0, 1]
 #
