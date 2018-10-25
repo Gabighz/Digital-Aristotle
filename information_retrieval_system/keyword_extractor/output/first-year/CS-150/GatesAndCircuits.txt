@@ -1,391 +1,391 @@
-['chapter', 1]
-['gates', 1]
-['circuits', 1]
-['chapter', 1]
-['goals', 1]
-['gates', 1]
-['describe', 0]
-['behavior', 0]
-['describe', 0]
-['gates', 0]
-['transistors', 0]
-['gates', 0]
-['circuits', 1]
-['describe', 0]
-['behavior', 0]
-['gate', 0]
-['circuit', 0]
-['expressions', 1]
-['truth', 0]
-['tables', 0]
-['diagrams', 0]
-['chapter', 1]
-['goals', 1]
-['half', 0]
-['adder', 0]
-['adder', 0]
-['describe', 0]
-['multiplexer', 0]
-['latch', 1]
-['describe', 0]
-['characteristics', 0]
-['generations', 0]
-['circuits', 1]
-['computers', 1]
-['electricity', 1]
-['gate', 1]
-['device', 0]
-['operation', 0]
-['signals', 0]
-['circuits', 1]
-['gates', 0]
-['tasks', 0]
-['computers', 1]
-['electricity', 1]
-['expressions', 1]
-['algebra', 0]
-['notation', 0]
-['diagrams', 0]
-['representation', 0]
-['circuit', 0]
-['gate', 0]
-['symbol', 0]
-['truth', 0]
-['tables', 0]
-['input', 0]
-['values', 0]
-['output', 0]
-['values', 0]
-['gates', 1]
-['types', 0]
-['gates', 0]
-['xor', 1]
-['nand', 1]
-['diagrams', 0]
-['gates', 0]
-['shape', 0]
-['clarity', 0]
-['fun', 0]
-['gate', 1]
-['gate', 0]
-['accepts', 0]
-['input', 0]
-['signal', 0]
-['signal', 0]
-['output', 0]
-['gate', 1]
-['gate', 0]
-['accepts', 0]
-['input', 0]
-['signals', 0]
-['output', 0]
-['output', 0]
-['gate', 1]
-['gate', 0]
-['accepts', 0]
-['input', 0]
-['signals', 0]
-['output', 0]
-['output', 0]
-['xor', 1]
-['gate', 1]
-['xor', 0]
-['gate', 0]
-['accepts', 0]
-['input', 0]
-['signals', 0]
-['output', 0]
-['output', 0]
-['xor', 1]
-['gate', 1]
-['note', 0]
-['difference', 0]
-['xor', 1]
-['gate', 0]
-['gate', 0]
-['input', 0]
-['situation', 0]
-['input', 0]
-['signals', 0]
-['gate', 0]
-['produces', 0]
-['xor', 0]
-['produces', 0]
-['xor', 0]
-['output', 0]
-['nand', 1]
-['gate', 1]
-['nand', 0]
-['gate', 0]
-['accepts', 0]
-['input', 0]
-['signals', 0]
-['output', 0]
-['output', 0]
-['gate', 1]
-['gate', 0]
-['accepts', 0]
-['inputs', 0]
-['output', 0]
-['output', 0]
-['gates', 1]
-['inputs', 1]
-['gates', 0]
-['input', 0]
-['values', 0]
-['input', 0]
-['gate', 0]
-['example', 0]
-['produces', 0]
-['output', 0]
-['input', 0]
-['values', 0]
-['review', 1]
-['gate', 1]
-['processing', 1]
-['gate', 1]
-['behavior', 1]
-['input', 0]
-['produces', 0]
-['input', 0]
-['values', 0]
-['produces', 0]
-['input', 0]
-['values', 0]
-['xor', 0]
-['produces', 0]
-['input', 0]
-['values', 0]
-['nand', 0]
-['produces', 0]
-['input', 0]
-['values', 0]
-['produces', 0]
-['input', 0]
-['values', 0]
-['gates', 1]
-['transistor', 0]
-['device', 0]
-['wire', 0]
-['electricity', 0]
-['resistor', 0]
-['flow', 0]
-['electricity', 0]
-['voltage', 0]
-['level', 0]
-['input', 0]
-['signal', 0]
-['transistor', 0]
-['parts', 0]
-['switch', 0]
-['semiconductor', 0]
-['material', 0]
-['conductor', 0]
-['electricity', 0]
-['insulator', 0]
-['gates', 1]
-['note', 0]
-['signal', 0]
-['volts', 0]
-['transistor', 0]
-['terminals', 0]
-['collector', 0]
-['source', 0]
-['base', 0]
-['emitter', 0]
-['output', 0]
-['figure', 0]
-['base', 0]
-['signal', 0]
-['transistor', 0]
-['switch', 0]
-['output', 0]
-['source', 0]
-['base', 0]
-['signal', 0]
-['transistor', 0]
-['switch', 0]
-['output', 0]
-['gates', 1]
-['gates', 0]
-['nand', 1]
-['gates', 0]
-['circuits', 1]
-['circuit', 1]
-['input', 0]
-['values', 0]
-['determine', 0]
-['output', 0]
-['circuit', 1]
-['output', 0]
-['function', 0]
-['input', 0]
-['values', 0]
-['state', 0]
-['circuit', 0]
-['describe', 0]
-['circuit', 0]
-['operations', 0]
-['expressions', 0]
-['diagrams', 0]
-['truth', 0]
-['tables', 0]
-['circuits', 1]
-['gates', 0]
-['circuits', 0]
-['output', 0]
-['gate', 0]
-['input', 0]
-['circuit', 1]
-['expression', 1]
-['ab', 0]
-['circuits', 1]
-['inputs', 0]
-['rows', 0]
-['describe', 0]
-['input', 0]
-['combinations', 0]
-['circuits', 1]
-['expression', 0]
-['circuits', 1]
-['circuit', 1]
-['equivalence', 1]
-['circuits', 0]
-['output', 0]
-['input', 0]
-['algebra', 1]
-['principles', 0]
-['design', 0]
-['circuits', 0]
-['ab', 0]
-['law', 0]
-['circuits', 0]
-['properties', 1]
-['algebra', 1]
-['adders', 1]
-['level', 0]
-['addition', 0]
-['addition', 0]
-['operations', 0]
-['circuits', 0]
-['adders', 1]
-['adders', 1]
-['result', 0]
-['digits', 0]
-['recall', 0]
-['base', 0]
-['half', 0]
-['adder', 0]
-['circuit', 0]
-['sum', 0]
-['bits', 0]
-['produces', 0]
-['correct', 0]
-['carry', 0]
-['truth', 0]
-['adders', 1]
-['circuit', 0]
-['half', 0]
-['adder', 0]
-['expressions', 0]
-['sum', 0]
-['carry', 0]
-['ab', 0]
-['adders', 1]
-['adder', 1]
-['circuit', 0]
-['carry', 0]
-['value', 0]
-['account', 0]
-['multiplexers', 1]
-['multiplexer', 0]
-['circuit', 0]
-['input', 0]
-['control', 0]
-['signals', 0]
-['determine', 0]
-['input', 0]
-['data', 0]
-['signals', 0]
-['output', 0]
-['signal', 0]
-['multiplexers', 1]
-['control', 0]
-['lines', 0]
-['determine', 0]
-['input', 0]
-['lines', 0]
-['output', 0]
-['circuits', 1]
-['memory', 1]
-['circuits', 0]
-['information', 0]
-['circuits', 0]
-['circuit', 1]
-['output', 0]
-['circuit', 0]
-['input', 0]
-['circuit', 0]
-['circuits', 1]
-['memory', 1]
-['latch', 0]
-['stores', 0]
-['digit', 0]
-['ways', 0]
-['latch', 0]
-['circuit', 0]
-['kinds', 0]
-['gates', 0]
-['circuits', 1]
-['memory', 1]
-['time', 0]
-['design', 0]
-['circuit', 0]
-['outputs', 0]
-['complements', 0]
-['value', 0]
-['point', 0]
-['time', 0]
-['state', 0]
-['circuit', 0]
-['circuit', 0]
-['circuit', 0]
-['circuits', 1]
-['circuit', 1]
-['piece', 0]
-['silicon', 0]
-['gates', 0]
-['silicon', 0]
-['pieces', 0]
-['plastic', 0]
-['package', 0]
-['pins', 0]
-['edges', 0]
-['circuit', 0]
-['boards', 0]
-['sockets', 0]
-['circuits', 1]
-['circuits', 0]
-['number', 0]
-['gates', 0]
-['transistors', 0]
-['chips', 0]
-['transistors', 0]
-['circuits', 1]
-['cpu', 1]
-['chips', 1]
-['circuit', 0]
-['computer', 0]
-['processing', 1]
-['unit', 1]
-['cpu', 0]
-['cpu', 0]
-['chip', 0]
-['number', 0]
-['pins', 0]
-['communication', 0]
-['computer', 0]
-['system', 0]
-['issues', 1]
-['codes', 1]
-['ethics', 1]
+chapter,0 
+gates,0 
+circuits,0 
+chapter,0 
+goals,0 
+gates,0 
+describe,1 
+behavior,1 
+describe,1 
+gates,1 
+transistors,1 
+gates,1 
+circuits,0 
+describe,1 
+behavior,1 
+gate,1 
+circuit,1 
+expressions,0 
+truth,1 
+tables,1 
+diagrams,1 
+chapter,0 
+goals,0 
+half,1 
+adder,1 
+adder,1 
+describe,1 
+multiplexer,1 
+latch,1 
+describe,1 
+characteristics,1 
+generations,1 
+circuits,0 
+computers,0 
+electricity,0 
+gate,0 
+device,1 
+operation,1 
+signals,1 
+circuits,0 
+gates,1 
+tasks,1 
+computers,0 
+electricity,0 
+expressions,0 
+algebra,1 
+notation,1 
+diagrams,1 
+representation,1 
+circuit,1 
+gate,1 
+symbol,1 
+truth,1 
+tables,1 
+input,1 
+values,1 
+output,1 
+values,1 
+gates,0 
+types,1 
+gates,1 
+xor,0 
+nand,0 
+diagrams,1 
+gates,1 
+shape,1 
+clarity,1 
+fun,1 
+gate,0 
+gate,1 
+accepts,1 
+input,1 
+signal,1 
+signal,1 
+output,1 
+gate,0 
+gate,1 
+accepts,1 
+input,1 
+signals,1 
+output,1 
+output,1 
+gate,0 
+gate,1 
+accepts,1 
+input,1 
+signals,1 
+output,1 
+output,1 
+xor,0 
+gate,0 
+xor,1 
+gate,1 
+accepts,1 
+input,1 
+signals,1 
+output,1 
+output,1 
+xor,0 
+gate,0 
+note,1 
+difference,1 
+xor,0 
+gate,1 
+gate,1 
+input,1 
+situation,1 
+input,1 
+signals,1 
+gate,1 
+produces,1 
+xor,1 
+produces,1 
+xor,1 
+output,1 
+nand,0 
+gate,0 
+nand,1 
+gate,1 
+accepts,1 
+input,1 
+signals,1 
+output,1 
+output,1 
+gate,0 
+gate,1 
+accepts,1 
+inputs,1 
+output,1 
+output,1 
+gates,0 
+inputs,0 
+gates,1 
+input,1 
+values,1 
+input,1 
+gate,1 
+example,1 
+produces,1 
+output,1 
+input,1 
+values,1 
+review,0 
+gate,0 
+processing,0 
+gate,0 
+behavior,0 
+input,1 
+produces,1 
+input,1 
+values,1 
+produces,1 
+input,1 
+values,1 
+xor,1 
+produces,1 
+input,1 
+values,1 
+nand,1 
+produces,1 
+input,1 
+values,1 
+produces,1 
+input,1 
+values,1 
+gates,0 
+transistor,1 
+device,1 
+wire,1 
+electricity,1 
+resistor,1 
+flow,1 
+electricity,1 
+voltage,1 
+level,1 
+input,1 
+signal,1 
+transistor,1 
+parts,1 
+switch,1 
+semiconductor,1 
+material,1 
+conductor,1 
+electricity,1 
+insulator,1 
+gates,0 
+note,1 
+signal,1 
+volts,1 
+transistor,1 
+terminals,1 
+collector,1 
+source,1 
+base,1 
+emitter,1 
+output,1 
+figure,1 
+base,1 
+signal,1 
+transistor,1 
+switch,1 
+output,1 
+source,1 
+base,1 
+signal,1 
+transistor,1 
+switch,1 
+output,1 
+gates,0 
+gates,1 
+nand,0 
+gates,1 
+circuits,0 
+circuit,0 
+input,1 
+values,1 
+determine,1 
+output,1 
+circuit,0 
+output,1 
+function,1 
+input,1 
+values,1 
+state,1 
+circuit,1 
+describe,1 
+circuit,1 
+operations,1 
+expressions,1 
+diagrams,1 
+truth,1 
+tables,1 
+circuits,0 
+gates,1 
+circuits,1 
+output,1 
+gate,1 
+input,1 
+circuit,0 
+expression,0 
+ab,1 
+circuits,0 
+inputs,1 
+rows,1 
+describe,1 
+input,1 
+combinations,1 
+circuits,0 
+expression,1 
+circuits,0 
+circuit,0 
+equivalence,0 
+circuits,1 
+output,1 
+input,1 
+algebra,0 
+principles,1 
+design,1 
+circuits,1 
+ab,1 
+law,1 
+circuits,1 
+properties,0 
+algebra,0 
+adders,0 
+level,1 
+addition,1 
+addition,1 
+operations,1 
+circuits,1 
+adders,0 
+adders,0 
+result,1 
+digits,1 
+recall,1 
+base,1 
+half,1 
+adder,1 
+circuit,1 
+sum,1 
+bits,1 
+produces,1 
+correct,1 
+carry,1 
+truth,1 
+adders,0 
+circuit,1 
+half,1 
+adder,1 
+expressions,1 
+sum,1 
+carry,1 
+ab,1 
+adders,0 
+adder,0 
+circuit,1 
+carry,1 
+value,1 
+account,1 
+multiplexers,0 
+multiplexer,1 
+circuit,1 
+input,1 
+control,1 
+signals,1 
+determine,1 
+input,1 
+data,1 
+signals,1 
+output,1 
+signal,1 
+multiplexers,0 
+control,1 
+lines,1 
+determine,1 
+input,1 
+lines,1 
+output,1 
+circuits,0 
+memory,0 
+circuits,1 
+information,1 
+circuits,1 
+circuit,0 
+output,1 
+circuit,1 
+input,1 
+circuit,1 
+circuits,0 
+memory,0 
+latch,1 
+stores,1 
+digit,1 
+ways,1 
+latch,1 
+circuit,1 
+kinds,1 
+gates,1 
+circuits,0 
+memory,0 
+time,1 
+design,1 
+circuit,1 
+outputs,1 
+complements,1 
+value,1 
+point,1 
+time,1 
+state,1 
+circuit,1 
+circuit,1 
+circuit,1 
+circuits,0 
+circuit,0 
+piece,1 
+silicon,1 
+gates,1 
+silicon,1 
+pieces,1 
+plastic,1 
+package,1 
+pins,1 
+edges,1 
+circuit,1 
+boards,1 
+sockets,1 
+circuits,0 
+circuits,1 
+number,1 
+gates,1 
+transistors,1 
+chips,1 
+transistors,1 
+circuits,0 
+cpu,0 
+chips,0 
+circuit,1 
+computer,1 
+processing,0 
+unit,0 
+cpu,1 
+cpu,1 
+chip,1 
+number,1 
+pins,1 
+communication,1 
+computer,1 
+system,1 
+issues,0 
+codes,1 
+ethics,1 

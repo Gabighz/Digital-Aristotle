@@ -59,17 +59,18 @@ def normalise_features(classification_features):
 # @param raw_data: A two-dimensional array which contains each word and its XML data
 # @return classification_features: A two-dimensional array which contains each word and its classification features
 def generate_classification_features(raw_data):
+    # Converts raw_data to a numpy array
+    raw_data = np.array(raw_data, dtype=object)
 
     # Will contain each word and its classification features
     classification_features = []
 
+    # use numpy.load and raw_data[:, 2]
     # Finds the biggest font size in the XML array
-    biggest_font_size = int(max([font_size for (array_index, font_size_index), font_size in np.ndenumerate(raw_data)
-                            if font_size_index == FONT_SIZE_INDEX]))
+    biggest_font_size = int(max(raw_data[:, FONT_SIZE_INDEX]))
 
     # Finds the smallest font size in the XML array
-    smallest_font_size = int(min([font_size for (array_index, font_size_index), font_size in np.ndenumerate(raw_data)
-                             if font_size_index == FONT_SIZE_INDEX]))
+    smallest_font_size = int(min(raw_data[:, FONT_SIZE_INDEX]))
 
     # Contains each word and its XML attributes
     words = split_sentences_into_words(raw_data)
@@ -80,7 +81,7 @@ def generate_classification_features(raw_data):
                                        is_not_black(array[COLOUR_INDEX])])
 
     # Contains only the words
-    just_words = [word for (array_index, word_index), word in np.ndenumerate(words) if word_index == WORD_INDEX]
+    just_words = raw_data[:, WORD_INDEX]
 
     # A two-dimensional array which contains each word and its RAKE ranking
     words_with_ranking = calculate_rake_ranking(just_words)

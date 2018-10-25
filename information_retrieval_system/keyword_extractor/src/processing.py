@@ -10,10 +10,15 @@ import numpy as np
 
 from sklearn.metrics import f1_score
 
+# The position of the word in the raw XML array
+WORD_INDEX = 0
+
 
 def pre_processing(raw_data):
+    # Converts raw_data to a numpy array
+    raw_data = np.array(raw_data, dtype=object)
     # Iterates through raw XML data and concatenates all words to a string
-    sentence = ' '.join([word for (array_index, word_index), word in np.ndenumerate(raw_data) if word_index == 0])
+    sentence = ' '.join(raw_data[:, WORD_INDEX])
 
     # Converts all words to lowercase to prevent duplication of same word with different cases.
     lowercase_string = sentence.lower()
