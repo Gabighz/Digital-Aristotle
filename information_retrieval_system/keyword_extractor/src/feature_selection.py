@@ -15,7 +15,6 @@
 
 import numpy as np
 from rake_nltk import Rake
-from sklearn.feature_selection import VarianceThreshold
 
 # The position of the word in the raw XML array
 WORD_INDEX = 0
@@ -39,38 +38,8 @@ def feature_assignment(raw_data):
     classification_features = generate_classification_features(raw_data)
 
     normalise_features(classification_features)
-    variance_threshold(classification_features)
 
     return classification_features
-
-
-# Removes all zero-variance features, i.e. features that have the same value in all samples
-#
-# @param classification_features: A two-dimensional array which contains each word and its features
-def variance_threshold(classification_features):
-
-    # Makes a copy of the array which contains each word and its classification features
-    features = classification_features
-
-    # Array which will only contain each word
-    word_array = []
-
-    # Removes the string of each array, e.g. ["word", 0, 1, 1, 1] becomes [0, 1, 1, 1]
-    # since this features selection algorithm does not work with arrays that contain strings
-    for array in features:
-        word_array.append(array[0])
-        del array[0]
-
-    selection_algorithm = VarianceThreshold()
-
-    selection_algorithm.fit_transform(features)
-
-    # Puts the corresponding word of each array back in
-    index = 0
-    for array in features:
-        array.insert(0, word_array[index])
-        index += 1
-
 
 # Instead of summing up the instances in which a feature appears, a boolean value is used.
 # For example, [word, 4, 3, 0, 1] becomes [word, 1, 1, 0, 1]
