@@ -100,7 +100,7 @@ def main():
     output_file = open(output_path, "w")
 
     for word_with_label in classified_words:
-        output_file.write(str(word_with_label) + "\n")
+        output_file.write("%s,%i \n" % (word_with_label[0], word_with_label[1]))
 
     output_file.close()
 
