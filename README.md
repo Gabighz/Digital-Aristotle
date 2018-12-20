@@ -10,12 +10,25 @@ Contains AIML files which will be uploaded to the chatbot's brain. This will be 
 
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
 
-The AIML generator is used to create AIML files from lecture notes, such as PDF and PPTX files.
+The AIML generator is used to create AIML files from lecture notes, such as PDF and PPTX files. 
+
+The lecture notes are first converted to XML files for easier extraction of data. At the moment, this is done by manually using any available website which deals with such conversions.
 
 Within the AIML generator:
 <ul>
-    <li> The <b>keyword extractor</b> is used to generate AIML questions ("patterns")</li>
-    <li>The <b>keyphrase extractor</b> is used to generate corresponding AIML answers ("templates")</li>
+    <li> The <b>keyword extractor</b> is used to generate AIML questions ("patterns"). This is done by:
+        <ul>
+            <li> Reading all the data in the XML files, identifying all words and their XML features. </li>
+            <li> Using a custom-made feature selection module, classification features are attached to each word. </li>
+            <li> The classification features as summed up to represent data points. </li>
+            <li> These data points are fed to a K-means classification system, with a parameter specifying a maximum of two clusters (keywords and non-keywords) </li>
+            <li> Finally, each word and its label are written to a text file. </li>
+        </ul></li>
+    <li>The <b>keyphrase extractor</b> is used to generate corresponding AIML answers ("templates"). This will be done by:
+        <ul>
+            <li> Reading all the keywords from the text file written by the keyword extractor. </li>
+            <li> Extracting all sentences which contain keywords from the XML files. </li>
+        </ul></li>
 </ul>
 
 ## www
