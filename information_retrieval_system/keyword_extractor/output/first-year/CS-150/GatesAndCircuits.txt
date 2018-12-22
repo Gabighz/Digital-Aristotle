@@ -15,7 +15,7 @@ describe,0
 behavior,0
 gate,0
 circuit,0
-expressions,1
+expressions,0
 truth,0
 tables,0
 diagrams,0
@@ -42,7 +42,7 @@ gates,0
 tasks,0
 computers,1
 electricity,1
-expressions,1
+expressions,0
 algebra,0
 notation,0
 diagrams,0
@@ -237,7 +237,7 @@ output,0
 gate,0
 input,0
 circuit,1
-expression,1
+expression,0
 ab,0
 circuits,1
 inputs,0

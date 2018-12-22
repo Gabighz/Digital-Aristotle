@@ -15,6 +15,7 @@
 
 import numpy as np
 from rake_nltk import Rake
+from sklearn.preprocessing import MinMaxScaler
 
 # The position of the word in the raw XML array
 WORD_INDEX = 0
@@ -163,14 +164,9 @@ def is_larger(current_font_size, biggest_font_size, smallest_font_size):
 # Assigns RAKE ranking to each word and appends the ranking to the end of
 # each word's array, using degree(word)/frequency(word) as the metric
 #
-# @param just_words: An array which contains just words
+# @param just_words: A list which contains just words
 # @return words_with_rake: A two-dimensional array which contains each word and its RAKE ranking
 def calculate_rake_ranking(just_words):
-    # Meant to contain each word and its features, but with RAKE ranking not normalized
-    rake_not_normalized = []
-
-    # Will be the value returned by this function, containing each word and its features, with RAKE normalized
-    words_with_rake = []
 
     # Initializes the Rake object
     r = Rake()
@@ -188,6 +184,9 @@ def calculate_rake_ranking(just_words):
     # The return type of both functions called below is Dictionary (key -> value)
     frequency_distribution = r.get_word_frequency_distribution()  # word -> frequency (number of times it occurs)
     word_degrees = r.get_word_degrees()  # word -> degree (linguistic co-occurrence)
+
+    # Meant to contain RAKE ranking which aren't scaled yet
+    rake_not_scaled = []
 
     # Appends the ranking to each word's array
     for word_array in just_words:
@@ -210,30 +209,13 @@ def calculate_rake_ranking(just_words):
         # Formula in accordance with the chosen metric
         ranking = word_degree / word_frequency
 
-        # Contains the array of a word and its features and the word's RAKE ranking
-        array_item = [word_array, ranking]
+        rake_not_scaled.append(ranking)
 
-        rake_not_normalized.append(array_item)
+    # Scales the values of the RAKE rankings to [0, 2]
+    scaler = MinMaxScaler(feature_range=(0, 2))
+    rake_scaled = scaler.fit_transform(np.asarray(rake_not_scaled).reshape(-1, 1))
+    rake_scaled = [float(ranking) for ranking in rake_scaled]
 
-    # Gets the maximum ranking out of all the words
-    maximum_ranking = 0
-    for word_array in rake_not_normalized:
-
-        if word_array[1] > maximum_ranking:
-            # If there is a score higher than the one previously found, maximum_ranking is replaced with it
-            maximum_ranking = word_array[1]
-
-    # Normalizes the value of the ranking to [0, 2]
-    for i in range(len(rake_not_normalized)):
-        ranking = rake_not_normalized[i][1]
-
-        # Normalizes to [0, 1]
-        unscaled_ranking = ranking / maximum_ranking
-
-        # Scales to [0, 2]
-        rake_not_normalized[i][1] = round(unscaled_ranking * 2, 5)
-
-        # Appends the array of each word and its features, with RAKE normalized to between 0 and 2 inclusive
-        words_with_rake.append(rake_not_normalized[i])
+    words_with_rake = list(zip(just_words, rake_scaled))
 
     return words_with_rake
