@@ -110,9 +110,9 @@ def split_sentences_into_words(raw_data):
     # Will contain individual words and their corresponding XML attributes
     words = []
 
-    # Will be used to check if the string is a sentence or a word
-    is_sentence = False
     for array in raw_data:
+        # Will be used to check if the string is a sentence or a word
+        is_sentence = False
 
         # If the string contains a space, it is treated as a sentence
         for character in array[WORD_INDEX]:
