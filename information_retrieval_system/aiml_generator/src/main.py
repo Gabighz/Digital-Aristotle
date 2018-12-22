@@ -7,8 +7,8 @@
 ##################################################
 
 import os
-from information_retrieval_system.keyphrase_extractor.src.keyword_output import keyword_output
-from information_retrieval_system.keyphrase_extractor.src.input_path import input_path
+from information_retrieval_system.keyphrase_extractor.src.main import keyword_output
+from information_retrieval_system.keyphrase_extractor.src.main import input_path
 
 
 def main():
