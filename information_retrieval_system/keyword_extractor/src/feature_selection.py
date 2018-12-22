@@ -67,7 +67,6 @@ def generate_classification_features(raw_data):
     # Will contain each word and its classification features
     classification_features = []
 
-    # use numpy.load and raw_data[:, 2]
     # Finds the biggest font size in the XML array
     biggest_font_size = int(max(raw_data[:, FONT_SIZE_INDEX]))
 
