@@ -38,8 +38,6 @@ COLOUR_INDEX = 3
 def feature_assignment(raw_data):
     classification_features = generate_classification_features(raw_data)
 
-    normalise_features(classification_features)
-
     return classification_features
 
 
@@ -81,21 +79,18 @@ def generate_classification_features(raw_data):
                                        is_larger(array[FONT_SIZE_INDEX], biggest_font_size, smallest_font_size),
                                        is_not_black(array[COLOUR_INDEX])])
 
-    # Contains only the words
-    just_words = raw_data[:, WORD_INDEX]
+    # Converts words to a numpy array
+    words = np.array(words, dtype=object)
 
-    # A two-dimensional array which contains each word and its RAKE ranking
-    words_with_ranking = calculate_rake_ranking(just_words)
+    # Contains only the words
+    just_words = words[:, WORD_INDEX]
+
+    # A list which contains each RAKE ranking
+    rankings = calculate_rake_ranking(just_words)
 
     # Appends the RAKE ranking
-    for word_array in classification_features:
-
-        found = False
-        for ranked_array in words_with_ranking:
-
-            if word_array[WORD_INDEX] == ranked_array[WORD_INDEX] and not found:
-                word_array.append(ranked_array[1])
-                found = True
+    for classification_sublist, ranking in zip(classification_features, rankings):
+        classification_sublist.append(ranking)
 
     return classification_features
 
@@ -164,7 +159,7 @@ def is_larger(current_font_size, biggest_font_size, smallest_font_size):
 # each word's array, using degree(word)/frequency(word) as the metric
 #
 # @param just_words: A list which contains just words
-# @return words_with_rake: A two-dimensional array which contains each word and its RAKE ranking
+# @return rake_scaled: A list which contains each RAKE ranking
 def calculate_rake_ranking(just_words):
 
     # Initializes the Rake object
@@ -215,6 +210,4 @@ def calculate_rake_ranking(just_words):
     rake_scaled = scaler.fit_transform(np.asarray(rake_not_scaled).reshape(-1, 1))
     rake_scaled = [float(ranking) for ranking in rake_scaled]
 
-    words_with_rake = list(zip(just_words, rake_scaled))
-
-    return words_with_rake
+    return rake_scaled
