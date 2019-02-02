@@ -47,8 +47,7 @@ def kmeans_clustering(classification_features, k):
     for i in range(len(words_with_sum)):
         features_sum.append(words_with_sum[i][1])
 
-    # Prints and plots the sum of features
-    print(features_sum)
+    # Plots the sum of features
     plt.plot(features_sum)
     plt.show()
 
@@ -56,7 +55,7 @@ def kmeans_clustering(classification_features, k):
     features_sum = np.array(features_sum).reshape(-1, 1)
 
     # Initializes the KMeans object and assigns the number of clusters
-    kmeans = KMeans(n_clusters = k)
+    kmeans = KMeans(n_clusters=k)
 
     # Computes K-means clustering given the sum of each word as discrete values
     kmeans = kmeans.fit(features_sum)
