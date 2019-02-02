@@ -75,7 +75,7 @@ def main():
     print("\n Number of words in classification_features: ", counter)
 
     # Runs the k-means algorithm 10 times, a number chosen arbitrarily.
-    # This is needed because the cost function of this algorithm converges towards local minima, not guaranteed to find
+    # The cost function of this algorithm converges towards local minima, not guaranteed to find
     # the global minimum. Thus, several restarts are needed.
     runs = []
     for n in range(10):
