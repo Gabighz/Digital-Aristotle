@@ -6,6 +6,7 @@
 
 import numpy as np
 from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 
 
 # Creates an array which contains each word and the sum of its features
@@ -45,6 +46,11 @@ def kmeans_clustering(classification_features, k):
     # Extracts only the sum of each word and appends it to features_sum
     for i in range(len(words_with_sum)):
         features_sum.append(words_with_sum[i][1])
+
+    # Prints and plots the sum of features
+    print(features_sum)
+    plt.plot(features_sum)
+    plt.show()
 
     # Converts array to passable numpy data which can be manipulated by sklearn
     features_sum = np.array(features_sum).reshape(-1, 1)
