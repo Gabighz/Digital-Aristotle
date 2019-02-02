@@ -74,15 +74,25 @@ def main():
 
     print("\n Number of words in classification_features: ", counter)
 
-    # A 2D array which contains each word and its label
-    # For example, [word, 0] or [word, 1], which means [word, Non-keyword] or [word, Keyword]
-    classified_words = kmeans_clustering(classification_features, CLUSTERS)
+    # Runs the k-means algorithm 10 times, a number chosen arbitrarily.
+    # This is needed because the cost function of this algorithm converges towards local minima, not guaranteed to find
+    # the global minimum. Thus, several restarts are needed.
+    runs = []
+    for n in range(10):
+        # A 2D array which contains each word and its label
+        # For example, [word, 0] or [word, 1], which means [word, Non-keyword] or [word, Keyword]
+        classified_words = kmeans_clustering(classification_features, CLUSTERS)
 
-    # Post-processing to measure the performance of our keyword extractor
-    performance = post_processing(classified_words, filename)
+        # Post-processing to measure the performance of our keyword extractor
+        performance = post_processing(classified_words, filename)
+
+        runs.append([classified_words, performance])
+
+    # The highest performing classification is extracted.
+    classified_words, max_performance = max(runs, key=lambda array: array[1])
 
     # F1 score, from 0 to 1
-    print("\n F1 score: ", performance)
+    print("\n F1 score: ", max_performance)
 
     # Creates and array in which the first index is the name of the file
     # and the second index is the extension of the file (typically 'xml')

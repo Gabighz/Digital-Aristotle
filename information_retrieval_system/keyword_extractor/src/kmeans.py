@@ -48,8 +48,8 @@ def kmeans_clustering(classification_features, k):
         features_sum.append(words_with_sum[i][1])
 
     # Plots the sum of features
-    plt.plot(features_sum)
-    plt.show()
+    # plt.plot(features_sum)
+    # plt.show()
 
     # Converts array to passable numpy data which can be manipulated by sklearn
     features_sum = np.array(features_sum).reshape(-1, 1)
