@@ -4,7 +4,7 @@ Contributing to Digital Aristotle is easy and appreciated. See below for everyth
 
 ## Make changes to Digital Aristotle code or docs
 
-Fork the project, make a change and send us a Pull Request! Please make sure that your tests and changes are building on at least **Linux** and that you're following our Style Guide (`.editorconfig`). For more information on how to run tests, keep reading.
+Fork the project, make a change and send us a Pull Request! Please make sure that your tests and changes are building on at least **Linux** and that you're following our Style Guide (`.editorconfig`).
 
 The codebase is optimized for use in the [Pycharm IDE](https://www.jetbrains.com/pycharm/) by JetBrains.
 
