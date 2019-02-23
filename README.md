@@ -1,4 +1,11 @@
-# Digital-Aristotle
+<div align="center">
+    <h1>Digital Aristotle</h1>
+</div>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Version](https://img.shields.io/github/release/Gabighz/Digital-Aristotle/all.svg?label=version)](https://github.com/Gabighz/Digital-Aristotle/releases)
+
 
 The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
 
