@@ -1,6 +1,6 @@
 # Contributing to Digital Aristotle
 
-Contributing to Digital Aristotle is easy and appreciated. See below for everything you need to do to follow each contribution method. It is required to follow our [Code of Conduct](CODE_OF_CONDUCT.md) in order to contribute to Digital Aristotle.
+Contributing to Digital Aristotle is easy and appreciated. See below for everything you need to do to follow each contribution method.
 
 ## Make changes to Digital Aristotle code or docs
 
@@ -14,4 +14,4 @@ Finally, before accepting any of your changes, a Collaborator such as @Gabighz n
 
 ## Submit bug reports or feature requests
 
-Just use the GitHub issue tracker to submit your bug reports and feature requests. If you are submitting a bug report, please follow the template, that will automatically be inserted into the issue text field.
+Just use the GitHub issue tracker to submit your bug reports and feature requests.
