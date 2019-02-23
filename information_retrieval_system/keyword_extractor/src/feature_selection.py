@@ -10,7 +10,7 @@
 # is_not_black: A Boolean value to see if it is not black                                                     #
 # RAKE: The RAKE ranking                                                                                      #
 #                                                                                                             #
-# Author: Gabriel Ghiuzan, Avi Varma & Slade Brooks                                                           #
+# Author: Gabriel Ghiuzan & Avi Varma                                                                         #
 ###############################################################################################################
 
 import numpy as np
