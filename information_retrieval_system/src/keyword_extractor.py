@@ -1,10 +1,8 @@
-##################################################
-# Main program which identifies and writes       #
-# Keywords and Non-keywords to a txt file        #
-#                                                #
-# Author: Gabriel Ghiuzan                        #
-##################################################
-import os
+#
+# Module which identifies and outputs Keywords
+#
+# Author: Gabriel Ghiuzan
+#
 
 from xml_parser import parse_xml
 from feature_selection import feature_assignment
@@ -20,12 +18,12 @@ CLUSTERS = 2
 #
 # @return filename: The name of the file which will be processed
 def input_path():
-    filename = input("Input path: ../../Input files/first-year/CS-150/")
+    filename = input("Input path: ../../input/first-year/CS-150/")
 
     return filename
 
 
-def main():
+def keyword_extractor():
     # Opens a file and applies an XML parser to it. Can also handle the FileNotFoundError exception.
     while True:
         try:
@@ -33,7 +31,7 @@ def main():
             filename = input_path()
 
             # Concatenates the name of the file to a pre-determined input path
-            path = "../../Input files/first-year/CS-150/" + filename
+            path = "../input/first-year/CS-150/" + filename + ".xml"
 
             # An array which contains a phrase or a word and its corresponding XML data
             parsed_xml = parse_xml(path)
@@ -93,26 +91,3 @@ def main():
 
     # F1 score, from 0 to 1
     print("\n F1 score: ", max_performance)
-
-    # Creates and array in which the first index is the name of the file
-    # and the second index is the extension of the file (typically 'xml')
-    filename_and_extension = filename.split('.')
-
-    # Takes only the name of the file and adds the .txt extension
-    output_filename = filename_and_extension[0] + '.txt'
-
-    # Stores the path of the file which will contain the classified words
-    output_path = "../output/first-year/CS-150/" + output_filename
-
-    # Enables us to create directories from within the program
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-    output_file = open(output_path, "w")
-
-    for word_with_label in classified_words:
-        output_file.write("%s,%i\n" % (word_with_label[0], word_with_label[1]))
-
-    output_file.close()
-
-
-main()

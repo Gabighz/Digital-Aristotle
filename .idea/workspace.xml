@@ -2,23 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbbe21c0-5f84-4946-8f0f-857d4ab7bf15" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/aiml_generator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/aiml_generator/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/aiml_generator/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyphrase_extractor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyphrase_extractor/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyphrase_extractor/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/docs/PerformanceMeasurements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/docs/PerformanceMeasurements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/output/first-year/CS-150/ComputingComponents.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/output/first-year/CS-150/GatesAndCircuits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/feature_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/xml_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/xml_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/localhost.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/Initial AIML Files/bot_profile.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/default.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/Initial AIML Files/default.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/first-year/CS-150/ComputingComponents.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/output/ComputingComponents.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/first-year/CS-150/GatesAndCircuits.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/output/GatesAndCircuits.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/greetings.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/Initial AIML Files/greetings.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/greetings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Initial AIML Files/greetings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML files/year0.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/Initial AIML Files/year0.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/ComputingComponents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/ComputingComponents.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/GatesAndCircuits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/GatesAndCircuits.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/NumberSystems.xml" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/NumberSystems.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/Slides_CSI_Ch1_TheBigPicture.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/Slides_CSI_Ch1_TheBigPicture.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/Slides_CSI_Ch2_NumberSystems.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/Slides_CSI_Ch2_NumberSystems.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/Slides_CSI_Ch4_Gates_and_Circuits.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/Slides_CSI_Ch4_Gates_and_Circuits.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/Slides_CSI_Ch5_ComputingComponents.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/Slides_CSI_Ch5_ComputingComponents.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/Input files/first-year/CS-150/TheBigPicture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/input/first-year/CS-150/TheBigPicture.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/src/xml_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/xml_parser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +35,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/main.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -42,12 +63,24 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>write(</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/kmeans.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/processing.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/xml_parser.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py" />
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py" />
         <option value="$PROJECT_DIR$/information_retrieval_system/src/main.py" />
       </list>
     </option>
@@ -56,6 +89,9 @@
     <option name="x" value="-2" />
     <option name="width" value="1924" />
     <option name="height" value="1061" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -90,9 +126,11 @@
   <component name="PropertiesComponent">
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/information_retrieval_system/output" />
       <recent name="$PROJECT_DIR$/information_retrieval_system/src" />
       <recent name="$PROJECT_DIR$/information_retrieval_system" />
     </key>
@@ -124,12 +162,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1061" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17956819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -148,27 +187,79 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_system/docs/PerformanceMeasurements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py">
+    <entry file="file://$PROJECT_DIR$/www/chatbot/addons/checkForBan/checkForBan.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Initial AIML Files/bot_profile.aiml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Initial AIML Files/year0.aiml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/gui/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/gui/plain/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/xml_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,8 +1,8 @@
-############################################################################
-# Takes lectures notes which were pre-converted from pdf or pptx into XML  #
-# and parses the relevant XML attributes of each word or sentence          #
-# Author: Gabriel Ghiuzan                                                  #
-############################################################################
+#
+# Takes lectures notes which were pre-converted from pdf or pptx into XML
+# and parses the relevant XML attributes of each word or sentence
+# Author: Gabriel Ghiuzan
+#
 
 import xml.etree.ElementTree as elementTree
 

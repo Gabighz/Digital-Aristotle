@@ -1,17 +1,17 @@
-###############################################################################################################
-# Selects desired features of words from XML data and represents each word as an array.                       #
-# This array contains the word itself as a string and its features as numerical values.                       #
-#                                                                                                             #
-# Each word is stored in a 2D array as the following: [word, is_bold, is_larger, is_not_black, RAKE]          #
-#                                                                                                             #
-# word: A String which represents the word                                                                    #
-# is_bold: A Boolean value to see if it is bold                                                               #
-# is_larger: A Boolean value to see if it is a larger font                                                    #
-# is_not_black: A Boolean value to see if it is not black                                                     #
-# RAKE: The RAKE ranking                                                                                      #
-#                                                                                                             #
-# Author: Gabriel Ghiuzan & Avi Varma                                                                         #
-###############################################################################################################
+#
+# Selects desired features of words from XML data and represents each word as an array.
+# This array contains the word itself as a string and its features as numerical values.
+#
+# Each word is stored in a 2D array as the following: [word, is_bold, is_larger, is_not_black, RAKE]
+#
+# word: A String which represents the word
+# is_bold: A Boolean value to see if it is bold
+# is_larger: A Boolean value to see if it is a larger font
+# is_not_black: A Boolean value to see if it is not black
+# RAKE: The RAKE ranking
+#
+# Author: Gabriel Ghiuzan & Avi Varma
+#
 
 import numpy as np
 from rake_nltk import Rake
