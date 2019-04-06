@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbbe21c0-5f84-4946-8f0f-857d4ab7bf15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/aiml_generator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/aiml_generator/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/aiml_generator/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyphrase_extractor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyphrase_extractor/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyphrase_extractor/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/docs/PerformanceMeasurements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/docs/PerformanceMeasurements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/output/first-year/CS-150/ComputingComponents.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/output/first-year/CS-150/GatesAndCircuits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/feature_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_retrieval_system/keyword_extractor/src/xml_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_retrieval_system/src/xml_parser.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/main.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/information_retrieval_system/src/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="width" value="1924" />
+    <option name="height" value="1061" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Digital-Aristotle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Digital-Aristotle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Digital-Aristotle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Digital-Aristotle" type="462c0819:PsiDirectoryNode" />
+              <item name="information_retrieval_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Digital-Aristotle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Digital-Aristotle" type="462c0819:PsiDirectoryNode" />
+              <item name="information_retrieval_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/information_retrieval_system/src" />
+      <recent name="$PROJECT_DIR$/information_retrieval_system" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbbe21c0-5f84-4946-8f0f-857d4ab7bf15" name="Default Changelist" comment="" />
+      <created>1554506179993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554506179993</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1924" height="1061" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17956819" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/feature_selection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/docs/PerformanceMeasurements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/keyword_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/keyphrase_extractor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/aiml_generator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_retrieval_system/src/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
