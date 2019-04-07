@@ -4,3 +4,8 @@
 #
 # Author: Gabriel Ghiuzan
 #
+
+
+def keyphrase_extractor():
+
+	return []
