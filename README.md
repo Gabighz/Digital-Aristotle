@@ -27,7 +27,7 @@ The <b>keyword extractor</b>:
         <li> Using a custom-made feature selection module, classification features are attached to each word. </li>
         <li> The classification features as summed up to represent data points. </li>
         <li> These data points are fed to a K-means classification system, with a parameter specifying a maximum of two clusters (keywords and non-keywords) </li>
-        <li> Finally, each word and its label are written to a text file. </li>
+        <li> Finally, each word and its label are stored. </li>
     </ul>
     
 The <b>keyphrase extractor</b>:
@@ -40,7 +40,7 @@ The <b> AIML generator</b>:
     <ul>
         <li> Reads the output of the Keyword Extractor to generate AIML patterns (questions). </li>
         <li> Reads the output of the Keyphrase Extractor to generate AIML templates (answers). </li>
-        <li> Writes AIML categories (pairs of patterns and templates) to a text file. </li>
+        <li> AIML categories (pairs of patterns and templates) are stored for use on the website. </li>
     </ul>
 
 ## www
