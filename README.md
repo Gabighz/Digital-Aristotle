@@ -42,10 +42,3 @@ The <b> AIML generator</b>:
         <li> Reads the output of the Keyphrase Extractor to generate AIML templates (answers). </li>
         <li> AIML categories (pairs of patterns and templates) are stored for use on the website. </li>
     </ul>
-
-## www
-
-Contains the files necessary for running the chatbot on a website. We integrated Program O as our AIML interpreter and
-customised the Graphical User Interface to our needs.
-
-Source of Program-O: https://github.com/Program-O/Program-O
