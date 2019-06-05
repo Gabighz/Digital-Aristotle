@@ -9,6 +9,8 @@ from feature_selection import feature_assignment
 from kmeans import kmeans_clustering
 from processing import pre_processing, post_processing
 
+import numpy as np
+
 # This constant is used in kmeans.py. It determines the number of classifications.
 # Currently, we have 2 classifications: Keywords and Non-keywords.
 CLUSTERS = 2
@@ -73,12 +75,13 @@ def keyword_extractor(input_file_path, filename):
 		runs.append([classified_words, performance])
 
 	# The highest performing classification is extracted.
-	classified_words, max_performance = max(runs, key=lambda array: array[1])
+	classified_words, max_performance = max(runs, key=lambda performance_array: performance_array[1])
 
 	# F1 score, from 0 to 1
 	print("\n F1 score: ", max_performance)
 
 	# Takes only the keywords (labelled with 1)
+	classified_words = np.asarray(classified_words)
 	keywords = classified_words[classified_words[:, 1] == "1", 0]
 
 	return keywords

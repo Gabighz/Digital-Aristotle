@@ -12,14 +12,14 @@
 import os
 import aiml_generator
 import keyphrase_extractor
-import keyword_extractor
+from keyword_extractor import keyword_extractor
 
 
 # This function requests user input of the name of a file as a string
 #
 # @return filename: The name of the file which will be processed
 def input_path():
-	filename = input("Input path: ../../input/first-year/CS-150/")
+	filename = input("Input path: ../input/")
 
 	return filename
 
@@ -32,13 +32,13 @@ def main():
 			filename = input_path()
 
 			# Concatenates the name of the file to a pre-determined input path
-			input_file_path = "../input/first-year/CS-150/" + filename + ".xml"
+			input_file_path = "../input/" + filename + ".xml"
 
 			break
 		except FileNotFoundError:
 			print("File not found! Try again.")
 
-	# aiml_rules = aiml_generator(keyphrase_extractor(keyword_extractor(input_file_path)))
+	aiml_rules = keyword_extractor(input_file_path, filename)
 
 	# Creates and array in which the first index is the name of the file
 	# and the second index is the extension of the file (typically 'xml')
@@ -48,7 +48,7 @@ def main():
 	output_filename = filename_and_extension[0] + '.aiml'
 
 	# Stores the path of the file which will contain AIML rules
-	output_path = "../output" + output_filename
+	output_path = "../output/" + output_filename
 
 	# Opens a writeable File object
 	aiml_file = open(output_path, "w")

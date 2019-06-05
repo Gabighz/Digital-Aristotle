@@ -80,7 +80,7 @@ def manual_annotation(results, filename):
     true_keywords = []
 
     # These manual annotations must be scrutinized, given their subjective nature
-    if filename == "ComputingComponents.xml":
+    if filename == "ComputingComponents":
         true_keywords = ["ad", "computer", "memory", "unit", "input", "output", "control", "bus", "cycle",
                          "fetch-execute", "instruction", "register", "program", "counter", "central", "processing",
                          "random", "access", "read", "only", "magnetic", "storage", "disks", "seek", "time", "latency",
@@ -88,20 +88,20 @@ def manual_annotation(results, filename):
                          "infrared", "surface", "acoustic", "wave", "embedded", "systems", "cd-rom", "cd-da", "cd-worm",
                          "rw", "ram"]
 
-    elif filename == "GatesAndCircuits.xml":
+    elif filename == "GatesAndCircuits":
         true_keywords = ["gates", "transistors", "circuits", "boolean", "expressions", "truth", "tables", "logic",
                          "diagrams", "adder", "half", "full", "multiplexer", "s-r", "latch", "integrated", "circuits",
                          "gate", "not", "and", "or", "xor", "nand", "nor", "transistor", "combinational",
                          "sequential", "equivalence", "algebra", "adders", "multiplexers", "memory", "central",
                          "processing", "unit"]
 
-    elif filename == "NumberSystems.xml":
+    elif filename == "NumberSystems":
         true_keywords = ["positional", "convert", "base", "bases", "numbers", "natural", "negative", "integers",
                          "rational", "integer", "base",
                          "converting", "binary", "arithmetic", "subtracting", "octal", "hexadecimal", "decimal",
                          "byte"]
 
-    elif filename == "TheBigPicture.xml":
+    elif filename == "TheBigPicture":
         true_keywords = ["layers", "abstraction", "analytical", "engine", "history", "application", "programmers",
                          "systems", "hardware", "software", "system", "abacus", "blaise", "pascal", "joseph",
                          "jacquard", "utility", "computing",
