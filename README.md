@@ -16,11 +16,21 @@ source bin/activate
 pip3 install -r requirements.txt
 ```
 
-To start the Django server, run:
+To start the Django server:
 
 ```
 python3 manage.py migrate
 python3 manage.py runserver
+```
+
+If you have issues such as ``database "chatbot" does not exist``:
+
+```
+sudo -u postgres psql
+postgres=# CREATE DATABASE chatbot;
+postgres=# CREATE USER admin WITH PASSWORD 'password';
+postgres=# GRANT ALL PRIVILEGES ON DATABASE chatbot TO admin;
+postgres=# \q
 ```
 
 ## Information Retrieval System
