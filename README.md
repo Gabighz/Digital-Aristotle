@@ -16,6 +16,13 @@ source bin/activate
 pip3 install -r requirements.txt
 ```
 
+To start the Django server, run:
+
+```
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
 ## Information Retrieval System
 
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
