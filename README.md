@@ -16,10 +16,6 @@ source bin/activate
 pip3 install -r requirements.txt
 ```
 
-## AIML
-
-Contains AIML files which will be uploaded to the chatbot's brain. This will be done via Program-O's admin area.
-
 ## Information Retrieval System
 
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
