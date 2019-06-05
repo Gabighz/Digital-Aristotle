@@ -2,12 +2,19 @@
     <h1>Digital Aristotle</h1>
 </div>
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Version](https://img.shields.io/github/release/Gabighz/Digital-Aristotle/all.svg?label=version)](https://github.com/Gabighz/Digital-Aristotle/releases)
-
-
 The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
+
+## Development Setup
+Make sure you have ``python3`` and ``python3-pip`` installed. Then run the following commands
+from a directory above this repo's clone:
+
+```
+pip3 install virtualenv
+virtualenv Digital-Aristotle
+cd Digital-Aristotle
+source bin/activate
+pip3 install -r requirements.txt
+```
 
 ## AIML
 
