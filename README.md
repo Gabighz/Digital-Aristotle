@@ -6,21 +6,21 @@ The purpose of this project is to create a chatbot that will augment studying fo
 
 ## Development Setup
 Make sure you have ``python3`` and ``python3-pip`` installed. Then run the following commands
-from a directory above this repo's clone:
+from a directory above this repository's clone:
 
 ```
 pip3 install virtualenv
 virtualenv Digital-Aristotle
 cd Digital-Aristotle
 source bin/activate
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 To start the Django server:
 
 ```
-python3 manage.py migrate
-python3 manage.py runserver
+python manage.py migrate
+python manage.py runserver
 ```
 
 If you have issues such as ``database "chatbot" does not exist``:
@@ -28,9 +28,8 @@ If you have issues such as ``database "chatbot" does not exist``:
 ```
 sudo -u postgres psql
 postgres=# CREATE DATABASE chatbot;
-postgres=# CREATE USER admin WITH PASSWORD 'password';
-postgres=# GRANT ALL PRIVILEGES ON DATABASE chatbot TO admin;
 postgres=# \q
+python manage.py createsuperuser
 ```
 
 ## Information Retrieval System
@@ -52,7 +51,7 @@ The <b>keyword extractor</b>:
     
 The <b>keyphrase extractor</b>:
     <ul>
-        <li> Reads all the keywords from the text file produced by the keyword extractor. </li>
+        <li> Reads all the keywords from the array produced by the keyword extractor. </li>
         <li> Extracts all sentences which contain keywords from the XML files. </li>
     </ul>
 
