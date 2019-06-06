@@ -1,14 +1,16 @@
-!DOCTYPE html>
+{% load static %}
+
+<!DOCTYPE html>
 
 <html>
 
     <!-- Head section -->
 	<head>
 
-		<link href="/css/bootstrap.min.css" rel="stylesheet"/>
-		<link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
-		<link href="/css/styles.css" rel="stylesheet"/> <!-- Main CSS file -->
-        <link rel="icon" href="/img/favicon.ico?" type="image/x-icon">
+		<link href="{% static 'chatbot/css/bootstrap.min.css' %}" rel="stylesheet"/>
+		<link href="{% static 'chatbot/css/bootstrap-theme.min.css' %}" rel="stylesheet"/>
+		<link href="{% static 'chatbot/css/styles.css' %}" rel="stylesheet"/>  <!-- Main CSS file -->
+        <link rel="icon" href="{% static 'chatbot/images/favicon.ico' %}" type="image/x-icon">
 
         <meta charset="UTF-8">
         <title>Swansea University Chatbot</title>
@@ -26,7 +28,7 @@
 
         <!-- Container which displays the conversation history -->
         <div id="responses">
-            <?php echo $display . '<div id="end">&nbsp;</div>' . PHP_EOL ?>
+            <?php echo $display . '<div id="end">&nbsp;</div>' {# . PHP_EOL ?> #}
         </div>
         <?php echo $debug_div ?>
 
@@ -51,14 +53,8 @@
         There is one issue with this feature: a new conversation ID and log will be created by refreshing the page.
         -->
         <div id="clearhistory">
-            <a href="index.php"> Clear conversation history </a>
+            <a href="/"> Clear conversation history </a>
         </div>
-
-    <!-- Copyright notice -->
-    <div id="bottom">
-	    Copyright &#169; 2018 Ghiuzan Gabriel<br>All rights reserved.
-    </div>
-
 
 </body>
 </html>

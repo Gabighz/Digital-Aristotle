@@ -4,7 +4,7 @@
  *
  * Global CSS.
  *
- * Gabriel Ghiuzan (914067@swansea.ac.uk) 2018
+ * Gabriel Ghiuzan
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 @import url(https://fonts.googleapis.com/css?family=Cabin);
@@ -68,7 +68,7 @@ p
 html, body {
 	height: 100%;
     background-size: 20%;
-    background: url("../img/background.jpg") no-repeat center;
+    background: url("../images/background.jpg") no-repeat center;
     display: block;
 }
 
