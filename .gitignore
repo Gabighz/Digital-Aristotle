@@ -124,3 +124,7 @@ dmypy.json
 
 # IDE config files
 .idea
+
+# Virtualenv config
+bin
+include
