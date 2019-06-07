@@ -1,10 +1,20 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!-- Head section -->
+	<head>
 
+		<link href="{% static 'chatbot/css/bootstrap.min.css' %}" rel="stylesheet"/>
+		<link href="{% static 'chatbot/css/bootstrap-theme.min.css' %}" rel="stylesheet"/>
+		<link href="{% static 'chatbot/css/styles.css' %}" rel="stylesheet"/>  <!-- Main CSS file -->
+        <link rel="icon" href="{% static 'chatbot/images/favicon.ico' %}" type="image/x-icon">
+
+        <meta charset="UTF-8">
+        <title>Swansea University Chatbot</title>
+
+	</head>
+<body>
+{% block content %}{% endblock content %}
 </body>
 </html>

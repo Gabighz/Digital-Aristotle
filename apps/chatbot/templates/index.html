@@ -1,27 +1,12 @@
-{% load static %}
+{% extends "base.html" %}
 
-<!DOCTYPE html>
-
-<html>
-
-    <!-- Head section -->
-	<head>
-
-		<link href="{% static 'chatbot/css/bootstrap.min.css' %}" rel="stylesheet"/>
-		<link href="{% static 'chatbot/css/bootstrap-theme.min.css' %}" rel="stylesheet"/>
-		<link href="{% static 'chatbot/css/styles.css' %}" rel="stylesheet"/>  <!-- Main CSS file -->
-        <link rel="icon" href="{% static 'chatbot/images/favicon.ico' %}" type="image/x-icon">
-
-        <meta charset="UTF-8">
-        <title>Swansea University Chatbot</title>
+{% block content %}
 
         <!-- After the page is refreshed or a message is sent, focus will remain on the input box -->
         <script>
             document.getElementById(window.name==='reload'?'reload':'say').focus();
             window.name='reload';
         </script>
-
-	</head>
 
     <!-- Body section-->
     <body onload="document.getElementById('say').focus()">
@@ -56,5 +41,6 @@
             <a href="/"> Clear conversation history </a>
         </div>
 
-</body>
-</html>
+    </body>
+
+{% endblock %}
