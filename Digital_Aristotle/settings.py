@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Digital_Aristotle.chatbot',
+    'apps.chatbot',
 ]
 
 MIDDLEWARE = [
@@ -125,5 +125,5 @@ STATIC_URL = '/static/'
 
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 STATICFILES_DIRS = [
-    os.path.join(SITE_ROOT, "static")
+    os.path.join(SITE_ROOT, "../static")
 ]
