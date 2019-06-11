@@ -67,8 +67,6 @@ p
 
 html, body {
 	height: 100%;
-    background-size: 20%;
-    background: url("../images/background.jpg") no-repeat center;
     display: block;
 }
 
