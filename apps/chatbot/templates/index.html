@@ -1,46 +1,34 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
+{% block js %}
+
+  <script src={% static 'chatbot/js/script.js' %}></script>
+
+{% endblock %}
+
 {% block content %}
 
-        <!-- After the page is refreshed or a message is sent, focus will remain on the input box -->
-        <script>
-            document.getElementById(window.name==='reload'?'reload':'say').focus();
-            window.name='reload';
-        </script>
+  <div id="app" class="container top-padding">
 
-    <!-- Body section-->
-    <body onload="document.getElementById('say').focus()">
+  	<div class="row">
+  		<div class="col-md-12">
+  			<div class="card col-md-6" v-for="message in messages" v-bind:class="{ 'user-message': message.user,  'chat-message': message.chat_bot, 'offset-md-6': message.chat_bot}">
+	  			<div class="card-body">
+	  				[[message.text]]
+	  			</div>
+	  		</div>
+  		</div>
+  	</div>
 
-        <!-- Container which displays the conversation history -->
-        <div id="responses">
-            <?php echo $display . '<div id="end">&nbsp;</div>' {# . PHP_EOL ?> #}
-        </div>
-        <?php echo $debug_div ?>
+  	<div id="text-box" class="row top-padding">
+  		<div class="col-md-12">
+  			<textarea class="form-control" v-bind:placeholder="placeholder" v-model="input" v-bind:class="{ 'border-danger': send_blank}" v-on:change="check_content"></textarea>
+  			<i class="btn btn-primary" v-on:click="add_message"></i>
+  		</div>
+  	</div>
 
-        <!-- Input box. The user can send information to the chatbot from here -->
-        <form name="chatform" method="post" action="index.php#end"
-            onsubmit="if(document.getElementById('say').value == '') return false;">
-
-            <!-- Sends the user message, the conversation ID and the bot's ID to the SQL database -->
-            <div id="input">
-                <label for="say">Say:</label>
-                <input type="text" name="say" id="say" size="70"/>
-                <input type="submit" name="submit" id="btn_say" value="say"/>
-                <input type="hidden" name="convo_id" id="convo_id" value="<?php echo $convo_id; ?>"/>
-                <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
-                <input type="hidden" name="format" id="format" value="<?php echo $format; ?>"/>
-            </div>
-
-        </form>
-
-        <!--
-        The user can use this to refresh the page and, thus, clear the display of the conversation history.
-        There is one issue with this feature: a new conversation ID and log will be created by refreshing the page.
-        -->
-        <div id="clearhistory">
-            <a href="/"> Clear conversation history </a>
-        </div>
-
-    </body>
+  </div>
 
 {% endblock %}

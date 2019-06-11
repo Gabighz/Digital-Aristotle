@@ -92,7 +92,52 @@ html, body {
 	text-align: center;
 }
 
-#clearhistory {
-	text-align: center;
+.top-padding {
+	margin-top: 10px;
+}
 
+.user-message {
+	background-color: rgba(0, 67, 255, 0.33);
+}
+
+.chat-message {
+	background-color: rgba(128, 0, 95, 0.35);
+}
+
+.send-btn {
+	position: absolute;
+    top: 12px;
+    font-size: 30px;
+    color: grey;
+    right: 20px;
+}
+
+.send-btn:hover {
+	color: rgba(0, 128, 0, 0.61);
+}
+
+#text-box {
+	position: relative;
+	bottom: 8px;
+	width: 95%;
+}
+
+#text-box textarea {
+	border: 2px solid;
+}
+
+.navbar {
+	background-color: #0006;
+}
+
+#app {
+	margin-left: 0px;
+}
+
+#app .card {
+	margin-bottom: 5px;
+}
+
+#app p {
+	margin-bottom: 0px;
 }

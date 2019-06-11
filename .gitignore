@@ -128,3 +128,6 @@ dmypy.json
 # Virtualenv config
 bin/
 include/
+
+# Chatterbot files
+*.pickle
