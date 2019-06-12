@@ -9,18 +9,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 
-#bottom
-{
-	/* shrink bottom's font size */
-	font-size: smaller;
-
-	/* surround with whitespace */
-	margin: 20px;
-
-	text-align: center;
-
-}
-
 #responses {
 	margin: auto;
 	width: 80%;
@@ -53,12 +41,6 @@ a:active {
 	color: blue;
 }
 
-
-.intros
-{
-	padding-top:25px;
-}
-
 p
 {
 	font-family: 'Roboto', sans-serif;
@@ -68,19 +50,6 @@ p
 html, body {
 	height: 100%;
     display: block;
-}
-
-#debugDiv {
-	width: 90%;
-	min-height: 1.2em;
-	max-height: 55vh;
-	border: 3px inset #666;
-	margin-left: auto;
-	margin-right: auto;
-	white-space: pre;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: large;
-	padding: 1em;
 }
 
 #input {
@@ -93,7 +62,7 @@ html, body {
 }
 
 .top-padding {
-	margin-top: 10px;
+	margin-top: 20%;
 }
 
 .user-message {
@@ -102,42 +71,4 @@ html, body {
 
 .chat-message {
 	background-color: rgba(128, 0, 95, 0.35);
-}
-
-.send-btn {
-	position: absolute;
-    top: 12px;
-    font-size: 30px;
-    color: grey;
-    right: 20px;
-}
-
-.send-btn:hover {
-	color: rgba(0, 128, 0, 0.61);
-}
-
-#text-box {
-	position: relative;
-	bottom: 8px;
-	width: 95%;
-}
-
-#text-box textarea {
-	border: 2px solid;
-}
-
-.navbar {
-	background-color: #0006;
-}
-
-#app {
-	margin-left: 0px;
-}
-
-#app .card {
-	margin-bottom: 5px;
-}
-
-#app p {
-	margin-bottom: 0px;
 }
