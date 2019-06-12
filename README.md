@@ -2,6 +2,8 @@
     <h1>Digital Aristotle</h1>
 </div>
 
+![Generic badge](https://travis-ci.com/Gabighz/Digital-Aristotle.svg?branch=master)
+
 The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
 
 ## Development Setup
