@@ -60,5 +60,3 @@ def main():
 	aiml_file.write("\n</aiml>")
 
 	aiml_file.close()
-
-	return "ok"
