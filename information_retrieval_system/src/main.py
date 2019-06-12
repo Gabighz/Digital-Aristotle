@@ -10,9 +10,9 @@
 
 
 import os
-import aiml_generator
-import keyphrase_extractor
-from keyword_extractor import keyword_extractor
+import information_retrieval_system.src.aiml_generator as aiml_generator
+import information_retrieval_system.src.keyphrase_extractor as keyphrase_extractor
+import information_retrieval_system.src.keyword_extractor as keyword_extractor
 
 
 # This function requests user input of the name of a file as a string
@@ -38,7 +38,7 @@ def main():
 		except FileNotFoundError:
 			print("File not found! Try again.")
 
-	aiml_rules = keyword_extractor(input_file_path, filename)
+	#aiml_rules = keyword_extractor(input_file_path, filename)
 
 	# Creates and array in which the first index is the name of the file
 	# and the second index is the extension of the file (typically 'xml')
@@ -61,5 +61,4 @@ def main():
 
 	aiml_file.close()
 
-
-main()
+	return "ok"

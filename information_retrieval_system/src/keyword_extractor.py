@@ -4,10 +4,10 @@
 # Author: Gabriel Ghiuzan
 #
 
-from xml_parser import parse_xml
-from feature_selection import feature_assignment
-from kmeans import kmeans_clustering
-from processing import pre_processing, post_processing
+from information_retrieval_system.src.xml_parser import parse_xml
+from information_retrieval_system.src.feature_selection import feature_assignment
+from information_retrieval_system.src.kmeans import kmeans_clustering
+from information_retrieval_system.src.processing import pre_processing, post_processing
 
 import numpy as np
 

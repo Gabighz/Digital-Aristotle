@@ -3,16 +3,7 @@ from django.http import HttpResponse
 import json
 from django.views.decorators.csrf import csrf_exempt
 
-from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
-
-chatbot = ChatBot('Ron Obvious')
-
-# Create a new trainer for the chatbot
-trainer = ChatterBotCorpusTrainer(chatbot)
-
-# Train the chatbot based on the english corpus
-trainer.train("chatterbot.corpus.english")
+from information_retrieval_system.src import main as irs_main
 
 
 @csrf_exempt
@@ -23,7 +14,7 @@ def get_response(request):
         data = json.loads(request.body)
         message = data['message']
 
-        chat_response = chatbot.get_response(message).text
+        chat_response = irs_main
         response['message'] = {'text': chat_response, 'user': False, 'chat_bot': True}
         response['status'] = 'ok'
 
