@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="63" family="Times" color="#ffffff"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-1_1.jpg"/>
+<text top="195" left="104" width="304" height="74" font="0"><b>Chapter 2</b></text>
+<text top="334" left="38" width="455" height="74" font="0"><b>Binary Values </b></text>
+<text top="413" left="64" width="403" height="74" font="0"><b>and Number </b></text>
+<text top="492" left="121" width="272" height="74" font="0"><b>Systems</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="1" size="18" family="Times" color="#000000"/>
+	<fontspec id="2" size="33" family="Times" color="#ffffff"/>
+	<fontspec id="3" size="51" family="Times" color="#000000"/>
+	<fontspec id="4" size="39" family="Times" color="#000000"/>
+	<fontspec id="5" size="39" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-2_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>2</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">6</text>
+<text top="764" left="1028" width="40" height="40" font="2">24</text>
+<text top="57" left="401" width="369" height="60" font="3"><b>Chapter Goals</b></text>
+<text top="179" left="65" width="398" height="47" font="4">• Distinguish among </text>
+<text top="179" left="463" width="206" height="47" font="5">categories </text>
+<text top="179" left="669" width="211" height="47" font="4">of numbers</text>
+<text top="240" left="65" width="218" height="47" font="4">• Describe </text>
+<text top="240" left="283" width="190" height="47" font="5">positional </text>
+<text top="240" left="473" width="150" height="47" font="4">notation</text>
+<text top="300" left="65" width="200" height="47" font="5">• Convert </text>
+<text top="300" left="264" width="648" height="47" font="4">numbers in other bases to base 10</text>
+<text top="361" left="65" width="200" height="47" font="5">• Convert </text>
+<text top="361" left="264" width="714" height="47" font="4">base-10 numbers to numbers in other </text>
+<text top="411" left="105" width="112" height="47" font="4">bases</text>
+<text top="471" left="65" width="288" height="47" font="4">• Describe the </text>
+<text top="471" left="353" width="227" height="47" font="5">relationship </text>
+<text top="471" left="580" width="388" height="47" font="4">between bases 2, 8, </text>
+<text top="522" left="105" width="129" height="47" font="4">and 16</text>
+<text top="582" left="65" width="903" height="47" font="4">• Explain the importance to computing of bases </text>
+<text top="633" left="105" width="154" height="47" font="4">that are </text>
+<text top="633" left="260" width="217" height="47" font="5">powers of 2</text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="6" size="39" family="Times" color="#ff6600"/>
+	<fontspec id="7" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-3_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>3</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">2</text>
+<text top="251" left="83" width="339" height="47" font="6"><b>Natural Numbers</b></text>
+<text top="301" left="83" width="847" height="40" font="7">Zero and any number obtained by repeatedly adding </text>
+<text top="344" left="83" width="138" height="40" font="7">one to it.</text>
+<text top="431" left="83" width="478" height="40" font="7">Examples:   100, 0, 45645, 32</text>
+<text top="538" left="83" width="369" height="47" font="6"><b>Negative Numbers</b></text>
+<text top="588" left="83" width="522" height="40" font="7">A value less than 0, with a – sign</text>
+<text top="674" left="83" width="506" height="40" font="7">Examples:  -24,  -1, -45645, -32</text>
+<text top="57" left="468" width="234" height="60" font="3"><b>Numbers</b></text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-4_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>4</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">3</text>
+<text top="260" left="83" width="164" height="47" font="6"><b>Integers</b></text>
+<text top="310" left="83" width="591" height="40" font="7">A natural number, a negative number</text>
+<text top="397" left="83" width="522" height="40" font="7">Examples:   249, 0, - 45645, - 32</text>
+<text top="476" left="83" width="360" height="47" font="6"><b>Rational Numbers</b></text>
+<text top="526" left="83" width="659" height="40" font="7">An integer or the quotient of two integers </text>
+<text top="613" left="83" width="534" height="40" font="7">Examples:  -249,  -1, 0, 3/7, -2/5  </text>
+<text top="57" left="468" width="234" height="60" font="3"><b>Numbers</b></text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="39" family="Times" color="#000000"/>
+	<fontspec id="9" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-5_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>5</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">4</text>
+<text top="251" left="83" width="666" height="47" font="8"><i><b>How many ones are there in 642?</b></i></text>
+<text top="341" left="182" width="234" height="40" font="9"><b>600 + 40 + 2 ?</b></text>
+<text top="406" left="182" width="104" height="40" font="7">Or is it</text>
+<text top="470" left="182" width="234" height="40" font="9"><b>384 + 32 + 2 ?</b></text>
+<text top="535" left="182" width="194" height="40" font="7">Or maybe…</text>
+<text top="600" left="182" width="254" height="40" font="9"><b>1536 + 64 + 2 ?</b></text>
+<text top="57" left="339" width="492" height="60" font="3"><b>Positional Notation</b></text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="10" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-6_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>6</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">5</text>
+<text top="233" left="83" width="93" height="47" font="10"><b>Aha!</b></text>
+<text top="334" left="83" width="603" height="47" font="4">642  is 600 + 40 + 2 in <b>BASE 10</b></text>
+<text top="435" left="83" width="84" height="47" font="4">The </text>
+<text top="435" left="167" width="108" height="47" font="6"><b>base </b></text>
+<text top="435" left="275" width="681" height="47" font="4">of a number determines the number </text>
+<text top="485" left="83" width="830" height="47" font="4">of different digit symbols (numerals) and the </text>
+<text top="535" left="83" width="435" height="47" font="4">values of digit positions</text>
+<text top="57" left="339" width="492" height="60" font="3"><b>Positional Notation</b></text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="11" size="21" family="Times" color="#000000"/>
+	<fontspec id="12" size="30" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-7_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>7</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">6</text>
+<text top="233" left="83" width="529" height="40" font="9"><b>Continuing with our example…</b></text>
+<text top="276" left="83" width="734" height="47" font="10"><b>642 in base 10 <i>positional notation </i></b><b>is:</b></text>
+<text top="370" left="221" width="100" height="40" font="9"><b>6 x 10</b></text>
+<text top="374" left="321" width="13" height="27" font="11"><b>2</b></text>
+<text top="370" left="344" width="282" height="40" font="9"><b>=  6 x 100   = 600</b></text>
+<text top="413" left="191" width="131" height="40" font="9"><b>+ 4 x 10</b></text>
+<text top="417" left="322" width="13" height="27" font="11"><b>1</b></text>
+<text top="413" left="355" width="262" height="40" font="9"><b>=   4 x 10    = 40</b></text>
+<text top="456" left="191" width="740" height="40" font="9"><b>+ 2 x 10º  =    2 x 1     = 2      = 642 in base 10</b></text>
+<text top="665" left="72" width="261" height="37" font="12">This number is in </text>
+<text top="704" left="144" width="118" height="37" font="12">base 10</text>
+<text top="586" left="460" width="296" height="37" font="12">The power indicates</text>
+<text top="626" left="505" width="215" height="37" font="12">the position of </text>
+<text top="666" left="524" width="167" height="37" font="12">the number</text>
+<text top="57" left="339" width="492" height="60" font="3"><b>Positional Notation</b></text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="13" size="21" family="Times" color="#000000"/>
+	<fontspec id="14" size="25" family="Times" color="#000000"/>
+	<fontspec id="15" size="30" family="Times" color="#000000"/>
+	<fontspec id="16" size="19" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-8_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>8</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">7</text>
+<text top="347" left="139" width="20" height="40" font="7">d</text>
+<text top="368" left="159" width="13" height="27" font="13">n</text>
+<text top="347" left="183" width="50" height="40" font="7">* R</text>
+<text top="347" left="233" width="35" height="27" font="13">n-1</text>
+<text top="347" left="277" width="51" height="40" font="7">+ d</text>
+<text top="368" left="328" width="35" height="27" font="13">n-1</text>
+<text top="347" left="373" width="50" height="40" font="7">* R</text>
+<text top="347" left="423" width="35" height="27" font="13">n-2</text>
+<text top="347" left="468" width="122" height="40" font="7">+ ... + d</text>
+<text top="368" left="589" width="13" height="27" font="13">2</text>
+<text top="347" left="613" width="50" height="40" font="7">* R</text>
+<text top="347" left="663" width="13" height="27" font="13">1</text>
+<text top="347" left="686" width="51" height="40" font="7">+ d</text>
+<text top="368" left="737" width="13" height="27" font="13">1</text>
+<text top="347" left="760" width="50" height="40" font="7">* R</text>
+<text top="347" left="810" width="13" height="27" font="13">0</text>
+<text top="260" left="83" width="212" height="40" font="7">As a formula:</text>
+<text top="665" left="92" width="257" height="47" font="4">642 is 6 * 10</text>
+<text top="666" left="349" width="16" height="31" font="14">2</text>
+<text top="665" left="376" width="169" height="47" font="4">+  4 * 10 </text>
+<text top="666" left="545" width="16" height="31" font="14">+</text>
+<text top="665" left="585" width="86" height="47" font="4">2 * 1</text>
+<text top="179" left="640" width="213" height="37" font="15"><b>R is the base </b></text>
+<text top="218" left="637" width="221" height="37" font="15"><b>of the number</b></text>
+<text top="507" left="77" width="296" height="37" font="15"><b>n is the number of </b></text>
+<text top="547" left="67" width="316" height="37" font="15"><b>digits in the number</b></text>
+<text top="505" left="700" width="302" height="37" font="15"><b>d is the digit in the </b></text>
+<text top="545" left="768" width="9" height="37" font="15"><b>i</b></text>
+<text top="545" left="777" width="27" height="25" font="16"><b>th </b></text>
+<text top="545" left="804" width="138" height="37" font="15"><b>position </b></text>
+<text top="585" left="741" width="219" height="37" font="15"><b>in the number</b></text>
+<text top="57" left="339" width="492" height="60" font="3"><b>Positional Notation</b></text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-9_1.jpg"/>
+<text top="763" left="85" width="12" height="23" font="1"><b>9</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">68</text>
+<text top="233" left="83" width="624" height="47" font="8"><i><b>What if 642 has the base of 13?</b></i></text>
+<text top="600" left="83" width="720" height="47" font="10"><b>642 in base 13 is equivalent to 1068 </b></text>
+<text top="651" left="83" width="203" height="47" font="10"><b>in base 10</b></text>
+<text top="323" left="236" width="131" height="40" font="9"><b>+ 6 x 13</b></text>
+<text top="327" left="367" width="13" height="27" font="11"><b>2</b></text>
+<text top="323" left="400" width="302" height="40" font="9"><b>=  6 x 169   = 1014</b></text>
+<text top="366" left="236" width="131" height="40" font="9"><b>+ 4 x 13</b></text>
+<text top="370" left="367" width="13" height="27" font="11"><b>1</b></text>
+<text top="366" left="400" width="262" height="40" font="9"><b>=   4 x 13    = 52</b></text>
+<text top="409" left="236" width="426" height="40" font="9"><b>+ 2 x 13º  =    2 x 1     =   2</b></text>
+<text top="452" left="591" width="305" height="40" font="9"><b>=  1068 in base 10</b></text>
+<text top="57" left="339" width="492" height="60" font="3"><b>Positional Notation</b></text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="17" size="27" family="Times" color="#000000"/>
+	<fontspec id="18" size="27" family="Times" color="#000000"/>
+	<fontspec id="19" size="27" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-10_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>10</b></text>
+<text top="764" left="1046" width="20" height="40" font="2">9</text>
+<text top="239" left="83" width="721" height="40" font="7">Decimal is base 10 and has 10 digit symbols:</text>
+<text top="283" left="191" width="339" height="47" font="5">0,1,2,3,4,5,6,7,8,9</text>
+<text top="390" left="83" width="653" height="40" font="7">Binary is base 2 and has 2 digit symbols:</text>
+<text top="435" left="299" width="58" height="47" font="5">0,1</text>
+<text top="520" left="83" width="877" height="34" font="17"><b>For a number to exist in a given base, it can only  contain the </b></text>
+<text top="556" left="83" width="907" height="34" font="17"><b>digits in that base, which range from 0 up to (but not including) </b></text>
+<text top="592" left="83" width="130" height="34" font="17"><b>the base.</b></text>
+<text top="664" left="83" width="553" height="34" font="18"><i><b>What bases can these numbers be in? </b></i></text>
+<text top="664" left="636" width="278" height="34" font="19"><i><b>122, 198, 178, G1A4</b></i></text>
+<text top="57" left="501" width="168" height="60" font="3"><b>Binary</b></text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="20" size="33" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-11_1.jpg"/>
+<text top="763" left="75" width="22" height="23" font="1"><b>11</b></text>
+<text top="764" left="1028" width="40" height="40" font="2">10</text>
+<text top="233" left="83" width="778" height="47" font="8"><i><b>How are digits in bases higher than 10 </b></i></text>
+<text top="283" left="83" width="267" height="47" font="8"><i><b>represented?</b></i></text>
+<text top="395" left="92" width="678" height="40" font="9"><b>With distinct symbols for 10 and above.</b></text>
+<text top="481" left="92" width="376" height="40" font="9"><b>Base 16 has 16 digits:</b></text>
+<text top="524" left="200" width="488" height="40" font="20"><b>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E, </b></text>
+<text top="524" left="688" width="74" height="40" font="9"><b>and </b></text>
+<text top="524" left="762" width="22" height="40" font="20"><b>F</b></text>
+<text top="57" left="311" width="549" height="60" font="3"><b>Bases Higher than 10</b></text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-12_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>12</b></text>
+<text top="233" left="83" width="860" height="47" font="8"><i><b>What is the decimal equivalent of the octal </b></i></text>
+<text top="283" left="83" width="262" height="47" font="8"><i><b>number 642?</b></i></text>
+<text top="404" left="257" width="80" height="40" font="9"><b>6 x 8</b></text>
+<text top="408" left="337" width="13" height="27" font="11"><b>2</b></text>
+<text top="404" left="370" width="262" height="40" font="9"><b>=  6 x 64   = 384</b></text>
+<text top="447" left="227" width="111" height="40" font="9"><b>+ 4 x 8</b></text>
+<text top="451" left="338" width="13" height="27" font="11"><b>1</b></text>
+<text top="447" left="371" width="232" height="40" font="9"><b>=  4 x  8   = 32</b></text>
+<text top="490" left="227" width="356" height="40" font="9"><b>+ 2 x 8º  =   2 x 1   = 2</b></text>
+<text top="533" left="532" width="275" height="40" font="9"><b>= 418 in base 10</b></text>
+<text top="764" left="1028" width="37" height="40" font="2">11</text>
+<text top="57" left="224" width="723" height="60" font="3"><b>Converting Octal to Decimal</b></text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-13_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>13</b></text>
+<text top="251" left="83" width="750" height="47" font="8"><i><b>What is the decimal equivalent of the </b></i></text>
+<text top="301" left="83" width="539" height="47" font="8"><i><b>hexadecimal number DEF?</b></i></text>
+<text top="413" left="257" width="106" height="40" font="9"><b>D x 16</b></text>
+<text top="417" left="363" width="13" height="27" font="11"><b>2</b></text>
+<text top="413" left="396" width="302" height="40" font="9"><b>=  13 x 256 = 3328</b></text>
+<text top="456" left="227" width="135" height="40" font="9"><b>+ E x 16</b></text>
+<text top="460" left="362" width="13" height="27" font="11"><b>1</b></text>
+<text top="456" left="395" width="282" height="40" font="9"><b>=  14 x  16  = 224</b></text>
+<text top="499" left="227" width="428" height="40" font="9"><b>+ F x 16º  =  15 x 1     = 15</b></text>
+<text top="542" left="572" width="295" height="40" font="9"><b>= 3567 in base 10</b></text>
+<text top="647" left="74" width="758" height="40" font="9"><b>Remember, the digit symbols in base 16 are </b></text>
+<text top="690" left="74" width="500" height="40" font="9"><b>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F</b></text>
+<text top="57" left="126" width="918" height="60" font="3"><b>Converting Hexadecimal to Decimal</b></text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-14_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>14</b></text>
+<text top="233" left="83" width="888" height="47" font="8"><i><b>What is the decimal equivalent of the binary </b></i></text>
+<text top="283" left="83" width="346" height="47" font="8"><i><b>number 1101110?</b></i></text>
+<text top="350" left="239" width="80" height="40" font="9"><b>1 x 2</b></text>
+<text top="353" left="319" width="14" height="24" font="11"><b>6</b></text>
+<text top="350" left="353" width="232" height="40" font="9"><b>=  1 x 64  = 64</b></text>
+<text top="393" left="209" width="111" height="40" font="9"><b>+ 1 x 2</b></text>
+<text top="396" left="320" width="14" height="24" font="11"><b>5</b></text>
+<text top="393" left="354" width="232" height="40" font="9"><b>=  1 x 32  = 32</b></text>
+<text top="436" left="209" width="111" height="40" font="9"><b>+ 0 x 2</b></text>
+<text top="440" left="320" width="14" height="24" font="11"><b>4</b></text>
+<text top="436" left="354" width="212" height="40" font="9"><b>=  0 x 16  = 0</b></text>
+<text top="479" left="209" width="111" height="40" font="9"><b>+ 1 x 2</b></text>
+<text top="483" left="320" width="14" height="24" font="11"><b>3</b></text>
+<text top="479" left="354" width="212" height="40" font="9"><b>=  1 x 8    = 8</b></text>
+<text top="523" left="209" width="111" height="40" font="9"><b>+ 1 x 2</b></text>
+<text top="526" left="320" width="14" height="24" font="11"><b>2</b></text>
+<text top="523" left="354" width="212" height="40" font="9"><b>=  1 x 4    = 4</b></text>
+<text top="566" left="209" width="111" height="40" font="9"><b>+ 1 x 2</b></text>
+<text top="569" left="320" width="14" height="24" font="11"><b>1</b></text>
+<text top="566" left="354" width="222" height="40" font="9"><b>=  1 x 2    = 2 </b></text>
+<text top="609" left="209" width="356" height="40" font="9"><b>+ 0 x 2º  =  0 x 1    = 0</b></text>
+<text top="652" left="504" width="273" height="40" font="9"><b>= 110 in base 10</b></text>
+<text top="764" left="1028" width="40" height="40" font="2">13</text>
+<text top="57" left="207" width="756" height="60" font="3"><b>Converting Binary to Decimal</b></text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-15_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>15</b></text>
+<text top="188" left="83" width="905" height="47" font="4">Remember that there are only 2 digit symbols in </text>
+<text top="238" left="83" width="275" height="47" font="4">binary, 0 and 1</text>
+<text top="339" left="83" width="398" height="47" font="4">1 + 1 is 0 with a carry</text>
+<text top="471" left="746" width="218" height="40" font="9"><b>Carry Values</b></text>
+<text top="494" left="312" width="210" height="40" font="9"><b>1 0 1 1 1 1 1 </b></text>
+<text top="537" left="341" width="200" height="40" font="9"><b>1 0 1 0 1 1 1</b></text>
+<text top="580" left="321" width="231" height="40" font="9"><b>+1 0 0 1 0 1 1 </b></text>
+<text top="623" left="313" width="230" height="40" font="20"><b>1 0 1 0 0 0 1 0</b></text>
+<text top="764" left="1028" width="40" height="40" font="2">14</text>
+<text top="57" left="329" width="513" height="60" font="3"><b>Arithmetic in Binary</b></text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-16_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>16</b></text>
+<text top="233" left="83" width="872" height="47" font="8"><i><b>Remember borrowing? </b></i><b>Apply that concept </b></text>
+<text top="283" left="83" width="103" height="47" font="10"><b>here:</b></text>
+<text top="427" left="407" width="80" height="40" font="20"><b>0 1 2</b></text>
+<text top="470" left="470" width="50" height="40" font="20"><b>0 2</b></text>
+<text top="514" left="408" width="200" height="40" font="9"><b>1 0 1 0 1 1 1</b></text>
+<text top="557" left="398" width="222" height="40" font="9"><b>- 1 1 1 0 1 1 </b></text>
+<text top="600" left="411" width="250" height="40" font="9"><b>0 0 1 1 1 0 0     </b></text>
+<text top="764" left="1028" width="40" height="40" font="2">15</text>
+<text top="57" left="219" width="732" height="60" font="3"><b>Subtracting Binary Numbers</b></text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-17_1.jpg"/>
+<image top="153" left="237" width="606" height="552" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-17_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>17</b></text>
+<text top="57" left="201" width="768" height="60" font="3"><b>Counting in Power-of-2 Bases</b></text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="21" size="39" family="Times" color="#000000"/>
+	<fontspec id="22" size="39" family="Times" color="#333399"/>
+	<fontspec id="23" size="39" family="Times" color="#669900"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-18_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>18</b></text>
+<text top="206" left="119" width="632" height="47" font="4">• Mark groups of <i>three </i>(from right)</text>
+<text top="256" left="119" width="396" height="47" font="4">• Convert each group</text>
+<text top="357" left="227" width="185" height="47" font="22"><b>10101011</b></text>
+<text top="357" left="501" width="232" height="47" font="22"><b>10 101 011</b></text>
+<text top="408" left="532" width="175" height="47" font="23"><b>2    5     3</b></text>
+<text top="508" left="119" width="491" height="47" font="4">10101011 is 253 in base 8</text>
+<text top="764" left="1028" width="40" height="40" font="2">17</text>
+<text top="57" left="243" width="684" height="60" font="3"><b>Converting Binary to Octal</b></text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="24" size="39" family="Times" color="#ff9933"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-19_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>19</b></text>
+<text top="269" left="83" width="608" height="47" font="4">• Mark groups of <i>four </i>(from right)</text>
+<text top="319" left="83" width="396" height="47" font="4">• Convert each group</text>
+<text top="420" left="191" width="185" height="47" font="22"><b>10101011</b></text>
+<text top="420" left="465" width="371" height="47" font="22"><b>1010 1011              </b></text>
+<text top="471" left="510" width="152" height="47" font="24"><b>A      B  </b></text>
+<text top="571" left="83" width="497" height="47" font="4">10101011 is AB in base 16</text>
+<text top="764" left="1028" width="40" height="40" font="2">18</text>
+<text top="57" left="146" width="879" height="60" font="3"><b>Converting Binary to Hexadecimal</b></text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="25" size="45" family="Times" color="#000000"/>
+	<fontspec id="26" size="45" family="Times" color="#009999"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-20_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>20</b></text>
+<text top="57" left="224" width="723" height="60" font="3"><b>Converting Decimal to Octal</b></text>
+<text top="197" left="128" width="228" height="54" font="25"><i><b>Try some!</b></i></text>
+<text top="370" left="128" width="830" height="54" font="26"><i><b>http://fclass.vaniercollege.qc.ca/web</b></i></text>
+<text top="428" left="128" width="841" height="54" font="26"><i><b>/mathematics/real/Calculators/BaseC</b></i></text>
+<text top="485" left="128" width="359" height="54" font="26"><i><b>onv_calc_1.htm</b></i></text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-21_1.jpg"/>
+<image top="146" left="117" width="846" height="519" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-21_2.jpg"/>
+<text top="57" left="488" width="195" height="60" font="3"><b>Abacus</b></text>
+<text top="763" left="74" width="23" height="23" font="1"><b>21</b></text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-22_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>22</b></text>
+<text top="373" left="56" width="408" height="37" font="17"><b>While (the quotient is not zero)</b></text>
+<text top="408" left="110" width="559" height="37" font="17"><b>Divide the decimal number by the new base</b></text>
+<text top="443" left="110" width="753" height="37" font="17"><b>Make the remainder the next digit to the left in the answer</b></text>
+<text top="478" left="110" width="708" height="37" font="17"><b>Replace the original decimal number with the quotient</b></text>
+<text top="206" left="83" width="827" height="47" font="10"><b>Algorithm for converting number in base </b></text>
+<text top="256" left="83" width="346" height="47" font="10"><b>10 to other bases</b></text>
+<text top="764" left="1028" width="40" height="40" font="2">19</text>
+<text top="57" left="132" width="906" height="60" font="3"><b>Converting Decimal to Other Bases</b></text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-23_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>23</b></text>
+<text top="57" left="224" width="723" height="60" font="3"><b>Converting Decimal to Octal</b></text>
+<text top="197" left="128" width="758" height="54" font="25"><i><b>What is 1988 (base 10) in base 8?</b></i></text>
+<text top="370" left="236" width="132" height="54" font="25"><i><b>Try it!</b></i></text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-24_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>24</b></text>
+<text top="57" left="224" width="723" height="60" font="3"><b>Converting Decimal to Octal</b></text>
+<text top="215" left="285" width="60" height="40" font="9"><b>248</b></text>
+<text top="215" left="442" width="40" height="40" font="9"><b>31</b></text>
+<text top="215" left="618" width="30" height="40" font="9"><b>3 </b></text>
+<text top="215" left="778" width="20" height="40" font="9"><b>0</b></text>
+<text top="258" left="226" width="576" height="40" font="9"><b>8  1988 8  248        8  31          8  3</b></text>
+<text top="301" left="265" width="60" height="40" font="9"><b>16  </b></text>
+<text top="301" left="424" width="40" height="40" font="9"><b>24</b></text>
+<text top="301" left="603" width="50" height="40" font="9"><b>24 </b></text>
+<text top="301" left="783" width="20" height="40" font="9"><b>0</b></text>
+<text top="344" left="285" width="40" height="40" font="9"><b>38</b></text>
+<text top="344" left="442" width="40" height="40" font="9"><b>08</b></text>
+<text top="344" left="628" width="169" height="40" font="9"><b>7             3</b></text>
+<text top="388" left="285" width="40" height="40" font="9"><b>32</b></text>
+<text top="388" left="462" width="20" height="40" font="9"><b>8</b></text>
+<text top="431" left="304" width="40" height="40" font="9"><b>68</b></text>
+<text top="431" left="462" width="20" height="40" font="9"><b>0</b></text>
+<text top="474" left="304" width="40" height="40" font="9"><b>64</b></text>
+<text top="517" left="324" width="20" height="40" font="9"><b>4</b></text>
+<text top="604" left="353" width="186" height="40" font="7">Answer is : </text>
+<text top="604" left="539" width="110" height="40" font="20"><b>3 7 0 4</b></text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-25_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>25</b></text>
+<text top="314" left="119" width="702" height="47" font="8"><i><b>What is 3567 (base 10) in base 16? </b></i></text>
+<text top="465" left="227" width="116" height="47" font="8"><i><b>Try it!</b></i></text>
+<text top="764" left="1028" width="40" height="40" font="2">20</text>
+<text top="57" left="126" width="918" height="60" font="3"><b>Converting Decimal to Hexadecimal</b></text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-26_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>26</b></text>
+<text top="251" left="295" width="60" height="40" font="9"><b>222</b></text>
+<text top="251" left="531" width="249" height="40" font="9"><b>13                   0</b></text>
+<text top="294" left="217" width="150" height="40" font="9"><b>16  3567 </b></text>
+<text top="294" left="452" width="340" height="40" font="9"><b>16  222           16  13 </b></text>
+<text top="337" left="276" width="40" height="40" font="9"><b>32</b></text>
+<text top="337" left="504" width="50" height="40" font="9"><b>16 </b></text>
+<text top="337" left="763" width="20" height="40" font="9"><b>0</b></text>
+<text top="380" left="295" width="40" height="40" font="9"><b>36</b></text>
+<text top="380" left="531" width="40" height="40" font="9"><b>62</b></text>
+<text top="380" left="747" width="40" height="40" font="9"><b>13</b></text>
+<text top="424" left="295" width="40" height="40" font="9"><b>32</b></text>
+<text top="424" left="531" width="40" height="40" font="9"><b>48</b></text>
+<text top="467" left="315" width="40" height="40" font="9"><b>47</b></text>
+<text top="467" left="531" width="120" height="40" font="9"><b>14        </b></text>
+<text top="510" left="315" width="40" height="40" font="9"><b>32</b></text>
+<text top="553" left="315" width="50" height="40" font="9"><b>15 </b></text>
+<text top="611" left="435" width="92" height="40" font="9"><b>D E F</b></text>
+<text top="764" left="1028" width="40" height="40" font="2">21</text>
+<text top="57" left="126" width="918" height="60" font="3"><b>Converting Decimal to Hexadecimal</b></text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-27_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>27</b></text>
+<text top="233" left="83" width="640" height="40" font="9"><b>Computers have storage units called </b></text>
+<text top="233" left="723" width="224" height="40" font="20"><b>binary digits </b></text>
+<text top="233" left="946" width="46" height="40" font="9"><b>or </b></text>
+<text top="276" left="83" width="64" height="40" font="20"><b>bits</b></text>
+<text top="399" left="110" width="300" height="47" font="4">Low Voltage = 0</text>
+<text top="449" left="110" width="779" height="47" font="4">High Voltage = 1           all bits have 0 or 1</text>
+<text top="764" left="1028" width="40" height="40" font="2">22</text>
+<text top="57" left="171" width="828" height="60" font="3"><b>Binary Numbers and Computers</b></text>
+<text top="610" left="83" width="931" height="34" font="17"><b>… or the other way around, but we don’t need to worry about that</b></text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-28_1.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>28</b></text>
+<text top="233" left="83" width="91" height="47" font="6"><b>Byte</b></text>
+<text top="283" left="83" width="101" height="47" font="4">8 bits</text>
+<text top="384" left="83" width="442" height="47" font="4">The number of bits in a </text>
+<text top="384" left="525" width="91" height="47" font="5">word</text>
+<text top="384" left="628" width="290" height="47" font="4">determines the </text>
+<text top="384" left="918" width="91" height="47" font="5">word</text>
+<text top="435" left="83" width="126" height="47" font="5">length </text>
+<text top="435" left="209" width="809" height="47" font="4">of the computer, which is usually a multiple </text>
+<text top="485" left="83" width="70" height="47" font="4">of 8</text>
+<text top="586" left="117" width="349" height="47" font="4">• 32-bit machines </text>
+<text top="636" left="117" width="417" height="47" font="4">• 64-bit machines etc.</text>
+<text top="764" left="1028" width="40" height="40" font="2">23</text>
+<text top="57" left="296" width="579" height="60" font="3"><b>Binary and Computers</b></text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-29_1.jpg"/>
+<image top="171" left="83" width="915" height="468" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-29_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>29</b></text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="27" size="42" family="Times" color="#000000"/>
+	<fontspec id="28" size="36" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-30_1.jpg"/>
+<text top="57" left="405" width="360" height="60" font="3"><b>Ethical Issues</b></text>
+<text top="763" left="74" width="23" height="23" font="1"><b>30</b></text>
+<text top="192" left="74" width="326" height="50" font="27"><b>The FISA Court</b></text>
+<text top="277" left="128" width="860" height="44" font="28"><i>What does the United States Foreign Intelligence </i></text>
+<text top="319" left="128" width="395" height="44" font="28"><i>Surveillance Court do?</i></text>
+<text top="403" left="128" width="767" height="44" font="28"><i>When did most people first hear of the FISA </i></text>
+<text top="445" left="128" width="117" height="44" font="28"><i>Court?</i></text>
+<text top="529" left="128" width="869" height="44" font="28"><i>What checks and balances are there between the </i></text>
+<text top="572" left="128" width="741" height="44" font="28"><i>FISA Court and other government entities?</i></text>
+<text top="656" left="128" width="752" height="44" font="28"><i>What is the stated intent of the FISA Court?</i></text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="29" size="51" family="Times" color="#000000"/>
+	<fontspec id="30" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-31_1.jpg"/>
+<image top="159" left="63" width="430" height="482" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-31_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>31</b></text>
+<text top="57" left="449" width="273" height="60" font="29"><i><b>Who am I?</b></i></text>
+<text top="296" left="641" width="250" height="40" font="30"><i>Can you tell the</i></text>
+<text top="339" left="641" width="214" height="40" font="30"><i>person sitting</i></text>
+<text top="382" left="641" width="268" height="40" font="30"><i>next to you three</i></text>
+<text top="425" left="641" width="286" height="40" font="30"><i>things about me? </i></text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="31" size="27" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-32_1.jpg"/>
+<image top="144" left="90" width="900" height="610" src="/export/freefileconvert/31692_f156a472302865af6eca3d3eb8d6c89811afb684293321d19de3251ba4ed4f05-32_2.jpg"/>
+<text top="763" left="74" width="23" height="23" font="1"><b>32</b></text>
+<text top="57" left="401" width="369" height="60" font="29"><i><b>Do you know?</b></i></text>
+<text top="325" left="182" width="538" height="34" font="31"><i>What concept makes positional notation </i></text>
+<text top="361" left="182" width="127" height="34" font="31"><i>possible?</i></text>
+<text top="433" left="182" width="764" height="34" font="31"><i>What three sets can pre-school children identify?              </i></text>
+<text top="469" left="182" width="474" height="34" font="31"><i>What words represent the third set?</i></text>
+<text top="541" left="182" width="368" height="34" font="31"><i>How does an abacus work?</i></text>
+<text top="613" left="182" width="362" height="34" font="31"><i>How does bi-quinary work?</i></text>
+</page>
+</pdf2xml>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="0.48.0">
+<page number="1" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="0" size="63" family="Times" color="#ffffff"/>
+	<fontspec id="1" size="63" family="Times" color="#ffffff"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-1_1.jpg"/>
+<text top="213" left="120" width="290" height="74" font="0">Chapter 5</text>
+<text top="370" left="80" width="348" height="74" font="1"><b>Computing</b></text>
+<text top="449" left="53" width="403" height="74" font="1"><b>Components</b></text>
+</page>
+<page number="2" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="2" size="57" family="Times" color="#000000"/>
+	<fontspec id="3" size="45" family="Times" color="#000000"/>
+	<fontspec id="4" size="45" family="Times" color="#ff6600"/>
+	<fontspec id="5" size="18" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-2_1.jpg"/>
+<text top="54" left="330" width="410" height="67" font="2"><b>Chapter Goals</b></text>
+<text top="205" left="78" width="221" height="48" font="3">• Read an </text>
+<text top="197" left="300" width="67" height="54" font="4">ad </text>
+<text top="197" left="366" width="415" height="54" font="3">for a computer and </text>
+<text top="255" left="105" width="333" height="54" font="3">understand the </text>
+<text top="255" left="438" width="133" height="54" font="4">jargon</text>
+<text top="332" left="78" width="850" height="48" font="3">• List the components and their function </text>
+<text top="382" left="105" width="91" height="54" font="3">in a </text>
+<text top="382" left="196" width="312" height="54" font="4">von Neumann </text>
+<text top="382" left="507" width="181" height="54" font="3">machine</text>
+<text top="458" left="78" width="309" height="48" font="3">• Describe the </text>
+<text top="451" left="388" width="597" height="54" font="4">fetch-decode-execute cycle </text>
+<text top="508" left="105" width="626" height="54" font="3">of the von Neumann machine</text>
+<text top="585" left="78" width="331" height="48" font="3">• Describe how </text>
+<text top="578" left="409" width="399" height="54" font="4">computer memory </text>
+<text top="578" left="808" width="48" height="54" font="3">is </text>
+<text top="635" left="105" width="519" height="54" font="3">organized and accessed</text>
+<text top="754" left="74" width="12" height="23" font="5"><b>2</b></text>
+</page>
+<page number="3" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-3_1.jpg"/>
+<text top="754" left="74" width="12" height="23" font="5"><b>3</b></text>
+<text top="63" left="330" width="410" height="67" font="2"><b>Chapter Goals</b></text>
+<text top="206" left="65" width="656" height="54" font="3">• Name and describe different </text>
+<text top="206" left="720" width="176" height="54" font="4">auxiliary</text>
+<text top="264" left="105" width="173" height="54" font="4">storage </text>
+<text top="264" left="278" width="163" height="54" font="3">devices</text>
+<text top="350" left="65" width="549" height="54" font="3">• Define three alternative </text>
+<text top="350" left="614" width="381" height="54" font="4">parallel computer </text>
+<text top="408" left="105" width="298" height="54" font="3">configurations</text>
+<text top="494" left="65" width="525" height="54" font="3">• Explain the concept of </text>
+<text top="494" left="590" width="429" height="54" font="4">embedded systems </text>
+<text top="552" left="105" width="850" height="54" font="3">and give examples from your own home</text>
+</page>
+<page number="4" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-4_1.jpg"/>
+<image top="243" left="110" width="861" height="439" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-4_2.jpg"/>
+<text top="754" left="74" width="12" height="23" font="5"><b>4</b></text>
+<text top="54" left="211" width="666" height="67" font="2"><b>Computer Components</b></text>
+<text top="161" left="74" width="565" height="54" font="3">Consider the following ad: </text>
+</page>
+<page number="5" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="6" size="45" family="Times" color="#000000"/>
+	<fontspec id="7" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-5_1.jpg"/>
+<text top="754" left="74" width="12" height="23" font="5"><b>5</b></text>
+<text top="54" left="207" width="666" height="67" font="2"><b>Computer Components</b></text>
+<text top="174" left="105" width="685" height="54" font="6"><i>What does all this jargon mean?</i></text>
+<text top="248" left="65" width="698" height="40" font="7">• Intel® Core™ 2 Duo (2.66GHz/1066Mhz </text>
+<text top="308" left="105" width="272" height="40" font="7">FSB/6MB cache)</text>
+<text top="369" left="65" width="770" height="40" font="7">• 4GB Shared Dual Channel DDR2 at 800 MHz</text>
+<text top="429" left="65" width="659" height="40" font="7">• 500 GB SATA Hard Drive at 5400RPM</text>
+<text top="490" left="65" width="714" height="40" font="7">• 15.6” High Definition (1080p) LED Backlit </text>
+<text top="550" left="105" width="413" height="40" font="7">LCD Display (1366 x 768)</text>
+<text top="611" left="65" width="606" height="40" font="7">• 8X Slot Load DL DVD+/- RW Drive </text>
+<text top="672" left="65" width="595" height="40" font="7">• 14.8”W X 1.2”H X10.1” D, 5.6 lbs.</text>
+<text top="512" left="794" width="172" height="40" font="7">Be patient!</text>
+<text top="555" left="794" width="175" height="40" font="7">If you don't</text>
+<text top="598" left="794" width="236" height="40" font="7">know now, you</text>
+<text top="641" left="794" width="200" height="40" font="7">should know</text>
+<text top="685" left="794" width="106" height="40" font="7">shortly</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-6_1.jpg"/>
+<text top="27" left="202" width="683" height="67" font="2"><b>Computer Components </b></text>
+<text top="99" left="372" width="326" height="67" font="2"><b>(continued)</b></text>
+<text top="206" left="65" width="640" height="40" font="7">• 512 MB ATI Mobility Radeon Graphics</text>
+<text top="271" left="65" width="459" height="40" font="7">• 85 WHr Lithium Ion Battery</text>
+<text top="335" left="65" width="913" height="40" font="7">• (2) USB 2.0, HDMI, 15-Pin VGA, Ethernet 10/100/1000 </text>
+<text top="379" left="92" width="925" height="40" font="7">IEEE 1394 Firewire, Express Card, Audio line-in, line-out, </text>
+<text top="422" left="92" width="96" height="40" font="7">mic-in</text>
+<text top="487" left="65" width="620" height="40" font="7">• Microsoft® Windows 7® Professional</text>
+<text top="551" left="65" width="704" height="40" font="7">• Microsoft® Office Home and Student 2007</text>
+<text top="616" left="65" width="896" height="40" font="7">• 36-Month subscription to McAfee Security Center Anti-</text>
+<text top="659" left="92" width="76" height="40" font="7">virus</text>
+<text top="754" left="74" width="12" height="23" font="5"><b>6</b></text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="8" size="39" family="Times" color="#000000"/>
+	<fontspec id="9" size="33" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-7_1.jpg"/>
+<text top="754" left="74" width="12" height="23" font="5"><b>7</b></text>
+<text top="63" left="247" width="577" height="67" font="2"><b>Sizes in Perspective</b></text>
+<text top="206" left="65" width="919" height="54" font="3">Admiral Grace Murray Hopper’s Illustration </text>
+<text top="274" left="119" width="688" height="47" font="8">– A coil of wire nearly 1,000 feet long</text>
+<text top="332" left="173" width="786" height="40" font="7">• Distance traveled by an electron along the wire </text>
+<text top="376" left="200" width="274" height="40" font="7">in the space of a </text>
+<text top="376" left="474" width="204" height="40" font="9">microsecond</text>
+<text top="444" left="119" width="415" height="47" font="8">– A short piece of wire</text>
+<text top="503" left="173" width="303" height="40" font="7">• In the space of a </text>
+<text top="503" left="476" width="196" height="40" font="9">nanosecond</text>
+<text top="572" left="119" width="663" height="47" font="8">– A bag containing grains of pepper</text>
+<text top="631" left="173" width="303" height="40" font="7">• In the space of a </text>
+<text top="631" left="476" width="182" height="40" font="9">picosecond</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="10" size="33" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-8_1.jpg"/>
+<image top="153" left="197" width="677" height="387" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-8_2.jpg"/>
+<text top="754" left="74" width="12" height="23" font="5"><b>8</b></text>
+<text top="63" left="256" width="577" height="67" font="2"><b>Sizes in Perspective</b></text>
+<text top="647" left="402" width="266" height="40" font="10"><i>What is a Hertz?</i></text>
+<text top="548" left="172" width="728" height="40" font="7">Powers of 10 for time, powers of 2 for storage</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-9_1.jpg"/>
+<text top="754" left="74" width="12" height="23" font="5"><b>9</b></text>
+<text top="63" left="247" width="577" height="67" font="2"><b>Sizes in Perspective</b></text>
+<text top="192" left="56" width="250" height="40" font="7">Intel Processor </text>
+<text top="253" left="164" width="260" height="40" font="7">speed 2.66 GHz</text>
+<text top="313" left="56" width="140" height="40" font="7">SDRAM </text>
+<text top="374" left="164" width="146" height="40" font="7">size 4GB</text>
+<text top="434" left="164" width="252" height="40" font="7">speed 800 MHz</text>
+<text top="495" left="56" width="446" height="40" font="7">500GB SATA at 5400 RPM </text>
+<text top="555" left="164" width="518" height="40" font="7">Transfer rate 300MB per second</text>
+<text top="616" left="56" width="444" height="40" font="7">Flat screen dot pitch .28mm</text>
+<text top="233" left="677" width="289" height="40" font="10"><i>To which do these</i></text>
+<text top="276" left="677" width="106" height="40" font="10"><i>apply?</i></text>
+<text top="362" left="677" width="242" height="40" font="10"><i>Bigger is better</i></text>
+<text top="406" left="677" width="240" height="40" font="10"><i>Faster is better</i></text>
+<text top="448" left="677" width="260" height="40" font="10"><i>Smaller is better</i></text>
+</page>
+<page number="10" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-10_1.jpg"/>
+<image top="216" left="63" width="662" height="448" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-10_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>10</b></text>
+<text top="54" left="170" width="713" height="67" font="2"><b>Stored-Program Concept</b></text>
+<text top="458" left="749" width="194" height="40" font="7">Instructions </text>
+<text top="501" left="749" width="230" height="40" font="7">and data both </text>
+<text top="544" left="749" width="148" height="40" font="7">stored in </text>
+<text top="587" left="749" width="198" height="40" font="7">memory unit</text>
+</page>
+<page number="11" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="11" size="30" family="Times" color="#ff6600"/>
+	<fontspec id="12" size="26" family="Times" color="#000000"/>
+	<fontspec id="13" size="26" family="Times" color="#ff0000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-11_1.jpg"/>
+<image top="198" left="630" width="384" height="504" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-11_2.jpg"/>
+<image top="623" left="45" width="549" height="102" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-11_3.jpg"/>
+<text top="63" left="420" width="230" height="67" font="2"><b>Memory</b></text>
+<text top="197" left="65" width="127" height="37" font="11"><b>Memory</b></text>
+<text top="236" left="65" width="411" height="32" font="12">A collection of cells, each with a </text>
+<text top="270" left="65" width="307" height="32" font="12">unique physical address</text>
+<text top="339" left="65" width="324" height="32" font="12">Most computers are byte-</text>
+<text top="373" left="65" width="156" height="32" font="12">addressable</text>
+<text top="441" left="65" width="199" height="32" font="12">Cell at address </text>
+<text top="444" left="263" width="138" height="28" font="13">11111110</text>
+<text top="475" left="65" width="252" height="32" font="12">contains 10101010</text>
+<text top="544" left="65" width="363" height="32" font="12">“Little endian” bit numbering:</text>
+</page>
+<page number="12" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="14" size="39" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-12_1.jpg"/>
+<image top="198" left="675" width="303" height="397" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-12_2.jpg"/>
+<text top="63" left="420" width="230" height="67" font="2"><b>Memory</b></text>
+<text top="197" left="65" width="161" height="47" font="14"><b>Memory</b></text>
+<text top="251" left="65" width="498" height="40" font="7">What does 10101010 mean? </text>
+<text top="355" left="65" width="356" height="40" font="7">No way to answer that</text>
+<text top="458" left="65" width="419" height="40" font="7">Could be an instruction, a </text>
+<text top="510" left="65" width="409" height="40" font="7">natural number, a signed </text>
+<text top="562" left="65" width="492" height="40" font="7">integer, a character, part of an </text>
+<text top="614" left="65" width="154" height="40" font="7">image, …</text>
+</page>
+<page number="13" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="15" size="45" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-13_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>13</b></text>
+<text top="63" left="232" width="606" height="67" font="2"><b>Arithmetic/Logic Unit</b></text>
+<text top="206" left="65" width="906" height="54" font="3">Performs basic arithmetic operations such </text>
+<text top="264" left="65" width="573" height="54" font="3">as addition and subtraction</text>
+<text top="350" left="65" width="901" height="54" font="3">Performs logical operations such as AND, </text>
+<text top="408" left="65" width="293" height="54" font="3">OR, and NOT</text>
+<text top="494" left="65" width="932" height="54" font="3">Most modern ALUs have a small amount of </text>
+<text top="552" left="65" width="589" height="54" font="3">special storage units called </text>
+<text top="552" left="654" width="203" height="54" font="15"><b>registers</b></text>
+<text top="552" left="869" width="93" height="54" font="3">that </text>
+<text top="610" left="65" width="903" height="54" font="3">can be accessed faster than main memory</text>
+</page>
+<page number="14" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="16" size="39" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-14_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>14</b></text>
+<text top="63" left="272" width="526" height="67" font="2"><b>Input/Output Units</b></text>
+<text top="206" left="65" width="196" height="47" font="14"><b>Input Unit</b></text>
+<text top="256" left="65" width="896" height="47" font="8">A device through which data and programs from</text>
+<text top="307" left="65" width="839" height="47" font="8">the outside world enter the computer system;</text>
+<text top="357" left="173" width="405" height="47" font="16"><i>Can you name three?</i></text>
+<text top="458" left="65" width="226" height="47" font="14"><b>Output unit</b></text>
+<text top="508" left="65" width="814" height="47" font="8">A device through which results stored in the</text>
+<text top="559" left="65" width="936" height="47" font="8">computer memory are made available outside the </text>
+<text top="609" left="65" width="320" height="47" font="8">computer system</text>
+<text top="660" left="173" width="374" height="47" font="16"><i>Can you name two?</i></text>
+</page>
+<page number="15" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-15_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>15</b></text>
+<text top="63" left="362" width="346" height="67" font="2"><b>Control Unit</b></text>
+<text top="156" left="65" width="238" height="47" font="14"><b>Control unit</b></text>
+<text top="217" left="65" width="685" height="47" font="8">The organizing force in the computer</text>
+<text top="277" left="65" width="383" height="47" font="14"><b>Instruction register</b></text>
+<text top="277" left="460" width="82" height="47" font="8">(IR) </text>
+<text top="337" left="65" width="861" height="47" font="8">Contains the instruction that is being executed</text>
+<text top="398" left="65" width="339" height="47" font="14"><b>Program counter</b></text>
+<text top="398" left="415" width="98" height="47" font="8">(PC) </text>
+<text top="458" left="65" width="914" height="47" font="8">Contains the address of the next instruction to be</text>
+<text top="519" left="65" width="171" height="47" font="8">executed</text>
+<text top="579" left="65" width="488" height="47" font="14"><b>Central Processing Unit </b></text>
+<text top="579" left="553" width="117" height="47" font="8">(CPU)</text>
+<text top="640" left="65" width="802" height="47" font="8">ALU and the control unit called the Central </text>
+<text top="685" left="65" width="456" height="47" font="8">Processing Unit, or CPU</text>
+</page>
+<page number="16" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="17" size="24" family="Times" color="#ff6600"/>
+	<fontspec id="18" size="24" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-16_1.jpg"/>
+<image top="407" left="152" width="775" height="304" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-16_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>16</b></text>
+<text top="63" left="257" width="573" height="67" font="2"><b>Flow of Information </b></text>
+<text top="160" left="65" width="47" height="30" font="17">Bus</text>
+<text top="192" left="65" width="932" height="30" font="18">In general: A communication system that transfers data between components </text>
+<text top="225" left="65" width="951" height="30" font="18">inside a computer or between computers; the medium (wires, optical fiber, etc.) </text>
+<text top="257" left="65" width="651" height="30" font="18">and the protocols (rules for sharing the medium nicely)</text>
+<text top="322" left="65" width="924" height="30" font="18">“The” bus: Connects the CPU, main memory, I/O devices, and possibly other </text>
+<text top="354" left="65" width="401" height="30" font="18">components (e.g. hard disk drive)</text>
+</page>
+<page number="17" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-17_1.jpg"/>
+<text top="63" left="135" width="800" height="67" font="2"><b>What is an N-bit Processor?</b></text>
+<text top="206" left="65" width="575" height="54" font="3">It could mean any of these:</text>
+<text top="293" left="65" width="512" height="54" font="3">• N-bit general registers</text>
+<text top="379" left="65" width="248" height="54" font="3">• N-bit ALU</text>
+<text top="466" left="65" width="376" height="54" font="3">• N-bit addresses</text>
+<text top="552" left="65" width="339" height="54" font="3">• N-bit data bus</text>
+<text top="754" left="74" width="23" height="23" font="5"><b>17</b></text>
+</page>
+<page number="18" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="19" size="45" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-18_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>18</b></text>
+<text top="63" left="180" width="710" height="67" font="2"><b>The Fetch-Execute Cycle</b></text>
+<text top="206" left="113" width="133" height="54" font="4">Fetch </text>
+<text top="206" left="246" width="402" height="54" font="3">the next instruction</text>
+<text top="293" left="113" width="179" height="54" font="4">Decode </text>
+<text top="293" left="291" width="298" height="54" font="3">the instruction</text>
+<text top="379" left="113" width="77" height="54" font="4">Get</text>
+<text top="379" left="203" width="304" height="54" font="3">data if needed</text>
+<text top="466" left="113" width="187" height="54" font="4">Execute </text>
+<text top="466" left="299" width="298" height="54" font="3">the instruction</text>
+<text top="638" left="173" width="373" height="54" font="6"><i>Why is it called a </i></text>
+<text top="638" left="546" width="109" height="54" font="19"><i>cycle</i></text>
+<text top="638" left="655" width="27" height="54" font="6"><i>?</i></text>
+</page>
+<page number="19" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="20" size="45" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-19_1.jpg"/>
+<image top="171" left="93" width="893" height="503" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-19_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>19</b></text>
+<text top="60" left="261" width="567" height="54" font="20"><b>The Fetch-Execute Cycle</b></text>
+</page>
+<page number="20" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-20_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>20</b></text>
+<text top="63" left="327" width="416" height="67" font="2"><b>RAM and ROM</b></text>
+<text top="201" left="65" width="512" height="47" font="14"><b>Random Access Memory </b></text>
+<text top="201" left="577" width="121" height="47" font="8">(RAM)</text>
+<text top="272" left="65" width="914" height="47" font="8">Memory in which each location can be accessed </text>
+<text top="317" left="65" width="255" height="47" font="8">and changed </text>
+<text top="388" left="65" width="381" height="47" font="14"><b>Read Only Memory</b></text>
+<text top="388" left="457" width="126" height="47" font="8">(ROM)</text>
+<text top="458" left="65" width="914" height="47" font="8">Memory in which each location can be accessed </text>
+<text top="503" left="65" width="302" height="47" font="8">but <i>not </i>changed</text>
+<text top="574" left="65" width="512" height="47" font="8">RAM is volatile, ROM is not</text>
+<text top="645" left="281" width="484" height="47" font="16"><i>What does volatile mean?</i></text>
+</page>
+<page number="21" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-21_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>21</b></text>
+<text top="63" left="140" width="790" height="67" font="2"><b>Secondary Storage Devices</b></text>
+<text top="206" left="65" width="831" height="54" font="6"><i>Why is it necessary to have secondary </i></text>
+<text top="264" left="65" width="362" height="54" font="6"><i>storage devices?</i></text>
+<text top="437" left="65" width="828" height="54" font="6"><i>Can you name some of these devices?</i></text>
+</page>
+<page number="22" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-22_1.jpg"/>
+<image top="198" left="450" width="530" height="430" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-22_2.jpg"/>
+<text top="63" left="327" width="417" height="67" font="2"><b>Magnetic Tape</b></text>
+<text top="206" left="65" width="314" height="40" font="7">The first truly mass </text>
+<text top="249" left="65" width="273" height="40" font="7">auxiliary storage </text>
+<text top="292" left="65" width="248" height="40" font="7">device was the </text>
+<text top="335" left="65" width="314" height="40" font="9">magnetic tape drive</text>
+<text top="446" left="65" width="306" height="40" font="10"><i>Tape drives have a</i></text>
+<text top="489" left="65" width="308" height="40" font="10"><i>major problem; can</i></text>
+<text top="533" left="65" width="272" height="40" font="10"><i>you describe it?  </i></text>
+</page>
+<page number="23" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-23_1.jpg"/>
+<image top="159" left="95" width="891" height="585" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-23_2.jpg"/>
+<text top="63" left="317" width="437" height="67" font="2"><b>Magnetic Disks</b></text>
+</page>
+<page number="24" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="21" size="35" family="Times" color="#ff6600"/>
+	<fontspec id="22" size="35" family="Times" color="#000000"/>
+	<fontspec id="23" size="35" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-24_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>24</b></text>
+<text top="63" left="317" width="437" height="67" font="2"><b>Magnetic Disks</b></text>
+<text top="206" left="65" width="167" height="42" font="21">Seek time</text>
+<text top="251" left="65" width="759" height="42" font="22">Time for read/write head to be over right track</text>
+<text top="341" left="65" width="131" height="42" font="21">Latency</text>
+<text top="386" left="65" width="523" height="42" font="22">Time for sector to be in position</text>
+<text top="476" left="65" width="202" height="42" font="21">Access time</text>
+<text top="521" left="173" width="302" height="42" font="23"><i>Can you define it?</i></text>
+<text top="611" left="65" width="215" height="42" font="21">Transfer rate</text>
+<text top="656" left="65" width="845" height="42" font="22">Rate at which data moves from the disk to memory</text>
+</page>
+<page number="25" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="24" size="27" family="Times" color="#ff6600"/>
+	<fontspec id="25" size="27" family="Times" color="#000000"/>
+	<fontspec id="26" size="27" family="Times" color="#ff6600"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-25_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>25</b></text>
+<text top="63" left="345" width="380" height="67" font="2"><b>Optical Disks</b></text>
+<text top="206" left="65" width="43" height="34" font="24"><b>CD</b></text>
+<text top="246" left="65" width="948" height="34" font="25">A compact disk that uses a laser to read information stored optically on </text>
+<text top="285" left="65" width="873" height="34" font="25">a plastic-coated disk; data is evenly distributed around spiral track</text>
+<text top="325" left="173" width="123" height="34" font="26">CD-ROM</text>
+<text top="325" left="304" width="242" height="34" font="25">read-only memory</text>
+<text top="364" left="173" width="104" height="34" font="26">CD-DA </text>
+<text top="364" left="276" width="160" height="34" font="25">digital audio</text>
+<text top="404" left="173" width="160" height="34" font="26">CD-WORM </text>
+<text top="404" left="333" width="295" height="34" font="25">write once, read many</text>
+<text top="444" left="173" width="168" height="34" font="26">RW or RAM </text>
+<text top="444" left="341" width="383" height="34" font="25">both read from and written to</text>
+<text top="523" left="65" width="63" height="34" font="24"><b>DVD</b></text>
+<text top="562" left="65" width="727" height="34" font="25">Digital Versatile Disk, used  for storing audio and video</text>
+<text top="642" left="65" width="103" height="34" font="24"><b>Blu-ray</b></text>
+<text top="681" left="65" width="771" height="34" font="25">Higher capacity DVD allowing higher resolution video, etc.</text>
+</page>
+<page number="26" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-26_1.jpg"/>
+<image top="423" left="361" width="359" height="312" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-26_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>26</b></text>
+<text top="54" left="375" width="357" height="67" font="2"><b>Flash Drives</b></text>
+<text top="193" left="65" width="228" height="40" font="7">Flash Memory</text>
+<text top="245" left="173" width="178" height="40" font="7">Nonvolatile</text>
+<text top="297" left="173" width="455" height="40" font="7">Can be erased and rewritten</text>
+<text top="349" left="65" width="604" height="40" font="7">Supports USB mass storage standard</text>
+</page>
+<page number="27" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-27_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>27</b></text>
+<text top="63" left="321" width="430" height="67" font="2"><b>Touch Screens</b></text>
+<text top="206" left="65" width="273" height="47" font="14"><b>Touch screen</b></text>
+<text top="282" left="65" width="926" height="47" font="8">A computer monitor that can respond to the user, </text>
+<text top="332" left="65" width="774" height="47" font="8">touching the screen with a stylus or finger</text>
+<text top="408" left="65" width="379" height="47" font="8">There are four types</text>
+<text top="466" left="119" width="180" height="40" font="7">– Resistive</text>
+<text top="518" left="119" width="212" height="40" font="7">– Capacitive </text>
+<text top="570" left="119" width="168" height="40" font="7">– Infrared </text>
+<text top="622" left="119" width="510" height="40" font="7">– Surface acoustic wave (SAW)</text>
+</page>
+<page number="28" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-28_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>28</b></text>
+<text top="63" left="321" width="430" height="67" font="2"><b>Touch Screens</b></text>
+<text top="201" left="65" width="482" height="47" font="14"><b>Resistive touch screen  </b></text>
+<text top="272" left="65" width="856" height="47" font="8">A screen made up of two layers of electrically </text>
+<text top="317" left="65" width="386" height="47" font="8">conductive material  </text>
+<text top="371" left="119" width="873" height="40" font="7">– One layer has vertical lines, the other has horizontal </text>
+<text top="410" left="153" width="84" height="40" font="7">lines </text>
+<text top="458" left="119" width="838" height="40" font="7">– When the top layer is pressed, it comes in contact </text>
+<text top="497" left="153" width="835" height="40" font="7">with the second layer which allows electrical current </text>
+<text top="536" left="153" width="104" height="40" font="7">to flow</text>
+<text top="583" left="119" width="849" height="40" font="7">– The specific vertical and horizontal lines that make </text>
+<text top="622" left="153" width="809" height="40" font="7">contact dictate the location on the screen that was </text>
+<text top="661" left="153" width="128" height="40" font="7">touched</text>
+</page>
+<page number="29" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-29_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>29</b></text>
+<text top="63" left="321" width="430" height="67" font="2"><b>Touch Screens</b></text>
+<text top="201" left="65" width="484" height="47" font="14"><b>Capacitive touch screen</b></text>
+<text top="276" left="65" width="882" height="47" font="8">A screen made up of a laminate applied over a </text>
+<text top="321" left="65" width="248" height="47" font="8">glass screen </text>
+<text top="380" left="119" width="873" height="40" font="7">– Laminate conducts electricity in all directions; a very </text>
+<text top="419" left="153" width="815" height="40" font="7">small current is applied equally on the four corners </text>
+<text top="471" left="119" width="814" height="40" font="7">– When the screen is touched, current flows to the </text>
+<text top="510" left="153" width="244" height="40" font="7">finger or stylus </text>
+<text top="562" left="119" width="893" height="40" font="7">– The location of the touch on the screen is determined </text>
+<text top="601" left="153" width="865" height="40" font="7">by comparing how strong the flow of electricity is from </text>
+<text top="640" left="153" width="190" height="40" font="7">each corner</text>
+</page>
+<page number="30" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-30_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>30</b></text>
+<text top="63" left="321" width="430" height="67" font="2"><b>Touch Screens</b></text>
+<text top="206" left="65" width="430" height="47" font="14"><b>Infrared touch screen</b></text>
+<text top="286" left="65" width="940" height="47" font="8">A screen with crisscrossing horizontal and vertical </text>
+<text top="337" left="65" width="428" height="47" font="8">beams of infrared light </text>
+<text top="400" left="119" width="852" height="40" font="7">– Sensors on opposite sides of the screen detect the </text>
+<text top="443" left="153" width="118" height="40" font="7">beams </text>
+<text top="499" left="119" width="828" height="40" font="7">– When the user breaks the beams by touching the </text>
+<text top="543" left="153" width="821" height="40" font="7">screen, the location of the break can be determined</text>
+</page>
+<page number="31" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-31_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>31</b></text>
+<text top="63" left="321" width="430" height="67" font="2"><b>Touch Screens</b></text>
+<text top="206" left="65" width="514" height="54" font="15"><b>Surface acoustic wave</b></text>
+<text top="206" left="592" width="181" height="54" font="3">(SAW)   </text>
+<text top="297" left="65" width="932" height="54" font="3">A screen  with crisscrossing high frequency </text>
+<text top="355" left="65" width="842" height="54" font="3">sound waves across the horizontal and </text>
+<text top="413" left="65" width="280" height="54" font="3">vertical axes </text>
+<text top="484" left="119" width="698" height="47" font="8">– When a finger touches the surface, </text>
+<text top="535" left="153" width="856" height="47" font="8">corresponding sensors detect the interruption </text>
+<text top="585" left="153" width="657" height="47" font="8">and determine location of the touch</text>
+</page>
+<page number="32" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-32_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>32</b></text>
+<text top="54" left="260" width="570" height="67" font="2"><b>Embedded Systems</b></text>
+<text top="170" left="107" width="450" height="54" font="15"><b>Embedded systems</b></text>
+<text top="253" left="107" width="758" height="47" font="8">Computers that are dedicated to perform</text>
+<text top="328" left="107" width="744" height="47" font="8">a narrow range of functions as part of a </text>
+<text top="404" left="107" width="252" height="47" font="8">larger system</text>
+<text top="480" left="215" width="640" height="47" font="16"><i>Empty your pockets or backpacks.</i></text>
+<text top="555" left="215" width="725" height="47" font="16"><i>How many embedded systems do you </i></text>
+<text top="606" left="323" width="115" height="47" font="16"><i>have?</i></text>
+</page>
+<page number="33" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="27" size="30" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-33_1.jpg"/>
+<text top="63" left="262" width="547" height="67" font="2"><b>Parallel Computing</b></text>
+<text top="202" left="65" width="289" height="37" font="27">Four general forms:</text>
+<text top="238" left="65" width="325" height="37" font="27">• Bit-level parallelism</text>
+<text top="273" left="119" width="536" height="34" font="25">– Bits can be processed simultaneously</text>
+<text top="305" left="119" width="359" height="34" font="25">– Ex: Increasing word size</text>
+<text top="338" left="65" width="439" height="37" font="27">• Instruction-level parallelism</text>
+<text top="374" left="119" width="622" height="34" font="25">– Instructions can be executed simultaneously</text>
+<text top="406" left="119" width="559" height="34" font="25">– Ex: Pipelining (overlapping instructions)</text>
+<text top="438" left="119" width="585" height="34" font="25">– Ex: Superscalar (multiple execution units)</text>
+<text top="471" left="65" width="356" height="37" font="27">• Data-level parallelism</text>
+<text top="506" left="119" width="827" height="34" font="25">– Data subjected to same operation sequence simultaneously</text>
+<text top="539" left="119" width="727" height="34" font="25">– Ex: Calculation of all student’s GPAs simultaneously</text>
+<text top="571" left="65" width="358" height="37" font="27">• Task-level parallelism</text>
+<text top="607" left="119" width="642" height="34" font="25">– Entire tasks can be completed simultaneously</text>
+<text top="639" left="119" width="802" height="34" font="25">– Ex: Google servers – simultaneous independent searches</text>
+<text top="672" left="119" width="384" height="34" font="25">– Ex: “Pipelined” processors</text>
+<text top="754" left="74" width="23" height="23" font="5"><b>33</b></text>
+</page>
+<page number="34" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-34_1.jpg"/>
+<image top="288" left="203" width="674" height="437" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-34_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>34</b></text>
+<text top="27" left="310" width="450" height="67" font="2"><b>Shared Memory</b></text>
+<text top="99" left="274" width="524" height="67" font="2"><b>Parallel Processor</b></text>
+<text top="224" left="246" width="615" height="40" font="7">Communicate through shared memory</text>
+</page>
+<page number="35" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="28" size="42" family="Times" color="#000000"/>
+	<fontspec id="29" size="36" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-35_1.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>35</b></text>
+<text top="63" left="335" width="400" height="67" font="2"><b>Ethical Issues</b></text>
+<text top="162" left="47" width="653" height="50" font="28"><b>Is Privacy a Thing of the Past?</b></text>
+<text top="225" left="94" width="908" height="44" font="29">What does Austin Bay say about the printing press? </text>
+<text top="271" left="94" width="786" height="44" font="29">The camera? The telegraph? The telephone?</text>
+<text top="384" left="94" width="882" height="44" font="29">Do you agree that personal privacy is “all but dead </text>
+<text top="430" left="94" width="209" height="44" font="29">and gone”? </text>
+<text top="543" left="94" width="776" height="44" font="29">What, if anything, needs to be done about it?</text>
+<text top="655" left="94" width="882" height="44" font="29">What does Bay say about the future of institutional </text>
+<text top="702" left="94" width="328" height="44" font="29">and state secrecy?</text>
+</page>
+<page number="36" position="absolute" top="0" left="0" height="810" width="1080">
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-36_1.jpg"/>
+<image top="137" left="154" width="389" height="563" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-36_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>36</b></text>
+<text top="63" left="384" width="303" height="67" font="2"><b>Who am I?</b></text>
+<text top="230" left="641" width="153" height="40" font="10"><i>A lawsuit </i></text>
+<text top="273" left="641" width="238" height="40" font="10"><i>determined my</i></text>
+<text top="316" left="641" width="131" height="40" font="10"><i>legacy.  </i></text>
+<text top="359" left="641" width="84" height="40" font="10"><i>What</i></text>
+<text top="403" left="641" width="258" height="40" font="10"><i>was it all about?</i></text>
+</page>
+<page number="37" position="absolute" top="0" left="0" height="810" width="1080">
+	<fontspec id="30" size="21" family="Times" color="#000000"/>
+<image top="0" left="0" width="1080" height="810" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-37_1.jpg"/>
+<image top="144" left="108" width="900" height="610" src="/export/freefileconvert/8303_e22ddfb3348da9afb0be2e089f151ff9fb9f587283e17119346302ebb5c4cfbd-37_2.jpg"/>
+<text top="754" left="74" width="23" height="23" font="5"><b>37</b></text>
+<text top="63" left="331" width="409" height="67" font="2"><b>Do you know?</b></text>
+<text top="317" left="186" width="745" height="27" font="30"><i>Maurice Wilkes made what far-reaching Discovery within six weeks of </i></text>
+<text top="346" left="186" width="240" height="27" font="30"><i>beginning to program?</i></text>
+<text top="403" left="186" width="676" height="27" font="30"><i>What was stolen at Target during the 2013 Christmas shopping </i></text>
+<text top="432" left="186" width="91" height="27" font="30"><i>season?</i></text>
+<text top="490" left="186" width="729" height="27" font="30"><i>Bush received 4,258 votes and Kerry received 260 votes, out of 638 </i></text>
+<text top="519" left="186" width="162" height="27" font="30"><i>votes cast. ???</i></text>
+<text top="576" left="186" width="651" height="27" font="30"><i>Why have spies infiltrated the fantasy world of virtual games?</i></text>
+<text top="634" left="186" width="486" height="27" font="30"><i>What did President Obama refuse to give up?</i></text>
+</page>
+</pdf2xml>
