@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.views.generic import TemplateView
 
 
 urlpatterns = [
-    path('', include('apps.chatbot.urls')),
+    path('', TemplateView.as_view(template_name='index.html')),
     path('chatbot/', include(('apps.chatbot.urls', 'apps.chatbot'), namespace='chatbot')),
     path('admin_area/', include(('apps.admin_area.urls', 'apps.admin_area'), namespace='admin_area')),
     path('admin/', admin.site.urls),

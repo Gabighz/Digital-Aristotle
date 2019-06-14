@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <p style="text-align:center">Who are you? <br>
+        <a href="{% url 'chatbot:index' %}">Student</a> || <a href="{% url 'admin_area:index' %}">Administrator</a>
+
+{% endblock content %}
