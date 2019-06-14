@@ -25,6 +25,6 @@ def get_response(request):
     )
 
 
-def index(request, template_name="chatbot_index.html"):
+def index(request, template_name="chatbot/index.html"):
     context = {'title': 'Digital Aristotle'}
     return render_to_response(template_name, context)

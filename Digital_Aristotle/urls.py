@@ -19,7 +19,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path('', include('apps.chatbot.urls')),
-    path('chatbot/', include('apps.chatbot.urls')),
-    path('admin_area/', include('apps.admin_area.urls')),
+    path('chatbot/', include(('apps.chatbot.urls', 'apps.chatbot'), namespace='chatbot')),
+    path('admin_area/', include(('apps.admin_area.urls', 'apps.admin_area'), namespace='admin_area')),
     path('admin/', admin.site.urls),
 ]
