@@ -2,7 +2,10 @@
 
 {% block content %}
 
-    <p style="text-align:center">Who are you? <br>
-        <a href="{% url 'chatbot:index' %}">Student</a> || <a href="{% url 'admin_area:index' %}">Administrator</a>
+    <div id="front-page" class="top-padding">
 
+        <p style="text-align:center">Who are you? <br>
+            <button><a href="{% url 'chatbot:index' %}">Student</a></button> <button><a href="{% url 'admin_area:index' %}">Administrator</a></button>
+
+    </div>
 {% endblock content %}

@@ -72,3 +72,13 @@ html, body {
 .chat-message {
 	background-color: rgba(128, 0, 95, 0.35);
 }
+
+button {
+  transition: color .5s, background-color .5s;
+}
+
+button:hover {
+  border-color: black;
+  background-color: black;
+  color: #847bf7;
+}
