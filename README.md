@@ -38,9 +38,8 @@ python manage.py createsuperuser
 
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
 
-The AIML generator is used to create AIML files from lecture notes, such as PDF and PPTX files. 
-
-The lecture notes are first converted to XML files for easier extraction of data. At the moment, this is done by manually using any available website which deals with such conversions.
+This system is used to create AIML files from lecture notes, such as PDF and PPTX files. Firstly, the lecture notes
+are converted to XML files. 
 
 The <b>keyword extractor</b>:
     <ul>
