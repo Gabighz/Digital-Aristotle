@@ -2,6 +2,10 @@
 
 {% block content %}
     
-<p><a href="{% url 'logout' %}">logout</a></p>
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+
+    <p><a href="{% url 'admin_area:upload' %}">Upload to the chatbot's brain</a></p>
+
+    <p><a href="{% url 'admin:index' %}">Manage users</a></p>
 
 {% endblock content %}

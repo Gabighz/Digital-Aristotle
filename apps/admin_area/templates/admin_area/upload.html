@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+
+    <p><a href="{% url 'admin_area:index' %}">Go back</a></p>
+
+{% endblock content %}
