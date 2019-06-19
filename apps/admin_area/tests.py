@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 
 class AdminAreaViewTests(TestCase):
-    def set_up(self):
+    def setUp(self):
         # Sets up the necessary objects for testing authentication and permissions
         self.user = User.objects.create_superuser("admin", "admin@admin.com", "password")
         self.client = Client()
