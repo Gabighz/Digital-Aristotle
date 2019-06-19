@@ -6,4 +6,10 @@
 
     <p><a href="{% url 'admin_area:index' %}">Go back</a></p>
 
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form>
+
 {% endblock content %}

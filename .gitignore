@@ -131,3 +131,6 @@ include/
 
 # Chatterbot files
 *.pickle
+
+# Files uploaded by user
+information_retrieval_system/uploaded_files/
