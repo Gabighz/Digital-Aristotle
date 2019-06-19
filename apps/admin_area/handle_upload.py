@@ -14,7 +14,7 @@ def handle_uploaded_file(file, filename, file_type):
             destination.write(chunk)
 
     if file_type == 'application/pdf':
-        convert_to_pdf('uploaded_files/' + filename, filename)
+        convert_to_pdf(path_upload, filename)
 
     elif file_type == 'application/pptx':
         return 0  # to be changed

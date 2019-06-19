@@ -14,22 +14,28 @@ import os
 
 def convert_to_pdf(path_to_file, filename):
     rsrcmgr = PDFResourceManager()
-    output = io.StringIO()
+    retstr = io.BytesIO()
     codec = 'utf-8'
     laparams = LAParams()
-    device = XMLConverter(rsrcmgr, output, codec=codec, laparams=laparams)
-    file = open(path_to_file, 'rb')
+    device = XMLConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
+    fp = open(path_to_file, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
     password = ""
     maxpages = 0
     caching = True
     pagenos = set()
 
-    for page in PDFPage.get_pages(file, pagenos, maxpages=maxpages, password=password, caching=caching,
+    for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages,
+                                  password=password,
+                                  caching=caching,
                                   check_extractable=True):
         interpreter.process_page(page)
 
-    xml_output = output.getvalue()
+    xml_output = retstr.getvalue()
+
+    fp.close()
+    device.close()
+    retstr.close()
 
     # Creates and array in which the first index is the name of the file
     # and the second index is the extension of the file
@@ -44,9 +50,6 @@ def convert_to_pdf(path_to_file, filename):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     output_file = open(output_path, "w")
-    output_file.write(xml_output)
+    output_file.write(str(xml_output))
 
-    file.close()
-    device.close()
-    output.close()
     output_file.close()
