@@ -7,6 +7,13 @@ language: python
 python:
   - "3.6"
 
+before_install:
+  - sudo apt install -y poppler-utils
+
+addons:
+  apt:
+    update: true
+
 install:
   - pip install -r requirements.txt
 
