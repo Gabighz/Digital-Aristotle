@@ -3,12 +3,8 @@ sudo: required
 addons:
   apt:
     update: true
-    packages:
-      - google-chrome-stable
-
-branches:
-  only:
-    - master
+  chrome:
+    stable
 
 language: python
 
@@ -17,6 +13,7 @@ python:
 
 before_install:
   - sudo apt install -y poppler-utils
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 install:
   - pip install -r requirements.txt
