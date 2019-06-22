@@ -23,12 +23,12 @@
 
 /* unvisited link */
 a:link {
-	color: red;
+	color: darkblue;
 }
 
 /* visited link */
 a:visited {
-	color: red;
+	color: darkblue;
 }
 
 /* mouse over link */
