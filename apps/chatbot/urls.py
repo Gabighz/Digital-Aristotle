@@ -1,9 +1,8 @@
 from django.urls import path
 
-from . import views
-from .views import get_response
+from .views import index, get_response
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('get-response/', get_response),
+    path('', index, name='index'),
+    path('get-response/', get_response, name='get_response'),
 ]

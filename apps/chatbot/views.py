@@ -1,4 +1,4 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render_to_response
 from django.http import HttpResponse
 import json
 from django.views.decorators.csrf import csrf_exempt
@@ -12,7 +12,7 @@ def get_response(request):
         data = json.loads(request.body)
         message = data['message']
 
-        chat_response = 'ok'  # to be replaced later with something
+        chat_response = 'ok'  # to be replaced later with a function
         response['message'] = {'text': chat_response, 'user': False, 'chat_bot': True}
         response['status'] = 'ok'
 
