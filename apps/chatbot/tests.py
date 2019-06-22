@@ -17,7 +17,7 @@ class ConversationTests(StaticLiveServerTestCase):
     def setUpClass(cls):
         super().setUpClass()
         options = webdriver.ChromeOptions()
-        options.add_argument('headless')
+        options.headless = True
         cls.selenium = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
         cls.selenium.implicitly_wait(10)
 
