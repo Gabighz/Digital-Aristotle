@@ -35,6 +35,16 @@ postgres=# \q
 python manage.py createsuperuser
 ```
 
+If you have issues cloning the repository such as ``RPC failed`` or ``Early EOF``:
+
+```
+git clone <Repository URL> --depth 1
+cd <repo>
+git fetch --unshallow
+```
+If this does not solve the issue, follow github's steps to form a ssh key and clone the repository via the URI:
+https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
 ## Information Retrieval System
 
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
