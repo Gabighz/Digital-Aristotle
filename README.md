@@ -45,6 +45,12 @@ git fetch --unshallow
 If this does not solve the issue, follow github's steps to form a ssh key and clone the repository via the URI:
 https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+To generate new requirements and avoid issues with Python2 files in the <i>lib</i> directory of your virtualenv:
+
+```
+pipreqs . --force --ignore lib
+```
+
 ## Information Retrieval System
 
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
