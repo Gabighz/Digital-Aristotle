@@ -7,7 +7,7 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.1
 configparser==3.7.4
-coverage==4.5.3
+coverage==4.5.4
 crayons==0.2.0
 cycler==0.10.0
 cymem==2.0.2
