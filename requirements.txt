@@ -6,7 +6,7 @@ numpy==1.16.4
 selenium==3.141.0
 plac==1.0.0
 pdfminer.six==20181108
-Django==2.2.2
+Django==2.2.3
 rake_nltk==1.0.4
 matplotlib==3.1.0
 lxml==4.4.0
