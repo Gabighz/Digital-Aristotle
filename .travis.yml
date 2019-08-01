@@ -13,12 +13,10 @@ python:
 
 before_install:
   - sudo apt install -y poppler-utils
-  - sudo apt install python-pip
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 install:
-  - pip2 install pdfminer --user
-  - cat requirements.txt | xargs -n 1 pip3 install
+  - pip install -r requirements.txt
 
 script:
   - psql -c "CREATE USER admin WITH PASSWORD 'password';" -U postgres
