@@ -22,10 +22,10 @@
             <div class="row h-100">
                 <div class="col-lg-7 col-xl-12 my-auto" style="width: 667px;margin: 0px;">
                     <div class="mx-auto header-content">
-                        <h1 class="text-center mb-5">Welcome to Digital Aristotle! The new learning assistant</h1>
+                        <h1 class="text-center mb-5" style="font-size: 40px;">Welcome to Digital Aristotle! The new learning assistant</h1>
                     </div>
                     <div class="mx-auto header-content">
-                        <h1 class="text-center mb-5">Who are you?</h1><a class="btn btn-outline-warning float-left btn-xl js-scroll-trigger" role="button" href="{% url 'chatbot:index' %}">Student</a><a class="btn btn-outline-warning float-right btn-xl js-scroll-trigger" role="button" href="{% url 'admin_area:index' %}">Admin</a></div>
+                        <h1 class="text-center mb-5" style="font-size: 40px;">Who are you?</h1><a class="btn btn-outline-warning float-left btn-xl js-scroll-trigger" role="button" href="{% url 'chatbot:index' %}">Student</a><a class="btn btn-outline-warning float-right btn-xl js-scroll-trigger" role="button" href="{% url 'admin_area:index' %}">Admin</a></div>
                 </div>
             </div>
         </div>
@@ -40,10 +40,6 @@
             </ul>
         </div>
     </footer>
-    <script src={% static 'js/jquery.min.js' %}></script>
-    <script src={% static 'bootstrap/js/bootstrap.min.js' %}></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src={% static 'js/new-age.js' %}></script>
 </body>
 
 {% endblock content %}
