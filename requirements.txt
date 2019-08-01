@@ -1,6 +1,6 @@
 webdriver_manager==1.7
 nltk==3.4.3
-docutils==0.14
+docutils==0.15.2
 six==1.12.0
 numpy==1.16.4
 selenium==3.141.0
