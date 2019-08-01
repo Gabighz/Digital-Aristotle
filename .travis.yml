@@ -13,10 +13,12 @@ python:
 
 before_install:
   - sudo apt install -y poppler-utils
+  - sudo apt install python-pip
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 install:
   - python -m pip install --upgrade pip
+  - pip2 install pdfminer
   - pip install -r requirements.txt
 
 script:
