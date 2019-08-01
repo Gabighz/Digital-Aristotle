@@ -1,11 +1,49 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block content %}
 
-    <div id="front-page" class="top-padding">
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Digital Aristotle</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler float-right" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div
+                class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background:url({% static 'img/bg-pattern.png' %}), linear-gradient(to left, #7b4397, #dc2430);height:100%;">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-7 col-xl-12 my-auto" style="width: 667px;margin: 0px;">
+                    <div class="mx-auto header-content">
+                        <h1 class="text-center mb-5">Welcome to Digital Aristotle! The new learning assistant</h1>
+                    </div>
+                    <div class="mx-auto header-content">
+                        <h1 class="text-center mb-5">Who are you?</h1><a class="btn btn-outline-warning float-left btn-xl js-scroll-trigger" role="button" href="{% url 'chatbot:index' %}">Student</a><a class="btn btn-outline-warning float-right btn-xl js-scroll-trigger" role="button" href="{% url 'admin_area:index' %}">Admin</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <p>©&nbsp;Digital Aristotle 2019. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src={% static 'js/jquery.min.js' %}></script>
+    <script src={% static 'bootstrap/js/bootstrap.min.js' %}></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src={% static 'js/new-age.js' %}></script>
+</body>
 
-        <p style="text-align:center">Who are you? <br>
-            <button><a href="{% url 'chatbot:index' %}">Student</a></button> <button><a href="{% url 'admin_area:index' %}">Administrator</a></button>
-
-    </div>
 {% endblock content %}
