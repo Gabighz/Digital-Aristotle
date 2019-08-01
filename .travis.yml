@@ -17,9 +17,8 @@ before_install:
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
 install:
-  - python -m pip install --upgrade pip
-  - pip2 install pdfminer --user
-  - pip install -r requirements.txt
+  - pip2 install pdfminer
+  - cat requirements.txt | xargs -n 1 pip3 install
 
 script:
   - psql -c "CREATE USER admin WITH PASSWORD 'password';" -U postgres
