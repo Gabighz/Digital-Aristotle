@@ -1,7 +1,7 @@
 from django.core.exceptions import SuspiciousOperation
 import os
 
-from information_retrieval_system.convert import convert_to_pdf
+from information_retrieval_system.convert import convert_from_pdf
 
 
 def handle_uploaded_file(file, filename, file_type):
