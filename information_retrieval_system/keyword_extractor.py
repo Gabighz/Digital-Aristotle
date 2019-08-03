@@ -64,7 +64,7 @@ def keyword_extractor(input_file_path, filename):
 	# The cost function of this algorithm converges towards local minima, not guaranteed to find
 	# the global minimum. Thus, several restarts are needed.
 	runs = []
-	for n in range(10):
+	for _ in range(10):
 		# A 2D array which contains each word and its label
 		# For example, [word, 0] or [word, 1], which means [word, Non-keyword] or [word, Keyword]
 		classified_words = kmeans_clustering(classification_features, CLUSTERS)
