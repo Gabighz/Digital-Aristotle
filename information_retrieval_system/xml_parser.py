@@ -4,7 +4,7 @@
 # Author: Gabriel Ghiuzan
 #
 
-import xml.etree.ElementTree as elementTree
+import defusedxml.ElementTree as elementTree
 
 # Constants which represent boolean values of whether a word is bold.
 IS_BOLD = 1
