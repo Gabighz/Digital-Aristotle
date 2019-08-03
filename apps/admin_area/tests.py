@@ -25,7 +25,8 @@ class AdminAreaViewTests(TestCase):
 
         response = self.client.get(reverse('admin_area:index'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '<a href="%s">Logout</a>' % reverse("logout"), html=True)
+        self.assertContains(response, '<a class="btn btn-light action-button" role="button" href="%s">Logout</a>'
+                            % reverse("logout"), html=True)
 
     def test_access_page_upload(self):
         # If the user is authenticated, they should be able to access the index of the admin area

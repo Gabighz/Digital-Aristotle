@@ -1,11 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    
-    <p><a href="{% url 'logout' %}">Logout</a></p>
 
-    <p><a href="{% url 'admin_area:upload' %}">Upload to the chatbot's brain</a></p>
-
-    <p><a href="{% url 'admin:index' %}">Manage users</a></p>
+    <body>
+        <div class = "admin-area-page">
+            <div class="admin-area">
+                <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+                    <div class="container"><a class="navbar-brand">Digital Aristotle</a><a class="btn btn-light action-button" role="button" href="{% url 'logout' %}">Logout</a></div>
+                </nav>
+                <div class="container hero">
+                    <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1"><a class="btn btn-light action-button" role="button" href="{% url 'admin_area:upload' %}">Upload to Chatbot's brain</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1"><a class="btn btn-light action-button" role="button" href="{% url 'admin:index' %}" style="margin-top: 50px;">Manage Users</a></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
 
 {% endblock content %}

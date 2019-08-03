@@ -1,0 +1,220 @@
+.admin-area {
+  height: 1000px;
+  background: linear-gradient(135deg, #172a74, #21a9af);
+  background-color: #184e8e;
+  padding-bottom: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width:768px) {
+  .admin-area {
+    padding-bottom: 120px;
+  }
+}
+
+.admin-area .navbar {
+  background: transparent;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+@media (min-width:768px) {
+  .admin-area .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.admin-area .navbar .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.admin-area .navbar .navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.admin-area .navbar .navbar-collapse {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  margin-top: .5rem;
+}
+
+@media (min-width:768px) {
+  .admin-area .navbar .navbar-collapse {
+    border-color: transparent;
+    margin: 0;
+  }
+}
+
+.admin-area .navbar .navbar-collapse span .login {
+  color: #d9d9d9;
+  margin-right: .5rem;
+  text-decoration: none;
+}
+
+.admin-area .navbar .navbar-collapse span .login:hover {
+  color: #fff;
+}
+
+.admin-area .navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.3);
+}
+
+.admin-area .navbar .navbar-toggler:hover, .admin-area .navbar-toggler:focus {
+  background: none;
+}
+
+.admin-area .navbar .navbar-nav a.active, .admin-area .navbar .navbar-nav > .show .dropdown-item {
+  background: none;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .admin-area .navbar-nav .nav-link {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .admin-area .navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.admin-area .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.admin-area .navbar .dropdown-menu .dropdown-item:focus, .admin-area .navbar .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.admin-area .navbar .dropdown-menu .dropdown-item:focus, .admin-area .navbar .dropdown-menu .dropdown-item:hover {
+  background: #ebeff1;
+}
+
+.admin-area .action-button, .admin-area .action-button:not(.disabled):active {
+  border: 1px solid rgba(255,255,255,0.7);
+  border-radius: 40px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: .3rem .8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.admin-area .action-button:hover {
+  color: #fff;
+}
+
+.admin-area .navbar .form-inline label {
+  color: #d9d9d9;
+}
+
+.admin-area .navbar .form-inline .search-field {
+  display: inline-block;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  color: #ccc;
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+.admin-area .navbar .form-inline .search-field:focus {
+  border-bottom: 1px solid #ccc;
+}
+
+.admin-area .hero {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .admin-area .hero {
+    margin-top: 60px;
+    text-align: left;
+  }
+}
+
+.admin-area .hero h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (min-width:992px) {
+  .admin-area .hero h1 {
+    margin-top: 190px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+}
+
+.admin-area .hero p {
+  color: rgba(255,255,255,0.8);
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.admin-area .phone-holder {
+  text-align: right;
+}
+
+.admin-area div.iphone-mockup {
+  position: relative;
+  max-width: 300px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.admin-area .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.admin-area .iphone-mockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.admin-area .iphone-mockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}
+
