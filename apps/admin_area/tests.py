@@ -34,4 +34,5 @@ class AdminAreaViewTests(TestCase):
 
         response = self.client.get(reverse('admin_area:upload'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '<a href="%s">Logout</a>' % reverse("logout"), html=True)
+        self.assertContains(response, '<a class="btn btn-light action-button" role="button" href="%s">Logout</a>'
+                            % reverse("logout"), html=True)

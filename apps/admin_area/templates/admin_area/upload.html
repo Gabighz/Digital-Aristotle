@@ -2,14 +2,36 @@
 
 {% block content %}
 
-    <p><a href="{% url 'logout' %}">Logout</a></p>
 
-    <p><a href="{% url 'admin_area:index' %}">Go back</a></p>
 
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <input type="file" name="file">
-        <button type="submit">Upload</button>
-    </form>
+    <body>
+    <div>
+        <div class="admin-area">
+            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+                <div class="container"><a class="navbar-brand">Digital Aristotle</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"></li>
+                        </ul>
+                        <form class="form-inline mr-auto" target="_self">
+                            <div class="form-group"><label for="search-field"></label></div>
+                        </form><a class="btn btn-light action-button" role="button" href="{% url 'admin_area:index' %}" style="margin-right: 10px;">Go back</a><a class="btn btn-light action-button" role="button" href="{% url 'logout' %}">Logout</a><span class="navbar-text"> </span></div>
+                </div>
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                        <form method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <input type="file" name="file">
+                            <button type="submit">Upload</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
 
 {% endblock content %}
