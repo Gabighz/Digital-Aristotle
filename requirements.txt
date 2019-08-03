@@ -11,5 +11,4 @@ Django==2.2.4
 pdfminer.six==20181108
 plac==1.0.0
 lxml==4.4.0
-pdfminer==20140328
 scikit_learn==0.21.3
