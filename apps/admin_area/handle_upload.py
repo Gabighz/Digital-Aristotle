@@ -22,7 +22,7 @@ def handle_uploaded_file(file, filename, file_type):
         )
 
     if file_type == 'application/pdf':
-        convert_to_pdf(path_upload, filename)
+        convert_from_pdf(path_upload, filename)
 
     else:
         return 0  # to be changed with converter from pptx to xml

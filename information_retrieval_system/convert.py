@@ -7,7 +7,7 @@
 import os
 
 
-def convert_to_pdf(path_to_file, filename):
+def convert_from_pdf(path_to_file, filename):
 
     # Creates and array in which the first index is the name of the file
     # and the second index is the extension of the file
