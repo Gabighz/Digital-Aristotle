@@ -4,15 +4,16 @@
 
 {% block js %}
 
-  <script src={% static 'js/script.js' %}></script>
+    <script src={% static 'js/chatbot-messaging.js' %}></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-chat-scroll/dist/vue-chat-scroll.min.js"></script>
 
 {% endblock %}
 
 {% block content %}
 
-  <div id="conversation" class="container top-padding">
+  <div id="conversation" class="container">
 
-    <div id="responses">
+    <div id="responses" v-chat-scroll>
         <div class="row">
             <div class="col-md-12">
                 <div class="card col-md-6" v-for="message in messages" v-bind:class="{ 'user-message': message.user,  'chat-message': message.chat_bot, 'offset-md-6': message.chat_bot}">
