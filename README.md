@@ -57,7 +57,7 @@ pipreqs . --force --ignore lib
 Contains a keyword extractor, a keyphrase extractor, and an AIML generator. 
 
 This system is used to create AIML files from lecture notes, such as PDF and PPTX files. Firstly, the lecture notes
-are converted to XML files. 
+are converted to XML files. This happens automatically when the website's administrator uploads a PDF or PPTX file. 
 
 The <b>keyword extractor</b>:
     <ul>
@@ -65,13 +65,16 @@ The <b>keyword extractor</b>:
         <li> Using a custom-made feature selection module, classification features are attached to each word. </li>
         <li> The classification features as summed up to represent data points. </li>
         <li> These data points are fed to a K-means classification system, with a parameter specifying a maximum of two clusters (keywords and non-keywords) </li>
-        <li> Finally, each word and its label are stored. </li>
+        <li> Every keyword is stored in a list for further use in the keyphrase extractor. </li>
     </ul>
     
 The <b>keyphrase extractor</b>:
     <ul>
         <li> Reads all the keywords from the array produced by the keyword extractor. </li>
         <li> Extracts all sentences which contain keywords from the XML files. </li>
+        <li> For each keyword, every phrase that contains it is ranked. The highest-ranking phrase is then considered a
+         keyphrase. </li>
+        <li> Every keyword-keyphrase pair is stored in a list for further use in the AIML generator. </li>
     </ul>
 
 The <b> AIML generator</b>:
