@@ -41,19 +41,6 @@ def feature_assignment(raw_data):
     return classification_features
 
 
-# Instead of summing up the instances in which a feature appears, a boolean value is used.
-# For example, [word, 4, 3, 0, 1] becomes [word, 1, 1, 0, 1]
-#
-# @param classification_features: A two-dimensional array which contains each word and its features
-def normalise_features(classification_features):
-
-    for word in classification_features:
-        # Range stops at the length of the array minus one as not to include RAKE in the below computation
-        for index in range(len(word) - 1):
-            if index > WORD_INDEX and word[index] > 0:
-                word[index] = 1
-
-
 # Assigns classification features for each word in the data and adds it to an array
 #
 # @param raw_data: A two-dimensional array which contains each word and its XML data
@@ -93,6 +80,19 @@ def generate_classification_features(raw_data):
         classification_sublist.append(ranking)
 
     return classification_features
+
+
+# Instead of summing up the instances in which a feature appears, a boolean value is used.
+# For example, [word, 4, 3, 0, 1] becomes [word, 1, 1, 0, 1]
+#
+# @param classification_features: A two-dimensional array which contains each word and its features
+def normalise_features(classification_features):
+
+    for word in classification_features:
+        # Range stops at the length of the array minus one as not to include RAKE in the below computation
+        for index in range(len(word) - 1):
+            if index > WORD_INDEX and word[index] > 0:
+                word[index] = 1
 
 
 # Some arrays contain sentences instead of individual words. These are split and appended in their own separate array

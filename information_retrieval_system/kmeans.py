@@ -9,27 +9,6 @@ from sklearn.cluster import KMeans
 # import matplotlib.pyplot as plt
 
 
-# Creates an array which contains each word and the sum of its features
-#
-# @param classification_features: A two-dimensional array which contains each word and its features
-# @return words_with_sum: A two-dimensional array which contains each word and the sum of its features
-def features_summing(classification_features):
-    # Contains each word as a string and the sum of its features
-    words_with_sum = []
-
-    for word in classification_features:
-
-        # Stores the sum of features of each word
-        feature_sum = 0
-
-        for feature in range(1, len(word)):
-            feature_sum += word[feature]
-
-        words_with_sum.append([word[0], feature_sum])
-
-    return words_with_sum
-
-
 # Apply K-means clustering to a two-dimensional array which contains each word and its features
 #
 # @param classification_features: A two-dimensional array which contains each word and its features
@@ -72,3 +51,24 @@ def kmeans_clustering(classification_features, k):
         results.append([words_with_sum[i][0], labels[i]])
 
     return results
+
+
+# Creates an array which contains each word and the sum of its features
+#
+# @param classification_features: A two-dimensional array which contains each word and its features
+# @return words_with_sum: A two-dimensional array which contains each word and the sum of its features
+def features_summing(classification_features):
+    # Contains each word as a string and the sum of its features
+    words_with_sum = []
+
+    for word in classification_features:
+
+        # Stores the sum of features of each word
+        feature_sum = 0
+
+        for feature in range(1, len(word)):
+            feature_sum += word[feature]
+
+        words_with_sum.append([word[0], feature_sum])
+
+    return words_with_sum
