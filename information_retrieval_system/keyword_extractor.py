@@ -15,6 +15,9 @@ import numpy as np
 # Currently, we have 2 classifications: Keywords and Non-keywords.
 CLUSTERS = 2
 
+# The position of text in the raw XML array
+TEXT_INDEX = 0
+
 
 # Constructs the word list using the raw data which has been normalised, then set is filtered down to the values
 # within the variance threshold.
@@ -84,4 +87,8 @@ def keyword_extractor(input_file_path, filename):
 	classified_words = np.asarray(classified_words)
 	keywords = classified_words[classified_words[:, 1] == "1", 0]
 
-	return keywords
+	# Extracts all text from parsed XML
+	parsed_xml = np.array(parsed_xml, dtype=object)
+	text = parsed_xml[:, TEXT_INDEX]
+
+	return keywords, text
