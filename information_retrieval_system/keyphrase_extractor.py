@@ -5,18 +5,24 @@
 # Author: Gabriel Ghiuzan
 #
 
+import numpy as np
+
 
 # Given keywords and text data from the XML input file, extracts phrases that contain keywords.
 # Then, these phrases are ranked.
 # For each phrase associated with a keyword, the highest-ranking phrase is labelled a keyphrase.
 # Finally, the function returns a list of each keyword and its keyphrase.
 #
-# @param keywords: A list of keywords extracted from the XML input file.
-# @param text: A list which contains the text data from the XML input file
+# @param keyword_extractor_output: Contains a numpy array of keywords extracted from the XML input file
+# and a numpy array of the text data from the XML input file.
 # @return keyphrases: A list of keyword-keyphrase pairs.
-def keyphrase_extractor():
+def keyphrase_extractor(keyword_extractor_output):
 
-	return []
+	keywords, text = keyword_extractor_output
+
+	potential_keyphrases = [sentence for sentence in text if any(word in sentence for word in keywords)]
+
+	print(potential_keyphrases)
 
 
 # Ranks the extracted sentences that are associated with a particular keyword

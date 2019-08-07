@@ -7,6 +7,8 @@
 import os
 import unicodedata
 import string
+from information_retrieval_system.keyword_extractor import keyword_extractor
+from information_retrieval_system.keyphrase_extractor import keyphrase_extractor
 
 valid_filename_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
 char_limit = 255
@@ -29,6 +31,13 @@ def convert_from_pdf(path_to_file, filename):
 
     # Executes a command which converts the pdf file to xml
     os.system("pdftohtml -xml %s %s" % (path_to_file, output_path))
+
+    convert_to_aiml(output_path, output_filename)
+
+
+def convert_to_aiml(xml_file_path, xml_filename):
+
+    keyphrase_extractor(keyword_extractor(xml_file_path, xml_filename))
 
 
 def sanitize_filename(filename, whitelist=valid_filename_chars, replace=' '):
