@@ -1,6 +1,60 @@
+body {
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+.chatbot {
+    height: 1000px;
+    padding-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 #responses {
     overflow-y: scroll;
     overflow-x: hidden;
     height: 600px;
     width: auto;
+}
+
+.col-md-6{
+    border-radius: 15px;
+}
+
+.responsesBackground{
+    background-color: #82ccdd;
+}
+
+#conversation {
+    margin-top:30px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(84, 87, 83, 0.4);
+}
+
+textarea {
+    border-radius: 15px !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border: 0 !important;
+	color:white !important;
+	height: 60px !important;
+	overflow-y: auto;
+    resize: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: ;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

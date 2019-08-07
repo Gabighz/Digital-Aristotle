@@ -46,11 +46,7 @@ window.onload = function () {
 				this.send_blank = true;
 				this.placeholder = "Please put in some text";
 			}
-			this.scroll_bottom()
 		},
-		scroll_bottom: function () {
-			this.$el.scrollTop = this.$el.lastElementChild.offsetTop;
-		}
 	  }
 	});
 };
