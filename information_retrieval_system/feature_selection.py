@@ -17,8 +17,8 @@ import numpy as np
 from rake_nltk import Rake
 from sklearn.preprocessing import MinMaxScaler
 
-# The position of the word in the raw XML array
-WORD_INDEX = 0
+# The position of text in the raw XML array
+TEXT_INDEX = 0
 
 # The position of the bold value in the raw XML array
 BOLD_INDEX = 1
@@ -62,7 +62,7 @@ def generate_classification_features(raw_data):
     words = split_sentences_into_words(raw_data)
 
     for array in words:
-        classification_features.append([array[WORD_INDEX], array[BOLD_INDEX],
+        classification_features.append([array[TEXT_INDEX], array[BOLD_INDEX],
                                        is_larger(array[FONT_SIZE_INDEX], biggest_font_size, smallest_font_size),
                                        is_not_black(array[COLOUR_INDEX])])
 
@@ -70,7 +70,7 @@ def generate_classification_features(raw_data):
     words = np.array(words, dtype=object)
 
     # Contains only the words
-    just_words = words[:, WORD_INDEX]
+    just_words = words[:, TEXT_INDEX]
 
     # A list which contains each RAKE ranking
     rankings = calculate_rake_ranking(just_words)
@@ -91,7 +91,7 @@ def normalise_features(classification_features):
     for word in classification_features:
         # Range stops at the length of the array minus one as not to include RAKE in the below computation
         for index in range(len(word) - 1):
-            if index > WORD_INDEX and word[index] > 0:
+            if index > TEXT_INDEX and word[index] > 0:
                 word[index] = 1
 
 
@@ -109,7 +109,7 @@ def split_sentences_into_words(raw_data):
         is_sentence = False
 
         # If the string contains a space, it is treated as a sentence
-        for character in array[WORD_INDEX]:
+        for character in array[TEXT_INDEX]:
             if character == " ":
                 is_sentence = True
 
@@ -117,13 +117,13 @@ def split_sentences_into_words(raw_data):
         # Then, each word is appended to the words array.
         # Else, it is directly appended.
         if is_sentence:
-            sentence = array[WORD_INDEX].split(" ")
+            sentence = array[TEXT_INDEX].split(" ")
 
             for element in sentence:
                 words.append([element, array[BOLD_INDEX], array[FONT_SIZE_INDEX], array[COLOUR_INDEX]])
 
         else:
-            words.append([array[WORD_INDEX], array[BOLD_INDEX], array[FONT_SIZE_INDEX], array[COLOUR_INDEX]])
+            words.append([array[TEXT_INDEX], array[BOLD_INDEX], array[FONT_SIZE_INDEX], array[COLOUR_INDEX]])
 
     return words
 
