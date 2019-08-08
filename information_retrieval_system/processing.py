@@ -10,15 +10,16 @@ import numpy as np
 
 from sklearn.metrics import f1_score
 
-# The position of the word in the raw XML array
-WORD_INDEX = 0
+# The position of text in the raw XML array
+TEXT_INDEX = 0
 
 
 def pre_processing(raw_data):
     # Converts raw_data to a numpy array
     raw_data = np.array(raw_data, dtype=object)
-    # Iterates through raw XML data and concatenates all words to a string
-    sentence = ' '.join(raw_data[:, WORD_INDEX])
+
+    # Iterates through raw XML data and concatenates all text to a string
+    sentence = ' '.join(raw_data[:, TEXT_INDEX])
 
     # Converts all words to lowercase to prevent duplication of same word with different cases.
     lowercase_string = sentence.lower()
@@ -80,7 +81,7 @@ def manual_annotation(results, filename):
     true_keywords = []
 
     # These manual annotations must be scrutinized, given their subjective nature
-    if filename == "ComputingComponents":
+    if filename == "ComputingComponents.xml":
         true_keywords = ["ad", "computer", "memory", "unit", "input", "output", "control", "bus", "cycle",
                          "fetch-execute", "instruction", "register", "program", "counter", "central", "processing",
                          "random", "access", "read", "only", "magnetic", "storage", "disks", "seek", "time", "latency",
@@ -88,20 +89,20 @@ def manual_annotation(results, filename):
                          "infrared", "surface", "acoustic", "wave", "embedded", "systems", "cd-rom", "cd-da", "cd-worm",
                          "rw", "ram"]
 
-    elif filename == "GatesAndCircuits":
+    elif filename == "GatesAndCircuits.xml":
         true_keywords = ["gates", "transistors", "circuits", "boolean", "expressions", "truth", "tables", "logic",
                          "diagrams", "adder", "half", "full", "multiplexer", "s-r", "latch", "integrated", "circuits",
                          "gate", "not", "and", "or", "xor", "nand", "nor", "transistor", "combinational",
                          "sequential", "equivalence", "algebra", "adders", "multiplexers", "memory", "central",
                          "processing", "unit"]
 
-    elif filename == "NumberSystems":
+    elif filename == "NumberSystems.xml":
         true_keywords = ["positional", "convert", "base", "bases", "numbers", "natural", "negative", "integers",
                          "rational", "integer", "base",
                          "converting", "binary", "arithmetic", "subtracting", "octal", "hexadecimal", "decimal",
                          "byte"]
 
-    elif filename == "TheBigPicture":
+    elif filename == "TheBigPicture.xml":
         true_keywords = ["layers", "abstraction", "analytical", "engine", "history", "application", "programmers",
                          "systems", "hardware", "software", "system", "abacus", "blaise", "pascal", "joseph",
                          "jacquard", "utility", "computing",

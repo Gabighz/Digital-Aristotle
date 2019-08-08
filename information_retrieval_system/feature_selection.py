@@ -79,6 +79,8 @@ def generate_classification_features(raw_data):
     for classification_sublist, ranking in zip(classification_features, rankings):
         classification_sublist.append(ranking)
 
+    normalise_features(classification_features)
+
     return classification_features
 
 
