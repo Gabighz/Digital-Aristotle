@@ -5,7 +5,11 @@
 # Author: Gabriel Ghiuzan
 #
 
+import re
 import numpy as np
+
+# The position of text in the raw XML array
+TEXT_INDEX = 0
 
 
 # Given keywords and text data from the XML input file, extracts phrases that contain keywords.
@@ -20,9 +24,9 @@ def keyphrase_extractor(keyword_extractor_output):
 
 	keywords, text = keyword_extractor_output
 
-	potential_keyphrases = [sentence for sentence in text if any(word in sentence for word in keywords)]
+	sentences = pre_processing(text)
 
-	print(potential_keyphrases)
+	potential_keyphrases = [sentence for sentence in sentences if any(word in sentence for word in keywords)]
 
 
 # Ranks the extracted sentences that are associated with a particular keyword
@@ -31,4 +35,24 @@ def keyphrase_extractor(keyword_extractor_output):
 # @param keyphrase: The highest-ranking sentence is returned, considered to be a keyphrase
 def ranking_system(sentences):
 
-	return null
+	return []  # to be implemented
+
+
+# Cleans text of non-alphanumeric characters
+# and joins together arrays that are thought to form sentences
+#
+# @param text: A numpy array of text data
+# @return clean_text: A numpy array of text stripped of non-alphanumeric characters
+def pre_processing(text):
+
+	text = np.array(text).tolist()
+
+	# Removes non-alphanumeric characters
+	clean_text = [re.sub("[^a-zA-Z]", " ", sentence) for sentence in text]
+
+	# Removes leading and ending spaces
+	clean_text = list(map(str.strip, clean_text))
+
+	sentences = []  # to be implemented
+
+	return sentences
