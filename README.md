@@ -26,6 +26,15 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+To generate new requirements and avoid issues with Python2 files in the <i>lib</i> directory
+of your virtual environment:
+
+```
+pipreqs . --force --ignore lib
+```
+
+<h3> Troubleshooting </h3>
+
 If you have issues such as ``database "chatbot" does not exist``:
 
 ```
@@ -44,13 +53,6 @@ git fetch --unshallow
 ```
 If this does not solve the issue, follow github's steps to form a ssh key and clone the repository via the URI:
 https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-To generate new requirements and avoid issues with Python2 files in the <i>lib</i> directory
-of your virtual environment:
-
-```
-pipreqs . --force --ignore lib
-```
 
 ## Information Retrieval System
 
