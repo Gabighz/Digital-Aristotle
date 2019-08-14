@@ -39,7 +39,7 @@ class AdminAreaViewTests(TestCase):
         self.assertContains(response, '<a class="btn btn-light action-button" role="button" href="%s">Logout</a>'
                             % reverse("logout"), html=True)
 
-    def test_file_upload_and_conversion(self):
+    def test_file_upload(self):
         # Test whether lecture notes are successfully uploaded and stored on the system
         self.client.login(username="admin", password="password")
         test_file_path = "information_retrieval_system/test_input/ComputingComponents.pdf"
@@ -48,7 +48,5 @@ class AdminAreaViewTests(TestCase):
         self.client.post(reverse('admin_area:upload'), {'file': file})
 
         uploaded_file_path = "information_retrieval_system/uploaded_files/ComputingComponents.pdf"
-        converted_file_path = "information_retrieval_system/xml_files/ComputingComponents.xml"
 
         assert os.path.isfile(uploaded_file_path)
-        assert os.path.isfile(converted_file_path)
