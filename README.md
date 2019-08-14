@@ -2,6 +2,7 @@
     <h1>Digital Aristotle</h1>
 </div>
 
+![Generic badge](https://travis-ci.com/Gabighz/Digital-Aristotle.svg?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a7600e611e6a4044a3b89c6b80c56cea)](https://www.codacy.com/app/Gabighz/Digital-Aristotle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Gabighz/Digital-Aristotle&amp;utm_campaign=Badge_Grade)
 
 The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
