@@ -24,10 +24,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - python3
-  - import nltk
-  - nltk.download('averaged_perceptron_tagger')
-  - exit()
+  - python3 travis_script.py
   - psql -c 'CREATE DATABASE travis_ci_test;' -U postgres
   - psql -c "CREATE USER admin WITH PASSWORD 'password';" -U postgres
   - psql -c "ALTER USER admin CREATEDB;" -U postgres
