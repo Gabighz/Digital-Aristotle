@@ -18,7 +18,6 @@ before_install:
   - sudo apt install -y poppler-utils
   - sudo apt install python3-psycopg2
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
-  - export PYTHONPATH=$PYTHONPATH:$(pwd)
 
 install:
   - pip install psycopg2-binary

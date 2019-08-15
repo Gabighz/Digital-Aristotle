@@ -1,7 +1,7 @@
 from django.test import TestCase, Client
 from django.urls import reverse
 from django.contrib.auth.models import User
-from django.core.files.uploadedfile import SimpleUploadedFile
+from django.core.files.uploadedfile import UploadedFile
 import os
 
 
@@ -44,8 +44,8 @@ class AdminAreaViewTests(TestCase):
         self.client.login(username="admin", password="password")
         test_file_path = "information_retrieval_system/test_input/ComputingComponents.pdf"
 
-        file = SimpleUploadedFile(test_file_path, b"file_content", content_type="application/pdf")
-        self.client.post(reverse('admin_area:upload'), {'file': file})
+        with open(test_file_path, 'rb') as file:
+            self.client.post(reverse('admin_area:upload'), {'file': file})
 
         uploaded_file_path = "information_retrieval_system/uploaded_files/ComputingComponents.pdf"
         converted_file_path = "information_retrieval_system/xml_files/ComputingComponents.xml"
