@@ -20,6 +20,7 @@ virtualenv Digital-Aristotle
 cd Digital-Aristotle
 source bin/activate
 pip install psycopg2
+pip install psycopg2-binary
 pip install -r requirements.txt
 python download_nltk_data.py
 ```
@@ -36,8 +37,8 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-To generate new requirements and avoid issues with Python2 files in the <i>lib</i> directory
-of your virtual environment:
+If you choose to install new packages via `pip install` and generate a new requirements file, you can avoid issues with Python2 packages
+in the <i>lib</i> directory of your virtual environment with:
 
 ```
 pipreqs . --force --ignore lib
@@ -86,3 +87,19 @@ The <b> AIML generator</b>:
         <li> Reads the output of the Keyphrase Extractor to generate AIML templates (answers). </li>
         <li> AIML categories (pairs of patterns and templates) are stored for use on the website. </li>
     </ul>
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+## Support
+
+Please [open an issue](https://github.com/Gabighz/Digital-Aristotle/issues/new/) for support.
+
+## License
+
+[General Public License, Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html)
