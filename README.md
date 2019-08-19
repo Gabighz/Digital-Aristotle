@@ -17,6 +17,7 @@ virtualenv Digital-Aristotle
 cd Digital-Aristotle
 source bin/activate
 pip install -r requirements.txt
+python download_nltk_data.py
 ```
 
 To start the Django server:

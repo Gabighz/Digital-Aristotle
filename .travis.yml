@@ -24,7 +24,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - python3 travis_script.py
+  - python3 download_nltk_data.py
   - psql -c 'CREATE DATABASE travis_ci_test;' -U postgres
   - psql -c "CREATE USER admin WITH PASSWORD 'password';" -U postgres
   - psql -c "ALTER USER admin CREATEDB;" -U postgres
