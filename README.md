@@ -8,21 +8,30 @@
 The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
 
 ## Development Setup
-Make sure you have ``python3`` and ``python3-pip`` installed. Then run the following commands
-from a directory above this repository's clone:
+Assuming a completely clean/fresh installation or lack of development tools, run the following commands
+from a directory above your clone of this repository:
 
 ```
+sudo apt install python3 python3-pip libpq-dev python3-dev -y
+sudo apt install postgresql
+sudo service postgresql start
 pip3 install virtualenv
 virtualenv Digital-Aristotle
 cd Digital-Aristotle
 source bin/activate
+pip install psycopg2
 pip install -r requirements.txt
 python download_nltk_data.py
 ```
 
-To start the Django server:
+To start the Django server for the first time (which uses PostgreSQL):
 
 ```
+sudo -u postgres psql
+postgres=# CREATE DATABASE chatbot;
+postgres=# CREATE USER admin WITH PASSWORD 'password';
+postgres=# ALTER USER admin CREATEDB;
+postgres=# \q
 python manage.py migrate
 python manage.py runserver
 ```
@@ -35,15 +44,6 @@ pipreqs . --force --ignore lib
 ```
 
 <h3> Troubleshooting </h3>
-
-If you have issues such as ``database "chatbot" does not exist``:
-
-```
-sudo -u postgres psql
-postgres=# CREATE DATABASE chatbot;
-postgres=# \q
-python manage.py createsuperuser
-```
 
 If you have issues cloning the repository such as ``RPC failed`` or ``Early EOF``:
 
