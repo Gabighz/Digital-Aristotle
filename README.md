@@ -34,6 +34,7 @@ postgres=# CREATE USER admin WITH PASSWORD 'password';
 postgres=# ALTER USER admin CREATEDB;
 postgres=# \q
 python manage.py migrate
+python manage.py createsuperuser
 python manage.py runserver
 ```
 
