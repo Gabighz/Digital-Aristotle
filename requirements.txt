@@ -8,7 +8,7 @@ webdriver_manager==1.8.2
 docutils==0.15.2
 numpy==1.17.2
 Django==2.2.5
-pdfminer.six==20181108
+pdfminer.six==20191020
 plac==1.1.0
 lxml==4.4.1
 scikit_learn==0.21.3
