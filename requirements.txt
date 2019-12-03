@@ -6,7 +6,7 @@ matplotlib==3.1.1
 selenium==3.141.0
 webdriver_manager==2.2.0
 docutils==0.15.2
-Django==2.2.6
+Django==3.0
 numpy==1.17.3
 pdfminer.six==20191020
 plac==1.1.0
