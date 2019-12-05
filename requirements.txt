@@ -10,6 +10,6 @@ Django==2.2.8
 numpy==1.17.3
 pdfminer.six==20191110
 plac==1.1.0
-lxml==4.4.1
+lxml==4.4.2
 scikit_learn==0.22
 psycopg2>=2.7,<3.0
