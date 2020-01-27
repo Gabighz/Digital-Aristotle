@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render_to_template
 from django.http import HttpResponse
 import json
 from django.views.decorators.csrf import csrf_exempt
@@ -27,4 +27,4 @@ def get_response(request):
 
 def index(request, template_name="chatbot/index.html"):
     context = {'title': 'Digital Aristotle'}
-    return render(template_name, context)
+    return render_to_template(template_name, context)
