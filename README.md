@@ -8,7 +8,7 @@
 The purpose of this project is to create a chatbot that will augment studying for Computer Science students.
 
 ## Development Setup
-Assuming a completely clean/fresh installation or lack of development tools, run the following commands
+Assuming a completely clean/fresh installation (of Ubuntu or a similar distro) or lack of development tools, run the following commands
 from a directory above your clone of this repository:
 
 ```
@@ -44,6 +44,8 @@ in the <i>lib</i> directory of your virtual environment with:
 ```
 pipreqs . --force --ignore lib
 ```
+
+If you are using macOS, I highly recommend following this [article](https://stories.thirdbrain.ch/postgresql-psycopg2-macosx-python-error).
 
 <h3> Troubleshooting </h3>
 
