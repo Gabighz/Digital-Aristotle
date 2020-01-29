@@ -21,5 +21,5 @@ def upload(request, template_name="admin_area/upload.html"):
     else:
         form = UploadFileForm()
 
-    return render(request, template_name, context, {'form': form})
+    return render(request, template_name, {'form': form})
 
