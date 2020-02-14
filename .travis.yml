@@ -30,5 +30,6 @@ script:
   - psql -c "CREATE USER admin WITH PASSWORD 'password';" -U postgres
   - psql -c "ALTER USER admin CREATEDB;" -U postgres
   
- after_success: codecov
+ after_success:
   - python manage.py test
+  - codecov
