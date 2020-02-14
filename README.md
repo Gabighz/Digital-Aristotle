@@ -66,7 +66,7 @@ Contains a keyword extractor, a keyphrase extractor, and an AIML generator.
 This system is used to create AIML files from lecture notes, such as PDF and PPTX files. Firstly, the lecture notes
 are converted to XML files. This happens automatically when the website's administrator uploads a PDF or PPTX file. 
 
-The <b>keyword extractor</b>:
+The <b>keyword extractor</b>(could be improved):
     <ul>
         <li> Reads all the data in the XML files, identifying all words and their XML features. </li>
         <li> Using a custom-made feature selection module, classification features are attached to each word. </li>
@@ -75,7 +75,7 @@ The <b>keyword extractor</b>:
         <li> Every keyword is stored in a list for further use in the keyphrase extractor. </li>
     </ul>
     
-The <b>keyphrase extractor</b>:
+The <b>keyphrase extractor</b>(incomplete):
     <ul>
         <li> Reads all the keywords from the array produced by the keyword extractor. </li>
         <li> Extracts all sentences which contain keywords from the XML files. </li>
@@ -84,7 +84,7 @@ The <b>keyphrase extractor</b>:
         <li> Every keyword-keyphrase pair is stored in a list for further use in the AIML generator. </li>
     </ul>
 
-The <b> AIML generator</b>:
+The <b> AIML generator</b>(incomplete):
     <ul>
         <li> Reads the output of the Keyword Extractor to generate AIML patterns (questions). </li>
         <li> Reads the output of the Keyphrase Extractor to generate AIML templates (answers). </li>
