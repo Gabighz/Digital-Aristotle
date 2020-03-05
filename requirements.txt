@@ -7,7 +7,7 @@ selenium==3.141.0
 webdriver_manager==2.3.0
 docutils==0.16
 numpy==1.18.1
-Django==3.0.3
+Django==3.0.4
 pdfminer.six==20200124
 lxml==4.5.0
 scikit_learn==0.22.1
