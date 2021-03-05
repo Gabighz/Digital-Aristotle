@@ -1,4 +1,4 @@
-defusedxml==0.6.0
+defusedxml==0.7.0
 nltk==3.4.5
 six==1.14.0
 rake_nltk==1.0.4
