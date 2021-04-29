@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webdriver-manager
+    versions:
+    - 3.3.0
+    - 3.4.0
+  - dependency-name: nltk
+    versions:
+    - "3.5"
+    - 3.6.1
+  - dependency-name: matplotlib
+    versions:
+    - 3.3.4
+    - 3.4.0
+  - dependency-name: defusedxml
+    versions:
+    - 0.7.0
+  - dependency-name: numpy
+    versions:
+    - 1.19.5
+    - 1.20.0
+    - 1.20.1
+  - dependency-name: scikit-learn
+    versions:
+    - 0.24.1
+  - dependency-name: lxml
+    versions:
+    - 4.6.2
+  - dependency-name: django
+    versions:
+    - 3.0.7
